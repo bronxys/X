@@ -1,0 +1,33 @@
+[
+  {
+    "groupId": "120363167145406665@g.us",
+    "numbers": [
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "messages": 64,
+        "figus": 0,
+        "cmd_messages": 98,
+        "aparelho": "Android ツ"
+      }
+    ]
+  },
+  {
+    "groupId": "120363182455661462@g.us",
+    "numbers": [
+      {
+        "id": "553298806867@s.whatsapp.net",
+        "messages": 15,
+        "figus": 0,
+        "cmd_messages": 0,
+        "aparelho": "WhatsApp web シ"
+      },
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "messages": 0,
+        "cmd_messages": 2,
+        "aparelho": "Android ツ",
+        "figus": 0
+      }
+    ]
+  }
+]
