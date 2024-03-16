@@ -10,13 +10,11 @@ O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md
         <img src= "https://telegra.ph/file/4d251574a7d80c3b5683f.jpg">
     </p>
     <p>
-        <a href="https://github.com/ianmsfvenom"><img title="Author"    src="https://img.shields.io/badge/Author-Briz4loka-purple.svg?style=for-the-badge&logo=github"></a>
+        <a href="https://github.com/Jeffersonddos"><img title="Author"    src="https://img.shields.io/badge/Author-Jeffersonddos-purple.svg?style=for-the-badge&logo=github"></a>
     </p>
     <p>
-        <a href="https://github.com/ianmsfvenom/followers"><img title="Followers" src="https://img.shields.io/github/followers/ianmsfvenom?color=red&style=flat-square"></a>
-        <a href="https://github.com/mhankbarbar/termux-wabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/termux-wabot?label=Watchers&color=red&style=flat-square"></a>
-        <a href="https://github.com/mhankbarbar/termux-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhankbarbar/termux-wabot?color=red&style=flat-square"></a>
-        <a href="https://github.com/mhankbarbar/termux-wabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mhankbarbar/termux-wabot?color=red&style=flat-square"></a>
+        <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/Jeffersonddos?color=red&style=flat-square"></a>
+     
     </p>
 </h1>
 
@@ -51,8 +49,8 @@ Por mais que a instalação seja bem simples de fazer.Este bot é feito para que
 
 # 👨‍💻 Código Editável e Base Descriptografada
 
-<b>Este bot não tem o index.js e outros arquivos principais editáveis, ou seja, só é possível editar os demais arquivos. 
-Caso tenha interesse em comprar o código editável do X-bot ou alguma base para criar seu próprio bot multi device [clique aqui](https://wa.me/553299240466) para negociar comigo 😀 </b>
+<b>Este bot não tem o index.js e outros arquivos principais editáveis, ou seja,só é possível editar os demais arquivos. 
+Caso tenha interesse em comprar alguma base para criar seu próprio bot  [clique aqui](https://wa.me/553299240466) para negociar comigo 😀 </b>
 
 ----
 
@@ -92,7 +90,6 @@ Irá aparecer o que há de novo se você entrar para o whatsapp beta, após ter 
 
 <img src="https://i.ibb.co/xjXyWXB/Whats-App-Image-2021-10-22-at-08-27-22-2.jpg">
 
-Volte para os aparelhos conectado e agora cique em "Conectar um Aparelho" e pronto você já pode escanear o qr code. Agora os comandos para instalar o alastor bot são quase semelhantes de instalar o brizas orion:
 
 ```
 git clone ainda nao disponível
@@ -100,11 +97,11 @@ git clone ainda nao disponível
 SEGUE O TUTORIAL
 
 cd x-bot
-sh install.sh
+sh start.sh
 
 
 (iniciar o bot manualmente)
-npm start
+sh start.sh
 
 (reiniciar o bot automaticamente em caso de crash)
 sh start.sh
@@ -120,24 +117,6 @@ AVISO: AO ESCANEAR O QRCODE OU CODE O WHATSAPP IRÁ CARREGAR AS MENSAGENS JA EXI
 # 🔁 Trocar de número ou resetar QR code ou code
 
 Para resetar o qr code se quiser colocar em outro número, basta apenas remover a pasta XBOT-QR fica em `DADOS/XBOT-QR` 
-
-----
-
-# ⬇️ Instalação pelo windows
-
-Programas:
-----
----
-
-Ffmpeg: https://ffmpeg.org/download.html
-
-Imagemagick: https://imagemagick.org/script/download.php
-
-Libwebp: https://developers.google.com/speed/webp/download?hl=pt
-
-Tesseract: https://tesseract-ocr.github.io/tessdoc/Downloads.html
-
-Nodejs: https://nodejs.org/en/download/
 
 
 ```
