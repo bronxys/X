@@ -66,7 +66,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╭┤           [🧠]𝗖𝗠𝗗'𝗦 / 𝗜𝗔
 ┃╰══ ✞
 ╰╦══════════════════ ✞
-┏│✞͜͡▹ ${prefix}pix (doações)
+┏│✞͜͡▹ ${prefix}doacao (doações)
 ┏│✞͜͡▹ ${prefix}xbot (cvs com bot)
 ┏│✞͜͡▹ ${prefix}gpt (sua pergunta)
 ┏│✞͜͡▹ ${prefix}gptvoz (sua pergunta)
@@ -159,7 +159,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│✞͜͡▹ ${prefix}Jogodavelha (@Marcar) 
 ┏│✞͜͡▹ ${prefix}Anagrama (1/0)
 ┏│✞͜͡▹ ${prefix}Gartic (1/0)
-┏│✞͜͡▹ ${prefix}Whatmusic (1/0)
+┏│✞͜͡▹ ${prefix}qualmusic (1/0)
 ┏│✞͜͡▹ ${prefix}Quizanimal (1/0)
 ┏│✞͜͡▹ ${prefix}Enigma (1/0)
 ┏│✞͜͡▹ ${prefix}R-forca (Letra)
@@ -482,6 +482,7 @@ const adms = (prefix, sender) => {
 ┏│✞͜͡▹ Banir (RESPONDER MSG/MARCAR)
 ┏│✞͜͡▹ Abrir (abrir-grupo)
 ┏│✞͜͡▹ Fechar (fechar-grupo)
+┏│✞͜͡▹ Apaga (apaga mensagem)
 ┏│✞͜͡▹ Pode banir bot (RESPONDER-MSG/MARCAR)
 ┏│✞͜͡▹ Promover (promover adm)
 ┏│✞͜͡▹ Rebaixar (remover adm)
