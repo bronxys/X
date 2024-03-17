@@ -1,7 +1,7 @@
 # X-BOT
 
 O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md foi usado a base do aleatory-md na produção desse bot direitos josival && @jefferson_ddos
-<b>[Dono](https://wa.me/553299240466) para me chamar no whatsapp.</b>
+<b>Caso esteja interessado nesse bot e queira a base descriptografada entre em contato comigo para podermos negociar [clique aqui](https://wa.me/553299240466) para me chamar no whatsapp.</b>
 
 ----
 
@@ -15,7 +15,7 @@ O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md
     <p>
         <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/Jeffersonddos?color=red&style=flat-square"></a>
      
-    
+    </p>
 </h1>
 
 ----
