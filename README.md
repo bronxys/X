@@ -13,7 +13,7 @@ O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md
         <a href="https://github.com/Jeffersonddos"><img title="Author"    src="https://img.shields.io/badge/Author-Jeffersonddos-purple.svg?style=for-the-badge&logo=github"></a>
     </p>
     <p>
-        <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/jeffersonddos?color=red&style=flat-square"></a>
+        <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/Jeffersonddos?color=red&style=flat-square"></a>
      
 
 </h1>
