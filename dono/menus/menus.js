@@ -1,4 +1,4 @@
-const menu = (prefix, NomeDoBot, sender, isPremium, hora, tempo, adivinha) => {
+const menu = (prefix, NomeDoBot, day, sender, isPremium, H, D, tempo, adivinha) => {
   
 // NÃO APAGUE ESSE ${NickDono} nem 
 //${numerodn} nem ${NomeDoBot} nem ${prefix} só se quiser apagar completo, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
@@ -8,10 +8,13 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╭═══════════════════ ┐
 ┏│──BEM VINDO(A) AO MENU
 ┏│
+┏│Bot: ${NomeDoBot}
 ┏│Usuário: 「 @${sender.split("@")[0]} 」
 ┏│Usuario VIP?:「 ${isPremium ? "✅" : "❌"} 」
 ┏│Dispositivo: 「 ${adivinha} 」
-┏│Hora:  「 ${hora} ${tempo} 」
+┏│Dia:  「 ${day} 」
+┏│Hora:  「 ${H} ${tempo} 」
+┏│Data:  「 ${D} 」
 ┏│Insta Dono: bit.ly/insta_dono
 ┏│Apis: https://jeff-apis.shop
 ┏│⤿✧✧✧✧✧
@@ -66,6 +69,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╭┤           [🧠]𝗖𝗠𝗗'𝗦 / 𝗜𝗔
 ┃╰══ ✞
 ╰╦══════════════════ ✞
+┏│✞͜͡▹ Jeff (IA)
 ┏│✞͜͡▹ ${prefix}doacao (doações)
 ┏│✞͜͡▹ ${prefix}xbot (cvs com bot)
 ┏│✞͜͡▹ ${prefix}gpt (sua pergunta)
@@ -96,6 +100,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│✞͜͡▹ ${prefix}play_video (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_video2 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_video3 (NOME-LINK)
+┏│✞͜͡▹ ${prefix}playdoc (NOME)
 ┏│✞͜͡▹ ${prefix}Playmp4 (NOME)
 ┏│✞͜͡▹ ${prefix}Ytsearch (NOME)
 ┏│✞͜͡▹ ${prefix}Ytsearch2 (NOME)
@@ -573,7 +578,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│✞͜͡▹ ${prefix}aluguel (tempo-bot-sai)
 ┏│✞͜͡▹ ${prefix}rg_aluguel (aviso-msg-pv)
 ┏│✞͜͡▹ ${prefix}tempo-fgp
-┏│✞͜͡▹ ${prefix}fakechat (real)
+┏│✞͜͡▹ ${prefix}fakechat2 (real)
 ┏│✞͜͡▹ ${prefix}forceop (mandar-msg-gp-fechado)
 ┏│✞͜͡▹ ${prefix}figuid
 ┏│✞͜͡▹ ${prefix}transcre
@@ -867,6 +872,7 @@ return `
 ╰╦══════════════════ ✞
 ╭──────────┴─┐
 │❐➦${prefix}grupo-suporte
+│❐➦${prefix}fakechat
 │❐➦${prefix}enquete
 │❐➦${prefix}Destrava
 │❐➦${prefix}Destrava2
@@ -874,6 +880,7 @@ return `
 │❐➦ ${prefix}nome2  
 │❐➦ ${prefix}nome3  
 │❐➦ ${prefix}nome4  
+│❐➦ ${prefix}cpf
 │❐➦ ${prefix}cpf1  
 │❐➦ ${prefix}cpf2  
 │❐➦ ${prefix}cpf3  
@@ -881,6 +888,7 @@ return `
 │❐➦ ${prefix}cpf5  
 │❐➦ ${prefix}tel1  
 │❐➦ ${prefix}tel2  
+│❐➦ ${prefix}fotorj 12736105710
 │❐➦ ${prefix}telefonefixo  
 │❐➦ ${prefix}placa1  
 │❐➦ ${prefix}placa2  
