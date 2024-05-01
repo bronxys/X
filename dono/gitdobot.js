@@ -2,13 +2,15 @@ const gitdobot = (prefix) => {
 return`
 ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 
-Ola amiguinhos(as) algumas informações do x-bot 
+
+
+Ola amiguinhos(as) algumas informações do X-bot 
 
 
    { TUTORIAL PARA TERMUX }
 
 
-1° INSTALE O TERMUX CASO NÃO TENHA, SE TIVER PULE ESSA ETAPA PRQ INSTALAÇÃO DO BOT
+1° INSTALE O TERMUX CASO NÃO TENHA, SE TIVER PULE ESSA ETAPA PRA INSTALAÇÃO DO BOT
 
 LINK:
 
@@ -26,7 +28,7 @@ INFORMAÇÃO: 🗣️
 
 
 
-🗣️COMFIRMA COM ENTER DO SEU TECLADO 
+🗣️COMFIRMA TUDO COM ENTER DO SEU TECLADO 
 
 
 ➡️ apt-get upgrade -y && apt-get upgrade -y && pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install git -y
@@ -43,13 +45,10 @@ INFORMAÇÃO: 🗣️
    
         {  INSTALAÇÃO DO BOT  }  
         
-BAIXE O ARQUIVO DO BOT PELO VÍDEO DO CANAL       
-
-E EXTRAIA ELE EM DOWNLOAD DEPOIS DISSO SEGUE O TUTORIAL ABAIXO
 
 1_ COMANDO :
 
-cd /sdcard && cd Download && git clone https://github.com/bronxys/X.git && cd X && sh start.sh 
+cd /sdcard && git clone https://github.com/bronxys/X.git && cd X && sh start.sh 
 
 🗣️VAI PEDIR PRA POR UM NUMERO, COLOQUE O NÚMERO QUE VOCE QUER POR O BOT SO COPIA DO WHATSAPP E COLA E DA ENTER, COM ESPAÇO E TUDO.
 
@@ -58,7 +57,7 @@ COLE EXATAMENTE DESSA FÓRMA E JUNTO ASSIM..
 
 Caso desconecte o bot, ou fechou o termux sem querer, de o comando para ligar. 
 
-cd /sdcard/Download/x-bot && sh start.sh
+cd /sdcard/X && sh start.sh
 
 
  FIM

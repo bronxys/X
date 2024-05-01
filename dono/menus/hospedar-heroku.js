@@ -6,8 +6,6 @@ return `
 
    🌏 *SEGUIDORES GLOBAL* 🌏
 
-100 seguidores ➡️ R$ 1,00
-200 seguidores ➡️ R$ 2,00
 300 seguidores ➡️ R$ 3,00
 400 seguidores ➡️ R$ 4,00
 500 seguidores ➡️ R$ 5,00

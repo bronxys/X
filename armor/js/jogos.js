@@ -1,1 +1,908 @@
-const _0x4ebd22=_0x9609;function _0x2a85(){const _0x242e2d=['THE\x20WALKING\x20DEAD','Aplicativo','Alcança\x20topo\x20do\x20Spotify\x20com\x20funk\x20lento\x20e\x20dançante\x20no\x20mês\x20de\x20Julho.','QUANDO\x20A\x20CHUVA\x20PASSAR','PISTOLA','PASTEL','CAPIVARA','ABDÔMEN','IDADE','https://telegra.ph/file/1e344b9cde13d5a6c6095.jpg','COXINHA','ENIGMA\x2019','GRÊMIO','DARDOS','SENDETUDORPI','“Quando\x20a\x20chuva\x20passar,\x20quando\x20o\x20tempo\x20abrir\x0aAbra\x20a\x20janela\x20e\x20veja\x20eu\x20sou\x20o\x20sol”','9gLeqhU','SEGREDO','CAMARÃO','NFCIA','CROÁCIA','LEBRE','GUARDA-CHUVA','https://telegra.ph/file/63eca8c97ed165bfecfe5.jpg','Desenho','Uma\x20homenagem\x20à\x20beleza\x20da\x20mulher\x20carioca,\x20com\x20ritmo\x20contagiante.','É\x20uma\x20canção\x20de\x20amor\x20que\x20mostra\x20a\x20conexão\x20profunda\x20entre\x20dois\x20amantes,\x20que\x20se\x20comparam\x20ao\x20lendário\x20casal\x20criminoso,\x20Bonnie\x20e\x20Clyde.','XICONHA','NETFLIX','CRCÁOAI','https://telegra.ph/file/c2a993a353fcca61242e4.jpg','MITOLOGIA','XBOT','YRTALOEA','PORTUGAL','Filho\x20do\x20Jeff\x20^-^','6664580hHwzll','CARNEIRO','NTBIOO','EVIL','NENHUM','“I\x27m\x20a\x20sucker\x20for\x20you\x0aYou\x20say\x20the\x20word\x20and\x20I\x27ll\x20go\x20anywhere\x20blindly”','1351CwvXFk','https://telegra.ph/file/a201b23b179392f1cdd7f.jpg','NABANA','garticArchives','ESPONJA','SASUKE','ZAACQIUSÃOT','https://telegra.ph/file/8ffdd62da1834433112be.jpg','Meu\x20Papai\x20^-^','PEIXE\x20MANDARIM','Luísa\x20Sonza','Gravada\x20a\x201\x20ano\x20atrás,\x20a\x20nova\x20edição\x20da\x20série\x20de\x20rap\x20acústico\x20também\x20conta\x20com\x2013\x20artistas.','TÓRISIAH','https://telegra.ph/file/a6517debde47b846073cc.jpg','Eu\x20posso\x20guardar\x20tudo\x20dentro\x20de\x20mim.\x20Tudo\x20o\x20que\x20você\x20pode\x20imaginar:\x20o\x20vento,\x20as\x20florestas,\x20o\x20mundo,\x20o\x20universo\x20e\x20até\x20Deus.\x20Tudo\x20o\x20que\x20vier\x20à\x20sua\x20cabeça\x20você\x20pode\x20encontrar\x20dentro\x20de\x20mim.\x20Quem\x20sou\x20eu?','TAICAMAKHI','“Eu\x20quero\x20ser\x20pra\x20você\x0aA\x20alegria\x20de\x20uma\x20chegada”','CINTURA','Série','TOMATE','Lewis\x20Capaldi','ALEATORY','MBÔDENA','JOÃO','https://telegra.ph/file/a08e224344e34aa916972.jpg','ESPORTE','FURÃO','Dennis\x20DJ,\x20Mc\x20Kevin\x20o\x20Chris','“Cross\x20my\x20heart,\x20hope\x20to\x20die\x0aTo\x20my\x20lover,\x20I\x27d\x20never\x20lie\x0aHe\x20said,\x20be\x20true,\x20I\x20swear\x20I\x27ll\x20try\x0aIn\x20the\x20end,\x20it\x27s\x20him\x20and\x20I”','BXOT','ALIMENTO','YOUTUBER','Música\x20do\x20TikTok','palavrasANA','Nós\x20podemos\x20machucar\x20sem\x20fazer\x20um\x20único\x20movimento.\x20Podemos\x20envenenar\x20sem\x20tocar.\x20Carregamos\x20a\x20verdade\x20e\x20a\x20mentira.\x20E\x20não\x20devemos\x20ser\x20julgadas\x20pelo\x20nosso\x20tamanho\x20Quem\x20somos\x20nós?','“And\x20every\x20single\x20year\x0aI\x27m\x20drowning\x20in\x20my\x20tears,\x20I\x27m\x20drowning\x20in\x20my\x20tears\x20again\x0aI\x20can\x27t\x20seem\x20to\x20forget\x20the\x20pain\x20I\x20seem\x20to\x20give\x0aThe\x20pain\x20I\x20seem\x20to\x20give,\x20my\x20friend\x0aAnd\x20every\x20single\x20year\x0aI\x27m\x20drowning\x20in\x20my\x20tears,\x20I\x27m\x20drowning\x20in\x20my\x20tears\x20again\x0aI\x20can\x27t\x20seem\x20to\x20forget\x20the\x20pain\x20I\x20seem\x20to\x20give\x0aThe\x20pain\x20I\x20seem\x20to\x20give,\x20my\x20friend”','Eu\x20falo,\x20mas\x20não\x20tenho\x20boca.\x20Eu\x20ouço,\x20mas\x20não\x20tenho\x20ouvidos.\x20Não\x20tenho\x20corpo,\x20mas\x20vivo\x20com\x20o\x20vento.\x20Quem\x20sou\x20eu?','ENIGMA\x2010','Trap,\x20se\x20nao\x20souber\x20vc\x20tem\x20+80\x20anos\x20kkkk','“Tudo\x20bem\x0aÉ\x20só\x20isso,\x20não\x20tem\x20mais\x20jeito\x0aAcabou,\x20boa\x20sorte”','https://telegra.ph/file/05164ea8e02880f74010b.jpg','ESCADA','FLOPPA','FOGUETE','NTERRECNIOO','UMA\x20TESOURA','SOMEONE\x20YOU\x20LOVED','ZUNEEVELA','DESENTUPIDOR','HIDRANTE','HIM\x20&\x20I','ANIMAL','https://telegra.ph/file/b5a9a0de5e222b5084a8a.jpg','LEOPARDO','ENIGMA\x2018','Quando\x20precisa\x20de\x20mim,\x20você\x20me\x20atira\x20para\x20longe,\x20até\x20um\x20lugar\x20onde\x20ninguém\x20pode\x20me\x20ver.\x20Mas\x20quando\x20já\x20não\x20precisa\x20mais,\x20você\x20me\x20traz\x20de\x20volta.\x20Quem\x20sou\x20eu?','SUCKER','AS\x20PALAVRAS','NOEKKO','Tá\x20muito\x20fácil,\x20em\x20que\x20mundo\x20você\x20está\x20para\x20não\x20saber?','TEASK','Sou\x20cheio\x20de\x20buracos,\x20mas\x20ainda\x20assim\x20consigo\x20reter\x20muita\x20água.\x20Quem\x20sou\x20eu?','CERTAS\x20COISAS','https://telegra.ph/file/07b98023259637951ba8f.jpg','TERLANNA','BANANA','MOEFGNEA','RAPOSA','HRROAOCC','KAMISA','ENIGMA\x2013','https://telegra.ph/file/a478979f342ac1746a645.jpg','TUBEYOU','Se\x20há\x20três,\x20você\x20tem\x20três.\x20Se\x20há\x20duas,\x20você\x20tem\x20duas.\x20Mas\x20se\x20há\x20uma,\x20você\x20não\x20tem\x20nenhuma.\x20O\x20que\x20é?','https://telegra.ph/file/3800c7048d04a1c3dbc4e.jpg','A\x20música\x20que\x20reflete\x20emoções\x20profundas,\x20transmitindo\x20a\x20sensação\x20de\x20entorpecimento\x20emocional\x20e\x20desconexão.','https://telegra.ph/file/1530a82843034f1ede5d5.jpg','PEIXE\x20GOTA','“Bola\x20aê,\x20brisa\x20aê,\x20que\x20hoje\x20a\x20noite\x20é\x20de\x20prazer\x0aFaz\x20o\x20que\x20quiser\x20fazer,\x20pode\x20até\x20subir\x20e\x20descer\x0aNo\x20papin,\x20faz\x20assim,\x20vem\x20ni-vem\x20ni-vem\x20ni\x20mim\x0aQue-que\x20hoje\x20eu\x20tô\x20facin,\x20tô\x20fa-tô\x20fa-tô\x20facin”','Profissão','Eu\x20sou\x20algo\x20que\x20as\x20pessoas\x20amam\x20ou\x20odeiam.\x20Eu\x20mudo\x20tanto\x20a\x20aparência\x20das\x20pessoas\x20quanto\x20seus\x20pensamentos.\x20Se\x20uma\x20pessoa\x20cuida\x20de\x20si\x20mesma,\x20eu\x20subo\x20ainda\x20mais.\x20Eu\x20engano\x20algumas\x20pessoas.\x20E\x20para\x20outras,\x20sou\x20um\x20verdadeiro\x20mistério.\x20Algumas\x20pessoas\x20bem\x20que\x20tentam\x20me\x20esconder,\x20mas\x20uma\x20hora,\x20inevitavelmente,\x20eu\x20apareço.\x20Não\x20importa\x20o\x20que\x20as\x20pessoas\x20tentem,\x20eu\x20jamais\x20cairei.\x20Quem\x20sou\x20eu?','SHALLOW','https://telegra.ph/file/9ab69884414feefc9c109.jpg','656wyYJpT','GUATEMALA','“You\x20were\x20the\x20shadow\x20to\x20my\x20light\x0aDid\x20you\x20feel\x20us?\x0aAnother\x20star,\x20you\x20fade\x20away\x0aAfraid\x20our\x20aim\x20is\x20out\x20of\x20sight”','https://telegra.ph/file/7633abcd83b8a587f418d.jpg','SATURNO','MATÉRIA','LUGAR','CORPO\x20HUMANO','https://telegra.ph/file/84928021bd4e6dfe8ff8c.jpg','Faz\x20sucesso\x20entre\x20os\x20jovens\x20no\x20tiktok,\x20lançada\x20em\x20ano\x20de\x202023.','NOTEBOOK','✅️️️','377213zYsyRZ','SENHOR\x20DOS\x20ANÉIS','SAXOFONE','Explorando\x20o\x20significado\x20de\x20ser\x20a\x20felicidade\x20ao\x20se\x20encontrar.','CAFIN','O\x20que\x20pode\x20ser\x20quebrada,\x20mas\x20nunca\x20segurada?','whatMusicAr','Quanto\x20mais\x20houver\x20de\x20mim,\x20menos\x20você\x20verá.\x20Quem\x20sou\x20eu?','COTOVELO\x20DIREITO','CANAL','https://telegra.ph/file/b3e2aaca939ed0cdf7a73.jpg','WHATSAPP','GNEVAR','ARGENTINA','COREIA\x20DO\x20SUL','ENIGMA\x2016','Faz\x20alusão\x20à\x20famosa\x20rua\x20do\x20centro\x20de\x20São\x20Paulo\x20onde\x20o\x20comércio\x20ilegal\x20divide\x20espaço\x20com\x20usuários\x20de\x20drogas.','A\x20resignação\x20diante\x20do\x20inevitável,\x20desejando\x20boa\x20sorte\x20para\x20o\x20próximo\x20capítulo.','PORQUINHO\x20DA\x20ÍNDIA','CELULAR','STRANGER\x20THINGS','FRUTA','CIBITACLE','Quem\x20me\x20faz\x20não\x20diz\x20que\x20faz.\x20Quem\x20me\x20tem\x20não\x20sabe\x20que\x20tem.\x20E\x20quem\x20sabe\x20não\x20me\x20quer\x20ter\x20de\x20jeito\x20nenhum.\x20Quem\x20sou\x20eu?','ELA\x20É\x20CARIOCA','Ponha\x20os\x20dedos\x20nos\x20meus\x20olhos\x20que\x20eu\x20abrirei\x20as\x20minhas\x20potentes\x20mandíbulas.\x20E\x20vou\x20devorar\x20tudo\x20o\x20que\x20vier\x20pela\x20frente:\x20roupas,\x20penas,\x20papéis.\x20Quem\x20sou\x20eu?','Objeto','A\x20mãe\x20do\x20João\x20teve\x20cinco\x20filhos.\x20O\x20primeiro\x20se\x20chamava\x20Dadá,\x20o\x20segundo\x20Dedé,\x20o\x20terceiro,\x20Didi,\x20e\x20o\x20quarto,\x20Dodó.\x20Como\x20se\x20chamava\x20o\x20quinto\x20filho?','3106304WKXdwI','https://telegra.ph/file/0207859d0fcb2c7624f1b.jpg','https://telegra.ph/file/54f20cbd80737fe45a284.jpg','INFERNO','CIMENTO','PEAKY\x20BLINDERS','Jogos','SNAPCHAT','ESCURIDÃO','LACAVO','“Just\x20shoot\x20for\x20the\x20stars\x0aIf\x20it\x20feels\x20right,\x20then\x20aim\x20for\x20my\x20heart”','nosreffej','https://telegra.ph/file/4890a8e71a7cc8d3862d0.jpg','4782WSOPNi','https://telegra.ph/file/d4c36b449f4c781533f3c.jpg','Uma\x20colaboração\x20profunda,\x20onde\x20mergulhar\x20no\x20desconhecido\x20é\x20a\x20única\x20opção.','https://telegra.ph/file/a29ac8b0638d9e23bdab0.jpg','“Ela,\x20ela\x20tem\x20piercing\x20no\x20seio\x0aDe\x20onde\x20\x27cê\x20veio?\x20\x27To\x20interessado\x0a\x27Cê\x20bebe,\x20\x27cê\x20fuma,\x20\x27cê\x20transa\x0aTudo\x20isso\x20sua\x20amiga\x20contou\x0aNão\x20fumo,\x20não\x20bebo,\x20só\x20transo\x0aQuer\x20desafiar,\x20é\x20só\x20vir,\x20amor”','https://telegra.ph/file/070fbfa1cccd65681f3fa.jpg','PERSONAGEM','“Diziam\x20pra\x20mim\x0aQue\x20essa\x20moda\x20passou\x0aQue\x20monogamia\x20é\x20papo\x20de\x20doido\x0aMas\x20pra\x20mim\x20é\x20uma\x20honra\x0aSer\x20uma\x20cafona\x0aPra\x20esse\x20povo”','SUÍÇA','TAGRAMINS','JUIZ','ODIN','SONIC','MIKASA','“Ela\x20é\x20meu\x20amor,\x20só\x20me\x20vê\x20a\x20mim\x0aA\x20mim\x20que\x20vivi\x20para\x20encontrar\x0aNa\x20luz\x20do\x20seu\x20olhar\x0aA\x20paz\x20que\x20sonhei”','ENIGMA\x205','TOPISLA','ARROCID','ENIGMA\x2020','NODI','ECO','https://telegra.ph/file/dfa10e1cd64bfd575b26a.jpg','https://telegra.ph/file/fac611a1d9e2c2fc14957.jpg','Jonas\x20Brothers','https://telegra.ph/file/bdb05184d2d6f5a7d1ecf.jpg','XOPARODA','O\x20FÓSFORO','LEVITATING','https://telegra.ph/file/617e247a4fbb63d299198.jpg','TSWHAAPP','Alan\x20Walker','ZEBRA','NAGATORO','COMENTÁRIO','FRANÇA','❌️️️️','ENIGMA\x2015','UTARSON','HUNGRIA','DRAGÃO\x20DE\x20KOMODO','ENIGMA\x201','MC\x20Livinho','BATIZADO','Dua\x20Lipa','APRSAO','https://telegra.ph/file/af0e70ea5a92cbfc71f43.jpg','ENIGMA\x206','A\x20canção\x20fala\x20sobre\x20o\x20fim\x20de\x20um\x20relacionamento\x20amoroso\x20e\x20os\x20sentimentos\x20que\x20envolvem\x20este\x20momento.','O\x20detetive\x20Sherlock\x20encontrou\x20um\x20bilhete\x20que\x20faz\x20parte\x20de\x20uma\x20pista\x20de\x20um\x20mistério\x20que\x20precisa\x20ser\x20solucionado.\x20“Se\x20você\x20me\x20tem,\x20quer\x20me\x20compartilhar;\x20se\x20você\x20não\x20me\x20compartilha,\x20você\x20me\x20manteve.\x20O\x20que\x20eu\x20sou?”','“Now,\x20the\x20day\x20bleeds\x20into\x20nightfall\x0aAnd\x20you\x27re\x20not\x20here\x20to\x20get\x20me\x20through\x20it\x20all”','veigh','ENIGMA\x2017','ENIGMA\x203','DINHEIRO\x20FALSO','12\x20ANOS','1514844MfbOoN','PANDA\x20VERMELHO','COMIDA','https://telegra.ph/file/e4cee57d5b731dfffa5d8.jpg','OLEÃ','https://telegra.ph/file/e8892204b373c147bf489.jpg','quizanimais','https://telegra.ph/file/ff574a82178089f453444.jpg','Um\x20convite\x20a\x20não\x20se\x20mostrar,\x20não\x20aparecer,\x20e\x20não\x20começar\x20a\x20se\x20importar.','LASANHA','CACHORRO','TÁ\x20OK','https://telegra.ph/file/ecd17a4b75e4541bd20b8.jpg','Mc\x20Kevin\x20o\x20Chris\x20(part.\x20DJ\x20NK\x20da\x20Serra)','https://telegra.ph/file/a10ad7df6ab6a2312a1f9.jpg','showdomilhao','HADES','CEREJA','ENIGMA\x2012','PATELS','NOME','Uma\x20história\x20de\x20idas\x20e\x20vindas,\x20onde\x20o\x20retorno\x20é\x20ansiado,\x20mas\x20não\x20garantido.','MC\x20Ryan\x20SP,\x20MC\x20Hariel,\x20Alok,\x20MC\x20Davi,\x20Salvador\x20da\x20Rima','PAÍS','VAI\x20VOLTAR','VENEZUELA','ROTTWEILER','Frejat','TENOBOOK','VOCÊ','ENIGMA\x2011','SEDAH','GUAXINIM','OS\x20SETE\x20SAMURAIS','VAGNER','CONSTRUÇÕES','POESIA\x20ACÚSTICA\x2013','Filme','https://telegra.ph/file/d30cac0c8bb2159d38192.jpg','Ser\x20cativado\x20pelo\x20pop\x20dos\x20Jonas\x20Brothers,\x20embarcando\x20em\x20uma\x20jornada\x20sem\x20hesitação.','GATONARO','https://telegra.ph/file/24161e5698f3874c285eb.jpg','HAMSTER','YOUTUBE','BONITO','100','RINOCERONTE','ESPANHA','2jwlgdu','A\x20CONFIANÇA','MC\x20Cabelinho,\x20Luísa\x20Sonza,\x20Oruam,\x20Tz\x20da\x20Coronel,\x20Chefin,\x20L7nnon,\x20Xamã,\x20Chris\x20MC,\x20…','CAESDA','https://telegra.ph/file/e352b4831db11c20a3c62.jpg','DON\x27T\x20START\x20NOW','OPÇÃO','YAG','AKAME','KONEKO','PLANETA','“fumando\x20um\x20fino\x20de\x20canto\x0aeu\x20e\x20meus\x20manos”','CROCODILO','PORCO\x20ESPINHO','https://telegra.ph/file/e0c905d9630bf9d36df77.jpg','https://telegra.ph/file/096342c8c7815ba9d83be.jpg','SOMBRA','HUSKY\x20SIBERIANO','OBJETO','ESASUK','KAMAITACHI','Marcada\x20pela\x20voz\x20cativante\x20de\x20Iselin\x20Solheim.\x20Lançada\x20em\x202015,\x20tornou-se\x20um\x20grande\x20sucesso\x20internacional,\x20conquistando\x20milhões\x20de\x20ouvintes\x20com\x20sua\x20melodia\x20envolvente\x20e\x20letras\x20emocionais.','TIME','Série\x20-\x20Documentário','Ivete\x20Sangalo','TIPO\x20HOLLYWOOD','LEÃO','SAKURA','O\x20PADRE','O\x20que\x20é,\x20o\x20que\x20é:\x20quem\x20faz\x20não\x20quer,\x20quem\x20compra\x20não\x20usa\x20e\x20quem\x20usa\x20não\x20fica\x20sabendo?','CAVALO','Tom\x20Jobim','Tenho\x20apenas\x20uma\x20cor,\x20mas\x20posso\x20ter\x20vários\x20tamanhos.\x20Estou\x20presente\x20quando\x20faz\x20sol.\x20Na\x20chuva,\x20jamais!\x20Passo\x20todo\x20o\x20tempo\x20no\x20chão,\x20mas\x20nunca\x20fico\x20sujo.\x20Não\x20faço\x20mal\x20algum\x20e\x20não\x20posso\x20sentir\x20dor.\x20Quem\x20sou\x20eu?','Já\x20casei\x20muitas\x20vezes,\x20mas\x20estou\x20sempre\x20solteiro.\x20Quem\x20sou\x20eu?','Uma\x20jornada\x20estelar\x20com\x20uma\x20sensação\x20pop\x20irresistível.','https://telegra.ph/file/71f5f532ced0fddc08f5b.jpg','MACACO','TFLIXNE','GANSO','HOTEL\x20CARO','ENIGMA\x208','❌️️','ASXOEOFN','“Papai,\x20solicito\x20socorro,\x20me\x20instrua\x0aMe\x20tire\x20dessa\x20rua\x20escura\x0aFui\x20dominado\x20pela\x20droga,\x20desisti\x20do\x20ensino\x0aVeio\x20o\x20apocalipse\x20sombrear\x20o\x20meu\x20caminho\x0aDesde\x20o\x20início,\x20eu\x20já\x20sonhava\x20em\x20conquistar\x20um\x20cargo\x0aCurrículo\x20no\x20artigo\x2012\x20\x27tava\x20pegando\x20mais\x20fácil\x0aAbandonei\x20a\x20linha\x20e\x20o\x20pipa\x20pelo\x20motor\x20da\x20Hornet\x0aFoi\x20na\x20porta\x20do\x20banco,\x20o\x20artigo\x20157”','FADED','ORNITORRINCO','“I\x27m\x20off\x20the\x20deep\x20end,\x20watch\x20as\x20I\x20dive\x20in\x0aI\x27ll\x20never\x20meet\x20the\x20ground”','CAZAQUISTÃO','OMCNITE','1360740AZADvo','G-Easy\x20&\x20Halsey','O\x20CAIXÃO','ENIGMA\x209','FAZ\x20UM\x20VUK\x20VUK','CACOMA','Lulu\x20Santos','Países','ENIGMA\x204','O\x20que\x20você\x20pode\x20segurar\x20com\x20a\x20sua\x20mão\x20esquerda,\x20mas\x20jamais\x20com\x20a\x20direita?','Lady\x20Gaga,\x20Bradley\x20Cooper','UBAL','https://telegra.ph/file/7b180efc77c8ab6e9a24a.jpg','CANTOR','TUGALPOR','APLICATIVO','LATEMAGUA','RCIANUT','BICICLETA'];_0x2a85=function(){return _0x242e2d;};return _0x2a85();}(function(_0x3d3de0,_0x17ea80){const _0x27f66f=_0x9609,_0x3ee8e3=_0x3d3de0();while(!![]){try{const _0x1e7fa8=-parseInt(_0x27f66f(0x2a5))/0x1*(-parseInt(_0x27f66f(0x1d8))/0x2)+parseInt(_0x27f66f(0x1a8))/0x3+parseInt(_0x27f66f(0x299))/0x4+parseInt(_0x27f66f(0x209))/0x5+parseInt(_0x27f66f(0x171))/0x6*(parseInt(_0x27f66f(0x246))/0x7)+-parseInt(_0x27f66f(0x164))/0x8*(parseInt(_0x27f66f(0x22c))/0x9)+-parseInt(_0x27f66f(0x240))/0xa;if(_0x1e7fa8===_0x17ea80)break;else _0x3ee8e3['push'](_0x3ee8e3['shift']());}catch(_0x560d10){_0x3ee8e3['push'](_0x3ee8e3['shift']());}}}(_0x2a85,0x3de6c));const fs=require('fs');function _0x9609(_0x587ce5,_0x241ce6){const _0x2a8553=_0x2a85();return _0x9609=function(_0x96096e,_0x533723){_0x96096e=_0x96096e-0x155;let _0x19cca3=_0x2a8553[_0x96096e];return _0x19cca3;},_0x9609(_0x587ce5,_0x241ce6);}exports[_0x4ebd22(0x267)]=[{'original':'PARADOXO','embaralhada':_0x4ebd22(0x18a),'dica':_0x4ebd22(0x2ae)},{'original':'jefferson','embaralhada':_0x4ebd22(0x16f),'dica':_0x4ebd22(0x24e)},{'original':_0x4ebd22(0x26f),'embaralhada':_0x4ebd22(0x1db),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x1e0),'embaralhada':'MEAKA','dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x191),'embaralhada':_0x4ebd22(0x1d0),'dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x24b),'embaralhada':'KESUSA','dica':_0x4ebd22(0x177)},{'original':'GAY','embaralhada':_0x4ebd22(0x1df),'dica':_0x4ebd22(0x1c5)},{'original':_0x4ebd22(0x168),'embaralhada':_0x4ebd22(0x208),'dica':_0x4ebd22(0x1cb)},{'original':_0x4ebd22(0x287),'embaralhada':_0x4ebd22(0x248),'dica':_0x4ebd22(0x1aa)},{'original':_0x4ebd22(0x238),'embaralhada':_0x4ebd22(0x1fd),'dica':_0x4ebd22(0x218)},{'original':_0x4ebd22(0x1d3),'embaralhada':_0x4ebd22(0x28e),'dica':_0x4ebd22(0x218)},{'original':_0x4ebd22(0x23e),'embaralhada':_0x4ebd22(0x217),'dica':_0x4ebd22(0x1bf)},{'original':_0x4ebd22(0x220),'embaralhada':_0x4ebd22(0x181),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x22e),'embaralhada':'MARÃOCA','dica':_0x4ebd22(0x1aa)},{'original':'HIDRANTE','embaralhada':'TEHDIRAN','dica':'OBJETO'},{'original':_0x4ebd22(0x271),'embaralhada':'TEFOGUE','dica':_0x4ebd22(0x1ea)},{'original':'SKATE','embaralhada':_0x4ebd22(0x282),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x1fc),'embaralhada':_0x4ebd22(0x20e),'dica':'ANIMAL'},{'original':_0x4ebd22(0x1b1),'embaralhada':'NHASALA','dica':_0x4ebd22(0x1aa)},{'original':_0x4ebd22(0x221),'embaralhada':_0x4ebd22(0x1bb),'dica':_0x4ebd22(0x1aa)},{'original':_0x4ebd22(0x226),'embaralhada':_0x4ebd22(0x237),'dica':'COMIDA'},{'original':_0x4ebd22(0x21b),'embaralhada':_0x4ebd22(0x15e),'dica':'OBJETO'},{'original':_0x4ebd22(0x24b),'embaralhada':_0x4ebd22(0x1eb),'dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x1f6),'embaralhada':_0x4ebd22(0x16d),'dica':'ANIMAL'},{'original':'LEVI','embaralhada':_0x4ebd22(0x243),'dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x1ec),'embaralhada':_0x4ebd22(0x255),'dica':_0x4ebd22(0x216)},{'original':'LUBA','embaralhada':_0x4ebd22(0x214),'dica':_0x4ebd22(0x265)},{'original':_0x4ebd22(0x228),'embaralhada':'OMÊGRI','dica':_0x4ebd22(0x1ee)},{'original':_0x4ebd22(0x29d),'embaralhada':_0x4ebd22(0x196),'dica':_0x4ebd22(0x1e2)},{'original':_0x4ebd22(0x17e),'embaralhada':_0x4ebd22(0x28b),'dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x1f2),'embaralhada':_0x4ebd22(0x1ac),'dica':_0x4ebd22(0x279)},{'original':_0x4ebd22(0x1f3),'embaralhada':'SUKARA','dica':_0x4ebd22(0x177)},{'original':_0x4ebd22(0x1b8),'embaralhada':_0x4ebd22(0x1c7),'dica':_0x4ebd22(0x23b)},{'original':'CORRIDA','embaralhada':_0x4ebd22(0x182),'dica':_0x4ebd22(0x25f)},{'original':_0x4ebd22(0x17c),'embaralhada':_0x4ebd22(0x184),'dica':_0x4ebd22(0x23b)},{'original':_0x4ebd22(0x21b),'embaralhada':_0x4ebd22(0x15e),'dica':_0x4ebd22(0x1ea)},{'original':'BICICLETA','embaralhada':'CIBITACLE','dica':'OBJETO'},{'original':_0x4ebd22(0x29a),'embaralhada':_0x4ebd22(0x219),'dica':'PAÍS'},{'original':_0x4ebd22(0x1b9),'embaralhada':'ECREJA','dica':_0x4ebd22(0x15d)},{'original':_0x4ebd22(0x1c1),'embaralhada':_0x4ebd22(0x275),'dica':_0x4ebd22(0x1bf)},{'original':'HISTÓRIA','embaralhada':_0x4ebd22(0x252),'dica':_0x4ebd22(0x29e)},{'original':'INSTAGRAM','embaralhada':_0x4ebd22(0x17a),'dica':'APLICATIVO'},{'original':_0x4ebd22(0x2b0),'embaralhada':_0x4ebd22(0x18e),'dica':_0x4ebd22(0x218)},{'original':_0x4ebd22(0x277),'embaralhada':'TEHDIRAN','dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x15b),'embaralhada':'CELARLU','dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x2a3),'embaralhada':_0x4ebd22(0x1c4),'dica':_0x4ebd22(0x1ea)},{'original':'COMPUTADOR','embaralhada':'PUCOMDORTA','dica':_0x4ebd22(0x1ea)},{'original':'LANTERNA','embaralhada':_0x4ebd22(0x286),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x1b2),'embaralhada':_0x4ebd22(0x28a),'dica':'ANIMAL'},{'original':_0x4ebd22(0x276),'embaralhada':_0x4ebd22(0x22a),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x259),'embaralhada':'ATEMOT','dica':'ALIMENTO'},{'original':_0x4ebd22(0x2a7),'embaralhada':_0x4ebd22(0x202),'dica':'INSTRUMENTO\x20MUSICAL'},{'original':_0x4ebd22(0x207),'embaralhada':_0x4ebd22(0x24c),'dica':_0x4ebd22(0x1bf)},{'original':_0x4ebd22(0x230),'embaralhada':_0x4ebd22(0x239),'dica':'PAÍS'},{'original':_0x4ebd22(0x197),'embaralhada':'UHGINRA','dica':'PAÍS'},{'original':'MEGAFONE','embaralhada':_0x4ebd22(0x288),'dica':_0x4ebd22(0x1ea)},{'original':_0x4ebd22(0x257),'embaralhada':_0x4ebd22(0x21a),'dica':_0x4ebd22(0x2a0)},{'original':_0x4ebd22(0x223),'embaralhada':_0x4ebd22(0x25c),'dica':'CORPO\x20HUMANO'},{'original':_0x4ebd22(0x23c),'embaralhada':_0x4ebd22(0x263),'dica':_0x4ebd22(0x23f)},{'original':_0x4ebd22(0x1ca),'embaralhada':_0x4ebd22(0x2b1),'dica':_0x4ebd22(0x1bc)},{'original':_0x4ebd22(0x25b),'embaralhada':_0x4ebd22(0x23d),'dica':_0x4ebd22(0x1bc)},{'original':_0x4ebd22(0x2a9),'embaralhada':_0x4ebd22(0x22f),'dica':'TIPO\x20DE\x20GAY'},{'original':_0x4ebd22(0x1e1),'embaralhada':_0x4ebd22(0x280),'dica':_0x4ebd22(0x1bc)},{'original':_0x4ebd22(0x289),'embaralhada':_0x4ebd22(0x19d),'dica':_0x4ebd22(0x279)},{'original':_0x4ebd22(0x167),'embaralhada':'RNOFNIE','dica':_0x4ebd22(0x29f)},{'original':_0x4ebd22(0x1d6),'embaralhada':_0x4ebd22(0x272),'dica':_0x4ebd22(0x279)},{'original':'PASTOR','embaralhada':'STRPAO','dica':_0x4ebd22(0x19b)},{'original':_0x4ebd22(0x1d4),'embaralhada':_0x4ebd22(0x242),'dica':_0x4ebd22(0x192)},{'original':'TANGERINA','embaralhada':'RITAANGNE','dica':_0x4ebd22(0x264)}],exports[_0x4ebd22(0x1b7)]=[{'original':'AMEIXA','foto':_0x4ebd22(0x2a1)},{'original':_0x4ebd22(0x1d5),'foto':_0x4ebd22(0x292)}],exports[_0x4ebd22(0x1ae)]=[{'original':_0x4ebd22(0x15a),'foto':_0x4ebd22(0x18d)},{'original':_0x4ebd22(0x1d2),'foto':_0x4ebd22(0x28d)},{'original':_0x4ebd22(0x1c2),'foto':_0x4ebd22(0x1b6)},{'original':_0x4ebd22(0x270),'foto':_0x4ebd22(0x29c)},{'original':_0x4ebd22(0x1c8),'foto':_0x4ebd22(0x290)},{'original':_0x4ebd22(0x190),'foto':_0x4ebd22(0x25e)},{'original':_0x4ebd22(0x241),'foto':_0x4ebd22(0x1e7)},{'original':'BODE','foto':_0x4ebd22(0x1af)},{'original':'MAMUTE','foto':'https://telegra.ph/file/00e445dde6c036a0c0df5.jpg'},{'original':'ALPACA','foto':_0x4ebd22(0x247)},{'original':_0x4ebd22(0x1e5),'foto':_0x4ebd22(0x215)},{'original':'QUOKKA','foto':'https://telegra.ph/file/3042e66a22c6d0fb6e0cd.jpg'},{'original':_0x4ebd22(0x1a9),'foto':_0x4ebd22(0x253)},{'original':_0x4ebd22(0x293),'foto':'https://telegra.ph/file/e8892204b373c147bf489.jpg'},{'original':_0x4ebd22(0x24f),'foto':_0x4ebd22(0x1ad)},{'original':_0x4ebd22(0x198),'foto':_0x4ebd22(0x172)},{'original':_0x4ebd22(0x27b),'foto':'https://telegra.ph/file/0016017b9d28a3b6d027a.jpg'},{'original':_0x4ebd22(0x260),'foto':_0x4ebd22(0x1dc)},{'original':'LEOPARDO','foto':_0x4ebd22(0x1fb)},{'original':_0x4ebd22(0x231),'foto':'https://telegra.ph/file/89f9a46ce660261279477.jpg'},{'original':'MARRECO','foto':'https://telegra.ph/file/aa41bde6c4c350ec9d0d4.jpg'},{'original':_0x4ebd22(0x1fe),'foto':_0x4ebd22(0x298)},{'original':'CAVALO\x20MARINHO','foto':_0x4ebd22(0x1ab)},{'original':_0x4ebd22(0x1e4),'foto':'https://telegra.ph/file/b4483f9a7077fd29a137f.jpg'},{'original':_0x4ebd22(0x205),'foto':_0x4ebd22(0x24d)},{'original':_0x4ebd22(0x1e9),'foto':_0x4ebd22(0x285)},{'original':_0x4ebd22(0x222),'foto':_0x4ebd22(0x166)}],exports['enigmaArchive']=[{'numero':_0x4ebd22(0x199),'respostaEne':_0x4ebd22(0x18b),'charada':'Imagine\x20que\x20você\x20está\x20em\x20uma\x20sala\x20escura\x20ao\x20lado\x20de\x20Sherlock.\x20Nela\x20há\x20um\x20fósforo,\x20uma\x20lâmpada\x20de\x20querosene,\x20uma\x20vela\x20e\x20uma\x20lareira.\x20O\x20que\x20você\x20acenderia\x20primeiro?'},{'numero':'ENIGMA\x202','respostaEne':_0x4ebd22(0x22d),'charada':_0x4ebd22(0x1a1)},{'numero':_0x4ebd22(0x1a5),'respostaEne':_0x4ebd22(0x244),'charada':'Watson\x20e\x20Sherlock\x20adoram\x20brincar\x20com\x20enigmas\x20para\x20treinar\x20o\x20método\x20científico.\x20Ajude-os\x20a\x20encontrar\x20a\x20resposta\x20desse\x20enigma:\x20um\x20macaco,\x20um\x20esquilo\x20e\x20um\x20pássaro\x20estão\x20correndo\x20para\x20o\x20topo\x20de\x20um\x20coqueiro.\x20Quem\x20pegará\x20a\x20banana\x20primeiro,\x20o\x20macaco,\x20o\x20esquilo\x20ou\x20o\x20pássaro?'},{'numero':_0x4ebd22(0x211),'respostaEne':_0x4ebd22(0x185),'charada':_0x4ebd22(0x26a)},{'numero':_0x4ebd22(0x180),'respostaEne':_0x4ebd22(0x224),'charada':_0x4ebd22(0x296)},{'numero':_0x4ebd22(0x19f),'respostaEne':_0x4ebd22(0x1e8),'charada':_0x4ebd22(0x1f8)},{'numero':'ENIGMA\x207','respostaEne':_0x4ebd22(0x1a7),'charada':'Perguntaram\x20para\x20Maria\x20quantos\x20anos\x20ela\x20tem.\x20Maria\x20respondeu\x20que\x20em\x20dois\x20anos\x20terá\x20o\x20dobro\x20da\x20idade\x20que\x20ela\x20tinha\x20há\x20cinco\x20anos.\x20Quantos\x20anos\x20Maria\x20tem?'},{'numero':_0x4ebd22(0x200),'respostaEne':_0x4ebd22(0x16c),'charada':_0x4ebd22(0x2ac)},{'numero':_0x4ebd22(0x20c),'respostaEne':_0x4ebd22(0x24a),'charada':_0x4ebd22(0x283)},{'numero':_0x4ebd22(0x20c),'respostaEne':_0x4ebd22(0x2ad),'charada':_0x4ebd22(0x212)},{'numero':_0x4ebd22(0x26b),'respostaEne':'ÂNCORA','charada':_0x4ebd22(0x27d)},{'numero':_0x4ebd22(0x1c6),'respostaEne':_0x4ebd22(0x27f),'charada':_0x4ebd22(0x268)},{'numero':_0x4ebd22(0x1ba),'respostaEne':_0x4ebd22(0x273),'charada':_0x4ebd22(0x161)},{'numero':_0x4ebd22(0x28c),'respostaEne':'ALFABETO','charada':_0x4ebd22(0x254)},{'numero':'ENIGMA\x2014','respostaEne':_0x4ebd22(0x1a6),'charada':_0x4ebd22(0x15f)},{'numero':_0x4ebd22(0x195),'respostaEne':_0x4ebd22(0x16c),'charada':_0x4ebd22(0x2ac)},{'numero':_0x4ebd22(0x157),'respostaEne':_0x4ebd22(0x1d9),'charada':_0x4ebd22(0x2aa)},{'numero':_0x4ebd22(0x1a4),'respostaEne':_0x4ebd22(0x1de),'charada':_0x4ebd22(0x28f)},{'numero':_0x4ebd22(0x27c),'respostaEne':_0x4ebd22(0x1f4),'charada':_0x4ebd22(0x1f9)},{'numero':_0x4ebd22(0x227),'respostaEne':_0x4ebd22(0x25d),'charada':_0x4ebd22(0x163)},{'numero':_0x4ebd22(0x183),'respostaEne':_0x4ebd22(0x20b),'charada':_0x4ebd22(0x1f5)}],exports[_0x4ebd22(0x249)]=[{'pergunta':'Aplicativo','imagem':_0x4ebd22(0x186),'letra_inicial':'N','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x238)},{'pergunta':_0x4ebd22(0x21d),'imagem':_0x4ebd22(0x176),'letra_inicial':'F','contem_traços':_0x4ebd22(0x201),'resposta':'FACEBOOK'},{'pergunta':'Desenho','imagem':_0x4ebd22(0x225),'letra_inicial':'TO','contem_traços':_0x4ebd22(0x201),'resposta':'TOM\x20E\x20JERRY'},{'pergunta':_0x4ebd22(0x162),'imagem':_0x4ebd22(0x19e),'letra_inicial':'GU','contem_traços':_0x4ebd22(0x2a4),'resposta':_0x4ebd22(0x232)},{'pergunta':_0x4ebd22(0x295),'imagem':'https://telegra.ph/file/cbea80472e3d2624676a6.jpg','letra_inicial':'J','contem_traços':_0x4ebd22(0x194),'resposta':_0x4ebd22(0x17b)},{'pergunta':_0x4ebd22(0x21d),'imagem':_0x4ebd22(0x27a),'letra_inicial':'SN','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x16b)},{'pergunta':_0x4ebd22(0x210),'imagem':'https://telegra.ph/file/5721a0cde0166bee675e5.jpg','letra_inicial':'E','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x1d7)},{'pergunta':_0x4ebd22(0x162),'imagem':_0x4ebd22(0x189),'letra_inicial':'D','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x229)},{'pergunta':_0x4ebd22(0x162),'imagem':'https://telegra.ph/file/317913121ec9ca6aae71b.jpg','letra_inicial':'D','contem_traços':_0x4ebd22(0x201),'resposta':'DOMINÓ'},{'pergunta':_0x4ebd22(0x162),'imagem':_0x4ebd22(0x233),'letra_inicial':'C','contem_traços':_0x4ebd22(0x201),'resposta':'CANADÁ'},{'pergunta':_0x4ebd22(0x16a),'imagem':'https://telegra.ph/file/68ea5f4b182ae4c501a32.jpg','letra_inicial':'X','contem_traços':'❌️️','resposta':'XADREZ'},{'pergunta':_0x4ebd22(0x1cd),'imagem':_0x4ebd22(0x174),'letra_inicial':'A','contem_traços':_0x4ebd22(0x201),'resposta':'A\x20ORIGEM'},{'pergunta':_0x4ebd22(0x1cd),'imagem':_0x4ebd22(0x2af),'letra_inicial':'OS','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x1c9)},{'pergunta':_0x4ebd22(0x1cd),'imagem':'https://telegra.ph/file/ab11fa68eda5abe19562b.jpg','letra_inicial':'SE','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x2a6)},{'pergunta':_0x4ebd22(0x1cd),'imagem':'https://telegra.ph/file/de030e592fecdc2cf0d20.jpg','letra_inicial':'JU','contem_traços':_0x4ebd22(0x201),'resposta':'JUMANJI'},{'pergunta':_0x4ebd22(0x1cd),'imagem':'https://telegra.ph/file/aafcb73c2dd10aef1bd47.jpg','letra_inicial':'S','contem_traços':'❌️️','resposta':_0x4ebd22(0x17d)},{'pergunta':_0x4ebd22(0x258),'imagem':_0x4ebd22(0x1e6),'letra_inicial':'TH','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x21c)},{'pergunta':_0x4ebd22(0x234),'imagem':_0x4ebd22(0x1ce),'letra_inicial':'SI','contem_traços':_0x4ebd22(0x201),'resposta':'SIMPSONS'},{'pergunta':'Série','imagem':_0x4ebd22(0x23a),'letra_inicial':'ST','contem_traços':'❌️️','resposta':_0x4ebd22(0x15c)},{'pergunta':_0x4ebd22(0x258),'imagem':_0x4ebd22(0x187),'letra_inicial':'PE','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x169)},{'pergunta':_0x4ebd22(0x1ef),'imagem':_0x4ebd22(0x1b4),'letra_inicial':'CH','contem_traços':_0x4ebd22(0x201),'resposta':'CHERNOBYL'},{'pergunta':_0x4ebd22(0x210),'imagem':_0x4ebd22(0x26e),'letra_inicial':'C','contem_traços':_0x4ebd22(0x201),'resposta':'CHINA'},{'pergunta':_0x4ebd22(0x210),'imagem':_0x4ebd22(0x1d1),'letra_inicial':'S','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x179)},{'pergunta':_0x4ebd22(0x210),'imagem':_0x4ebd22(0x165),'letra_inicial':'S','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x156)},{'pergunta':'Países','imagem':_0x4ebd22(0x170),'letra_inicial':'AR','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x155)},{'pergunta':_0x4ebd22(0x210),'imagem':'https://telegra.ph/file/dfb6e013f52a018032625.jpg','letra_inicial':'P','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x23e)},{'pergunta':_0x4ebd22(0x210),'imagem':'https://telegra.ph/file/8d238d4ffa865dd7009a7.jpg','letra_inicial':'F','contem_traços':_0x4ebd22(0x201),'resposta':_0x4ebd22(0x193)}],exports[_0x4ebd22(0x2ab)]=[{'trechoMusic':_0x4ebd22(0x175),'resposta':'NOVIDADE\x20NA\x20ÁREA','artista':_0x4ebd22(0x19a),'dica':_0x4ebd22(0x21e)},{'trechoMusic':_0x4ebd22(0x1e3),'resposta':'NOVO\x20BALANÇO','artista':_0x4ebd22(0x1a3),'dica':_0x4ebd22(0x26c)},{'trechoMusic':_0x4ebd22(0x203),'resposta':'CRACOLÂNDIA','artista':_0x4ebd22(0x1be),'dica':_0x4ebd22(0x158)},{'trechoMusic':'“Teto\x20espelhado,\x20cama\x20redonda,\x20faz\x20o\x20movimento\x0aQuarto\x20gelado,\x20fogo\x20na\x20bomba,\x20fumaça\x20no\x20vento\x0aDe\x20frente,\x20de\x20lado,\x20por\x20cima,\x20por\x20baixo,\x20gemendo\x20baixinho\x0aCom\x20amor\x20e\x20com\x20carinho”','resposta':_0x4ebd22(0x20d),'artista':_0x4ebd22(0x1b5),'dica':_0x4ebd22(0x266)},{'trechoMusic':_0x4ebd22(0x262),'resposta':_0x4ebd22(0x278),'artista':_0x4ebd22(0x20a),'dica':_0x4ebd22(0x236)},{'trechoMusic':_0x4ebd22(0x269),'resposta':'NUMB','artista':'XXXTENTACION','dica':_0x4ebd22(0x291)},{'trechoMusic':_0x4ebd22(0x29b),'resposta':_0x4ebd22(0x204),'artista':_0x4ebd22(0x18f),'dica':_0x4ebd22(0x1ed)},{'trechoMusic':_0x4ebd22(0x16e),'resposta':_0x4ebd22(0x18c),'artista':_0x4ebd22(0x19c),'dica':_0x4ebd22(0x1fa)},{'trechoMusic':_0x4ebd22(0x1a2),'resposta':_0x4ebd22(0x274),'artista':_0x4ebd22(0x25a),'dica':'Um\x20mergulho\x20profundo\x20na\x20emoção\x20da\x20saudade\x20e\x20solidão.'},{'trechoMusic':'“Don\x27t\x20show\x20up,\x20don\x27t\x20come\x20out\x0aDon\x27t\x20start\x20caring\x20about\x20me\x20now”','resposta':_0x4ebd22(0x1dd),'artista':_0x4ebd22(0x19c),'dica':_0x4ebd22(0x1b0)},{'trechoMusic':_0x4ebd22(0x206),'resposta':_0x4ebd22(0x297),'artista':_0x4ebd22(0x213),'dica':_0x4ebd22(0x173)},{'trechoMusic':_0x4ebd22(0x245),'resposta':_0x4ebd22(0x27e),'artista':_0x4ebd22(0x188),'dica':_0x4ebd22(0x1cf)},{'trechoMusic':_0x4ebd22(0x22b),'resposta':_0x4ebd22(0x21f),'artista':_0x4ebd22(0x1f0),'dica':'Uma\x20mensagem\x20de\x20renovação,\x20onde\x20após\x20a\x20tempestade,\x20o\x20sol\x20se\x20revela.'},{'trechoMusic':_0x4ebd22(0x26d),'resposta':'AMOR\x20PRA\x20RECOMEÇAR','artista':_0x4ebd22(0x1c3),'dica':_0x4ebd22(0x159)},{'trechoMusic':'“Você\x20não\x20quis\x20tentar\x0aE\x20agora\x20quer\x20voltar,\x20quer\x20voltar”','resposta':_0x4ebd22(0x1c0),'artista':'Roupa\x20Nova','dica':_0x4ebd22(0x1bd)},{'trechoMusic':_0x4ebd22(0x256),'resposta':_0x4ebd22(0x284),'artista':_0x4ebd22(0x20f),'dica':_0x4ebd22(0x2a8)},{'trechoMusic':_0x4ebd22(0x17f),'resposta':_0x4ebd22(0x160),'artista':_0x4ebd22(0x1f7),'dica':_0x4ebd22(0x235)},{'trechoMusic':'“Passei\x20de\x20nave\x20e\x20ela\x20me\x20viu\x0aNa\x20rua\x20da\x20Água\x20portando\x20fuzil\x0aMe\x20mama\x20num\x20beco\x20um\x20pouco\x20distante\x0aMe\x20satisfaz,\x20\x27to\x20na\x20onda\x20do\x20kunk”','resposta':_0x4ebd22(0x1f1),'artista':'Mc\x20Ws\x20da\x20leste,\x20DJ\x20CHADIN\x20DO\x20C,\x20MC\x20Cothiê','dica':_0x4ebd22(0x2a2)},{'trechoMusic':_0x4ebd22(0x294),'resposta':_0x4ebd22(0x1b3),'artista':_0x4ebd22(0x261),'dica':_0x4ebd22(0x281)},{'trechoMusic':'“Você\x20é\x20tão\x20linda,\x20no\x20baile\x20eu\x20te\x20vi\x20passar\x0aParando\x20tudo\x20com\x20essa\x20marra\x20no\x20olhar\x0aDiz\x20que\x20cansou\x20dos\x20playboy\x20com\x20marra\x20de\x20brabo\x0aSe\x20eu\x20te\x20beijar,\x20hoje\x20eu\x20dou\x20dois\x20tiro\x27\x20pro\x20alto”','resposta':_0x4ebd22(0x1cc),'artista':_0x4ebd22(0x1da),'dica':_0x4ebd22(0x251)},{'trechoMusic':_0x4ebd22(0x178),'resposta':'CHICO','artista':_0x4ebd22(0x250),'dica':_0x4ebd22(0x251)},{'trechoMusic':'“Você\x20mente\x20tão\x20mal,\x20finge\x20tão\x20mal\x0a\x27Tá\x20na\x20sua\x20cara,\x20você\x20não\x20me\x20esqueceu\x0aMente\x20tão\x20mal,\x20finge\x20tão\x20mal\x0a\x27Tá\x20na\x20(tua)\x20sua\x20cara,\x20você\x20não\x20me\x20esqueceu”','resposta':_0x4ebd22(0x1ff),'artista':'Baco\x20Exu\x20do\x20Blues\x20e\x20Luísa\x20Sonza','dica':_0x4ebd22(0x1a0)}];
+const fs = require('fs')
+
+exports.palavrasANA = [
+{
+original: 'PARADOXO',
+embaralhada: 'XOPARODA',
+dica: 'CANAL'
+},
+{
+original: 'jefferson',
+embaralhada: 'nosreffej',
+dica: 'Meu Papai ^-^'
+},
+{
+original: 'ESCADA',
+embaralhada: 'CAESDA',
+dica: 'OBJETO'
+},
+{
+original: 'AKAME',
+embaralhada: 'MEAKA',
+dica: 'PERSONAGEM'
+},
+{
+original: 'NAGATORO',
+embaralhada: 'GATONARO',
+dica: 'PERSONAGEM'
+},
+{
+original: 'SASUKE',
+embaralhada: 'KESUSA',
+dica: 'PERSONAGEM'
+},
+{
+original: 'GAY',
+embaralhada: 'YAG',
+dica: 'VOCÊ'
+},
+{
+original: 'CIMENTO',
+embaralhada: 'OMCNITE',
+dica: 'CONSTRUÇÕES'
+},
+{
+original: 'BANANA',
+embaralhada: 'NABANA',
+dica: 'COMIDA'
+},
+{
+original: 'NETFLIX',
+embaralhada: 'TFLIXNE',
+dica: 'APLICATIVO'
+},
+{
+original: 'YOUTUBE',
+embaralhada: 'TUBEYOU',
+dica: 'APLICATIVO'
+},
+{
+original: 'PORTUGAL',
+embaralhada: 'TUGALPOR',
+dica: 'PAÍS'
+},
+{
+original: 'PISTOLA',
+embaralhada: 'TOPISLA',
+dica: 'OBJETO'
+},
+		
+{
+original: 'CAMARÃO',
+embaralhada: 'MARÃOCA',
+dica: 'COMIDA'
+},
+{
+original: 'HIDRANTE',
+embaralhada: 'TEHDIRAN',
+dica: 'OBJETO'
+},
+{
+original: 'FOGUETE',
+embaralhada: 'TEFOGUE',
+dica: 'OBJETO'
+},
+{
+original: 'SKATE',
+embaralhada: 'TEASK',
+dica: 'OBJETO'
+},
+{
+original: 'MACACO',
+embaralhada: 'CACOMA',
+dica: 'ANIMAL'
+},
+{
+original: 'LASANHA',
+embaralhada: 'NHASALA',
+dica: 'COMIDA'
+},
+{
+original: 'PASTEL',
+embaralhada: 'PATELS',
+dica: 'COMIDA'
+},
+{
+original: 'COXINHA',
+embaralhada: 'XICONHA',
+dica: 'COMIDA'
+},
+{
+original: 'BICICLETA',
+embaralhada: 'CIBITACLE',
+dica: 'OBJETO'
+},
+{
+original: 'SASUKE',
+embaralhada: 'ESASUK',
+dica: 'PERSONAGEM'
+},
+{
+original: 'CAVALO',
+embaralhada: 'LACAVO',
+dica: 'ANIMAL'
+},
+{
+original: 'LEVI',
+embaralhada: 'EVIL',
+dica: 'PERSONAGEM'
+},
+{
+original: 'KAMAITACHI',
+embaralhada: 'TAICAMAKHI',
+dica: 'CANTOR'
+},
+{
+original: 'LUBA',
+embaralhada: 'UBAL',
+dica: 'YOUTUBER'
+},
+{
+original: 'GRÊMIO',
+embaralhada: 'OMÊGRI',
+dica: 'TIME'
+},
+{
+original: 'SATURNO',
+embaralhada: 'UTARSON',
+dica: 'PLANETA'
+},
+{
+original: 'MIKASA',
+embaralhada: 'KAMISA',
+dica: 'PERSONAGEM'
+},
+{
+original: 'LEÃO',
+embaralhada: 'OLEÃ',
+dica: 'ANIMAL'
+},
+{
+original: 'SAKURA',
+embaralhada: 'SUKARA',
+dica: 'PERSONAGEM'
+},
+{
+original: 'HADES',
+embaralhada: 'SEDAH',
+dica: 'MITOLOGIA'
+},
+{
+original: 'CORRIDA',
+embaralhada: 'ARROCID',
+dica: 'ESPORTE'
+},
+{
+original: 'ODIN',
+embaralhada: 'NODI',
+dica: 'MITOLOGIA'
+},
+{
+original: 'BICICLETA',
+embaralhada: 'CIBITACLE',
+dica: 'OBJETO'
+},
+{
+original: 'BICICLETA',
+embaralhada: 'CIBITACLE',
+dica: 'OBJETO'
+},
+{
+original: 'GUATEMALA',
+embaralhada: 'LATEMAGUA',
+dica: 'PAÍS'
+},
+{
+original: 'CEREJA',
+embaralhada: 'ECREJA',
+dica: 'FRUTA'
+},
+{
+original: 'VENEZUELA',
+embaralhada: 'ZUNEEVELA',
+dica: 'PAÍS'
+},
+{
+original: 'HISTÓRIA',
+embaralhada: 'TÓRISIAH',
+dica: 'MATÉRIA'
+},
+{
+original: 'INSTAGRAM',
+embaralhada: 'TAGRAMINS',
+dica: 'APLICATIVO'
+},
+{
+original: 'WHATSAPP',
+embaralhada: 'TSWHAAPP',
+dica: 'APLICATIVO'
+},
+{
+original: 'HIDRANTE',
+embaralhada: 'TEHDIRAN',
+dica: 'OBJETO'
+},
+{
+original: 'CELULAR',
+embaralhada: 'CELARLU',
+dica: 'OBJETO'
+},
+{
+original: 'NOTEBOOK',
+embaralhada: 'TENOBOOK',
+dica: 'OBJETO'
+},
+{
+original: 'COMPUTADOR',
+embaralhada: 'PUCOMDORTA',
+dica: 'OBJETO'
+},
+{
+original: 'LANTERNA',
+embaralhada: 'TERLANNA',
+dica: 'OBJETO'
+},
+{
+original: 'CACHORRO',
+embaralhada: 'HRROAOCC',
+dica: 'ANIMAL'
+},
+{
+original: 'DESENTUPIDOR',
+embaralhada: 'SENDETUDORPI',
+dica: 'OBJETO'
+},
+{
+original: 'TOMATE',
+embaralhada: 'ATEMOT',
+dica: 'ALIMENTO'
+},
+{
+original: 'SAXOFONE',
+embaralhada: 'ASXOEOFN',
+dica: 'INSTRUMENTO MUSICAL'
+},
+{
+original: 'CAZAQUISTÃO',
+embaralhada: 'ZAACQIUSÃOT',
+dica: 'PAÍS'
+},
+{
+original: 'CROÁCIA',
+embaralhada: 'CRCÁOAI',
+dica: 'PAÍS'
+},
+{
+original: 'HUNGRIA',
+embaralhada: 'UHGINRA',
+dica: 'PAÍS'
+},
+{
+original: 'MEGAFONE',
+embaralhada: 'MOEFGNEA',
+dica: 'OBJETO'
+},
+{
+original: 'CINTURA',
+embaralhada: 'RCIANUT',
+dica: 'CORPO HUMANO'
+},
+{
+original: 'ABDÔMEN',
+embaralhada: 'MBÔDENA',
+dica: 'CORPO HUMANO'
+},
+{
+original: 'XBOT',
+embaralhada: 'BXOT',
+dica: 'Filho do Jeff ^-^'
+},
+{
+original: 'VAGNER',
+embaralhada: 'GNEVAR',
+dica: 'NOME'
+},
+{
+original: 'ALEATORY',
+embaralhada: 'YRTALOEA',
+dica: 'NOME'
+},
+{  
+original: 'CAFIN',
+embaralhada: 'NFCIA',
+dica: 'TIPO DE GAY'
+},
+{    
+original: 'KONEKO',
+embaralhada: 'NOEKKO',
+dica: 'NOME'
+},
+{
+original: 'RAPOSA',
+embaralhada: 'APRSAO',
+dica: 'ANIMAL'
+},
+{
+original: 'INFERNO',
+embaralhada: 'RNOFNIE',
+dica: 'LUGAR'
+},
+{   
+original: 'RINOCERONTE',
+embaralhada: 'NTERRECNIOO',
+dica: 'ANIMAL'
+},
+{ 
+original: 'PASTOR',
+embaralhada: 'STRPAO',
+dica: 'BATIZADO'
+},
+{
+original: 'BONITO',
+embaralhada: 'NTBIOO',
+dica: 'COMENTÁRIO'
+},
+{       
+original: 'TANGERINA',
+embaralhada: 'RITAANGNE',
+dica: 'ALIMENTO'
+}
+]	
+
+
+exports.showdomilhao = [
+{
+original: 'AMEIXA',
+foto: 'https://telegra.ph/file/84928021bd4e6dfe8ff8c.jpg'
+}, 
+{
+original: '100',
+foto: 'https://telegra.ph/file/1530a82843034f1ede5d5.jpg'
+}
+]	
+
+exports.quizanimais = [
+{
+original: 'PORQUINHO DA ÍNDIA',
+foto: 'https://telegra.ph/file/617e247a4fbb63d299198.jpg'
+},
+{
+original: 'HAMSTER',
+foto: 'https://telegra.ph/file/a478979f342ac1746a645.jpg'
+},
+{
+original: 'ROTTWEILER',
+foto: 'https://telegra.ph/file/a10ad7df6ab6a2312a1f9.jpg'
+},
+{
+original: 'FLOPPA',
+foto: 'https://telegra.ph/file/7633abcd83b8a587f418d.jpg'
+},
+{
+original: 'GUAXINIM',
+foto: 'https://telegra.ph/file/3800c7048d04a1c3dbc4e.jpg'
+},
+{
+original: 'ZEBRA',
+foto: 'https://telegra.ph/file/a08e224344e34aa916972.jpg'
+},
+{
+original: 'CARNEIRO',
+foto: 'https://telegra.ph/file/096342c8c7815ba9d83be.jpg'
+},
+{
+original: 'BODE',
+foto: 'https://telegra.ph/file/ff574a82178089f453444.jpg'
+},
+{
+original: 'MAMUTE',
+foto: 'https://telegra.ph/file/00e445dde6c036a0c0df5.jpg'
+},
+{
+original: 'ALPACA',
+foto: 'https://telegra.ph/file/a201b23b179392f1cdd7f.jpg'
+},
+{
+original: 'PORCO ESPINHO',
+foto: 'https://telegra.ph/file/7b180efc77c8ab6e9a24a.jpg'
+},
+{
+original: 'QUOKKA',
+foto: 'https://telegra.ph/file/3042e66a22c6d0fb6e0cd.jpg'
+},
+{
+original: 'PANDA VERMELHO',
+foto: 'https://telegra.ph/file/a6517debde47b846073cc.jpg'
+},
+{
+original: 'PEIXE GOTA',
+foto: 'https://telegra.ph/file/e8892204b373c147bf489.jpg'
+},
+{
+original: 'PEIXE MANDARIM',
+foto: 'https://telegra.ph/file/e8892204b373c147bf489.jpg'
+},
+{
+original: 'DRAGÃO DE KOMODO',
+foto: 'https://telegra.ph/file/d4c36b449f4c781533f3c.jpg'
+},
+{
+original: 'LEOPARDO',
+foto: 'https://telegra.ph/file/0016017b9d28a3b6d027a.jpg'
+},
+{
+original: 'FURÃO',
+foto: 'https://telegra.ph/file/e352b4831db11c20a3c62.jpg'
+},
+{
+original: 'LEOPARDO',
+foto: 'https://telegra.ph/file/71f5f532ced0fddc08f5b.jpg'
+},
+{
+original: 'LEBRE',
+foto: 'https://telegra.ph/file/89f9a46ce660261279477.jpg'
+},
+{
+original: 'MARRECO',
+foto: 'https://telegra.ph/file/aa41bde6c4c350ec9d0d4.jpg'
+},
+{
+original: 'GANSO',
+foto: 'https://telegra.ph/file/9ab69884414feefc9c109.jpg'
+},
+{
+original: 'CAVALO MARINHO',
+foto: 'https://telegra.ph/file/e4cee57d5b731dfffa5d8.jpg'
+},
+{
+original: 'CROCODILO',
+foto: 'https://telegra.ph/file/b4483f9a7077fd29a137f.jpg'
+},
+{
+original: 'ORNITORRINCO',
+foto: 'https://telegra.ph/file/8ffdd62da1834433112be.jpg'
+},
+{
+original: 'HUSKY SIBERIANO',
+foto: 'https://telegra.ph/file/07b98023259637951ba8f.jpg'
+},
+{
+original: 'CAPIVARA',
+foto: 'https://telegra.ph/file/54f20cbd80737fe45a284.jpg'
+}
+]
+
+exports.enigmaArchive = [
+{
+numero: "ENIGMA 1",
+respostaEne: "O FÓSFORO",
+charada: "Imagine que você está em uma sala escura ao lado de Sherlock. Nela há um fósforo, uma lâmpada de querosene, uma vela e uma lareira. O que você acenderia primeiro?"
+},
+{
+numero: "ENIGMA 2",
+respostaEne: "SEGREDO",
+charada: "O detetive Sherlock encontrou um bilhete que faz parte de uma pista de um mistério que precisa ser solucionado. “Se você me tem, quer me compartilhar; se você não me compartilha, você me manteve. O que eu sou?”"
+},
+{
+numero: "ENIGMA 3",
+respostaEne: "NENHUM",
+charada: "Watson e Sherlock adoram brincar com enigmas para treinar o método científico. Ajude-os a encontrar a resposta desse enigma: um macaco, um esquilo e um pássaro estão correndo para o topo de um coqueiro. Quem pegará a banana primeiro, o macaco, o esquilo ou o pássaro?"
+},
+{
+numero: "ENIGMA 4",
+respostaEne: "ECO",
+charada: "Eu falo, mas não tenho boca. Eu ouço, mas não tenho ouvidos. Não tenho corpo, mas vivo com o vento. Quem sou eu?"
+},
+{
+numero: "ENIGMA 5",
+respostaEne: "IDADE",
+charada: "Eu sou algo que as pessoas amam ou odeiam. Eu mudo tanto a aparência das pessoas quanto seus pensamentos. Se uma pessoa cuida de si mesma, eu subo ainda mais. Eu engano algumas pessoas. E para outras, sou um verdadeiro mistério. Algumas pessoas bem que tentam me esconder, mas uma hora, inevitavelmente, eu apareço. Não importa o que as pessoas tentem, eu jamais cairei. Quem sou eu?"
+},
+{
+numero: "ENIGMA 6",
+respostaEne: "SOMBRA",
+charada: "Tenho apenas uma cor, mas posso ter vários tamanhos. Estou presente quando faz sol. Na chuva, jamais! Passo todo o tempo no chão, mas nunca fico sujo. Não faço mal algum e não posso sentir dor. Quem sou eu?"
+},
+{
+numero: "ENIGMA 7",
+respostaEne: "12 ANOS",
+charada: "Perguntaram para Maria quantos anos ela tem. Maria respondeu que em dois anos terá o dobro da idade que ela tinha há cinco anos. Quantos anos Maria tem?"
+},
+{
+numero: "ENIGMA 8",
+respostaEne: "ESCURIDÃO",
+charada: "Quanto mais houver de mim, menos você verá. Quem sou eu?"
+},
+{
+numero: "ENIGMA 9",
+respostaEne: "ESPONJA",
+charada: "Sou cheio de buracos, mas ainda assim consigo reter muita água. Quem sou eu?"
+},
+{
+numero: "ENIGMA 9",
+respostaEne: "COTOVELO DIREITO",
+charada: "O que você pode segurar com a sua mão esquerda, mas jamais com a direita?"
+},
+{
+numero: "ENIGMA 10",
+respostaEne: "ÂNCORA",
+charada: "Quando precisa de mim, você me atira para longe, até um lugar onde ninguém pode me ver. Mas quando já não precisa mais, você me traz de volta. Quem sou eu?"
+},
+{
+numero: "ENIGMA 11",
+respostaEne: "AS PALAVRAS",
+charada: "Nós podemos machucar sem fazer um único movimento. Podemos envenenar sem tocar. Carregamos a verdade e a mentira. E não devemos ser julgadas pelo nosso tamanho Quem somos nós?"
+},
+{
+numero: "ENIGMA 12",
+respostaEne: "UMA TESOURA",
+charada: "Ponha os dedos nos meus olhos que eu abrirei as minhas potentes mandíbulas. E vou devorar tudo o que vier pela frente: roupas, penas, papéis. Quem sou eu?"
+},
+{
+numero: "ENIGMA 13",
+respostaEne: "ALFABETO",
+charada: "Eu posso guardar tudo dentro de mim. Tudo o que você pode imaginar: o vento, as florestas, o mundo, o universo e até Deus. Tudo o que vier à sua cabeça você pode encontrar dentro de mim. Quem sou eu?"
+},
+{
+numero: "ENIGMA 14",
+respostaEne: "DINHEIRO FALSO",
+charada: "Quem me faz não diz que faz. Quem me tem não sabe que tem. E quem sabe não me quer ter de jeito nenhum. Quem sou eu?"
+},
+{
+numero: "ENIGMA 15",
+respostaEne: "ESCURIDÃO",
+charada: "Quanto mais houver de mim, menos você verá. Quem sou eu?"
+},
+{
+numero: "ENIGMA 16",
+respostaEne: "A CONFIANÇA",
+charada: "O que pode ser quebrada, mas nunca segurada?"
+},
+{
+numero: "ENIGMA 17",
+respostaEne: "OPÇÃO",
+charada: "Se há três, você tem três. Se há duas, você tem duas. Mas se há uma, você não tem nenhuma. O que é?"
+},
+{
+numero: "ENIGMA 18",
+respostaEne: "O PADRE",
+charada: "Já casei muitas vezes, mas estou sempre solteiro. Quem sou eu?"
+},
+{
+numero: "ENIGMA 19",
+respostaEne: "JOÃO",
+charada: "A mãe do João teve cinco filhos. O primeiro se chamava Dadá, o segundo Dedé, o terceiro, Didi, e o quarto, Dodó. Como se chamava o quinto filho?"
+},
+{
+numero: "ENIGMA 20",
+respostaEne: "O CAIXÃO",
+charada: "O que é, o que é: quem faz não quer, quem compra não usa e quem usa não fica sabendo?"
+}
+]
+
+exports.garticArchives = [
+{
+pergunta: 'Aplicativo',
+imagem: 'https://telegra.ph/file/dfa10e1cd64bfd575b26a.jpg',
+letra_inicial: 'N',
+contem_traços: '❌️️',
+resposta: 'NETFLIX'
+},
+{
+pergunta: 'Aplicativo',
+imagem: 'https://telegra.ph/file/070fbfa1cccd65681f3fa.jpg',
+letra_inicial: 'F',
+contem_traços: '❌️️',
+resposta: 'FACEBOOK'
+},
+{
+pergunta: 'Desenho',
+imagem: 'https://telegra.ph/file/1e344b9cde13d5a6c6095.jpg',
+letra_inicial: 'TO',
+contem_traços: '❌️️',
+resposta: 'TOM E JERRY'
+},
+{
+pergunta: 'Objeto',
+imagem: 'https://telegra.ph/file/af0e70ea5a92cbfc71f43.jpg',
+letra_inicial: 'GU',
+contem_traços: '✅️️️',
+resposta: 'GUARDA-CHUVA'
+},
+{
+pergunta: 'Profissão',
+imagem: 'https://telegra.ph/file/cbea80472e3d2624676a6.jpg',
+letra_inicial: 'J',
+contem_traços: '❌️️️️',
+resposta: 'JUIZ'
+},
+{
+pergunta: 'Aplicativo',
+imagem: 'https://telegra.ph/file/b5a9a0de5e222b5084a8a.jpg',
+letra_inicial: 'SN',
+contem_traços: '❌️️',
+resposta: 'SNAPCHAT'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/5721a0cde0166bee675e5.jpg',
+letra_inicial: 'E',
+contem_traços: '❌️️',
+resposta: 'ESPANHA'
+},
+{
+pergunta: 'Objeto',
+imagem: 'https://telegra.ph/file/bdb05184d2d6f5a7d1ecf.jpg',
+letra_inicial: 'D',
+contem_traços: '❌️️',
+resposta: 'DARDOS'
+},
+{
+pergunta: 'Objeto',
+imagem: 'https://telegra.ph/file/317913121ec9ca6aae71b.jpg',
+letra_inicial: 'D',
+contem_traços: '❌️️',
+resposta: 'DOMINÓ'
+},
+{
+pergunta: 'Objeto',
+imagem: 'https://telegra.ph/file/63eca8c97ed165bfecfe5.jpg',
+letra_inicial: 'C',
+contem_traços: '❌️️',
+resposta: 'CANADÁ'
+},
+{
+pergunta: 'Jogos',
+imagem: 'https://telegra.ph/file/68ea5f4b182ae4c501a32.jpg',
+letra_inicial: 'X',
+contem_traços: '❌️️',
+resposta: 'XADREZ'
+},
+{
+pergunta: 'Filme',
+imagem: 'https://telegra.ph/file/a29ac8b0638d9e23bdab0.jpg',
+letra_inicial: 'A',
+contem_traços: '❌️️',
+resposta: 'A ORIGEM'
+},
+{
+pergunta: 'Filme',
+imagem: 'https://telegra.ph/file/b3e2aaca939ed0cdf7a73.jpg',
+letra_inicial: 'OS',
+contem_traços: '❌️️',
+resposta: 'OS SETE SAMURAIS'
+},
+{
+pergunta: 'Filme',
+imagem: 'https://telegra.ph/file/ab11fa68eda5abe19562b.jpg',
+letra_inicial: 'SE',
+contem_traços: '❌️️',
+resposta: 'SENHOR DOS ANÉIS'
+},
+{
+pergunta: 'Filme',
+imagem: 'https://telegra.ph/file/de030e592fecdc2cf0d20.jpg',
+letra_inicial: 'JU',
+contem_traços: '❌️️',
+resposta: 'JUMANJI'
+},
+{
+pergunta: 'Filme',
+imagem: 'https://telegra.ph/file/aafcb73c2dd10aef1bd47.jpg',
+letra_inicial: 'S',
+contem_traços: '❌️️',
+resposta: 'SONIC'
+},
+{
+pergunta: 'Série',
+imagem: 'https://telegra.ph/file/e0c905d9630bf9d36df77.jpg',
+letra_inicial: 'TH',
+contem_traços: '❌️️',
+resposta: 'THE WALKING DEAD'
+},
+{
+pergunta: 'Desenho',
+imagem: 'https://telegra.ph/file/d30cac0c8bb2159d38192.jpg',
+letra_inicial: 'SI',
+contem_traços: '❌️️',
+resposta: 'SIMPSONS'
+},
+{
+pergunta: 'Série',
+imagem: 'https://telegra.ph/file/c2a993a353fcca61242e4.jpg',
+letra_inicial: 'ST',
+contem_traços: '❌️️',
+resposta: 'STRANGER THINGS'
+},
+{
+pergunta: 'Série',
+imagem: 'https://telegra.ph/file/fac611a1d9e2c2fc14957.jpg',
+letra_inicial: 'PE',
+contem_traços: '❌️️',
+resposta: 'PEAKY BLINDERS'
+},
+{
+pergunta: 'Série - Documentário',
+imagem: 'https://telegra.ph/file/ecd17a4b75e4541bd20b8.jpg',
+letra_inicial: 'CH',
+contem_traços: '❌️️',
+resposta: 'CHERNOBYL'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/05164ea8e02880f74010b.jpg',
+letra_inicial: 'C',
+contem_traços: '❌️️',
+resposta: 'CHINA'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/24161e5698f3874c285eb.jpg',
+letra_inicial: 'S',
+contem_traços: '❌️️',
+resposta: 'SUÍÇA'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/0207859d0fcb2c7624f1b.jpg',
+letra_inicial: 'S',
+contem_traços: '❌️️',
+resposta: 'COREIA DO SUL'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/4890a8e71a7cc8d3862d0.jpg',
+letra_inicial: 'AR',
+contem_traços: '❌️️',
+resposta: 'ARGENTINA'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/dfb6e013f52a018032625.jpg',
+letra_inicial: 'P',
+contem_traços: '❌️️',
+resposta: 'PORTUGAL'
+},
+{
+pergunta: 'Países',
+imagem: 'https://telegra.ph/file/8d238d4ffa865dd7009a7.jpg',
+letra_inicial: 'F',
+contem_traços: '❌️️',
+resposta: 'FRANÇA'
+}
+]
+
+exports.whatMusicAr = [
+  {
+    trechoMusic: "“Ela, ela tem piercing no seio\nDe onde 'cê veio? 'To interessado\n'Cê bebe, 'cê fuma, 'cê transa\nTudo isso sua amiga contou\nNão fumo, não bebo, só transo\nQuer desafiar, é só vir, amor”",
+    resposta: "NOVIDADE NA ÁREA",
+    artista: "MC Livinho",
+    dica: "Alcança topo do Spotify com funk lento e dançante no mês de Julho."
+  },
+  {
+    trechoMusic: "“fumando um fino de canto\neu e meus manos”",
+    resposta: "NOVO BALANÇO",
+    artista: "veigh",
+    dica: "Trap, se nao souber vc tem +80 anos kkkk"
+   },
+  {
+    trechoMusic: "“Papai, solicito socorro, me instrua\nMe tire dessa rua escura\nFui dominado pela droga, desisti do ensino\nVeio o apocalipse sombrear o meu caminho\nDesde o início, eu já sonhava em conquistar um cargo\nCurrículo no artigo 12 'tava pegando mais fácil\nAbandonei a linha e o pipa pelo motor da Hornet\nFoi na porta do banco, o artigo 157”",
+    resposta: "CRACOLÂNDIA",
+    artista: "MC Ryan SP, MC Hariel, Alok, MC Davi, Salvador da Rima",
+    dica: "Faz alusão à famosa rua do centro de São Paulo onde o comércio ilegal divide espaço com usuários de drogas."
+  },
+  {
+    trechoMusic: "“Teto espelhado, cama redonda, faz o movimento\nQuarto gelado, fogo na bomba, fumaça no vento\nDe frente, de lado, por cima, por baixo, gemendo baixinho\nCom amor e com carinho”",
+    resposta: "FAZ UM VUK VUK",
+    artista: "Mc Kevin o Chris (part. DJ NK da Serra)",
+    dica: "Música do TikTok"
+  },
+  {
+    trechoMusic: "“Cross my heart, hope to die\nTo my lover, I'd never lie\nHe said, be true, I swear I'll try\nIn the end, it's him and I”",
+    resposta: "HIM & I",
+    artista: "G-Easy & Halsey",
+    dica: "É uma canção de amor que mostra a conexão profunda entre dois amantes, que se comparam ao lendário casal criminoso, Bonnie e Clyde."
+  },
+  {
+    trechoMusic: "“And every single year\nI'm drowning in my tears, I'm drowning in my tears again\nI can't seem to forget the pain I seem to give\nThe pain I seem to give, my friend\nAnd every single year\nI'm drowning in my tears, I'm drowning in my tears again\nI can't seem to forget the pain I seem to give\nThe pain I seem to give, my friend”",
+    resposta: "NUMB",
+    artista: "XXXTENTACION",
+    dica: "A música que reflete emoções profundas, transmitindo a sensação de entorpecimento emocional e desconexão."
+  },
+  {
+    trechoMusic: "“You were the shadow to my light\nDid you feel us?\nAnother star, you fade away\nAfraid our aim is out of sight”",
+    resposta: "FADED",
+    artista: "Alan Walker",
+    dica: "Marcada pela voz cativante de Iselin Solheim. Lançada em 2015, tornou-se um grande sucesso internacional, conquistando milhões de ouvintes com sua melodia envolvente e letras emocionais."
+  },
+  {
+    trechoMusic: "“Just shoot for the stars\nIf it feels right, then aim for my heart”",
+    resposta: "LEVITATING",
+    artista: "Dua Lipa",
+    dica: "Uma jornada estelar com uma sensação pop irresistível."
+   },
+   {
+    trechoMusic: "“Now, the day bleeds into nightfall\nAnd you're not here to get me through it all”",
+    resposta: "SOMEONE YOU LOVED",
+    artista: "Lewis Capaldi",
+    dica: "Um mergulho profundo na emoção da saudade e solidão."
+   },
+   {
+    trechoMusic: "“Don't show up, don't come out\nDon't start caring about me now”",
+    resposta: "DON'T START NOW",
+    artista: "Dua Lipa",
+    dica: "Um convite a não se mostrar, não aparecer, e não começar a se importar."
+   },
+   {
+    trechoMusic: "“I'm off the deep end, watch as I dive in\nI'll never meet the ground”",
+    resposta: "SHALLOW",
+    artista: "Lady Gaga, Bradley Cooper",
+    dica: "Uma colaboração profunda, onde mergulhar no desconhecido é a única opção."
+   },
+   {
+    trechoMusic: "“I'm a sucker for you\nYou say the word and I'll go anywhere blindly”",
+    resposta: "SUCKER",
+    artista: "Jonas Brothers",
+    dica: "Ser cativado pelo pop dos Jonas Brothers, embarcando em uma jornada sem hesitação."
+   },
+   {
+    trechoMusic: "“Quando a chuva passar, quando o tempo abrir\nAbra a janela e veja eu sou o sol”",
+    resposta: "QUANDO A CHUVA PASSAR",
+    artista: "Ivete Sangalo",
+    dica: "Uma mensagem de renovação, onde após a tempestade, o sol se revela."
+   },
+   {
+    trechoMusic: "“Tudo bem\nÉ só isso, não tem mais jeito\nAcabou, boa sorte”",
+    resposta: "AMOR PRA RECOMEÇAR",
+    artista: "Frejat",
+    dica: "A resignação diante do inevitável, desejando boa sorte para o próximo capítulo."
+   },
+   {
+    trechoMusic: "“Você não quis tentar\nE agora quer voltar, quer voltar”",
+    resposta: "VAI VOLTAR",
+    artista: "Roupa Nova",
+    dica: "Uma história de idas e vindas, onde o retorno é ansiado, mas não garantido."
+   },
+   {
+    trechoMusic: "“Eu quero ser pra você\nA alegria de uma chegada”",
+    resposta: "CERTAS COISAS",
+    artista: "Lulu Santos",
+    dica: "Explorando o significado de ser a felicidade ao se encontrar."
+   },
+   {
+    trechoMusic: "“Ela é meu amor, só me vê a mim\nA mim que vivi para encontrar\nNa luz do seu olhar\nA paz que sonhei”",
+    resposta: "ELA É CARIOCA",
+    artista: "Tom Jobim",
+    dica: "Uma homenagem à beleza da mulher carioca, com ritmo contagiante."
+   },
+   {
+    trechoMusic: "“Passei de nave e ela me viu\nNa rua da Água portando fuzil\nMe mama num beco um pouco distante\nMe satisfaz, 'to na onda do kunk”",
+    resposta: "TIPO HOLLYWOOD",
+    artista: "Mc Ws da leste, DJ CHADIN DO C, MC Cothiê",
+    dica: "Faz sucesso entre os jovens no tiktok, lançada em ano de 2023."
+   },
+   {
+    trechoMusic: "“Bola aê, brisa aê, que hoje a noite é de prazer\nFaz o que quiser fazer, pode até subir e descer\nNo papin, faz assim, vem ni-vem ni-vem ni mim\nQue-que hoje eu tô facin, tô fa-tô fa-tô facin”",
+    resposta: "TÁ OK",
+    artista: "Dennis DJ, Mc Kevin o Chris",
+    dica: "Tá muito fácil, em que mundo você está para não saber?"
+   },
+   {
+    trechoMusic: "“Você é tão linda, no baile eu te vi passar\nParando tudo com essa marra no olhar\nDiz que cansou dos playboy com marra de brabo\nSe eu te beijar, hoje eu dou dois tiro' pro alto”",
+    resposta: "POESIA ACÚSTICA 13",
+    artista: "MC Cabelinho, Luísa Sonza, Oruam, Tz da Coronel, Chefin, L7nnon, Xamã, Chris MC, …",
+    dica: "Gravada a 1 ano atrás, a nova edição da série de rap acústico também conta com 13 artistas."
+   },
+   {
+    trechoMusic: "“Diziam pra mim\nQue essa moda passou\nQue monogamia é papo de doido\nMas pra mim é uma honra\nSer uma cafona\nPra esse povo”",
+    resposta: "CHICO",
+    artista: "Luísa Sonza",
+    dica: "Gravada a 1 ano atrás, a nova edição da série de rap acústico também conta com 13 artistas."
+   },
+   {
+    trechoMusic: "“Você mente tão mal, finge tão mal\n'Tá na sua cara, você não me esqueceu\nMente tão mal, finge tão mal\n'Tá na (tua) sua cara, você não me esqueceu”",
+    resposta: "HOTEL CARO",
+    artista: "Baco Exu do Blues e Luísa Sonza",
+    dica: "A canção fala sobre o fim de um relacionamento amoroso e os sentimentos que envolvem este momento."
+   }  
+]

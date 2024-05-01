@@ -3,7 +3,12 @@ return `
 
     === COMO PERSONALIZAR O BOT PARA SER O DONO ===
     
-    Primeiramente, ative o bot no termux ou onde for e vá para o WhatsApp do bot em uma conversa privada. Utilize os seguintes comandos:
+    vai nos arquivos do bot se instalou usando o tutorial vai no seu gerenciador de arquivos do seu celular caso nao tenha recomendo o zarchive (tem na play Store)
+    
+   Depois entre na pasta do bot deve esta X-bot  depois entre na pasta DADOS e abre o arquivo chamado settings.json e muda do jeito esta explicando la, dentro do " " 
+    
+    
+        COMANDOS DE DONO DEPOIS QUE JA TIVER MUDADO O NÚMERO DE DONO IGUAL EXPLIQUEI ACIMA
     
     --- Para alterar o nome do bot ---
     !nome-bot <Nome desejado>
@@ -25,6 +30,11 @@ return `
     --- TROCAR FOTO DO MENU ---
     !fotomenu
     Apenas marque a foto que queres que seja do menu, com o comando.
+    
+    -- TROCAR A FOTO DO MENU PUXADAS     
+    !fundopuxadas  
+     
+    Apenas marque a foto que queres que seja do menu puxadas, com o comando.
     
     Boa sorte.
 `
