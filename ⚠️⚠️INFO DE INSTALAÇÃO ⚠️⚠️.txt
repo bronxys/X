@@ -44,7 +44,7 @@ INFORMAÇÃO: 🗣️
 
 1_ COMANDO :
 
-cd /sdcard && git clone https://github.com/Jeffersonddos/X-bot.git && cd X-bot && sh start.sh 
+cd /sdcard && git clone https://github.com/bronxys/X.git && cd X && sh start.sh 
 
 🗣️VAI PEDIR PRA POR UM NUMERO, COLOQUE O NÚMERO QUE VOCE QUER POR O BOT SO COPIA DO WHATSAPP E COLA E DA ENTER, COM ESPAÇO E TUDO.
 
@@ -53,7 +53,7 @@ COLE EXATAMENTE DESSA FÓRMA E JUNTO ASSIM..
 
 Caso desconecte o bot, ou fechou o termux sem querer, de o comando para ligar. 
 
-cd /sdcard/X-bot && sh start.sh
+cd /sdcard/X && sh start.sh
 
 
  FIM
