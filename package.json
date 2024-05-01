@@ -1,13 +1,13 @@
 {
   "name": "X-bot",
   "version": "3.8.0",
-  "description": "X-bot e um bot feito pelo @jefferson usando a base do aleatory",
+  "description": "X-bot e um Bot feito pelo @jefferson usando a base do aleatory",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-      "@adiwajshing/baileys": "github:WhiskeySockets/baileys",
+    "@adiwajshing/baileys": "github:WhiskeySockets/baileys",
     "abab": "^2.0.6",
     "abort-controller": "^3.0.0",
     "acorn": "^8.11.2",
