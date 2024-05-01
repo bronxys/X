@@ -1,1 +1,91 @@
-function _0x57f0(_0x169fa4,_0x4d60b3){const _0x312dda=_0x312d();return _0x57f0=function(_0x57f0ad,_0x58344e){_0x57f0ad=_0x57f0ad-0x1ea;let _0x486ff6=_0x312dda[_0x57f0ad];return _0x486ff6;},_0x57f0(_0x169fa4,_0x4d60b3);}function _0x312d(){const _0x5d3ba2=['474185UhHdYb','push','1415322EGpsxU','splice','78jEisdc','./database/user/banned.json','exports','5490564jnTjmF','PERMANENT','log','keys','6525393kbchKD','expired','stringify','638982CMvMoJ','14840712oqjpkc','8mcRlUE','832527LvZQKW','now','forEach'];_0x312d=function(){return _0x5d3ba2;};return _0x312d();}const _0x4ed919=_0x57f0;(function(_0x13d73a,_0x565e0d){const _0xbab8c4=_0x57f0,_0x9d8af7=_0x13d73a();while(!![]){try{const _0x3264e2=parseInt(_0xbab8c4(0x1ef))/0x1+parseInt(_0xbab8c4(0x1ec))/0x2+-parseInt(_0xbab8c4(0x1f4))/0x3+parseInt(_0xbab8c4(0x1f9))/0x4+-parseInt(_0xbab8c4(0x1f2))/0x5*(-parseInt(_0xbab8c4(0x1f6))/0x6)+-parseInt(_0xbab8c4(0x1fd))/0x7+-parseInt(_0xbab8c4(0x1ee))/0x8*(parseInt(_0xbab8c4(0x1ed))/0x9);if(_0x3264e2===_0x565e0d)break;else _0x9d8af7['push'](_0x9d8af7['shift']());}catch(_0x4e64ab){_0x9d8af7['push'](_0x9d8af7['shift']());}}}(_0x312d,0xac057));const fs=require('fs'),toMs=require('ms'),addBanned=(_0x483a2,_0x48727a,_0x3e18ae)=>{const _0x325b7b=_0x57f0;let _0x130b14=![];_0x48727a===undefined?_0x48727a=_0x325b7b(0x1fa):_0x48727a=_0x48727a;let _0x201c83='PERMANENT';_0x48727a==='PERMANENT'?_0x201c83=_0x325b7b(0x1fa):_0x201c83=Date[_0x325b7b(0x1f0)]()+toMs(_0x48727a);const _0x598d34={'id':_0x483a2,'expired':_0x201c83};_0x3e18ae[_0x325b7b(0x1f3)](_0x598d34),fs['writeFileSync'](_0x325b7b(0x1f7),JSON[_0x325b7b(0x1eb)](_0x3e18ae));},unBanned=(_0x263946,_0x371316)=>{const _0x5f1a91=_0x57f0;let _0x3b679d=null;return Object['keys'](_0x371316)[_0x5f1a91(0x1f1)](_0x57eaac=>{_0x371316[_0x57eaac]['id']===_0x263946&&(_0x3b679d=_0x57eaac);}),_0x3b679d!==null&&(_0x371316[_0x5f1a91(0x1f5)](_0x3b679d,0x1),fs['writeFileSync']('./database/user/banned.json',JSON[_0x5f1a91(0x1eb)](_0x371316))),!![];},BannedExpired=_0x4d0fac=>{setInterval(()=>{const _0x5da491=_0x57f0;let _0x27c9dc=null;Object[_0x5da491(0x1fc)](_0x4d0fac)['forEach'](_0x68557c=>{const _0x29c01d=_0x5da491;if(_0x4d0fac[_0x68557c][_0x29c01d(0x1ea)]==='PERMANENT')_0x27c9dc=null;else Date[_0x29c01d(0x1f0)]()>=_0x4d0fac[_0x68557c]['expired']&&(_0x27c9dc=_0x68557c);}),_0x27c9dc!==null&&(console[_0x5da491(0x1fb)]('Banned\x20expired:\x20'+_0x4d0fac[_0x27c9dc]['id']),_0x4d0fac[_0x5da491(0x1f5)](_0x27c9dc,0x1),fs['writeFileSync'](_0x5da491(0x1f7),JSON[_0x5da491(0x1eb)](_0x4d0fac)));},0x3e8);},cekBannedUser=(_0x49ae47,_0x3d38b0)=>{const _0x4020ba=_0x57f0;let _0x21e968=![];return Object['keys'](_0x3d38b0)[_0x4020ba(0x1f1)](_0x419417=>{_0x3d38b0[_0x419417]['id']===_0x49ae47&&(_0x21e968=!![]);}),_0x21e968;};module[_0x4ed919(0x1f8)]={'addBanned':addBanned,'unBanned':unBanned,'BannedExpired':BannedExpired,'cekBannedUser':cekBannedUser};
+const fs = require('fs')
+const toMs = require('ms')
+
+/**
+ * Add user to bannedList datauser
+ * @param {String} userId
+ * @param {String} expired
+ * @param {Object} _data
+ */
+ const addBanned = (userId, expired, _data) => {
+    let success = false
+    if (expired === undefined) {
+        expired = 'PERMANENT'
+    } else {
+        expired = expired
+    }
+    
+    let expired_at = 'PERMANENT'
+    
+    if (expired === 'PERMANENT') {
+        expired_at = 'PERMANENT'
+    } else {
+        expired_at = Date.now() + toMs(expired)
+    }
+    
+    const obj = {
+        id: userId,
+        expired: expired_at
+    }
+    
+    _data.push(obj)
+    fs.writeFileSync('./database/user/banned.json', JSON.stringify(_data))
+}
+/**
+ * Unbanned someone.
+ * @param {String} userId 
+ * @param {Object} _dir 
+ * @returns {Number}
+ */
+ const unBanned = (userId, _data) => {
+    let position = null
+    Object.keys(_data).forEach((i) => {
+        if (_data[i].id === userId) {
+            position = i
+        }
+    })
+    if (position !== null) {
+        _data.splice(position, 1)
+        fs.writeFileSync('./database/user/banned.json', JSON.stringify(_data))
+    }
+    return true
+}
+const BannedExpired = (_dir) => {
+    setInterval(() => {
+        let position = null
+        Object.keys(_dir).forEach((i) => {
+            if (_dir[i].expired === 'PERMANENT') {
+                position = null
+            } else if (Date.now() >= _dir[i].expired) {
+                position = i
+            }
+        })
+        if (position !== null) {
+            console.log(`Banned expired: ${_dir[position].id}`)
+            _dir.splice(position, 1)
+            fs.writeFileSync('./database/user/banned.json', JSON.stringify(_dir))
+        }
+    }, 1000)
+}
+/**
+ * Check user is premium.
+ * @param {String} userId 
+ * @param {Object} _dir 
+ * @returns {Boolean}
+ */
+ const cekBannedUser = (userId, _dir) => {
+    let status = false
+    Object.keys(_dir).forEach((i) => {
+        if (_dir[i].id === userId) {
+            status = true
+        }
+    })
+    return status
+}
+
+module.exports = {
+    addBanned,
+    unBanned,
+    BannedExpired,
+    cekBannedUser
+}

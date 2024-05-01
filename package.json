@@ -1,7 +1,7 @@
 {
-  "name": "xbot",
-  "version": "1.0.0",
-  "description": "xbot e um bot feito pelo @jefferson usando a base do aleatory",
+  "name": "X-bot",
+  "version": "3.8.0",
+  "description": "X-bot e um bot feito pelo @jefferson usando a base do aleatory",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -328,7 +328,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "nao esta no git"
+    "url": "https://github.com/Jeffersonddos/X-bot.git"
   },
   "keywords": [
     "BOT"
