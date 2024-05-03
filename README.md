@@ -20,6 +20,9 @@ O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md
 
 ----
 
+📣 Canal no whatsapp para novidades e atualizações
+
+[![Canal no WhatsApp](https://img.shields.io/badge/Canal-No%20WhatsApp-brightgreen)](https://whatsapp.com/channel/0029VaHgX3B2Jl8CKU6nN91Z)
 
 
 # ⚖️ Licença
