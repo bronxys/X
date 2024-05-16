@@ -162,9 +162,32 @@ exports.adms = adms;
 
 const infoaluguel = (prefix, pushname) => {
 return`
-
 Olá ${pushname} Irei explicar como utilizar o comando 
+   
+        MODO ALUGUEL
 
+EXPLICAÇÃO: 
+
+Esse modo aluguel e automático, com pix automático, tempo sair do grupo automático 
+basta configurar seu token do mercado pago no bot para funcionar!
+caso nao saiba configurar o pix automático para poder ultilizar, lojavip, lojaaluguel 
+digite: ${prefix}infopixmp
+
+
+para ativar o modo aluguel 
+
+comando: ${prefix}modoaluguel 1
+
+
+
+___________________________________
+
+      MODO ALUGUEL V2
+      
+
+Para ativar o modo aluguel2
+
+comando: ${prefix}modoaluguel2 1           
 ${prefix}rg_aluguel
 
 O exemplo é: ${prefix}rg_aluguel 01/01|coloca o número do dono aqui
@@ -177,7 +200,7 @@ ${prefix}rm_aluguel iddogrupo
 
 Em iddogrupo você tem que pegar o id do grupo, que está registrado o aluguel, use o comando ${prefix}iddogrupo 
 
-E contem também o comando ${prefix}lista_aluguel que visualiza todos aluguel já registrado... 
+E contem também o comando ${prefix}lista_aluguel2 que visualiza todos aluguel já registrado... 
 
 Lá você pode pegar o id do grupo também, pra tirar do registro kkkk
 
@@ -210,11 +233,21 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│✞͜͡▹ ${prefix}anotacao
 ┏│✞͜͡▹ ${prefix}enquete
 ┏│✞͜͡▹ ${prefix}modopuxadas
+┏│✞͜͡▹ ${prefix}modoaluguel (Pix automático)
+┏│✞͜͡▹ ${prefix}buscarbc (RPG)
+┏│✞͜͡▹ ${prefix}addpix  (RPG)
+┏│✞͜͡▹ ${prefix}setpix (RPG)
+┏│✞͜͡▹ ${prefix}delpix (RPG)
+┏│✞͜͡▹ ${prefix}zerarbc (RPG)
+┏│✞͜͡▹ ${prefix}gerargf (RPG)
+┏│✞͜͡▹ ${prefix}delgf (RPG)
+┏│✞͜͡▹ ${prefix}modoaluguel2
 ┏│✞͜͡▹ ${prefix}listacmdprem
 ┏│✞͜͡▹ ${prefix}addcmdprem
 ┏│✞͜͡▹ ${prefix}delcmdprem
 ┏│✞͜͡▹ ${prefix}apijeff
 ┏│✞͜͡▹ ${prefix}addcase
+┏│✞͜͡▹ ${prefix}delcase
 ┏│✞͜͡▹ ${prefix}antipv (block)
 ┏│✞͜͡▹ ${prefix}antipv2 (flood)
 ┏│✞͜͡▹ ${prefix}antipv3 (ignora)
@@ -501,8 +534,10 @@ return `
 ┏│✞͜͡▹ ${prefix}Meubotcity (Suas informações)
 ┏│✞͜͡▹ ${prefix}Minhacarteira (Informações Bancárias)
 ┏│✞͜͡▹ ${prefix}Rankbotcity (Os 10 mais ricos do Bot City)
-┏│✞͜͡▹ ${prefix}Codelist (Lista de Códigos GiftCards)
+┏│✞͜͡▹ ${prefix}listacodigos (Lista de Códigos GiftCards)
 ┏│✞͜͡▹ ${prefix}Resgatargf (code)
+┏│✞͜͡▹ ${prefix}Trocarbanco
+┏│✞͜͡▹ ${prefix}trocarnome
 ┏│✞͜͡▹ ${prefix}Fazerpix (número/valor)
 ┏│✞͜͡▹ ${prefix}Chavepix (@marcar o usuário)
 ┏│✞͜͡▹ ${prefix}Meupix (Sua chave pix na BotCity)
@@ -511,7 +546,6 @@ return `
 ┏│✞͜͡▹ ${prefix}Assaltar (@marcar)
 ┏│✞͜͡▹ ${prefix}Minerar
 ┏│✞͜͡▹ ${prefix}Retirar (Caso você seja preso pelo comando assaltar)
-┏│✞͜͡▹ ${prefix}Trocarbanco 
 ┃╰══ ✞
 ╰═══════════════════ ✞`
 }
@@ -534,7 +568,7 @@ return `
 ╰══════════┐
 ╭═══════════════════ ┐
 ╰╮ _𝙴𝚜𝚝𝚎 𝚎́ 𝚘 𝙼𝚎𝚗𝚞 𝙴𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚘 𝙿𝚊𝚛𝚊 
-  │𝚞𝚊́𝚛𝚒𝚘𝚜 𝙿𝚛𝚎𝚖𝚒𝚞𝚖_
+  │𝚞sua𝚛𝚒𝚘𝚜 𝙿𝚛𝚎𝚖𝚒𝚞𝚖_
   │ 𝗖𝗼𝗺𝗽𝗿𝗮𝗿:  ${prefix}lojavip
 ╭┤
 ┃╰══ ✞
@@ -914,6 +948,7 @@ return `
 ┏│✞͜͡▹ ${prefix}qc (TEXTO)
 ┏│✞͜͡▹ ${prefix}amongus
 ┏│✞͜͡▹ ${prefix}buscar_sticker
+┏│✞͜͡▹ ${prefix}telegram_figu (link do pack)
 ┏│✞͜͡▹ ${prefix}Fsticker (MARCAR-FOTO)
 ┏│✞͜͡▹ ${prefix}Sticker (MARCAR-FOTO)
 ┏│✞͜͡▹ ${prefix}stickera (QUANTIDADE)
@@ -1126,7 +1161,7 @@ return `
 ╭┤        [🕵️‍♂️]𝗣𝗨𝗫𝗔𝗗𝗔𝗦
 ┃╰══ ✞
 ╰╦══════════════════ ✞
-┏│✞͜͡▹ ${prefix}nome1  
+┏│✞͜͡▹ ${prefix}nome
 ┏│✞͜͡▹ ${prefix}nome2  
 ┏│✞͜͡▹ ${prefix}nome3  
 ┏│✞͜͡▹ ${prefix}nome4
@@ -1177,3 +1212,701 @@ exports.puxadas = puxadas;
 
 
 
+// EDITAR BOTÕES DO MENU PRINCIPAL\\
+
+// MUDE SOMENTE DENTRO DAS ` `
+
+
+// BOTÃO DA LISTA DE MENUS
+const botao_menu = (prefix, sender) => {return `Menu De Lista`;
+};
+
+
+// BOTAO SUB MENU
+const sub_menu = (prefix, sender) => {return `Click no botão abaixo para escolher.`;
+};
+
+
+
+
+// BOTOES 
+
+const comandos_de_membros = (prefix, sender) => {return `👤 COMANDOS DE MEMBROS 👤`;
+};
+
+const menu_dono = (prefix, sender) => {return `🥷 MENU DONO 🥷`;
+};
+
+const ativacoes_dono = (prefix, sender) => {return `🥷 ATIVAÇÕES DE DONO 🥷`;
+};
+
+const menu_adm = (prefix, sender) => {return `😎 MENU ADM 😎`;
+};
+
+const ativacoes_adm = (prefix, sender) => {return `😎 ATIVAÇÕES DE ADM 😎`;
+};
+
+const menu_premium = (prefix, sender) => {return `🎗️ MENU VIP 🎗️`;
+};
+
+const menu_efeitos = (prefix, sender) => {return `🌀 MENU EFEITOS 🌀`;
+};
+
+const menu_logos = (prefix, sender) => {return `🖼️ MENU LOGOS 🖼️`;
+};
+
+const efeitos_audio_videos = (prefix, sender) => {return `🎤 EFEITOS AUDIO/VIDEOS 🎤`;
+};
+
+const menu_brincadeiras = (prefix, sender) => {return `🥳 MENU BRINCADEIRAS 🥳`;
+};
+
+const menu_fotoshop = (prefix, sender) => {return `📸 MENU FOTOSHOP 📸`;
+};
+
+const menu_rpg = (prefix, sender) => {return `🌃 MENU RPG 🌃`;
+};
+
+const menu_infos = (prefix, sender) => {return `🗨️ MENU INFOS 🗨️`;
+};
+
+const inteligencia_artificial = (prefix, sender) => {return `🧠 INTELIGÊNCIA ARTIFICIAL 🧠`;
+};
+
+const menu_downloads = (prefix, sender) => {return `📥 MENU DOWNLOADS 📥`;
+};
+
+const menu_informacoes = (prefix, sender) => {return `📝 INFORMAÇÕES 📝`;
+};
+
+const menu_jogos = (prefix, sender) => {return `🎮 MENU JOGOS 🎮`;
+};
+
+const menu_figurinhas = (prefix, sender) => {return `👻 MENU FIGURINHAS 👻`;
+};
+
+const jogos_apks = (prefix, sender) => {return `♨️ JOGOS APK'S ♨️`;
+};
+
+const menu_nsfw = (prefix, sender) => {return `🔞 MENU NSFW 🔞`;
+};
+
+const menu_puxadas = (prefix, sender) => {return `🔎 MENU PUXADAS 🔍`;
+};
+
+const ping = (prefix, sender) => {return `⚡ PING ⚡`;
+};
+
+const dono = (prefix, sender) => {return `🥷 DONO 🥷`;
+};
+
+// BOTÃO `CRIADOR` NÃO INCLUÍDO, PARA EVITAR KIB
+
+
+const avalie = (prefix, sender) => {return `💫 AVALIE O QUÃO BOM 💫`;
+};
+
+///////  FIM DOS MENUS  \\\\\\\\\
+
+
+
+
+
+
+/////////  BOTÃO LOJA VIP   \\\\\\\\\\\
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 1
+
+//TEXTO
+const tituloproduto1 = (prefix, sender) => {return `🌚 1 Dia = R$ 2,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto1 = (prefix, sender) => {return `
+> Tera 1 Dia de Premium/Vip`;
+};
+
+//DESTINATÁRIO
+const Destinatario1 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 2,00
+🌹 Deseja: 1 dia de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto1 = (prefix, sender) => {return `2`;
+};
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 2
+
+//TEXTO
+const tituloproduto2 = (prefix, sender) => {return `🤡 5 Dias = R$ 4,00 Reais`;
+};
+
+//SUBTITULO
+const SubtituloProduto2 = (prefix, sender) => {return `
+> Tera 5 Dias de Premium/Vip`;
+};
+
+//DESTINATÁRIO
+const Destinatario2 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 4,00
+🌹 Deseja: 5 dias de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto2 = (prefix, command, sender) => {return `4`;
+};
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 3
+
+//TEXTO
+const tituloproduto3 = (prefix, sender) => {return `🤓 7 Dias = R$ 6,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto3 = (prefix, sender) => {return `
+> Tera 7 Dias de Premium/Vip`;
+};
+
+//DESTINATÁRIO
+const Destinatario3 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 6,00
+🌹 Deseja: 1 semana / 7 dias de Premium 
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto3 = (prefix, sender) => {return `6`;
+};
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 4
+
+//TEXTO
+const tituloproduto4 = (prefix, sender) => {return `😏 14 Dias = R$ 10,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto4 = (prefix, sender) => {return `
+> Tera 14 Dias de Premium/Vip`;
+};
+
+
+//DESTINATÁRIO
+const Destinatario4 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 10,00
+🌹 Deseja: 2 semanas / 14 dias de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto4 = (prefix, sender) => {return `10`;
+};
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 5
+
+//TEXTO
+const tituloproduto5 = (prefix, sender) => {return `😎 1 Mês = R$ 20,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto5 = (prefix, sender) => {return `
+> Tera 1 Mês de Premium/Vip`;
+};
+
+
+//DESTINATÁRIO
+const Destinatario5 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 20,00
+🌹 Deseja: 1 mês / 30 dias de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto5 = (prefix, sender) => {return `20`;
+};
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 6
+
+//TEXTO
+const tituloproduto6 = (prefix, command, sender) => {return `💅🏽 2 Meses = R$ 40,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto6 = (prefix, sender) => {return `
+> Tera 2 Mês de Premium/Vip`;
+};
+
+
+//DESTINATÁRIO
+const Destinatario6 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 40,00
+🌹 Deseja: 2 meses / 60 dias de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto6 = (prefix, sender) => {return `40`;
+};
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 7
+
+//TEXTO
+const tituloproduto7 = (prefix, sender) => {return `😍 3 Meses = R$ 60,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto7 = (prefix, command, sender) => {return `
+> Tera 3 Mês de Premium/Vip`;
+};
+
+
+//DESTINATÁRIO
+const Destinatario7 = (prefix, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 60,00
+🌹 Deseja: 3 meses / 90 dias de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+
+//PREÇO
+const PreçoProduto7 = (prefix, sender) => {return `60`;
+};
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//        PRODUTO VIP 8
+
+//TEXTO
+const tituloproduto8 = (prefix, sender) => {return `🧙‍♂️ Permanente = R$ 120,00 Reais`;
+};
+//SUBTITULO
+const SubtituloProduto8 = (prefix, sender) => {return `
+> Tera Premium/Vip Permanente!`;
+};
+
+
+//DESTINATÁRIO
+const Destinatario8 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 120,00
+🌹 Deseja: Vip Permanente.
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
+//PREÇO
+const PreçoProduto8 = (prefix, sender) => {return `120`;
+};
+//╰╦══════════════════ ✞
+
+
+
+/////// FIM DA LOJA VIP \\\\\\\\
+
+
+
+
+
+
+
+
+////// [ LOJA ALUGUEL ] \\\\\\\
+
+
+//     TABELA ALUGUEL
+                    
+const TabelaAluguel = (prefix, sender) => {return `*_»⟩Tabela de preços para alugar o bot ⟨«_*
+
+1️⃣⧽ R$ 5.00 (15 dias)
+2️⃣⧽ R$ 10.00 (30 dias)
+3️⃣⧽ R$ 18.00 (60 dias)
+4️⃣⧽ R$ 27.00 (90 dias)
+5️⃣⧽ R$ 35.00 (120 dias)
+`;
+};
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 1
+
+
+// TITULO
+const TituloAluguel1 = (prefix, sender) => {return `1️⃣⧽ R$ 5.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel1 = (prefix, sender) => {return `
+> (+bônus R$ 0.50)`;
+};
+
+// PREÇO
+const preço1 = (prefix, sender) => {return `5.5`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 2
+
+
+// TITULO
+const TituloAluguel2 = (prefix, sender) => {return `2️⃣⧽ R$ 10.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel2 = (prefix, sender) => {return `
+> (+bônus R$ 1.00)`;
+};
+
+// PREÇO
+const preço2 = (prefix, sender) => {return `11`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 3
+
+
+// TITULO
+const TituloAluguel3 = (prefix, sender) => {return `3️⃣⧽ R$ 20.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel3 = (prefix, sender) => {return `
+> (+bônus R$ 2.00)`;
+};
+
+// PREÇO
+const preço3 = (prefix, sender) => {return `22`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 4
+
+
+// TITULO
+const TituloAluguel4 = (prefix, sender) => {return `4️⃣⧽ R$ 30.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel4 = (prefix, sender) => {return `
+> (+bônus R$ 3.00)`;
+};
+
+// PREÇO
+const preço4 = (prefix, sender) => {return `33`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 5
+
+
+// TITULO
+const TituloAluguel5 = (prefix, sender) => {return `5️⃣⧽ R$ 40.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel5 = (prefix, sender) => {return `
+> (+bônus R$ 4.00)`;
+};
+
+// PREÇO
+const preço5 = (prefix, sender) => {return `44`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+//╭═══════════════════ ┐
+
+//      PRODUTO ALUGUEL 6
+
+
+// TITULO
+const TituloAluguel6 = (prefix, sender) => {return `6️⃣⧽ R$ 50.00 Reais`;
+};
+
+// SUBTITULO
+const SubtituloAluguel6 = (prefix, sender) => {return `
+> (+bônus R$ 5.00)`;
+};
+
+// PREÇO
+const preço6 = (prefix, sender) => {return `55`;
+};
+
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
+
+//CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
+
+
+//╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️NÃO MEXA AQUI EM BAIXO ⚠️*/
+
+
+exports.TabelaAluguel = TabelaAluguel;
+exports.TituloAluguel1 = TituloAluguel1;
+exports.SubtituloAluguel1  = SubtituloAluguel1;
+exports.TituloAluguel2 = TituloAluguel2;
+exports.SubtituloAluguel2  = SubtituloAluguel2;
+exports.TituloAluguel3 = TituloAluguel3;
+exports.SubtituloAluguel3  = SubtituloAluguel3;
+exports.TituloAluguel4 = TituloAluguel4;
+exports.SubtituloAluguel4 = SubtituloAluguel4;
+exports.TituloAluguel5 = TituloAluguel5;
+exports.SubtituloAluguel5 = SubtituloAluguel5;
+exports.TituloAluguel6 = TituloAluguel6;
+exports.SubtituloAluguel6 = SubtituloAluguel6;
+exports.preço1 = preço1;
+exports.preço2 = preço2;
+exports.preço3 = preço3;
+exports.preço4 = preço4;
+exports.preço5 = preço5;
+exports.preço6 = preço6;
+exports.tituloproduto1 = tituloproduto1;
+exports.SubtituloProduto1 = SubtituloProduto1;
+exports.tituloproduto2 = tituloproduto2;
+exports.SubtituloProduto2 = SubtituloProduto2;
+exports.tituloproduto3 = tituloproduto3;
+exports.SubtituloProduto3 = SubtituloProduto3;
+exports.tituloproduto4 = tituloproduto4;
+exports.SubtituloProduto4 = SubtituloProduto4;
+exports.tituloproduto5 = tituloproduto5;
+exports.SubtituloProduto5 = SubtituloProduto5;
+exports.tituloproduto6 = tituloproduto6;
+exports.SubtituloProduto6 = SubtituloProduto6;
+exports.tituloproduto7 = tituloproduto7;
+exports.SubtituloProduto7 = SubtituloProduto7;
+exports.tituloproduto8 = tituloproduto8;
+exports.SubtituloProduto8 = SubtituloProduto8;
+exports.Destinatario1 = Destinatario1;
+exports.PreçoProduto1 = PreçoProduto1;
+exports.Destinatario2 = Destinatario2;
+exports.PreçoProduto2 = PreçoProduto2;
+exports.Destinatario3 = Destinatario3;
+exports.PreçoProduto3 = PreçoProduto3;
+exports.Destinatario4 = Destinatario4;
+exports.PreçoProduto4 = PreçoProduto4;
+exports.Destinatario5 = Destinatario5;
+exports.PreçoProduto5 = PreçoProduto5;
+exports.Destinatario6 = Destinatario6;
+exports.PreçoProduto6 = PreçoProduto6;
+exports.Destinatario7 = Destinatario7;
+exports.PreçoProduto7 = PreçoProduto7;
+exports.Destinatario8 = Destinatario8;
+exports.PreçoProduto8 = PreçoProduto8;
+exports.botao_menu = botao_menu;
+exports.sub_menu = sub_menu;
+exports.comandos_de_membros = comandos_de_membros;
+exports.menu_dono = menu_dono;
+exports.ativacoes_dono = ativacoes_dono;
+exports.menu_adm = menu_adm;
+exports.ativacoes_adm = ativacoes_adm;
+exports.menu_premium = menu_premium;
+exports.menu_efeitos = menu_efeitos;
+exports.menu_logos = menu_logos;
+exports.efeitos_audio_videos = efeitos_audio_videos;
+exports.menu_brincadeiras = menu_brincadeiras;
+exports.menu_fotoshop = menu_fotoshop;
+exports.menu_rpg = menu_rpg;
+exports.menu_infos = menu_infos;
+exports.inteligencia_artificial = inteligencia_artificial;
+exports.menu_downloads = menu_downloads;
+exports.menu_informacoes = menu_informacoes;
+exports.menu_jogos = menu_jogos;
+exports.menu_figurinhas = menu_figurinhas;
+exports.jogos_apks = jogos_apks;
+exports.menu_nsfw = menu_nsfw;
+exports.menu_puxadas = menu_puxadas;
+exports.ping = ping;
+exports.dono = dono;
+exports.avalie = avalie;
