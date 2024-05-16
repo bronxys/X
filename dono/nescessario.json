@@ -5,7 +5,7 @@
   "menu_audio": false,
   "verificado": false,
   "consoleoff": true,
-  "antipv": true,
+  "antipv": false,
   "antipv3": false,
   "anticall": true,
   "visualizarmsg": true,
@@ -37,7 +37,6 @@
     "ip",
     "mae",
     "motor",
-    "nome1",
     "nome2",
     "nome3",
     "nome4",
@@ -59,7 +58,8 @@
     "tel2",
     "titulo",
     "vacina",
-    "vizinhos"
+    "vizinhos",
+    "nome"
   ],
   "blockCmdG": [],
   "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�? #tempocmd#",
