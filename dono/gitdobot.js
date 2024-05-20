@@ -1,11 +1,14 @@
 const gitdobot = (prefix) => {
 return`
-​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
 
 
 
 Ola amiguinhos(as) algumas informações do X-bot 
 
+📣 CANAL NO WHATSAPP PARA FICAR INFORMADO DE ATUALIZAÇÕES OU CORREÇÕES FE ERROS 
+
+-> https://whatsapp.com/channel/0029VaHgX3B2Jl8CKU6nN91Z
 
    { TUTORIAL PARA TERMUX }
 
