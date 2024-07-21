@@ -5,7 +5,7 @@
   "menu_audio": false,
   "verificado": false,
   "consoleoff": true,
-  "antipv": false,
+  "antipv": true,
   "antipv3": false,
   "anticall": true,
   "visualizarmsg": true,
@@ -62,7 +62,7 @@
     "nome"
   ],
   "blockCmdG": [],
-  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�? #tempocmd#",
+  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�??? #tempocmd#",
   "botoes_": false,
   "dono1": ".",
   "dono2": ".",

@@ -8,7 +8,7 @@
     "antiaudio": false,
     "antisticker": false,
     "antidoc": false,
-    "antictt": false,
+    "antictt": true,
     "antiloc": false,
     "antilinkgp": false,
     "antilinkhard": false,
@@ -70,9 +70,11 @@
     "simi2": false,
     "autosticker": false,
     "autoresposta": false,
-    "jogos": false,
+    "jogos": true,
     "level": false,
     "bangp": false,
-    "nsfw": false
+    "nsfw": false,
+    "aluguel": false,
+    "autotext": false
   }
 ]

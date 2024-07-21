@@ -105,6 +105,7 @@ const adms = (prefix, sender) => {
 ┏│✞͜͡▹ ${prefix}so_adm (so admins pra usar o bot)
 ┏│✞͜͡▹ ${prefix}Delete (responder uma mensagem pra apagar)
 ┏│✞͜͡▹ ${prefix}advertir (advertencia 3/3 bot da ban)
+┏│✞͜͡▹ ${prefix}deladvertir (deletar advertências)
 ┏│✞͜͡▹ ${prefix}Mutar (Mutar pessoa)
 ┏│✞͜͡▹ ${prefix}Desmutar (desmutar pessoa)
 ┏│✞͜͡▹ ${prefix}abrir-fechar (abre e fechagp tempo)
@@ -171,7 +172,7 @@ EXPLICAÇÃO:
 Esse modo aluguel e automático, com pix automático, tempo sair do grupo automático 
 basta configurar seu token do mercado pago no bot para funcionar!
 caso nao saiba configurar o pix automático para poder ultilizar, lojavip, lojaaluguel 
-digite: ${prefix}infopixmp
+digite: ${prefix}infotokenpix
 
 
 para ativar o modo aluguel 
@@ -498,6 +499,8 @@ return`
 ┏│✞͜͡▹ ${prefix}Bass (marca)
 ┏│✞͜͡▹ ${prefix}Bass2 (marca)
 ┏│✞͜͡▹ ${prefix}Vozmenino (marca)
+┏│✞͜͡▹ ${prefix}slowed (narca)
+┏│✞͜͡▹ ${prefix}reverb (marca
 ╰══════════┘
 `;
 };
@@ -807,18 +810,19 @@ return `
 ╰╦══════════════════ ✞
 ┏│✞͜͡▹ ${prefix}Play (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play2 (NOME-LINK)
+┏│✞͜͡▹ ${prefix}play3 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}Play_audio (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}Play_audio2 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_audio3 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_video (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_video2 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}play_video3 (NOME-LINK)
-┏│✞͜͡▹ ${prefix}playdoc (NOME)
-┏│✞͜͡▹ ${prefix}Playmp4 (NOME)
+┏│✞͜͡▹ ${prefix}playdoc (NOME-LINK)
+┏│✞͜͡▹ ${prefix}Playmp4 (NOME-LINK)
 ┏│✞͜͡▹ ${prefix}Ytsearch (NOME)
 ┏│✞͜͡▹ ${prefix}Ytsearch2 (NOME)
-┏│✞͜͡▹ ${prefix}Ytmp4 (LINK) 
-┏│✞͜͡▹ ${prefix}Ytmp3 (LINK) 
+┏│✞͜͡▹ ${prefix}Ytmp4 (NOME-LINK) 
+┏│✞͜͡▹ ${prefix}Ytmp3 (NOME-LINK) 
 ┏│✞͜͡▹ ${prefix}Tiktok_audio (LINK)
 ┏│✞͜͡▹ ${prefix}Tiktok_video (LINK)
 ┏│✞͜͡▹ ${prefix}tiktok_audio2 (LINK)
@@ -1143,6 +1147,7 @@ return `
 ┏│✞͜͡▹ ${prefix}Fazernick2 (NICK)
 ┏│✞͜͡▹ ${prefix}sn (sim ou nao)
 ┏│✞͜͡▹ ${prefix}Bot
+┏│✞͜͡▹ ${prefix}tempemail (gera email temporário)
 ╰══════════┘
 `;
 };
@@ -1329,16 +1334,6 @@ const SubtituloProduto1 = (prefix, sender) => {return `
 > Tera 1 Dia de Premium/Vip`;
 };
 
-//DESTINATÁRIO
-const Destinatario1 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 2,00
-🌹 Deseja: 1 dia de Premium
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto1 = (prefix, sender) => {return `2`;
@@ -1367,16 +1362,7 @@ const SubtituloProduto2 = (prefix, sender) => {return `
 > Tera 5 Dias de Premium/Vip`;
 };
 
-//DESTINATÁRIO
-const Destinatario2 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 4,00
-🌹 Deseja: 5 dias de Premium
 
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto2 = (prefix, command, sender) => {return `4`;
@@ -1404,16 +1390,7 @@ const SubtituloProduto3 = (prefix, sender) => {return `
 > Tera 7 Dias de Premium/Vip`;
 };
 
-//DESTINATÁRIO
-const Destinatario3 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 6,00
-🌹 Deseja: 1 semana / 7 dias de Premium 
 
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto3 = (prefix, sender) => {return `6`;
@@ -1441,16 +1418,6 @@ const SubtituloProduto4 = (prefix, sender) => {return `
 };
 
 
-//DESTINATÁRIO
-const Destinatario4 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 10,00
-🌹 Deseja: 2 semanas / 14 dias de Premium
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto4 = (prefix, sender) => {return `10`;
@@ -1480,16 +1447,6 @@ const SubtituloProduto5 = (prefix, sender) => {return `
 };
 
 
-//DESTINATÁRIO
-const Destinatario5 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 20,00
-🌹 Deseja: 1 mês / 30 dias de Premium
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto5 = (prefix, sender) => {return `20`;
@@ -1518,16 +1475,6 @@ const SubtituloProduto6 = (prefix, sender) => {return `
 };
 
 
-//DESTINATÁRIO
-const Destinatario6 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 40,00
-🌹 Deseja: 2 meses / 60 dias de Premium
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto6 = (prefix, sender) => {return `40`;
@@ -1554,16 +1501,6 @@ const SubtituloProduto7 = (prefix, command, sender) => {return `
 };
 
 
-//DESTINATÁRIO
-const Destinatario7 = (prefix, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 60,00
-🌹 Deseja: 3 meses / 90 dias de Premium
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 
 //PREÇO
 const PreçoProduto7 = (prefix, sender) => {return `60`;
@@ -1591,16 +1528,6 @@ const SubtituloProduto8 = (prefix, sender) => {return `
 };
 
 
-//DESTINATÁRIO
-const Destinatario8 = (prefix, command, sender) => {return `
-👤 Destinatário: Jennifer Santos
-🏦 Banco: Mercado Pago
-💲 Valor: R$ 120,00
-🌹 Deseja: Vip Permanente.
-
-⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
-💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
-};
 //PREÇO
 const PreçoProduto8 = (prefix, sender) => {return `120`;
 };
@@ -1868,21 +1795,13 @@ exports.tituloproduto7 = tituloproduto7;
 exports.SubtituloProduto7 = SubtituloProduto7;
 exports.tituloproduto8 = tituloproduto8;
 exports.SubtituloProduto8 = SubtituloProduto8;
-exports.Destinatario1 = Destinatario1;
 exports.PreçoProduto1 = PreçoProduto1;
-exports.Destinatario2 = Destinatario2;
 exports.PreçoProduto2 = PreçoProduto2;
-exports.Destinatario3 = Destinatario3;
 exports.PreçoProduto3 = PreçoProduto3;
-exports.Destinatario4 = Destinatario4;
 exports.PreçoProduto4 = PreçoProduto4;
-exports.Destinatario5 = Destinatario5;
 exports.PreçoProduto5 = PreçoProduto5;
-exports.Destinatario6 = Destinatario6;
 exports.PreçoProduto6 = PreçoProduto6;
-exports.Destinatario7 = Destinatario7;
 exports.PreçoProduto7 = PreçoProduto7;
-exports.Destinatario8 = Destinatario8;
 exports.PreçoProduto8 = PreçoProduto8;
 exports.botao_menu = botao_menu;
 exports.sub_menu = sub_menu;
