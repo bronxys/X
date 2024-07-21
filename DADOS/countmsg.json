@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "groupId": "120363167145406665@g.us",
+    "numbers": [
+      {
+        "id": "558596118520@s.whatsapp.net",
+        "nick": "Usuário",
+        "messages": 0,
+        "cmd_messages": 2,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "553298806867@s.whatsapp.net",
+        "nick": "X Bot",
+        "messages": 44,
+        "cmd_messages": 0,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "nick": "ı.am     @Jefferson_ddos",
+        "messages": 12,
+        "cmd_messages": 3,
+        "aparelho": "Android ツ",
+        "figus": 2
+      }
+    ]
+  },
+  {
+    "groupId": "120363182455661462@g.us",
+    "numbers": [
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "nick": "ı.am     @Jefferson_ddos",
+        "messages": 1,
+        "cmd_messages": 2,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "553298806867@s.whatsapp.net",
+        "nick": "X Bot",
+        "messages": 3,
+        "cmd_messages": 0,
+        "aparelho": "WhatsApp web シ",
+        "figus": 0
+      }
+    ]
+  },
+  {
+    "groupId": "120363314048410751@g.us",
+    "numbers": [
+      {
+        "id": "553298806867@s.whatsapp.net",
+        "nick": "X Bot",
+        "messages": 49,
+        "cmd_messages": 1,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "573173477140@s.whatsapp.net",
+        "nick": "019 GORDÃO!",
+        "messages": 178,
+        "cmd_messages": 6,
+        "aparelho": "Android ツ",
+        "figus": 3
+      },
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "nick": "ı.am     @Jefferson_ddos",
+        "messages": 67,
+        "cmd_messages": 15,
+        "aparelho": "Android ツ",
+        "figus": 1
+      }
+    ]
+  }
+]
