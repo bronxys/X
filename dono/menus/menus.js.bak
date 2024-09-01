@@ -22,7 +22,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 exports.menu = menu;
 
-// NÃO APAGUE ${   } apenas se souber oquê está fazendo, caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
+// NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
 const infotransmitir = (prefix, pushname) => {
 return`
@@ -1334,6 +1334,16 @@ const SubtituloProduto1 = (prefix, sender) => {return `
 > Tera 1 Dia de Premium/Vip`;
 };
 
+//DESTINATÁRIO
+const Destinatario1 = (prefix, command, sender) => {return `
+👤 Destinatário: Jennifer Santos
+🏦 Banco: Mercado Pago
+💲 Valor: R$ 2,00
+🌹 Deseja: 1 dia de Premium
+
+⚠️ Caso não paguem em até *10 Minutos*, sua compra será cancelada, use ${prefix + command} novamente.
+💠 Use o *PIX copia e cola* ou o *QR Code* abaixo para completar o depósito.`;
+};
 
 //PREÇO
 const PreçoProduto1 = (prefix, sender) => {return `2`;
