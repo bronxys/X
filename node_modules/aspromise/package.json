@@ -1,0 +1,12 @@
+{   "name": "aspromise"
+  , "version": "0.1.0"
+  , "description": "Micro promise implementation which behaves well with any object."
+  , "keywords": ["promise", "future", "deferred"]
+  , "author": "Michal Kuklis <michal.kuklis@gmail.com>"
+  , "contributors": [
+    { "name": "Michal Kuklis", "email": "michal.kuklis@gmail.com" }]
+  , "dependencies"  : {}
+  , "engines": { "node": "*" }
+  , "repository": { "type": "git", "url": "git://github.com/mkuklis/asPromise.git" }
+  , "main": "aspromise.js"
+}
