@@ -183,7 +183,7 @@ comando: ${prefix}modoaluguel 1
 
 ___________________________________
 
-      MODO ALUGUEL V2
+      MODO ALUGUEL V2 
       
 
 Para ativar o modo aluguel2
