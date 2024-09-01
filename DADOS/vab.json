@@ -1,0 +1,6111 @@
+[
+	{
+		"id": "popular",
+		"nsfw": false,
+		"questions": [
+			{
+				"pergunta1": "pisar acidentalmente em um tijolo de LEGO",
+				"pergunta2": "pisar acidentalmente em cocô de gato"
+			},
+			{
+				"pergunta1": "que todas as plantas gritem quando você as corta",
+				"pergunta2": "os animais imploram por suas vidas antes de serem mortos"
+			},
+			{
+				"pergunta1": "que todos os semáforos de que você se aproxima estejam verdes",
+				"pergunta2": "nunca mais tenha que fazer fila"
+			},
+			{
+				"pergunta1": "permitir que outros vejam tudo o que você faz por um dia",
+				"pergunta2": "ouvir tudo o que você diz por um dia"
+			},
+			{
+				"pergunta1": "estar sempre com fome, não importa o quanto você coma,",
+				"pergunta2": "sempre cansado, não importa o quanto você durma"
+			},
+			{
+				"pergunta1": "sempre coçar",
+				"pergunta2": "sempre suar"
+			},
+			{
+				"pergunta1": "chegar sempre atrasado",
+				"pergunta2": "pontual, mas despreparado para a maioria das atividades"
+			},
+			{
+				"pergunta1": "estar sempre dez minutos atrasado",
+				"pergunta2": "sempre vinte minutos antes"
+			},
+			{
+				"pergunta1": "sempre sentir que está prestes a espirrar",
+				"pergunta2": "sempre que está prestes a fazer cocô"
+			},
+			{
+				"pergunta1": "sempre ficar preso no trânsito",
+				"pergunta2": "sempre ter uma Internet péssima"
+			},
+			{
+				"pergunta1": "sempre ter uma pedra no sapato",
+				"pergunta2": "sempre ter um cílio no olho"
+			},
+			{
+				"pergunta1": "sempre ter as unhas de 5 polegadas",
+				"pergunta2": "mais"
+			},
+			{
+				"pergunta1": "sempre ter lama em seus sapatos",
+				"pergunta2": "sempre ter uma pedra em seu sapato"
+			},
+			{
+				"pergunta1": "sempre ter uma internet muito lenta",
+				"pergunta2": "sempre ter um sinal de telefone terrível"
+			},
+			{
+				"pergunta1": "sempre ter que andar de monociclo para ir ao trabalho/escola",
+				"pergunta2": "sempre usar um pula-pula para ir ao trabalho/escola"
+			},
+			{
+				"pergunta1": "sempre parecer que está grávida de 8 meses",
+				"pergunta2": "sempre com um olho roxo"
+			},
+			{
+				"pergunta1": "sempre falar todos os seus pensamentos em voz alta",
+				"pergunta2": "nunca mais falar (mesmo em linguagem de sinais)"
+			},
+			{
+				"pergunta1": "ter 4 pés de altura",
+				"pergunta2": "10 pés de altura"
+			},
+			{
+				"pergunta1": "ser uma cenoura",
+				"pergunta2": "um picles"
+			},
+			{
+				"pergunta1": "ser um personagem em O Senhor dos Anéis",
+				"pergunta2": "ser um personagem em Harry Potter"
+			},
+			{
+				"pergunta1": "ser uma galinha",
+				"pergunta2": "um porco"
+			},
+			{
+				"pergunta1": "ser um ciborgue",
+				"pergunta2": "um metamorfo"
+			},
+			{
+				"pergunta1": "ser um dragão",
+				"pergunta2": "um unicórnio"
+			},
+			{
+				"pergunta1": "ser um anão",
+				"pergunta2": "um gigante"
+			},
+			{
+				"pergunta1": "ser professor do ensino médio",
+				"pergunta2": "professor universitário"
+			},
+			{
+				"pergunta1": "ser um snowboarder profissional",
+				"pergunta2": "um esquiador profissional"
+			},
+			{
+				"pergunta1": "ser um milionário self-made",
+				"pergunta2": "se casar com um bilionário"
+			},
+			{
+				"pergunta1": "ser um Super Saiyan",
+				"pergunta2": "um Mestre Jedi"
+			},
+			{
+				"pergunta1": "ser um leão super lento",
+				"pergunta2": "uma preguiça super rápida"
+			},
+			{
+				"pergunta1": "ser um unicórnio",
+				"pergunta2": "uma sereia"
+			},
+			{
+				"pergunta1": "ser um mago no universo Harry Potter",
+				"pergunta2": "um Jedi no universo Star Wars"
+			},
+			{
+				"pergunta1": "ser capaz de voar na velocidade de uma caminhada",
+				"pergunta2": "correr na velocidade dos carros"
+			},
+			{
+				"pergunta1": "poder voar para onde quiser",
+				"pergunta2": "ficar invisível"
+			},
+			{
+				"pergunta1": "ser capaz de ouvir perfeitamente com perfeita precisão",
+				"pergunta2": "ter uma visão de raio-X usando um colírio corretivo muito doloroso, para ser aplicado a cada hora"
+			},
+			{
+				"pergunta1": "ser capaz de matar insetos e aranhas apenas olhando para eles",
+				"pergunta2": "limpar sua cozinha apenas olhando para ela"
+			},
+			{
+				"pergunta1": "poder fazer amor com quem quiser",
+				"pergunta2": "encontrar sua alma gêmea"
+			},
+			{
+				"pergunta1": "ser capaz de se transformar em qualquer animal",
+				"pergunta2": "em qualquer pessoa"
+			},
+			{
+				"pergunta1": "ser capaz de retirar qualquer coisa que disser",
+				"pergunta2": "ouvir qualquer conversa sobre você"
+			},
+			{
+				"pergunta1": "ser capaz de falar com pombos",
+				"pergunta2": "ler mentes de bebês"
+			},
+			{
+				"pergunta1": "poder viajar o quanto quiser, mas o único meio é a pé",
+				"pergunta2": "poder viajar uma vez a cada cinco anos com qualquer veículo de transporte"
+			},
+			{
+				"pergunta1": "ser capaz de transformar algo em realidade desenhando-o",
+				"pergunta2": "fazer algo desaparecer simplesmente apagando-o"
+			},
+			{
+				"pergunta1": "ser alérgico a bebês",
+				"pergunta2": "alérgico a idosos"
+			},
+			{
+				"pergunta1": "ser alérgico a manteiga de amendoim",
+				"pergunta2": "alérgico a chocolate"
+			},
+			{
+				"pergunta1": "ser um ator infantil estrela dos anos 80",
+				"pergunta2": "uma maravilha de um sucesso dos anos 60"
+			},
+			{
+				"pergunta1": "ser um personagem de anime",
+				"pergunta2": "um personagem da Disney"
+			},
+			{
+				"pergunta1": "ser uma pessoa comum no presente",
+				"pergunta2": "um rei de um grande país há 2500 anos"
+			},
+			{
+				"pergunta1": "ser um excelente cantor",
+				"pergunta2": "um excelente escritor"
+			},
+			{
+				"pergunta1": "ser como é agora",
+				"pergunta2": "ter $ 100 milhões, mas tem 5% de chance de morte instantânea todos os dias"
+			},
+			{
+				"pergunta1": "ser careca em qualquer lugar",
+				"pergunta2": "ser um albino"
+			},
+			{
+				"pergunta1": "ser careca",
+				"pergunta2": "ser amaldiçoado para sempre por ter cortes de cabelo horríveis"
+			},
+			{
+				"pergunta1": "nascer com cabelos ruivos",
+				"pergunta2": "ter $ 100 roubados de você"
+			},
+			{
+				"pergunta1": "ser forte",
+				"pergunta2": "ter 5 horas extras por semana onde pode fazer o que quiser"
+			},
+			{
+				"pergunta1": "ser capturado por uma tribo selvagem na selva",
+				"pergunta2": "ser capturado por piratas no mar"
+			},
+			{
+				"pergunta1": "ser completamente louco e saber que é louco",
+				"pergunta2": "completamente louco e acreditar que é são"
+			},
+			{
+				"pergunta1": "estar coberto de pelos",
+				"pergunta2": "de escamas"
+			},
+			{
+				"pergunta1": "ser burro e feliz",
+				"pergunta2": "inteligente e miserável"
+			},
+			{
+				"pergunta1": "ser forçado a dançar toda vez que ouve música",
+				"pergunta2": "ser forçado a cantar junto com qualquer música que você ouve"
+			},
+			{
+				"pergunta1": "ser forçado a falar em público",
+				"pergunta2": "pendurado na beira de um penhasco"
+			},
+			{
+				"pergunta1": "ficar preso a um avião",
+				"pergunta2": "navio de cruzeiro"
+			},
+			{
+				"pergunta1": "ser alvo de fofoca",
+				"pergunta2": "ignorado para sempre"
+			},
+			{
+				"pergunta1": "ficar sem teto por 10 anos e depois ser rico para o resto da vida",
+				"pergunta2": "estar sempre na classe média baixa, mas nunca sem teto"
+			},
+			{
+				"pergunta1": "ser imortal",
+				"pergunta2": "a pessoa mais rica do mundo"
+			},
+			{
+				"pergunta1": "ser imortal",
+				"pergunta2": "ter 9 vidas"
+			},
+			{
+				"pergunta1": "ser preso por fazer a coisa certa",
+				"pergunta2": "preso e solto por fazer a coisa errada"
+			},
+			{
+				"pergunta1": "estar em uma banda de rock",
+				"pergunta2": "em uma boy band"
+			},
+			{
+				"pergunta1": "ser invisível",
+				"pergunta2": "ser capaz de voar"
+			},
+			{
+				"pergunta1": "ser o Homem de Ferro, mas tem que deixar o traje todo o tempo",
+				"pergunta2": "ser o Hulk, mas tem que ficar na forma do Hulk o tempo todo"
+			},
+			{
+				"pergunta1": "ser Kim Kardashian",
+				"pergunta2": "assistir a um episódio de Mantendo-se com os Kardashians todos os dias pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "ficar nu o tempo todo",
+				"pergunta2": "nunca mais sair de casa"
+			},
+			{
+				"pergunta1": "ficar nu o tempo todo",
+				"pergunta2": "nunca sair de casa/apartamento"
+			},
+			{
+				"pergunta1": "ser Napoleão",
+				"pergunta2": "Júlio César"
+			},
+			{
+				"pergunta1": "ficar quase surdo",
+				"pergunta2": "ouvir tudo dois minutos depois"
+			},
+			{
+				"pergunta1": "fazer uma dieta baixa em carboidratos pelo resto da vida",
+				"pergunta2": "ser vegano pelo resto da vida"
+			},
+			{
+				"pergunta1": "ficar permanentemente mudo",
+				"pergunta2": "amputar um de seus braços"
+			},
+			{
+				"pergunta1": "ser fisicamente desajeitado",
+				"pergunta2": "socialmente desajeitado perto de pessoas"
+			},
+			{
+				"pergunta1": "ser inteligente e azarado",
+				"pergunta2": "burro e realmente sortudo"
+			},
+			{
+				"pergunta1": "ficar preso em um teleférico quebrado",
+				"pergunta2": "em um elevador quebrado"
+			},
+			{
+				"pergunta1": "ser o primeiro morto em um grupo",
+				"pergunta2": "o último morto em um grupo"
+			},
+			{
+				"pergunta1": "ser o primeiro a morrer deste grupo",
+				"pergunta2": "ser o último a morrer deste grupo"
+			},
+			{
+				"pergunta1": "ser o chefe de uma empresa de merda",
+				"pergunta2": "ser o pior funcionário da melhor empresa do mundo"
+			},
+			{
+				"pergunta1": "ser jogado nu em uma cova de escorpiões mortais",
+				"pergunta2": "ser enviado ao espaço sem oxigênio suficiente"
+			},
+			{
+				"pergunta1": "ficar preso dentro do seu videogame favorito",
+				"pergunta2": "ter seu videogame favorito ganhando vida no mundo real"
+			},
+			{
+				"pergunta1": "ser incapaz de sentir tristeza",
+				"pergunta2": "ser incapaz de sentir raiva"
+			},
+			{
+				"pergunta1": "ser incapaz de abrir portas sem ajuda",
+				"pergunta2": "de subir escadas sem ajuda"
+			},
+			{
+				"pergunta1": "ser incapaz de dizer não",
+				"pergunta2": "incapaz de dizer sim"
+			},
+			{
+				"pergunta1": "ser feio, mas super engraçado,",
+				"pergunta2": "bonito, mas muito chato"
+			},
+			{
+				"pergunta1": "começar todas as frases com \"De acordo com meus cálculos\"",
+				"pergunta2": "terminar todas as frases com \"Ponto final\"."
+			},
+			{
+				"pergunta1": "acreditar em Deus",
+				"pergunta2": "renunciar a Deus e ter $ 1 bilhão"
+			},
+			{
+				"pergunta1": "comprar 10 coisas de que não precisa sempre que vai às compras",
+				"pergunta2": "sempre esquecer aquilo de que precisa quando vai à loja"
+			},
+			{
+				"pergunta1": "comprar bebidas para todos aqui",
+				"pergunta2": "ser provocado por ser um idiota barato pelo resto do jogo"
+			},
+			{
+				"pergunta1": "mudar de religião",
+				"pergunta2": "de partido político"
+			},
+			{
+				"pergunta1": "verificar seu e-mail primeiro todas as manhãs",
+				"pergunta2": "verificar suas redes sociais primeiro todas as manhãs"
+			},
+			{
+				"pergunta1": "relaxar com Eminem",
+				"pergunta2": "relaxar com Jay-Z"
+			},
+			{
+				"pergunta1": "entupir o banheiro em seu local de trabalho",
+				"pergunta2": "na casa de sua paquera"
+			},
+			{
+				"pergunta1": "estar constantemente com a mão dentro das calças",
+				"pergunta2": "xingar em cada frase para sempre"
+			},
+			{
+				"pergunta1": "tropeçar constantemente ao caminhar",
+				"pergunta2": "gaguejar constantemente ao falar"
+			},
+			{
+				"pergunta1": "controlar as emoções das pessoas ao seu redor",
+				"pergunta2": "controlar o clima"
+			},
+			{
+				"pergunta1": "controlar seus sonhos",
+				"pergunta2": "assisti-los no dia seguinte"
+			},
+			{
+				"pergunta1": "abraçar um coala",
+				"pergunta2": "um panda"
+			},
+			{
+				"pergunta1": "dançar a Macarena por uma hora direto na frente dos pais do seu parceiro,",
+				"pergunta2": "que seu parceiro dance a Macarena por uma hora direto na frente de seus pais"
+			},
+			{
+				"pergunta1": "morrer como um herói",
+				"pergunta2": "viver o suficiente para se ver se tornando o vilão"
+			},
+			{
+				"pergunta1": "Você preferiria morrer se não desse um tapa na bunda de uma pessoa a cada 12 horas",
+				"pergunta2": "morrer se não matasse alguém a cada dois anos"
+			},
+			{
+				"pergunta1": "morrer no espaço",
+				"pergunta2": "nunca deixar o planeta Terra"
+			},
+			{
+				"pergunta1": "descobrir algo grande e divulgá-lo",
+				"pergunta2": "descobrir algo mal e evitá-lo"
+			},
+			{
+				"pergunta1": "fazer o primeiro trabalho que teve para o resto da sua vida",
+				"pergunta2": "ter 10 bebês"
+			},
+			{
+				"pergunta1": "dirigir um Porsche",
+				"pergunta2": "uma Ferrari"
+			},
+			{
+				"pergunta1": "comer um limão com casca",
+				"pergunta2": "um kiwi com casca"
+			},
+			{
+				"pergunta1": "comer apenas comida chinesa o tempo todo",
+				"pergunta2": "comer apenas comida mexicana o tempo todo"
+			},
+			{
+				"pergunta1": "comer panquecas",
+				"pergunta2": "waffles"
+			},
+			{
+				"pergunta1": "que cada filme que assista substitua o papel principal por Tommy Wiseau,",
+				"pergunta2": "que cada música que ouve seja interpretada por Britney Spears"
+			},
+			{
+				"pergunta1": "que toda camisa que você usa coça",
+				"pergunta2": "só possa usar uma folha de papel higiênico"
+			},
+			{
+				"pergunta1": "explorar o espaço",
+				"pergunta2": "o oceano"
+			},
+			{
+				"pergunta1": "peidar alto em um elevador",
+				"pergunta2": "peidar alto em um banheiro público com um ocupante na próxima cabine"
+			},
+			{
+				"pergunta1": "lutar contra um crocodilo com um arco",
+				"pergunta2": "lutar contra um elefante com uma espingarda"
+			},
+			{
+				"pergunta1": "lutar contra Jackie Chan",
+				"pergunta2": "Jet Li"
+			},
+			{
+				"pergunta1": "lutar contra um gato de tamanho humano",
+				"pergunta2": "dez humanos de tamanho de gato"
+			},
+			{
+				"pergunta1": "lutar contra Rocky Balboa",
+				"pergunta2": "Ivan Drago"
+			},
+			{
+				"pergunta1": "lutar contra zumbis com apenas uma besta ao lado de um dragão",
+				"pergunta2": "lutar contra zumbis com um rifle de assalto ao lado de quatro gorilas"
+			},
+			{
+				"pergunta1": "encontrar um fio de cabelo em sua última mordida de sanduíche",
+				"pergunta2": "um inseto no fundo de sua bebida"
+			},
+			{
+				"pergunta1": "esquecer quem você é",
+				"pergunta2": "quem você conhece"
+			},
+			{
+				"pergunta1": "esquecer sua senha todo fim de semana",
+				"pergunta2": "esquecer seu nome toda vez que encontrar alguém pela primeira vez"
+			},
+			{
+				"pergunta1": "dormir 4 horas por noite",
+				"pergunta2": "15 horas por noite"
+			},
+			{
+				"pergunta1": "comprar 50 bolsas",
+				"pergunta2": "50 sapatos"
+			},
+			{
+				"pergunta1": "comprar 50 relógios",
+				"pergunta2": "50 ternos"
+			},
+			{
+				"pergunta1": "receber $ 100.000 agora",
+				"pergunta2": "$ 1 milhão em um ano"
+			},
+			{
+				"pergunta1": "receber $ 100.000 agora",
+				"pergunta2": "$ 1 milhão em cinco anos"
+			},
+			{
+				"pergunta1": "uma bolsa Chanel",
+				"pergunta2": "os sapatos Louboutin"
+			},
+			{
+				"pergunta1": "ter um corte de papel entre os dedos toda vez que virar uma página",
+				"pergunta2": "morder a língua toda vez que comer alguma coisa"
+			},
+			{
+				"pergunta1": "mentir sempre",
+				"pergunta2": "sempre sabe que alguém está mentindo"
+			},
+			{
+				"pergunta1": "arrotos com cheiro de donuts",
+				"pergunta2": "peidos que produzem nuvens de arco-íris"
+			},
+			{
+				"pergunta1": "ficar completamente bêbado depois de uma única dose de álcool",
+				"pergunta2": "nunca conseguir ficar bêbado"
+			},
+			{
+				"pergunta1": "ser pago para ler todos os livros",
+				"pergunta2": "para assistir todos os programas de TV"
+			},
+			{
+				"pergunta1": "ficar doente todas as vezes depois de comer sua comida favorita",
+				"pergunta2": "nunca mais comer sua comida favorita"
+			},
+			{
+				"pergunta1": "ser pulverizado por um gambá",
+				"pergunta2": "picado por um ninho de vespas inteiro"
+			},
+			{
+				"pergunta1": "desistir do Natal",
+				"pergunta2": "do seu aniversário"
+			},
+			{
+				"pergunta1": "desistir de tomar banho por um mês",
+				"pergunta2": "desistir da internet por um mês"
+			},
+			{
+				"pergunta1": "ir ao passado e encontrar seus ancestrais",
+				"pergunta2": "ir para o futuro e encontrar seus tataranetos"
+			},
+			{
+				"pergunta1": "ir para a faculdade, mas não ganhar dinheiro depois,",
+				"pergunta2": "desistir e se tornar um milionário"
+			},
+			{
+				"pergunta1": "se pendurar em árvores como uma preguiça de três dedos",
+				"pergunta2": "ter pés pegajosos como uma rã"
+			},
+			{
+				"pergunta1": "ter 20 milhões de assinantes do YouTube",
+				"pergunta2": "produzir um filme de ação de grande sucesso"
+			},
+			{
+				"pergunta1": "uma barriga de cerveja",
+				"pergunta2": "três queixos"
+			},
+			{
+				"pergunta1": "um vestido de noiva preto",
+				"pergunta2": "vermelho"
+			},
+			{
+				"pergunta1": "ter um encontro às cegas com um sem-teto",
+				"pergunta2": "beijar um sem-teto"
+			},
+			{
+				"pergunta1": "ter um cachorro com personalidade de gato",
+				"pergunta2": "um gato com personalidade de cachorro"
+			},
+			{
+				"pergunta1": "ter uma família e sem dinheiro,",
+				"pergunta2": "sem família, e três milhões de dólares"
+			},
+			{
+				"pergunta1": "ter um sopro de fogo como um dragão",
+				"pergunta2": "chocolate cocô"
+			},
+			{
+				"pergunta1": "ter uma linha do cabelo tocando suas sobrancelhas (sem testa)",
+				"pergunta2": "um focinho de porco como nariz"
+			},
+			{
+				"pergunta1": "ter uma cabeça do tamanho de uma bola de tênis",
+				"pergunta2": "do tamanho de uma melancia"
+			},
+			{
+				"pergunta1": "receber um salário alto em um trabalho que você odeia",
+				"pergunta2": "um salário baixo em um trabalho que você ama"
+			},
+			{
+				"pergunta1": "um rabo de cavalo",
+				"pergunta2": "chifre de unicórnio"
+			},
+			{
+				"pergunta1": "ter um Lamborghini",
+				"pergunta2": "um motorista particular"
+			},
+			{
+				"pergunta1": "ter muito tempo, mas sem liberdade,",
+				"pergunta2": "liberdade, mas sem tempo"
+			},
+			{
+				"pergunta1": "ter um nariz que nunca para de crescer",
+				"pergunta2": "orelhas que nunca param de crescer"
+			},
+			{
+				"pergunta1": "ter um parceiro que fala sem parar",
+				"pergunta2": "um parceiro que fala mal"
+			},
+			{
+				"pergunta1": "uma Pepsi",
+				"pergunta2": "uma Coca"
+			},
+			{
+				"pergunta1": "ter uma ilha particular",
+				"pergunta2": "uma cobertura nas Bahamas"
+			},
+			{
+				"pergunta1": "um botão de retrocesso",
+				"pergunta2": "um botão de pausa em sua vida"
+			},
+			{
+				"pergunta1": "ter uma máquina do tempo que só volta no tempo",
+				"pergunta2": "uma máquina do tempo que só avança no tempo"
+			},
+			{
+				"pergunta1": "que todos os gatos tentem atacá-lo quando o virem",
+				"pergunta2": "que todos os pássaros tentem atacá-lo quando o virem"
+			},
+			{
+				"pergunta1": "ter um penteado dos anos 80",
+				"pergunta2": "usar uma roupa dos anos 80"
+			},
+			{
+				"pergunta1": "ter uma voz estridente irritante",
+				"pergunta2": "uma voz incrivelmente profunda"
+			},
+			{
+				"pergunta1": "ter um casamento arranjado",
+				"pergunta2": "nunca se casar"
+			},
+			{
+				"pergunta1": "ter as orelhas penduradas até as pernas",
+				"pergunta2": "orelhas pontudas de 60 cm de altura"
+			},
+			{
+				"pergunta1": "que todos os gatos que se perdem acabem em sua casa",
+				"pergunta2": "as meias de todos que se perdem na máquina de lavar sejam teletransportadas para sua casa"
+			},
+			{
+				"pergunta1": "que todos os filmes sejam estragados para você antes de assisti-los",
+				"pergunta2": "não poder assistir a um novo filme até que seja lançado por um ano"
+			},
+			{
+				"pergunta1": "ter tudo o que sempre quis, mas morrer em um ano",
+				"pergunta2": "viver sua vida como ela é agora"
+			},
+			{
+				"pergunta1": "ter sobrancelhas que nunca param de crescer",
+				"pergunta2": "cílios que nunca param de crescer"
+			},
+			{
+				"pergunta1": "ter olhos que podem filmar tudo",
+				"pergunta2": "ouvidos que podem filmar tudo"
+			},
+			{
+				"pergunta1": "ter olhos do tamanho de uma bola de beisebol",
+				"pergunta2": "olhos do tamanho de uma ervilha"
+			},
+			{
+				"pergunta1": "bafo de fogo",
+				"pergunta2": "cocô de chocolate"
+			},
+			{
+				"pergunta1": "ter o cabelo cobrindo todo o corpo",
+				"pergunta2": "ficar completamente careca"
+			},
+			{
+				"pergunta1": "ter uma respiração subaquática infinita",
+				"pergunta2": "uma capacidade infinita de funcionamento"
+			},
+			{
+				"pergunta1": "não ter dedos",
+				"pergunta2": "pés"
+			},
+			{
+				"pergunta1": "não ter polegares",
+				"pergunta2": "apenas ter polegares"
+			},
+			{
+				"pergunta1": "ter um mamilo",
+				"pergunta2": "dois umbigos"
+			},
+			{
+				"pergunta1": "que os paparazzi sigam você",
+				"pergunta2": "revelem um segredo diferente sobre você em uma coluna de jornal semanal"
+			},
+			{
+				"pergunta1": "fazer sexo com um burro e ninguém saber disso",
+				"pergunta2": "não fazer sexo com um burro, mas as pessoas pensam que sim"
+			},
+			{
+				"pergunta1": "que a pele mude de cor com base em suas emoções",
+				"pergunta2": "que tatuagens apareçam por todo o corpo, retratando o que você fez ontem"
+			},
+			{
+				"pergunta1": "ter força sobrenatural",
+				"pergunta2": "inteligência sobrenatural"
+			},
+			{
+				"pergunta1": "ter a capacidade de voltar para um momento anterior de sua vida",
+				"pergunta2": "avançar para um momento futuro de sua vida"
+			},
+			{
+				"pergunta1": "ter a melhor casa em um bairro ruim",
+				"pergunta2": "a pior casa em um bairro chique"
+			},
+			{
+				"pergunta1": "ter o nariz de um cachorro",
+				"pergunta2": "os olhos de um cachorro"
+			},
+			{
+				"pergunta1": "ter a voz de Marge Simpson",
+				"pergunta2": "o cabelo de Marge Simpson"
+			},
+			{
+				"pergunta1": "ter a pior ressaca de todos os tempos",
+				"pergunta2": "ter que ler Memes sobre como é difícil ser mãe o dia inteiro"
+			},
+			{
+				"pergunta1": "dirigir uma motocicleta rosa pelos próximos 2 anos",
+				"pergunta2": "lutar com um crocodilo uma vez"
+			},
+			{
+				"pergunta1": "comer exatamente a mesma coisa todos os dias, mas nunca ter que pagar por sua comida",
+				"pergunta2": "poder comer o que quiser, mas ter que pagar o dobro por tudo que você compra"
+			},
+			{
+				"pergunta1": "terminar cada frase com um calúnia racial",
+				"pergunta2": "lançar duas bombas F em cada frase"
+			},
+			{
+				"pergunta1": "peidar alto sempre que tiver uma conversa séria",
+				"pergunta2": "arrotar após cada beijo"
+			},
+			{
+				"pergunta1": "ter que aprender a andar novamente",
+				"pergunta2": "aprender sobre cada data na história e por que eles foram importantes"
+			},
+			{
+				"pergunta1": "lamber as bochechas das pessoas sempre que elas vão apertar sua mão",
+				"pergunta2": "gritar: \"Eu não lavei minhas mãos!\" a todos os seus colegas de trabalho toda vez que você volta do banheiro"
+			},
+			{
+				"pergunta1": "apertar a mão de todos por quem passa na rua",
+				"pergunta2": "se curvar a todos por quem passa"
+			},
+			{
+				"pergunta1": "usar meias com sandálias pelo resto da vida",
+				"pergunta2": "crocodilos"
+			},
+			{
+				"pergunta1": "ter amor ilimitado",
+				"pergunta2": "dinheiro ilimitado"
+			},
+			{
+				"pergunta1": "ter respeito ilimitado",
+				"pergunta2": "poder ilimitado"
+			},
+			{
+				"pergunta1": "que seus pensamentos sejam transmitidos de forma que todos sempre saibam o que você está pensando enquanto está pensando",
+				"pergunta2": "nunca tenha permissão para usar roupas, mas mantenha seus pensamentos para si mesmo"
+			},
+			{
+				"pergunta1": "acumular",
+				"pergunta2": "limpar compulsivamente"
+			},
+			{
+				"pergunta1": "matar uma pessoa à sua esquerda",
+				"pergunta2": "matar uma pessoa à sua direita"
+			},
+			{
+				"pergunta1": "saber a história de cada pessoa que você toca",
+				"pergunta2": "poder falar com os animais"
+			},
+			{
+				"pergunta1": "rir descontroladamente quando está triste",
+				"pergunta2": "chorar como um bebê quando está feliz"
+			},
+			{
+				"pergunta1": "ouvir tudo, exceto seu músico/artista favorito",
+				"pergunta2": "ouvir apenas seu músico/artista favorito"
+			},
+			{
+				"pergunta1": "viver 200 anos como é",
+				"pergunta2": "viver 100 anos forte como o Superman"
+			},
+			{
+				"pergunta1": "viver mais 25 anos",
+				"pergunta2": "viver uma vida sem a necessidade de dormir"
+			},
+			{
+				"pergunta1": "morar no mesmo lugar pelo resto de sua vida",
+				"pergunta2": "se mudar a cada 6 meses para uma cidade diferente"
+			},
+			{
+				"pergunta1": "viver em uma caverna",
+				"pergunta2": "uma casa na árvore"
+			},
+			{
+				"pergunta1": "morar em uma casa cheia de queijo",
+				"pergunta2": "chocolate"
+			},
+			{
+				"pergunta1": "viver em uma biblioteca onde os livros são sua única forma de entretenimento",
+				"pergunta2": "viver em uma cela de prisão onde você tem acesso a qualquer canal da TV"
+			},
+			{
+				"pergunta1": "viver em um abrigo antiaéreo abandonado",
+				"pergunta2": "em uma torre isolada"
+			},
+			{
+				"pergunta1": "viver na Roma Antiga",
+				"pergunta2": "na Grécia Antiga"
+			},
+			{
+				"pergunta1": "viver isolado",
+				"pergunta2": "enfrentar seu maior medo uma vez por mês"
+			},
+			{
+				"pergunta1": "viver no universo Game of Thrones",
+				"pergunta2": "viver no universo The Walking Dead"
+			},
+			{
+				"pergunta1": "viver sem eletrônicos",
+				"pergunta2": "sem amigos"
+			},
+			{
+				"pergunta1": "viver sem café",
+				"pergunta2": "sem chocolate"
+			},
+			{
+				"pergunta1": "viver sem seu telefone",
+				"pergunta2": "viver sem seu computador, iPod e roupas limpas"
+			},
+			{
+				"pergunta1": "cruzar os olhos com um estranho através do box do banheiro",
+				"pergunta2": "acidentalmente pisar em seu chefe no banheiro"
+			},
+			{
+				"pergunta1": "perder os braços",
+				"pergunta2": "as pernas"
+			},
+			{
+				"pergunta1": "perder seu polegar preferido",
+				"pergunta2": "perder o indicador e o dedo médio de sua mão preferida"
+			},
+			{
+				"pergunta1": "perder a visão",
+				"pergunta2": "a audição"
+			},
+			{
+				"pergunta1": "se casar aos dez anos",
+				"pergunta2": "nunca se casar"
+			},
+			{
+				"pergunta1": "nunca mais passar por um momento estranho",
+				"pergunta2": "ganhar 100 dólares por cada momento estranho que você passar"
+			},
+			{
+				"pergunta1": "nunca ser capaz de elogiar ninguém",
+				"pergunta2": "nunca ser capaz de reclamar"
+			},
+			{
+				"pergunta1": "nunca ser capaz de sentir emoções",
+				"pergunta2": "nunca ser capaz de demonstrar emoções"
+			},
+			{
+				"pergunta1": "nunca mais poder ouvir sua música favorita",
+				"pergunta2": "nunca mais poder assistir seu filme favorito"
+			},
+			{
+				"pergunta1": "nunca mais poder deixar seu país de origem",
+				"pergunta2": "nunca ser capaz de dirigir"
+			},
+			{
+				"pergunta1": "nunca ser capaz de se lembrar do aniversário",
+				"pergunta2": "aniversário de ninguém"
+			},
+			{
+				"pergunta1": "nunca ser capaz de tocar no azul",
+				"pergunta2": "nunca ser capaz de tocar no vermelho"
+			},
+			{
+				"pergunta1": "nunca mais comer sua comida favorita",
+				"pergunta2": "apenas comer sua comida favorita pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "nunca mais fazer sexo",
+				"pergunta2": "nunca aprender nada de novo"
+			},
+			{
+				"pergunta1": "nunca mais ter que amarrar os sapatos",
+				"pergunta2": "nunca ter que desembaraçar os fios dos fones de ouvido novamente"
+			},
+			{
+				"pergunta1": "nunca mais jogar no computador",
+				"pergunta2": "nunca mais assistir a um vídeo no computador"
+			},
+			{
+				"pergunta1": "nunca mais ler outro livro",
+				"pergunta2": "nunca ouvir outra música"
+			},
+			{
+				"pergunta1": "nunca mais usar roupas íntimas",
+				"pergunta2": "nunca mais usar meias"
+			},
+			{
+				"pergunta1": "não ser capaz de sentar",
+				"pergunta2": "não ser capaz de ficar em pé"
+			},
+			{
+				"pergunta1": "não ser capaz de entender o sarcasmo",
+				"pergunta2": "apenas ser capaz de falar sarcasticamente"
+			},
+			{
+				"pergunta1": "não usar sapatos pelo resto da sua vida",
+				"pergunta2": "não dirigir um carro pelo resto da sua vida"
+			},
+			{
+				"pergunta1": "ouvir apenas techno hardcore",
+				"pergunta2": "apenas death metal"
+			},
+			{
+				"pergunta1": "apenas ser capaz de falar rima",
+				"pergunta2": "apenas usando aliteração"
+			},
+			{
+				"pergunta1": "falar apenas por meio de um tradutor",
+				"pergunta2": "apenas quando fizer uma pergunta"
+			},
+			{
+				"pergunta1": "beber apenas água",
+				"pergunta2": "nunca mais comer biscoitos"
+			},
+			{
+				"pergunta1": "apenas comer",
+				"pergunta2": "apenas beber"
+			},
+			{
+				"pergunta1": "ter acesso apenas ao YouTube na Internet",
+				"pergunta2": "apenas acesso a jogos na Internet"
+			},
+			{
+				"pergunta1": "ler apenas romances",
+				"pergunta2": "apenas livros didáticos"
+			},
+			{
+				"pergunta1": "apenas ler romances",
+				"pergunta2": "ler seu livro favorito repetidamente pelo resto da vida"
+			},
+			{
+				"pergunta1": "usar apenas um Mac",
+				"pergunta2": "apenas um PC com Windows"
+			},
+			{
+				"pergunta1": "ter uma cobertura",
+				"pergunta2": "uma villa"
+			},
+			{
+				"pergunta1": "ter um jato particular",
+				"pergunta2": "um McLaren P1"
+			},
+			{
+				"pergunta1": "que as pessoas pensem que você é muito estranho",
+				"pergunta2": "que você seja totalmente mediano e não particularmente interessante"
+			},
+			{
+				"pergunta1": "fazer cocô de tijolos",
+				"pergunta2": "vomitar cobras pelo resto da vida"
+			},
+			{
+				"pergunta1": "cagar uma faca de manteiga",
+				"pergunta2": "1.000 litros de maionese"
+			},
+			{
+				"pergunta1": "evitar a Segunda Guerra Mundial",
+				"pergunta2": "ganhar uma grande quantidade de dinheiro na loteria"
+			},
+			{
+				"pergunta1": "arrancar todo o seu púbis",
+				"pergunta2": "arrancar uma unha"
+			},
+			{
+				"pergunta1": "perceber no meio de um encontro que há algo em seu nariz",
+				"pergunta2": "que seu zíper esteve aberto o tempo todo"
+			},
+			{
+				"pergunta1": "reciclar fezes humanas para o resto de sua vida",
+				"pergunta2": "trabalhar com produtos químicos perigosos e explosivos para o resto de sua vida"
+			},
+			{
+				"pergunta1": "reciclar cocô humano como uma profissão pelo resto de sua vida",
+				"pergunta2": "trabalhar com produtos químicos perigosos e explosivos pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "lembrar de todas as conversas que você tem",
+				"pergunta2": "lembrar de tudo que você lê"
+			},
+			{
+				"pergunta1": "economizar dinheiro para comprar uma casa",
+				"pergunta2": "gastá-lo em aventuras divertidas"
+			},
+			{
+				"pergunta1": "ver como vai morrer",
+				"pergunta2": "com quem vai se casar"
+			},
+			{
+				"pergunta1": "ver o mundo em pixels grandes",
+				"pergunta2": "funcionar como uma bateria de dez horas (depois disso, você adormece instantaneamente)"
+			},
+			{
+				"pergunta1": "dividir sua casa com um bando de ratos",
+				"pergunta2": "morar com seus pais para sempre"
+			},
+			{
+				"pergunta1": "aparecer para trabalhar sem calças pelo resto da vida",
+				"pergunta2": "fazer xixi na frente de seus colegas de trabalho toda vez que fizer uma apresentação"
+			},
+			{
+				"pergunta1": "esquiar nas montanhas",
+				"pergunta2": "passar férias na praia"
+			},
+			{
+				"pergunta1": "pular o verão",
+				"pergunta2": "pular o inverno"
+			},
+			{
+				"pergunta1": "dormir no chão de pijama, mas não tem travesseiro,",
+				"pergunta2": "dormir no chão totalmente nu, mas tem um travesseiro"
+			},
+			{
+				"pergunta1": "dormir com seu chefe para conseguir uma promoção",
+				"pergunta2": "desistir da promoção"
+			},
+			{
+				"pergunta1": "cheirar a merda o tempo todo sem perceber",
+				"pergunta2": "cheirar a merda, mas só você pode sentir o cheiro"
+			},
+			{
+				"pergunta1": "cheirar a bunda de um cachorro",
+				"pergunta2": "a de um estranho"
+			},
+			{
+				"pergunta1": "passar um dia com um ente querido que já faleceu",
+				"pergunta2": "começar a explorar um dia no ano 3001"
+			},
+			{
+				"pergunta1": "passar cinco anos na prisão, mas voltar à sua antiga vida",
+				"pergunta2": "nunca ir para a prisão, mas se mudar todos os anos pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "começar uma colônia em outro planeta",
+				"pergunta2": "ser o líder de um pequeno país na Terra"
+			},
+			{
+				"pergunta1": "permanecer humano, mas ser enviado de volta ao tempo dos dinossauros",
+				"pergunta2": "se tornar o dinossauro de sua escolha, mas viver nos tempos modernos"
+			},
+			{
+				"pergunta1": "parar de tomar banho",
+				"pergunta2": "de escovar os dentes"
+			},
+			{
+				"pergunta1": "processar uma organização de caridade e ganhar",
+				"pergunta2": "processar uma organização corrupta e perder"
+			},
+			{
+				"pergunta1": "falar como Gollum",
+				"pergunta2": "respirar como Darth Vader"
+			},
+			{
+				"pergunta1": "viajar 100 anos no passado",
+				"pergunta2": "100 anos no futuro"
+			},
+			{
+				"pergunta1": "usar apenas o Instagram para o resto da sua vida",
+				"pergunta2": "usar apenas o Facebook para o resto da sua vida"
+			},
+			{
+				"pergunta1": "usar apenas o Reddit para o resto de sua vida",
+				"pergunta2": "usar apenas o YouTube para o resto de sua vida"
+			},
+			{
+				"pergunta1": "usar lixa como papel higiênico",
+				"pergunta2": "vinagre como colírio"
+			},
+			{
+				"pergunta1": "viver em um mundo cheio de Scientologists",
+				"pergunta2": "viver em um mundo cheio de Terráteros planos"
+			},
+			{
+				"pergunta1": "lavar todos os seus pratos com a língua",
+				"pergunta2": "lavar seus animais de estimação com a língua"
+			},
+			{
+				"pergunta1": "usar uma camiseta do lado errado ao fazer um discurso",
+				"pergunta2": "ter papel higiênico preso na sola do seu sapato ao fazer um discurso"
+			},
+			{
+				"pergunta1": "usar fraldas de adulto",
+				"pergunta2": "trocar a fralda de um adulto"
+			},
+			{
+				"pergunta1": "usar as mesmas meias por um mês",
+				"pergunta2": "a mesma calcinha por duas semanas"
+			},
+			{
+				"pergunta1": "sussurrar o tempo todo",
+				"pergunta2": "gritar o tempo todo"
+			},
+			{
+				"pergunta1": "ganhar um milhão de dólares hoje",
+				"pergunta2": "10 milhões de dólares em dez anos"
+			},
+			{
+				"pergunta1": "ganhar na loteria",
+				"pergunta2": "viver o dobro"
+			},
+			{
+				"pergunta1": "trabalhar 10 horas por dia, quatro dias por semana",
+				"pergunta2": "trabalhar 8 horas por dia, cinco dias por semana"
+			},
+			{
+				"pergunta1": "trabalhar em um emprego com salário mínimo pelo resto de sua vida",
+				"pergunta2": "viver no deserto pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "trabalhar como provador de chocolate",
+				"pergunta2": "como provador de colchões"
+			},
+			{
+				"pergunta1": "trabalhar como policial",
+				"pergunta2": "como bombeiro"
+			},
+			{
+				"pergunta1": "trabalhar como hóspede secreto de um hotel",
+				"pergunta2": "como viajante profissional"
+			},
+			{
+				"pergunta1": "trabalhar como contador",
+				"pergunta2": "como lixeiro"
+			},
+			{
+				"pergunta1": "trabalhar como jogador de e-sports",
+				"pergunta2": "como YouTuber"
+			},
+			{
+				"pergunta1": "trabalhar no FBI",
+				"pergunta2": "na CIA"
+			},
+			{
+				"pergunta1": "trabalhar para a Apple e conhecer todos os seus segredos",
+				"pergunta2": "trabalhar para o Google e conhecer todos os seus segredos"
+			},
+			{
+				"pergunta1": "gritar um palavrão entre cada palavra",
+				"pergunta2": "levar um soco na cara depois de cada xingamento"
+			},
+			{
+				"pergunta1": "que seu chefe pegue você dançando na frente do espelho",
+				"pergunta2": "cutucando seu nariz"
+			},
+			{
+				"pergunta1": "que seus pais",
+				"pergunta2": "irmãos escolham seu futuro cônjuge"
+			}
+		]
+	},
+	{
+		"id": "easy",
+		"nsfw": false,
+		"questions": [
+			{
+				"pergunta1": "ser uma babá",
+				"pergunta2": "uma babá de cachorro"
+			},
+			{
+				"pergunta1": "ser uma pessoa diurna",
+				"pergunta2": "noturna"
+			},
+			{
+				"pergunta1": "ser um detetive",
+				"pergunta2": "um piloto"
+			},
+			{
+				"pergunta1": "ser um inventor famoso",
+				"pergunta2": "um escritor famoso"
+			},
+			{
+				"pergunta1": "ser um músico famoso",
+				"pergunta2": "um empresário famoso"
+			},
+			{
+				"pergunta1": "ser uma deusa/deus",
+				"pergunta2": "uma princesa/príncipe"
+			},
+			{
+				"pergunta1": "ser um mestre em desenho",
+				"pergunta2": "um cantor incrível"
+			},
+			{
+				"pergunta1": "ser um mestre em origami",
+				"pergunta2": "um mestre em mágica de mão"
+			},
+			{
+				"pergunta1": "ser um pirata",
+				"pergunta2": "um ninja"
+			},
+			{
+				"pergunta1": "ser um mago",
+				"pergunta2": "um super-herói"
+			},
+			{
+				"pergunta1": "ser capaz de mudar de cor para se camuflar",
+				"pergunta2": "ficar 5 metros mais alto e encolher quando quiser"
+			},
+			{
+				"pergunta1": "ser capaz de mudar as cores como um camaleão",
+				"pergunta2": "prender a respiração debaixo d'água por uma hora"
+			},
+			{
+				"pergunta1": "ser capaz de mudar a cor de qualquer coisa com apenas um pensamento",
+				"pergunta2": "saber todas as línguas que já foram faladas na Terra"
+			},
+			{
+				"pergunta1": "ser capaz de controlar o fogo",
+				"pergunta2": "a água"
+			},
+			{
+				"pergunta1": "ser capaz de criar um novo feriado",
+				"pergunta2": "criar um novo esporte"
+			},
+			{
+				"pergunta1": "ser capaz de fazer flips e backflips",
+				"pergunta2": "dançar break"
+			},
+			{
+				"pergunta1": "comer qualquer comida picante sem problemas",
+				"pergunta2": "nunca ser picado por outro mosquito"
+			},
+			{
+				"pergunta1": "ser capaz de comer panquecas o quanto quiser sem prejudicar sua saúde",
+				"pergunta2": "comer tanto bacon quanto quiser sem prejudicar sua saúde"
+			},
+			{
+				"pergunta1": "ser capaz de encontrar algo que foi perdido",
+				"pergunta2": "cada vez que tocar em alguém, essa pessoa não conseguirá mentir"
+			},
+			{
+				"pergunta1": "ser capaz de voar na velocidade de uma caminhada",
+				"pergunta2": "correr na velocidade dos carros"
+			},
+			{
+				"pergunta1": "voar",
+				"pergunta2": "ser invisível"
+			},
+			{
+				"pergunta1": "ser capaz de pular até um canguru",
+				"pergunta2": "prender a respiração tanto quanto uma baleia"
+			},
+			{
+				"pergunta1": "ser capaz de se mover silenciosamente",
+				"pergunta2": "ter uma voz incrivelmente alta e assustadora"
+			},
+			{
+				"pergunta1": "nunca poder usar calças",
+				"pergunta2": "shorts"
+			},
+			{
+				"pergunta1": "tocar piano",
+				"pergunta2": "violão"
+			},
+			{
+				"pergunta1": "ser capaz de ler lábios",
+				"pergunta2": "saber linguagem de sinais"
+			},
+			{
+				"pergunta1": "ser capaz de ler mentes",
+				"pergunta2": "ver um dia no futuro"
+			},
+			{
+				"pergunta1": "ser capaz de se lembrar de tudo em cada livro que leu",
+				"pergunta2": "lembrar de todas as conversas que teve"
+			},
+			{
+				"pergunta1": "ser capaz de se lembrar de tudo que você já viu",
+				"pergunta2": "ouviu"
+			},
+			{
+				"pergunta1": "ser capaz de ver novas cores que nenhuma outra pessoa pode ver",
+				"pergunta2": "ouvir coisas que nenhum outro humano pode ouvir"
+			},
+			{
+				"pergunta1": "ver o futuro",
+				"pergunta2": "mudar o passado"
+			},
+			{
+				"pergunta1": "ser capaz de ver coisas que estão muito distantes, como binóculos,",
+				"pergunta2": "ser capaz de ver as coisas de muito perto, como um microscópio"
+			},
+			{
+				"pergunta1": "ser capaz de diminuir para o tamanho de uma formiga a qualquer momento",
+				"pergunta2": "ser capaz de crescer para o tamanho de um prédio de dois andares a qualquer momento"
+			},
+			{
+				"pergunta1": "ser capaz de cantar",
+				"pergunta2": "dançar muito bem"
+			},
+			{
+				"pergunta1": "ser capaz de falar qualquer idioma, mas não ser capaz de ler em nenhum deles,",
+				"pergunta2": "ler qualquer idioma, mas não ser capaz de falar nenhum deles"
+			},
+			{
+				"pergunta1": "ser capaz de falar com os animais e fazer com que eles entendam você, mas você não pode entendê-los",
+				"pergunta2": "ser capaz de entender o que os animais dizem, mas eles não podem entender você"
+			},
+			{
+				"pergunta1": "falar com seu filho de 60 anos"
+			},
+			{
+				"pergunta1": "ser capaz de digitar mais rápido do que qualquer pessoa",
+				"pergunta2": "falar mais rápido do que qualquer pessoa"
+			},
+			{
+				"pergunta1": "poder digitar/texto muito rápido",
+				"pergunta2": "ler muito rápido"
+			},
+			{
+				"pergunta1": "ser capaz de andar de quatro",
+				"pergunta2": "apenas ser capaz de andar de lado como um caranguejo"
+			},
+			{
+				"pergunta1": "assistir os filmes que quiser uma semana antes de eles serem lançados",
+				"pergunta2": "sempre saber o que estará na moda antes de se tornar uma tendência"
+			},
+			{
+				"pergunta1": "ser um ator/atriz em um filme",
+				"pergunta2": "escrever um roteiro de filme que seria transformado em um filme"
+			},
+			{
+				"pergunta1": "ser um astronauta",
+				"pergunta2": "um marinheiro"
+			},
+			{
+				"pergunta1": "ser um atleta nos Jogos Olímpicos de Verão",
+				"pergunta2": "ser um atleta nos Jogos Olímpicos de Inverno"
+			},
+			{
+				"pergunta1": "ser um nadador incrivelmente rápido",
+				"pergunta2": "um corredor incrivelmente rápido"
+			},
+			{
+				"pergunta1": "ser o melhor amigo do Super-Homem",
+				"pergunta2": "do Capitão América"
+			},
+			{
+				"pergunta1": "ser à prova de balas",
+				"pergunta2": "ser capaz de sobreviver a quedas de qualquer altura"
+			},
+			{
+				"pergunta1": "estar coberto de escamas",
+				"pergunta2": "de pele"
+			},
+			{
+				"pergunta1": "estar em um quarto escuro e assustador sozinho",
+				"pergunta2": "em uma sala bem iluminada com Michael Jackson"
+			},
+			{
+				"pergunta1": "estar em uma banda de rock",
+				"pergunta2": "em uma boy band"
+			},
+			{
+				"pergunta1": "ser famoso",
+				"pergunta2": "alguém que nunca foi conhecido por nada"
+			},
+			{
+				"pergunta1": "ser invisível",
+				"pergunta2": "ser capaz de voar"
+			},
+			{
+				"pergunta1": "ser muito bom no skate",
+				"pergunta2": "muito bom em qualquer videogame que você experimentou"
+			},
+			{
+				"pergunta1": "ser alto por causa de um torso longo",
+				"pergunta2": "com pernas muito longas"
+			},
+			{
+				"pergunta1": "ser autor de um livro popular",
+				"pergunta2": "músico de uma banda que lançou um álbum popular"
+			},
+			{
+				"pergunta1": "ser a estrela principal de um filme, mas ser péssima,",
+				"pergunta2": "ser a estrela principal de um musical que toca em cima de uma pista de boliche"
+			},
+			{
+				"pergunta1": "ser o nerd inteligente",
+				"pergunta2": "o atleta burro"
+			},
+			{
+				"pergunta1": "ser muito popular na plataforma de mídia social de sua escolha",
+				"pergunta2": "ter um podcast com boa classificação"
+			},
+			{
+				"pergunta1": "escovar os dentes com sabão",
+				"pergunta2": "beber leite azedo"
+			},
+			{
+				"pergunta1": "bungee-jump de uma ponte",
+				"pergunta2": "pára-quedas de um avião"
+			},
+			{
+				"pergunta1": "pegar seus pais",
+				"pergunta2": "seus avós fazendo isso"
+			},
+			{
+				"pergunta1": "controlar o resultado de qualquer cara",
+				"pergunta2": "coroa"
+			},
+			{
+				"pergunta1": "dançar na frente de 1000 pessoas",
+				"pergunta2": "cantar na frente de 1000 pessoas"
+			},
+			{
+				"pergunta1": "dançar",
+				"pergunta2": "cantar"
+			},
+			{
+				"pergunta1": "namorar Yoda",
+				"pergunta2": "Chewbacca"
+			},
+			{
+				"pergunta1": "beber 1 galão de ketchup",
+				"pergunta2": "1 galão de Sriracha"
+			},
+			{
+				"pergunta1": "beber todas as suas refeições de mamadeiras",
+				"pergunta2": "usar fraldas para que todos vejam"
+			},
+			{
+				"pergunta1": "beber todas as refeições como um smoothie",
+				"pergunta2": "nunca ser capaz de comer alimentos cozidos"
+			},
+			{
+				"pergunta1": "beber urina reciclada",
+				"pergunta2": "tomar banho no esgoto"
+			},
+			{
+				"pergunta1": "dirigir um carro de polícia",
+				"pergunta2": "uma ambulância"
+			},
+			{
+				"pergunta1": "dirigir um carro de corrida",
+				"pergunta2": "pilotar um helicóptero"
+			},
+			{
+				"pergunta1": "deixar o telefone em um penico",
+				"pergunta2": "mergulhar a escova de dentes no banheiro limpo e usá-lo novamente"
+			},
+			{
+				"pergunta1": "comer uma tigela de macarrão de espaguete sem molho",
+				"pergunta2": "comer uma tigela de molho de espaguete sem macarrão"
+			},
+			{
+				"pergunta1": "comer uma banheira de minhocas",
+				"pergunta2": "uma batata frita oleosa do chão"
+			},
+			{
+				"pergunta1": "comer um sanduíche de peru com sorvete de baunilha",
+				"pergunta2": "comer sorvete de baunilha com pedaços de peru dentro"
+			},
+			{
+				"pergunta1": "comer uma cebola crua inteira",
+				"pergunta2": "um limão inteiro"
+			},
+			{
+				"pergunta1": "comer um verme",
+				"pergunta2": "comer um gafanhoto"
+			},
+			{
+				"pergunta1": "comer uma maçã",
+				"pergunta2": "uma laranja"
+			},
+			{
+				"pergunta1": "comer sorvete com sabor de brócolis",
+				"pergunta2": "comer biscoitos com sabor de carne"
+			},
+			{
+				"pergunta1": "comer cereal KokoKrunch com molho de ketchup",
+				"pergunta2": "um hambúrguer com pão de bolo de chocolate"
+			},
+			{
+				"pergunta1": "comer uma aranha viva",
+				"pergunta2": "ter 50 aranhas não venenosas rastejando em você de uma vez"
+			},
+			{
+				"pergunta1": "comer apenas comida de cachorro",
+				"pergunta2": "fazer todos os seus negócios em uma caixa sanitária"
+			},
+			{
+				"pergunta1": "comer a mesma refeição todos os dias (para sempre)",
+				"pergunta2": "nunca ser capaz de comer fora"
+			},
+			{
+				"pergunta1": "comer coisas que têm gosto de meleca",
+				"pergunta2": "comer coisas do lixo"
+			},
+			{
+				"pergunta1": "que tudo em sua casa seja de uma única cor",
+				"pergunta2": "que cada parede e porta tenha uma cor diferente"
+			},
+			{
+				"pergunta1": "empinar pipa",
+				"pergunta2": "balançar"
+			},
+			{
+				"pergunta1": "ter um novo videogame todos os dias",
+				"pergunta2": "10 porções de sorvete diferentes todos os dias"
+			},
+			{
+				"pergunta1": "receber dez picadas de mosquito",
+				"pergunta2": "uma picada de abelha"
+			},
+			{
+				"pergunta1": "nomear uma árvore recém-descoberta",
+				"pergunta2": "nomear uma aranha recém-descoberta"
+			},
+			{
+				"pergunta1": "acordar cedo",
+				"pergunta2": "ficar acordado até tarde"
+			},
+			{
+				"pergunta1": "desistir de dinheiro",
+				"pergunta2": "comida"
+			},
+			{
+				"pergunta1": "desistir da internet",
+				"pergunta2": "do seu melhor amigo"
+			},
+			{
+				"pergunta1": "esquiar",
+				"pergunta2": "ir a um parque aquático"
+			},
+			{
+				"pergunta1": "mergulhar em um recife",
+				"pergunta2": "acampar perto de um lago"
+			},
+			{
+				"pergunta1": "esquiar na neve",
+				"pergunta2": "esquiar na água"
+			},
+			{
+				"pergunta1": "ir para o espaço sideral",
+				"pergunta2": "o centro da Terra"
+			},
+			{
+				"pergunta1": "ir ao médico para uma injeção",
+				"pergunta2": "ir ao dentista para obter uma cavidade preenchida"
+			},
+			{
+				"pergunta1": "sair com o elenco de F.R.I.E.N.D.S",
+				"pergunta2": "How I Met Your Mother"
+			},
+			{
+				"pergunta1": "ter $ 1.000.000 por uma semana",
+				"pergunta2": "$ 100.000 por um dia"
+			},
+			{
+				"pergunta1": "uma impressora 3D",
+				"pergunta2": "o melhor telefone do mercado"
+			},
+			{
+				"pergunta1": "um vestido de noiva preto",
+				"pergunta2": "vermelho"
+			},
+			{
+				"pergunta1": "uma arma de bolhas que atira bolhas gigantes de 1,5 metro",
+				"pergunta2": "uma pilha de Legos do tamanho de uma banheira"
+			},
+			{
+				"pergunta1": "um cupcake",
+				"pergunta2": "um pedaço de bolo"
+			},
+			{
+				"pergunta1": "ter um cachorro",
+				"pergunta2": "um gato"
+			},
+			{
+				"pergunta1": "um drone que voe",
+				"pergunta2": "um drone que possa ir para a água"
+			},
+			{
+				"pergunta1": "ter um primeiro encontro dentro de casa",
+				"pergunta2": "ao ar livre"
+			},
+			{
+				"pergunta1": "uma armadura completa",
+				"pergunta2": "um cavalo"
+			},
+			{
+				"pergunta1": "ter uma cabeça do tamanho de uma bola de tênis",
+				"pergunta2": "do tamanho de uma melancia"
+			},
+			{
+				"pergunta1": "ter uma casa com piso de cama elástica",
+				"pergunta2": "uma casa com piso de aquário"
+			},
+			{
+				"pergunta1": "um tapete mágico que voa",
+				"pergunta2": "um submarino transparente"
+			},
+			{
+				"pergunta1": "um freezer mágico que sempre tenha todos os seus sabores de sorvete favoritos",
+				"pergunta2": "um freezer mágico que tenha um sabor de sorvete diferente toda vez que você abre a porta"
+			},
+			{
+				"pergunta1": "um rosto de macaco",
+				"pergunta2": "nariz de porco"
+			},
+			{
+				"pergunta1": "que um novo chapéu bobo apareça em seu armário todas as manhãs",
+				"pergunta2": "um novo par de sapatos apareça em seu armário uma vez por semana"
+			},
+			{
+				"pergunta1": "ter um robô pessoal em tamanho real",
+				"pergunta2": "um jetpack"
+			},
+			{
+				"pergunta1": "ter um pinguim de estimação",
+				"pergunta2": "um dragão de Komodo de estimação"
+			},
+			{
+				"pergunta1": "um gambá de estimação",
+				"pergunta2": "uma preguiça de estimação"
+			},
+			{
+				"pergunta1": "ter uma cobra de estimação",
+				"pergunta2": "um tigre de estimação"
+			},
+			{
+				"pergunta1": "ter um cofrinho que dobre todo o dinheiro que você colocar nele",
+				"pergunta2": "encontrar $ 500 debaixo do travesseiro toda vez que você acordar"
+			},
+			{
+				"pergunta1": "ter um cinema privado",
+				"pergunta2": "ter seu próprio fliperama"
+			},
+			{
+				"pergunta1": "ter uma sala com paredes de quadro branco nas quais você possa desenhar",
+				"pergunta2": "uma sala onde todo o teto seja uma grande clarabóia"
+			},
+			{
+				"pergunta1": "ter uma sala especial que possa preencher com quantas bolhas quiser",
+				"pergunta2": "ter um escorregador que vai do telhado até o chão"
+			},
+			{
+				"pergunta1": "ter uma cauda que não pode agarrar nada",
+				"pergunta2": "asas que não podem voar"
+			},
+			{
+				"pergunta1": "ter uma máquina do tempo que só volta no tempo",
+				"pergunta2": "uma máquina do tempo que só avança no tempo"
+			},
+			{
+				"pergunta1": "um telescópio muito poderoso",
+				"pergunta2": "um microscópio muito poderoso"
+			},
+			{
+				"pergunta1": "ter alienígenas como amigos",
+				"pergunta2": "viajar pelo espaço sozinho"
+			},
+			{
+				"pergunta1": "ter uma casa na árvore incrível com slides e três quartos",
+				"pergunta2": "um sistema de entretenimento incrível com uma TV enorme e todos os consoles de jogos"
+			},
+			{
+				"pergunta1": "ter um gato do tamanho de um elefante",
+				"pergunta2": "um elefante do tamanho de um gato"
+			},
+			{
+				"pergunta1": "ter um suprimento ilimitado de sorvete",
+				"pergunta2": "ter um sabor de sorvete popular com o seu nome"
+			},
+			{
+				"pergunta1": "ter qualquer livro que queira de graça",
+				"pergunta2": "poder assistir qualquer filme que queira de graça"
+			},
+			{
+				"pergunta1": "ter mau hálito",
+				"pergunta2": "pés realmente fedorentos"
+			},
+			{
+				"pergunta1": "que tudo que desenha se torne real",
+				"pergunta2": "se torne um super-herói de sua escolha"
+			},
+			{
+				"pergunta1": "ter tudo o que sempre quis, mas morrer em um ano",
+				"pergunta2": "viver sua vida como ela é agora"
+			},
+			{
+				"pergunta1": "ter olhos que mudam de cor dependendo do seu humor",
+				"pergunta2": "cabelos que mudam de cor dependendo da temperatura"
+			},
+			{
+				"pergunta1": "ter pés no lugar das mãos",
+				"pergunta2": "mãos no lugar dos pés"
+			},
+			{
+				"pergunta1": "bafo de fogo",
+				"pergunta2": "cocô de chocolate"
+			},
+			{
+				"pergunta1": "ter lábios",
+				"pergunta2": "orelhas enormes"
+			},
+			{
+				"pergunta1": "ter respiração subaquática infinita",
+				"pergunta2": "capacidade de corrida infinita"
+			},
+			{
+				"pergunta1": "ter habilidades de ninja",
+				"pergunta2": "ter incríveis habilidades de codificação em qualquer idioma"
+			},
+			{
+				"pergunta1": "comer panquecas todos os dias no café da manhã",
+				"pergunta2": "comer pizza todos os dias no jantar"
+			},
+			{
+				"pergunta1": "ter braços super fortes",
+				"pergunta2": "pernas super fortes"
+			},
+			{
+				"pergunta1": "ter a melhor casa em um bairro ruim",
+				"pergunta2": "a pior casa em um bairro chique"
+			},
+			{
+				"pergunta1": "ter o poder de encolher as coisas até a metade de seu tamanho",
+				"pergunta2": "o poder de aumentar as coisas para o dobro de seu tamanho"
+			},
+			{
+				"pergunta1": "ter amor ilimitado",
+				"pergunta2": "dinheiro ilimitado"
+			},
+			{
+				"pergunta1": "ter respeito ilimitado",
+				"pergunta2": "poder ilimitado"
+			},
+			{
+				"pergunta1": "que seus órgãos genitais exalem um fedor horrível",
+				"pergunta2": "desmaiem sempre que você tiver um orgasmo"
+			},
+			{
+				"pergunta1": "que seus pensamentos sejam transmitidos de forma que todos sempre saibam o que você está pensando enquanto está pensando",
+				"pergunta2": "nunca tenha permissão para usar roupas, mas mantenha seus pensamentos para si mesmo"
+			},
+			{
+				"pergunta1": "ter sua própria casa ao lado da casa de seus pais",
+				"pergunta2": "morar com eles em uma casa com o dobro do tamanho da sua casa agora"
+			},
+			{
+				"pergunta1": "saber quando",
+				"pergunta2": "como vai morrer"
+			},
+			{
+				"pergunta1": "deitar em uma banheira cheia de vermes por 5 minutos",
+				"pergunta2": "deitar em uma banheira cheia de besouros que não picam por 5 minutos"
+			},
+			{
+				"pergunta1": "viver 200 anos como você é",
+				"pergunta2": "viver 100 anos tão forte quanto o Superman"
+			},
+			{
+				"pergunta1": "viver em uma base sob o oceano",
+				"pergunta2": "viver em uma base flutuante no céu"
+			},
+			{
+				"pergunta1": "morar em um camarote na rua",
+				"pergunta2": "sozinho em uma ilha"
+			},
+			{
+				"pergunta1": "viver em um castelo",
+				"pergunta2": "em uma espaçonave viajando para longe da Terra"
+			},
+			{
+				"pergunta1": "morar em uma casa onde todas as paredes são feitas de vidro",
+				"pergunta2": "morar em uma casa subterrânea"
+			},
+			{
+				"pergunta1": "viver em uma casa em forma de círculo",
+				"pergunta2": "viver em uma casa em forma de triângulo"
+			},
+			{
+				"pergunta1": "morar em um local sempre empoeirado",
+				"pergunta2": "sempre úmido"
+			},
+			{
+				"pergunta1": "morar em um lugar com muitas árvores",
+				"pergunta2": "morar em um lugar perto do oceano"
+			},
+			{
+				"pergunta1": "viver em uma casa na árvore",
+				"pergunta2": "em uma caverna"
+			},
+			{
+				"pergunta1": "viver em um veleiro",
+				"pergunta2": "em uma cabana no meio da floresta"
+			},
+			{
+				"pergunta1": "viver em um lugar muito frio para sempre",
+				"pergunta2": "em um lugar muito quente"
+			},
+			{
+				"pergunta1": "fazer as plantas crescerem muito rapidamente",
+				"pergunta2": "pode fazer chover quando quiser"
+			},
+			{
+				"pergunta1": "conhecer sua celebridade favorita",
+				"pergunta2": "estar em um programa de TV"
+			},
+			{
+				"pergunta1": "se mudar para uma cidade diferente",
+				"pergunta2": "para um país diferente"
+			},
+			{
+				"pergunta1": "nunca mais comer qualquer tipo de carne",
+				"pergunta2": "ser incapaz de comer coisas com açúcar"
+			},
+			{
+				"pergunta1": "nunca mais comer queijo",
+				"pergunta2": "nunca mais beber nada doce"
+			},
+			{
+				"pergunta1": "nunca mais ter que tomar banho",
+				"pergunta2": "nunca mais ter que escovar os dentes"
+			},
+			{
+				"pergunta1": "nunca mais ter que dormir",
+				"pergunta2": "comer de novo"
+			},
+			{
+				"pergunta1": "não ser capaz de falar",
+				"pergunta2": "ver"
+			},
+			{
+				"pergunta1": "não precisar comer e nunca ficar com fome",
+				"pergunta2": "não precisar beber e nunca ter sede"
+			},
+			{
+				"pergunta1": "ser capaz de digitar apenas com os pés",
+				"pergunta2": "cotovelos"
+			},
+			{
+				"pergunta1": "ter um navio pirata dos velhos tempos e uma tripulação",
+				"pergunta2": "um jato particular com piloto e combustível infinito"
+			},
+			{
+				"pergunta1": "brincar de esconde-esconde",
+				"pergunta2": "queimada"
+			},
+			{
+				"pergunta1": "jogar em uma poça de lama gigante",
+				"pergunta2": "em uma piscina"
+			},
+			{
+				"pergunta1": "jogar futebol",
+				"pergunta2": "beisebol"
+			},
+			{
+				"pergunta1": "priorizar sua carreira",
+				"pergunta2": "sua família"
+			},
+			{
+				"pergunta1": "se transformar aleatoriamente em um sapo por um dia uma vez por semana",
+				"pergunta2": "aleatoriamente em um pássaro por um dia uma vez por mês"
+			},
+			{
+				"pergunta1": "reciclar fezes humanas para o resto de sua vida",
+				"pergunta2": "trabalhar com produtos químicos perigosos e explosivos para o resto de sua vida"
+			},
+			{
+				"pergunta1": "andar de camelo",
+				"pergunta2": "a cavalo"
+			},
+			{
+				"pergunta1": "montar um cavalo enorme",
+				"pergunta2": "um pônei minúsculo"
+			},
+			{
+				"pergunta1": "navegar em um barco",
+				"pergunta2": "andar de asa-delta"
+			},
+			{
+				"pergunta1": "ver alguns fogos de artifício",
+				"pergunta2": "uma apresentação de circo"
+			},
+			{
+				"pergunta1": "espirrar descontroladamente por 15 minutos uma vez por dia",
+				"pergunta2": "espirrar uma vez a cada 3 minutos durante o dia enquanto está acordado"
+			},
+			{
+				"pergunta1": "passar o dia inteiro em um grande jardim",
+				"pergunta2": "em um grande museu"
+			},
+			{
+				"pergunta1": "passar o dia inteiro em frente à TV sozinho",
+				"pergunta2": "com um estranho sem absolutamente nada juntos"
+			},
+			{
+				"pergunta1": "começar uma colônia em outro planeta",
+				"pergunta2": "ser o líder de um pequeno país na Terra"
+			},
+			{
+				"pergunta1": "dar uma topada no dedo do pé",
+				"pergunta2": "pisar em um Lego"
+			},
+			{
+				"pergunta1": "nadar em Jell-O",
+				"pergunta2": "nadar em Nutella"
+			},
+			{
+				"pergunta1": "fazer um curso de codificação",
+				"pergunta2": "um curso de arte"
+			},
+			{
+				"pergunta1": "que o tempo esteja quente, mas está chovendo para sempre,",
+				"pergunta2": "o tempo está frio e está nevando para sempre"
+			},
+			{
+				"pergunta1": "ser incapaz de controlar o quão rápido você fala",
+				"pergunta2": "ser incapaz de controlar o quão alto você fala"
+			},
+			{
+				"pergunta1": "visitar todos os países do mundo",
+				"pergunta2": "saber tocar algum instrumento musical"
+			},
+			{
+				"pergunta1": "visitar a estação espacial internacional por uma semana",
+				"pergunta2": "ficar em um hotel subaquático por uma semana"
+			},
+			{
+				"pergunta1": "acordar na casa do seu ex nu",
+				"pergunta2": "na casa de um estranho"
+			},
+			{
+				"pergunta1": "que cada vegetal que você ingira tenha gosto de doce, mas ainda seja saudável,",
+				"pergunta2": "que toda a água que você beba tenha o sabor de uma bebida deliciosa diferente toda vez que você a bebe"
+			},
+			{
+				"pergunta1": "assistir a filmes no cinema",
+				"pergunta2": "em casa"
+			},
+			{
+				"pergunta1": "trabalhar 10 horas por dia, quatro dias por semana,",
+				"pergunta2": "trabalhar 8 horas por dia, cinco dias por semana"
+			},
+			{
+				"pergunta1": "trabalhar em um emprego com salário mínimo pelo resto de sua vida",
+				"pergunta2": "viver no deserto pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "trabalhar no FBI",
+				"pergunta2": "na CIA"
+			},
+			{
+				"pergunta1": "trabalhar para a Apple e conhecer todos os seus segredos",
+				"pergunta2": "trabalhar para o Google e conhecer todos os seus segredos"
+			},
+			{
+				"pergunta1": "trabalhar das 9h às 17h",
+				"pergunta2": "das 21h às 5h"
+			}
+		]
+	},
+	{
+		"id": "kids",
+		"nsfw": false,
+		"questions": [
+			{
+				"pergunta1": "ouvir as plantas gritarem quando você as corta",
+				"pergunta2": "os animais imploram por suas vidas antes de serem mortos"
+			},
+			{
+				"pergunta1": "chegar sempre atrasado",
+				"pergunta2": "pontual, mas despreparado para a maioria das atividades"
+			},
+			{
+				"pergunta1": "estar sempre vestido demais",
+				"pergunta2": "mal vestido"
+			},
+			{
+				"pergunta1": "sempre peidar colorido",
+				"pergunta2": "sempre peido alto"
+			},
+			{
+				"pergunta1": "sempre sentir que precisa espirrar",
+				"pergunta2": "sempre que precisa fazer cocô"
+			},
+			{
+				"pergunta1": "sempre ter uma meleca no nariz",
+				"pergunta2": "um pedaço de comida preso entre os dois dentes da frente"
+			},
+			{
+				"pergunta1": "sempre ter uma pedra no sapato",
+				"pergunta2": "um corte de cabelo ruim permanente"
+			},
+			{
+				"pergunta1": "sempre ter todas as suas camisas um tamanho menor",
+				"pergunta2": "dois tamanhos maiores"
+			},
+			{
+				"pergunta1": "sempre ter um ponto coceira que você não consegue alcançar",
+				"pergunta2": "sempre sente que precisa espirrar"
+			},
+			{
+				"pergunta1": "ouvir sempre a mesma música",
+				"pergunta2": "nunca mais ouvir música"
+			},
+			{
+				"pergunta1": "sempre ter gás incontrolável na escola",
+				"pergunta2": "sempre ter gás incontrolável em cada primeiro encontro para o resto de sua vida"
+			},
+			{
+				"pergunta1": "sempre parecer que está grávida de 8 meses",
+				"pergunta2": "sempre com um olho roxo"
+			},
+			{
+				"pergunta1": "sempre falar todos os seus pensamentos em voz alta",
+				"pergunta2": "nunca mais falar (mesmo em linguagem de sinais)"
+			},
+			{
+				"pergunta1": "ser médico",
+				"pergunta2": "bombeiro"
+			},
+			{
+				"pergunta1": "ser uma babá",
+				"pergunta2": "babá"
+			},
+			{
+				"pergunta1": "ser um ator",
+				"pergunta2": "cantor famoso"
+			},
+			{
+				"pergunta1": "ser um ator/atriz famoso",
+				"pergunta2": "uma cantora famosa"
+			},
+			{
+				"pergunta1": "ser um gato de rua",
+				"pergunta2": "o gato da sua família"
+			},
+			{
+				"pergunta1": "ser um super-herói que ninguém conhece",
+				"pergunta2": "um supervilão que todos conhecem"
+			},
+			{
+				"pergunta1": "ser capaz de respirar debaixo d'água",
+				"pergunta2": "andar sobre a água"
+			},
+			{
+				"pergunta1": "ser capaz de mudar as cores como um camaleão",
+				"pergunta2": "prender a respiração por tanto tempo quanto uma baleia"
+			},
+			{
+				"pergunta1": "ser capaz de controlar o tempo",
+				"pergunta2": "ler a mente das pessoas"
+			},
+			{
+				"pergunta1": "ser capaz de controlar seus sonhos",
+				"pergunta2": "assisti-los no dia seguinte"
+			},
+			{
+				"pergunta1": "avançar",
+				"pergunta2": "congelar o tempo"
+			},
+			{
+				"pergunta1": "ser capaz de encontrar algo que foi perdido",
+				"pergunta2": "cada vez que tocar em alguém, essa pessoa não conseguirá mentir"
+			},
+			{
+				"pergunta1": "ser capaz de voar",
+				"pergunta2": "respirar debaixo d'água"
+			},
+			{
+				"pergunta1": "ser capaz de voar",
+				"pergunta2": "ser invisível"
+			},
+			{
+				"pergunta1": "ser capaz de voar",
+				"pergunta2": "ficar invisível"
+			},
+			{
+				"pergunta1": "poder pular até um canguru",
+				"pergunta2": "correr tão rápido quanto uma chita"
+			},
+			{
+				"pergunta1": "viver 100 anos no passado",
+				"pergunta2": "100 anos no futuro"
+			},
+			{
+				"pergunta1": "ser capaz de ler as mentes dos bebês",
+				"pergunta2": "falar com os animais"
+			},
+			{
+				"pergunta1": "ser capaz de ler mentes",
+				"pergunta2": "ver o futuro"
+			},
+			{
+				"pergunta1": "ser capaz de ler mentes",
+				"pergunta2": "ver um dia no futuro"
+			},
+			{
+				"pergunta1": "ser capaz de ler mentes",
+				"pergunta2": "prever o futuro"
+			},
+			{
+				"pergunta1": "ser capaz de se lembrar de tudo que vê",
+				"pergunta2": "lembrar de tudo que ouve"
+			},
+			{
+				"pergunta1": "correr tão rápido quanto a velocidade da luz",
+				"pergunta2": "atravessar paredes"
+			},
+			{
+				"pergunta1": "ser capaz de ver 5 minutos no futuro",
+				"pergunta2": "ser capaz de ver 100 anos no futuro"
+			},
+			{
+				"pergunta1": "ser capaz de ver coisas que estão muito distantes, como binóculos,",
+				"pergunta2": "ser capaz de ver coisas muito próximas, como um microscópio"
+			},
+			{
+				"pergunta1": "ser capaz de encolher para o tamanho de um inseto",
+				"pergunta2": "tornar-se do tamanho de uma baleia"
+			},
+			{
+				"pergunta1": "ser capaz de encolher até o tamanho de uma formiga",
+				"pergunta2": "crescer até o tamanho de um elefante"
+			},
+			{
+				"pergunta1": "encolher as coisas até a metade do tamanho",
+				"pergunta2": "torná-las duas vezes maiores"
+			},
+			{
+				"pergunta1": "falar com gatos",
+				"pergunta2": "cachorros"
+			},
+			{
+				"pergunta1": "ser capaz de se teletransportar para qualquer lugar",
+				"pergunta2": "ser capaz de ler mentes"
+			},
+			{
+				"pergunta1": "ser capaz de escrever muito rápido",
+				"pergunta2": "ser capaz de ler incrivelmente rápido"
+			},
+			{
+				"pergunta1": "ser capaz de digitar muito rápido",
+				"pergunta2": "ler muito rápido"
+			},
+			{
+				"pergunta1": "ser capaz de andar de quatro",
+				"pergunta2": "apenas ser capaz de andar de lado como um caranguejo"
+			},
+			{
+				"pergunta1": "ser alérgico a bebês",
+				"pergunta2": "alérgico a idosos"
+			},
+			{
+				"pergunta1": "ficar sozinho pelo resto de sua vida",
+				"pergunta2": "estar sempre cercado de pessoas chatas"
+			},
+			{
+				"pergunta1": "ser atraente e pobre",
+				"pergunta2": "feio e rico"
+			},
+			{
+				"pergunta1": "nascer de novo em uma vida totalmente diferente",
+				"pergunta2": "nascer de novo com todo o conhecimento que você tem agora"
+			},
+			{
+				"pergunta1": "nascer no passado",
+				"pergunta2": "no futuro"
+			},
+			{
+				"pergunta1": "ser capturado por uma tribo selvagem na selva",
+				"pergunta2": "ser capturado por piratas no mar"
+			},
+			{
+				"pergunta1": "ser extremamente alto",
+				"pergunta2": "extremamente pequeno"
+			},
+			{
+				"pergunta1": "ser feliz e pobre",
+				"pergunta2": "triste e rico"
+			},
+			{
+				"pergunta1": "ficar na prisão por cinco anos",
+				"pergunta2": "em coma por cinco anos"
+			},
+			{
+				"pergunta1": "ser o Homem de Ferro, mas tem que deixar o traje todo o tempo",
+				"pergunta2": "ser o Hulk, mas tem que ficar na forma Hulk o tempo todo"
+			},
+			{
+				"pergunta1": "ficar trancado em um quarto com 500 aranhas",
+				"pergunta2": "500 mosquitos"
+			},
+			{
+				"pergunta1": "ficar nu o tempo todo",
+				"pergunta2": "nunca sair de casa/apartamento"
+			},
+			{
+				"pergunta1": "ser popular",
+				"pergunta2": "super inteligente"
+			},
+			{
+				"pergunta1": "ser reencarnado como uma aranha",
+				"pergunta2": "um mosquito"
+			},
+			{
+				"pergunta1": "ficar doente pelo resto de sua vida",
+				"pergunta2": "matar 2 filhotes"
+			},
+			{
+				"pergunta1": "ser inteligente, mas falido",
+				"pergunta2": "rico e estúpido"
+			},
+			{
+				"pergunta1": "ser super engraçado",
+				"pergunta2": "super inteligente"
+			},
+			{
+				"pergunta1": "ser super forte",
+				"pergunta2": "super rápido"
+			},
+			{
+				"pergunta1": "ser dez anos mais velho",
+				"pergunta2": "cinco anos mais novo"
+			},
+			{
+				"pergunta1": "ser o Rei/Rainha de um país",
+				"pergunta2": "o Presidente dos Estados Unidos ir ao dentista"
+			},
+			{
+				"pergunta1": "ser o garoto mais inteligente da escola",
+				"pergunta2": "o garoto mais popular da escola"
+			},
+			{
+				"pergunta1": "ser o garoto mais inteligente da escola",
+				"pergunta2": "o melhor garoto nos esportes da sua escola"
+			},
+			{
+				"pergunta1": "ser a pessoa mais inteligente viva",
+				"pergunta2": "a pessoa mais engraçada viva"
+			},
+			{
+				"pergunta1": "não poder lavar o cabelo por um mês",
+				"pergunta2": "depilar as pernas por um mês"
+			},
+			{
+				"pergunta1": "ser azarado e inteligente",
+				"pergunta2": "sortudo e burro"
+			},
+			{
+				"pergunta1": "ser o gato da sua família",
+				"pergunta2": "um gato de rua"
+			},
+			{
+				"pergunta1": "escovar os dentes com molho picante",
+				"pergunta2": "beber leite azedo"
+			},
+			{
+				"pergunta1": "escovar os dentes com água de banheiro",
+				"pergunta2": "molho picante"
+			},
+			{
+				"pergunta1": "arrotar confete",
+				"pergunta2": "purpurina de peido"
+			},
+			{
+				"pergunta1": "lavar a louça com a língua",
+				"pergunta2": "limpar o animal com a língua"
+			},
+			{
+				"pergunta1": "entupir o banheiro da sua escola",
+				"pergunta2": "da casa de um amigo"
+			},
+			{
+				"pergunta1": "entupir o banheiro em seu local de trabalho (escola)",
+				"pergunta2": "na casa de sua paquera"
+			},
+			{
+				"pergunta1": "controlar o fogo",
+				"pergunta2": "a água"
+			},
+			{
+				"pergunta1": "controlar seus sonhos",
+				"pergunta2": "assisti-los no dia seguinte"
+			},
+			{
+				"pergunta1": "criar um novo feriado",
+				"pergunta2": "criar um novo esporte"
+			},
+			{
+				"pergunta1": "abraçar um bebê urso polar",
+				"pergunta2": "um bebê panda"
+			},
+			{
+				"pergunta1": "dançar na frente de 5000 pessoas",
+				"pergunta2": "cantar na frente de 5000 pessoas"
+			},
+			{
+				"pergunta1": "namorar alguém pouco atraente com uma grande personalidade,",
+				"pergunta2": "alguém muito atraente com uma personalidade ruim"
+			},
+			{
+				"pergunta1": "mergulhar o pé em ácido",
+				"pergunta2": "colocar fogo no pé"
+			},
+			{
+				"pergunta1": "não trocar de meia",
+				"pergunta2": "de cueca por um mês"
+			},
+			{
+				"pergunta1": "doar seu corpo para a ciência",
+				"pergunta2": "doar seus órgãos para pessoas que precisam deles"
+			},
+			{
+				"pergunta1": "se vestir como um palhaço todos os dias",
+				"pergunta2": "se vestir como uma princesa todos os dias durante um ano"
+			},
+			{
+				"pergunta1": "beber todas as refeições como um smoothie",
+				"pergunta2": "nunca mais comer chocolate"
+			},
+			{
+				"pergunta1": "comer um balde de caroços de maçã",
+				"pergunta2": "20 cascas de banana"
+			},
+			{
+				"pergunta1": "comer um inseto morto",
+				"pergunta2": "um verme vivo"
+			},
+			{
+				"pergunta1": "comer um rato morto",
+				"pergunta2": "comer 20 aranhas vivas"
+			},
+			{
+				"pergunta1": "comer um gafanhoto grelhado",
+				"pergunta2": "uma lesma cozida"
+			},
+			{
+				"pergunta1": "comer um pote inteiro de maionese",
+				"pergunta2": "beber um copo de vinagre"
+			},
+			{
+				"pergunta1": "comer uma cebola inteira",
+				"pergunta2": "um limão inteiro"
+			},
+			{
+				"pergunta1": "comer biscoitos com sabor de frango",
+				"pergunta2": "sorvete com sabor de cebola"
+			},
+			{
+				"pergunta1": "comer espaguete com uma colher",
+				"pergunta2": "comer pizza com pauzinhos"
+			},
+			{
+				"pergunta1": "comer espaguete com colher",
+				"pergunta2": "pizza com pauzinhos"
+			},
+			{
+				"pergunta1": "comer pela bunda",
+				"pergunta2": "cocô pela boca"
+			},
+			{
+				"pergunta1": "comer seu doce favorito todos os dias",
+				"pergunta2": "encontrar 5 dólares embaixo do travesseiro todas as manhãs"
+			},
+			{
+				"pergunta1": "comer sua comida favorita todos os dias",
+				"pergunta2": "encontrar 5 dólares embaixo do travesseiro todas as manhãs"
+			},
+			{
+				"pergunta1": "que toda camisa que você usa coça",
+				"pergunta2": "só possa usar uma folha de papel higiênico"
+			},
+			{
+				"pergunta1": "que todos os vegetais que você ingere tenham gosto de doce",
+				"pergunta2": "que toda água que você beba tenha gosto de seu refrigerante favorito"
+			},
+			{
+				"pergunta1": "que todos usem macacões prateados idênticos ou, sempre que duas pessoas se encontrarem e estiverem usando uma peça de roupa idêntica, eles devem lutar até a morte"
+			},
+			{
+				"pergunta1": "peidar toda vez que se sentar",
+				"pergunta2": "arrotar toda vez que se levantar"
+			},
+			{
+				"pergunta1": "peidar com purpurina",
+				"pergunta2": "arrotar confete"
+			},
+			{
+				"pergunta1": "encontrar $ 5 no chão",
+				"pergunta2": "encontrar todas as suas meias perdidas"
+			},
+			{
+				"pergunta1": "encontrar o amor verdadeiro",
+				"pergunta2": "curar o câncer"
+			},
+			{
+				"pergunta1": "flertar com sua paixão usando emojis enquanto envia mensagens de texto",
+				"pergunta2": "usando memes enquanto envia mensagens de texto"
+			},
+			{
+				"pergunta1": "mentir sempre",
+				"pergunta2": "sempre saber quando alguém está mentindo"
+			},
+			{
+				"pergunta1": "arrotos com cheiro de donuts",
+				"pergunta2": "peidos que produzem nuvens de arco-íris"
+			},
+			{
+				"pergunta1": "ser pego comendo meleca",
+				"pergunta2": "coçando a bunda"
+			},
+			{
+				"pergunta1": "ficar completamente bêbado após uma bebida alcoólica",
+				"pergunta2": "nunca ser capaz de ficar bêbado"
+			},
+			{
+				"pergunta1": "ter diarreia no primeiro encontro",
+				"pergunta2": "encontrar seus pais no primeiro encontro"
+			},
+			{
+				"pergunta1": "ficar de castigo por uma semana",
+				"pergunta2": "lavar a louça por uma semana"
+			},
+			{
+				"pergunta1": "ser pago para ler livros",
+				"pergunta2": "assistir TV"
+			},
+			{
+				"pergunta1": "ficar preso em um elevador com sua paixão",
+				"pergunta2": "sua celebridade favorita"
+			},
+			{
+				"pergunta1": "receber dez picadas de mosquito",
+				"pergunta2": "uma picada de abelha"
+			},
+			{
+				"pergunta1": "acordar muito cedo",
+				"pergunta2": "ficar acordado até muito tarde"
+			},
+			{
+				"pergunta1": "desistir do ar condicionado e do aquecimento pelo resto da vida",
+				"pergunta2": "desistir da Internet pelo resto da vida"
+			},
+			{
+				"pergunta1": "desistir de seu telefone por um ano",
+				"pergunta2": "usar Crocs apenas por um ano"
+			},
+			{
+				"pergunta1": "fazer bungee jumping",
+				"pergunta2": "ir na montanha-russa mais alta"
+			},
+			{
+				"pergunta1": "ter um encontro duplo com seus pais",
+				"pergunta2": "com os pais do seu parceiro"
+			},
+			{
+				"pergunta1": "ir para a cadeia por 4 anos por algo que não fez",
+				"pergunta2": "se safar com algo horrível que fez, mas sempre vive com medo de ser pego"
+			},
+			{
+				"pergunta1": "ter 10 filhos",
+				"pergunta2": "nenhum filho"
+			},
+			{
+				"pergunta1": "ter 20 milhões de assinantes do YouTube",
+				"pergunta2": "produzir um filme de ação de grande sucesso"
+			},
+			{
+				"pergunta1": "uma barriga de cerveja",
+				"pergunta2": "três queixos"
+			},
+			{
+				"pergunta1": "um bumerangue que encontra e mata qualquer pessoa de sua escolha, mas só pode ser usado uma vez,",
+				"pergunta2": "um bumerangue que sempre retorna para você com um dólar"
+			},
+			{
+				"pergunta1": "ter um balde enfiado na cabeça",
+				"pergunta2": "um bloco de cimento enfiado no pé"
+			},
+			{
+				"pergunta1": "ter um palhaço que só você pode ver que o segue por toda parte e fica parado em silêncio em um canto, observando você sem dizer nada,",
+				"pergunta2": "ter um perseguidor da vida real que se veste como o coelhinho da Páscoa que todos podem ver"
+			},
+			{
+				"pergunta1": "ter uma casa totalmente automatizada",
+				"pergunta2": "um carro que dirige sozinho"
+			},
+			{
+				"pergunta1": "ter um cachorro com rosto humano",
+				"pergunta2": "um cachorro com mãos humanas como patas"
+			},
+			{
+				"pergunta1": "ter um dragão",
+				"pergunta2": "um unicórnio como animal de estimação"
+			},
+			{
+				"pergunta1": "uma bicicleta voadora",
+				"pergunta2": "um robô pessoal"
+			},
+			{
+				"pergunta1": "ter um umbigo",
+				"pergunta2": "um nariz peludo"
+			},
+			{
+				"pergunta1": "ter uma cabeça do tamanho de uma bola de tênis",
+				"pergunta2": "do tamanho de uma melancia"
+			},
+			{
+				"pergunta1": "receber um salário alto em um trabalho que você odeia",
+				"pergunta2": "um salário baixo em um trabalho que você ama"
+			},
+			{
+				"pergunta1": "ter uma memória de curto prazo horrível",
+				"pergunta2": "uma memória de longo prazo horrível"
+			},
+			{
+				"pergunta1": "um rabo de cavalo",
+				"pergunta2": "um chifre de unicórnio"
+			},
+			{
+				"pergunta1": "uma assinatura vitalícia da Netflix",
+				"pergunta2": "um cartão-presente ilimitado da Starbucks"
+			},
+			{
+				"pergunta1": "uma bicicleta mágica que voa",
+				"pergunta2": "um robô"
+			},
+			{
+				"pergunta1": "um tapete mágico que voa",
+				"pergunta2": "um submarino transparente"
+			},
+			{
+				"pergunta1": "ter um rabo de cachorro",
+				"pergunta2": "asas que não podem voar"
+			},
+			{
+				"pergunta1": "ter um unicórnio",
+				"pergunta2": "um dragão como animal de estimação"
+			},
+			{
+				"pergunta1": "que todos os cães tentem atacá-lo quando o virem",
+				"pergunta2": "que todos os pássaros tentem atacá-lo quando o virem"
+			},
+			{
+				"pergunta1": "ter todas as suas camisas um tamanho menor do que o tamanho",
+				"pergunta2": "ter todas as suas camisas dois tamanhos maiores do que você"
+			},
+			{
+				"pergunta1": "um gato do tamanho de um elefante",
+				"pergunta2": "um elefante do tamanho de um gato"
+			},
+			{
+				"pergunta1": "um hamster do tamanho de um elefante",
+				"pergunta2": "um elefante do tamanho de um hamster"
+			},
+			{
+				"pergunta1": "ter um dedo",
+				"pergunta2": "um dedão a mais"
+			},
+			{
+				"pergunta1": "ter um suprimento ilimitado de sorvete",
+				"pergunta2": "chocolate"
+			},
+			{
+				"pergunta1": "que todos riam de suas piadas, mas não ache as piadas de ninguém engraçadas",
+				"pergunta2": "que ninguém ria de suas piadas, mas você ainda acha as piadas de outras pessoas engraçadas"
+			},
+			{
+				"pergunta1": "ter tudo no seu telefone agora (histórico de navegação, fotos, ...) tornado público para qualquer pessoa que pesquisar seu nome no Google",
+				"pergunta2": "nunca mais usar um telefone celular"
+			},
+			{
+				"pergunta1": "que tudo que desenha se torne real",
+				"pergunta2": "se torne um super-herói de sua escolha"
+			},
+			{
+				"pergunta1": "ter olhos que mudam de cor dependendo do seu humor",
+				"pergunta2": "cabelos que mudam de cor dependendo da temperatura"
+			},
+			{
+				"pergunta1": "ter olhos do tamanho de uma bola de beisebol",
+				"pergunta2": "olhos do tamanho de uma ervilha"
+			},
+			{
+				"pergunta1": "ter olhos do tamanho de uma ervilha",
+				"pergunta2": "do tamanho de uma bola de tênis"
+			},
+			{
+				"pergunta1": "ter Wi-Fi gratuito aonde quer que vá",
+				"pergunta2": "beber um café gratuito e ilimitado em qualquer cafeteria"
+			},
+			{
+				"pergunta1": "ter mãos gigantes como Hulk",
+				"pergunta2": "pés minúsculos como um anão"
+			},
+			{
+				"pergunta1": "grama como cabelo",
+				"pergunta2": "cenoura como nariz"
+			},
+			{
+				"pergunta1": "grama como cabelo",
+				"pergunta2": "pepino como nariz"
+			},
+			{
+				"pergunta1": "ter um cabelo que muda de cor dependendo do seu humor",
+				"pergunta2": "pele que muda de cor dependendo da temperatura"
+			},
+			{
+				"pergunta1": "ter mãos em vez de pés",
+				"pergunta2": "pés em vez de mãos"
+			},
+			{
+				"pergunta1": "ter mãos que continuem crescendo conforme você envelhece",
+				"pergunta2": "pés que continuam crescendo conforme você envelhece"
+			},
+			{
+				"pergunta1": "ter uma acne horrível que está apenas nas áreas cobertas com roupas",
+				"pergunta2": "uma acne moderada que está apenas no rosto"
+			},
+			{
+				"pergunta1": "não ter cotovelos",
+				"pergunta2": "joelhos"
+			},
+			{
+				"pergunta1": "não ter sobrancelhas",
+				"pergunta2": "cílios"
+			},
+			{
+				"pergunta1": "não ter família",
+				"pergunta2": "amigos"
+			},
+			{
+				"pergunta1": "não ter família",
+				"pergunta2": "amigos"
+			},
+			{
+				"pergunta1": "não ter dedos das mãos",
+				"pergunta2": "dos pés"
+			},
+			{
+				"pergunta1": "não ter dever de casa",
+				"pergunta2": "testes para o resto de sua vida"
+			},
+			{
+				"pergunta1": "ter um olho extra na testa",
+				"pergunta2": "dois narizes"
+			},
+			{
+				"pergunta1": "ter apenas um melhor amigo para o resto da sua vida",
+				"pergunta2": "ter 10 melhores amigos que moram em outros países"
+			},
+			{
+				"pergunta1": "ter uma Internet lenta, mas ilimitada,",
+				"pergunta2": "uma Internet paga, mas limitada"
+			},
+			{
+				"pergunta1": "ter força sobrenatural",
+				"pergunta2": "inteligência sobrenatural"
+			},
+			{
+				"pergunta1": "ter a capacidade de voltar para um momento anterior em sua vida",
+				"pergunta2": "avançar para um momento posterior de sua vida"
+			},
+			{
+				"pergunta1": "que o brilho do seu telefone fique baixo",
+				"pergunta2": "o volume do seu telefone fique baixo"
+			},
+			{
+				"pergunta1": "ter pés de pato",
+				"pergunta2": "mãos de hamster"
+			},
+			{
+				"pergunta1": "ter três pernas",
+				"pergunta2": "três braços"
+			},
+			{
+				"pergunta1": "terminar cada frase com um calúnia racial",
+				"pergunta2": "lançar duas bombas F em cada frase"
+			},
+			{
+				"pergunta1": "peidar alto sempre que tiver uma conversa séria",
+				"pergunta2": "arrotar após cada beijo"
+			},
+			{
+				"pergunta1": "cantar em vez de falar",
+				"pergunta2": "dançar em vez de andar"
+			},
+			{
+				"pergunta1": "usar um banheiro público sujo e fedorento",
+				"pergunta2": "um que contenha aranhas"
+			},
+			{
+				"pergunta1": "ter o penteado da sua avó",
+				"pergunta2": "usar as roupas dela pelo resto da vida"
+			},
+			{
+				"pergunta1": "Você preferia que sua casa tivesse uma única cor",
+				"pergunta2": "que cada parede e porta tivesse uma cor diferente"
+			},
+			{
+				"pergunta1": "bateria infinita para o seu telefone",
+				"pergunta2": "combustível infinito para o seu carro"
+			},
+			{
+				"pergunta1": "se tornar um adulto instantaneamente",
+				"pergunta2": "ficar com a idade que tem agora por mais dois anos"
+			},
+			{
+				"pergunta1": "que seja Natal todos os dias",
+				"pergunta2": "que seja seu aniversário todos os dias"
+			},
+			{
+				"pergunta1": "pular em uma piscina de Nutella",
+				"pergunta2": "de Jell-O"
+			},
+			{
+				"pergunta1": "matar um ser humano",
+				"pergunta2": "50 animais bebês"
+			},
+			{
+				"pergunta1": "saber como você morre",
+				"pergunta2": "quando você morre"
+			},
+			{
+				"pergunta1": "lamber uma lata de lixo suja",
+				"pergunta2": "o chão do banheiro"
+			},
+			{
+				"pergunta1": "lamber e lacrar 1.000 envelopes",
+				"pergunta2": "dobrar 1.000 peças de roupa suja"
+			},
+			{
+				"pergunta1": "lamber a sola do sapato",
+				"pergunta2": "comer meleca"
+			},
+			{
+				"pergunta1": "lamber a sola do sapato",
+				"pergunta2": "o dedão do pé de um estranho"
+			},
+			{
+				"pergunta1": "mentir para seu professor",
+				"pergunta2": "seus pais"
+			},
+			{
+				"pergunta1": "viver mais 25 anos",
+				"pergunta2": "viver uma vida sem a necessidade de dormir"
+			},
+			{
+				"pergunta1": "morar em um castelo",
+				"pergunta2": "em uma nave espacial"
+			},
+			{
+				"pergunta1": "viver em um abrigo para sem-teto com Wifi grátis",
+				"pergunta2": "morar em uma bela mansão isolada de qualquer contato externo"
+			},
+			{
+				"pergunta1": "viver em um lugar onde está sempre escuro lá fora",
+				"pergunta2": "sempre claro lá fora"
+			},
+			{
+				"pergunta1": "morar em uma casa na árvore",
+				"pergunta2": "em uma cabana na floresta"
+			},
+			{
+				"pergunta1": "morar em um parque de diversões",
+				"pergunta2": "um zoológico"
+			},
+			{
+				"pergunta1": "viver nas nuvens",
+				"pergunta2": "debaixo d'água"
+			},
+			{
+				"pergunta1": "viver no universo Game of Thrones",
+				"pergunta2": "viver no universo The Walking Dead"
+			},
+			{
+				"pergunta1": "viver embaixo d'água",
+				"pergunta2": "no espaço"
+			},
+			{
+				"pergunta1": "viver sem eletrônicos",
+				"pergunta2": "sem amigos"
+			},
+			{
+				"pergunta1": "viver sem um console de jogos",
+				"pergunta2": "sem seu telefone"
+			},
+			{
+				"pergunta1": "viver sem um telefone",
+				"pergunta2": "um console de jogos"
+			},
+			{
+				"pergunta1": "viver sem assistir a filmes",
+				"pergunta2": "ouvir música"
+			},
+			{
+				"pergunta1": "viver sem seu telefone",
+				"pergunta2": "sem seu PC/laptop por um mês"
+			},
+			{
+				"pergunta1": "viver toda a sua vida em uma realidade virtual onde todos os seus desejos são realizados",
+				"pergunta2": "viver toda a sua vida no mundo real"
+			},
+			{
+				"pergunta1": "parecer 10 anos mais velho do pescoço para cima",
+				"pergunta2": "do pescoço para baixo"
+			},
+			{
+				"pergunta1": "perder todas as suas memórias",
+				"pergunta2": "ficar cego"
+			},
+			{
+				"pergunta1": "perder a capacidade de ler",
+				"pergunta2": "de falar"
+			},
+			{
+				"pergunta1": "perder a capacidade de falar",
+				"pergunta2": "ter de dizer tudo o que está pensando"
+			},
+			{
+				"pergunta1": "fazer sons de peido toda vez que anda",
+				"pergunta2": "cheirar a peido toda vez que bocejar"
+			},
+			{
+				"pergunta1": "nunca mais poder sair durante o dia",
+				"pergunta2": "à noite"
+			},
+			{
+				"pergunta1": "nunca mais poder sair de casa",
+				"pergunta2": "só poder ficar em sua casa por cinco minutos de cada vez"
+			},
+			{
+				"pergunta1": "nunca mais poder usar um espelho (também a câmera frontal)",
+				"pergunta2": "nunca mais poder usar seu telefone"
+			},
+			{
+				"pergunta1": "nunca mais poder assistir ao Netflix",
+				"pergunta2": "ao YouTube"
+			},
+			{
+				"pergunta1": "nunca mais comer alimentos salgados",
+				"pergunta2": "doces"
+			},
+			{
+				"pergunta1": "nunca mais cortar o cabelo",
+				"pergunta2": "nunca mais tingir o cabelo"
+			},
+			{
+				"pergunta1": "nunca mais ter dever de casa",
+				"pergunta2": "ser pago para fazer sua lição de casa"
+			},
+			{
+				"pergunta1": "nunca mais ter que ir ao banheiro",
+				"pergunta2": "nunca ter que dormir novamente"
+			},
+			{
+				"pergunta1": "nunca mais ter que tomar banho",
+				"pergunta2": "nunca mais escovar os dentes"
+			},
+			{
+				"pergunta1": "nunca mais ter que tomar banho",
+				"pergunta2": "nunca mais ter que escovar os dentes"
+			},
+			{
+				"pergunta1": "nunca mais ter que dormir",
+				"pergunta2": "nunca mais ir ao banheiro"
+			},
+			{
+				"pergunta1": "nunca mais ter que amarrar os sapatos",
+				"pergunta2": "nunca ter que desembaraçar os fios dos fones de ouvido novamente"
+			},
+			{
+				"pergunta1": "nunca usar emojis",
+				"pergunta2": "nunca ler memes pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "nunca mais lavar seus lençóis",
+				"pergunta2": "tomar banho apenas uma vez a cada duas semanas"
+			},
+			{
+				"pergunta1": "nunca mais assistir YouTube",
+				"pergunta2": "nunca mais assistir Netflix"
+			},
+			{
+				"pergunta1": "não poder lavar as mãos por um mês",
+				"pergunta2": "não poder lavar o cabelo por um mês"
+			},
+			{
+				"pergunta1": "não usar a Internet por um mês",
+				"pergunta2": "não comer junk food por um mês"
+			},
+			{
+				"pergunta1": "não usar sapatos pelo resto da sua vida",
+				"pergunta2": "não dirigir um carro pelo resto da sua vida"
+			},
+			{
+				"pergunta1": "falar apenas por meio de um tradutor",
+				"pergunta2": "apenas quando fizer uma pergunta"
+			},
+			{
+				"pergunta1": "apenas ser capaz de andar de quatro",
+				"pergunta2": "apenas para trás"
+			},
+			{
+				"pergunta1": "apenas ser capaz de sussurrar",
+				"pergunta2": "apenas ser capaz de gritar"
+			},
+			{
+				"pergunta1": "comer apenas sua comida favorita pelo resto de sua vida",
+				"pergunta2": "nunca comer sua comida favorita nunca mais"
+			},
+			{
+				"pergunta1": "usar o Reddit apenas para o resto da sua vida",
+				"pergunta2": "usar o YouTube apenas para o resto da sua vida"
+			},
+			{
+				"pergunta1": "usar o TikTok apenas para o resto da sua vida",
+				"pergunta2": "usar o YouTube apenas para o resto da sua vida"
+			},
+			{
+				"pergunta1": "usar apenas uma cor por dia",
+				"pergunta2": "ter que usar sete cores por dia"
+			},
+			{
+				"pergunta1": "usar apenas roupas íntimas usadas",
+				"pergunta2": "apenas escovas de dente de estranhos"
+			},
+			{
+				"pergunta1": "ter 10 cachorros",
+				"pergunta2": "10 gatinhos"
+			},
+			{
+				"pergunta1": "ter um jato particular",
+				"pergunta2": "um iate"
+			},
+			{
+				"pergunta1": "fazer xixi toda vez que se levantar",
+				"pergunta2": "fazer cocô toda vez que se sentar"
+			},
+			{
+				"pergunta1": "fazer xixi em uma caixa de areia",
+				"pergunta2": "beber um copo de água de banheiro"
+			},
+			{
+				"pergunta1": "fazer xixi na aula",
+				"pergunta2": "no supermercado"
+			},
+			{
+				"pergunta1": "postar uma foto embaraçosa e bêbada de você em sua história do Instagram que sua paixão vê,",
+				"pergunta2": "enviar a ela uma mensagem direta embaraçosa"
+			},
+			{
+				"pergunta1": "lembrar de tudo que viu",
+				"pergunta2": "lembrar de tudo que ouviu"
+			},
+			{
+				"pergunta1": "dividir sua casa com um bando de ratos",
+				"pergunta2": "morar com seus pais para sempre"
+			},
+			{
+				"pergunta1": "sentar-se com um leão",
+				"pergunta2": "crocodilo descansando por dez minutos"
+			},
+			{
+				"pergunta1": "cheirar a bunda de um estranho",
+				"pergunta2": "a de um cachorro"
+			},
+			{
+				"pergunta1": "espirrar Jelly Beans,",
+				"pergunta2": "suas lágrimas têm sabor de chocolate"
+			},
+			{
+				"pergunta1": "delatar seu melhor amigo por um crime que cometeram",
+				"pergunta2": "ir para a cadeia pelo crime que seu amigo cometeu"
+			},
+			{
+				"pergunta1": "passar uma semana no deserto",
+				"pergunta2": "uma noite em uma casa realmente mal-assombrada"
+			},
+			{
+				"pergunta1": "passar o resto de sua vida sempre com frio",
+				"pergunta2": "passar o resto de sua vida sempre exausto"
+			},
+			{
+				"pergunta1": "ficar na cama o dia todo",
+				"pergunta2": "ficar acordado a noite toda"
+			},
+			{
+				"pergunta1": "parar de tomar banho",
+				"pergunta2": "de escovar os dentes"
+			},
+			{
+				"pergunta1": "dar uma topada em todos os dedos do pé uma vez por semana",
+				"pergunta2": "perder um polegar"
+			},
+			{
+				"pergunta1": "nadar em Jell-O",
+				"pergunta2": "nadar em Nutella"
+			},
+			{
+				"pergunta1": "tomar banho frio todos os dias pelo resto de sua vida",
+				"pergunta2": "comer apenas comida fria pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "que o mundo seja dominado por alienígenas",
+				"pergunta2": "por robôs"
+			},
+			{
+				"pergunta1": "viajar no passado",
+				"pergunta2": "no futuro"
+			},
+			{
+				"pergunta1": "tentar sobreviver no deserto com seus amigos",
+				"pergunta2": "viver com eles em um reality show com membros do elenco realmente idiotas por 5 anos"
+			},
+			{
+				"pergunta1": "se transformar em um cachorro",
+				"pergunta2": "um gato por um dia da semana"
+			},
+			{
+				"pergunta1": "visitar a estação espacial internacional por uma semana",
+				"pergunta2": "ficar em um hotel subaquático por uma semana"
+			},
+			{
+				"pergunta1": "acordar de cueca na aula",
+				"pergunta2": "acordar de cueca em uma festa de família"
+			},
+			{
+				"pergunta1": "usar fraldas",
+				"pergunta2": "trocar as fraldas de outra pessoa"
+			},
+			{
+				"pergunta1": "usar jeans um tamanho menor",
+				"pergunta2": "dois tamanhos maiores"
+			},
+			{
+				"pergunta1": "usar as mesmas meias por um mês",
+				"pergunta2": "a mesma calcinha por uma semana"
+			},
+			{
+				"pergunta1": "ganhar uma medalha de ouro olímpica",
+				"pergunta2": "ganhar um milhão de dólares na loteria"
+			},
+			{
+				"pergunta1": "ganhar um milhão de dólares agora",
+				"pergunta2": "dez milhões de dólares em 10 anos"
+			}
+		]
+	},
+	{
+		"id": "crazy",
+		"nsfw": true,
+		"questions": [
+			{
+				"pergunta1": "abortar um bebê feito com a pessoa à sua direita",
+				"pergunta2": "abortar um bebê feito com a pessoa à sua esquerda"
+			},
+			{
+				"pergunta1": "acidentalmente ser responsável pela morte de uma criança",
+				"pergunta2": "acidentalmente ser responsável pela morte de três adultos"
+			},
+			{
+				"pergunta1": "sempre peidar colorido",
+				"pergunta2": "sempre peido alto"
+			},
+			{
+				"pergunta1": "sempre esquecer quem você é",
+				"pergunta2": "quem todo mundo é"
+			},
+			{
+				"pergunta1": "sempre ter as mãos suadas",
+				"pergunta2": "sempre ter mau hálito"
+			},
+			{
+				"pergunta1": "tomar banho nu com seu professor",
+				"pergunta2": "com um parente próximo"
+			},
+			{
+				"pergunta1": "ser virgem para sempre",
+				"pergunta2": "fazer sexo com seu irmão/irmã uma vez"
+			},
+			{
+				"pergunta1": "ser capaz de falar com animais",
+				"pergunta2": "ler os pensamentos de outras pessoas"
+			},
+			{
+				"pergunta1": "ser comido por vermes de dentro para fora",
+				"pergunta2": "por formigas de fora para dentro"
+			},
+			{
+				"pergunta1": "ser famoso enquanto viver e ser esquecido após a morte,",
+				"pergunta2": "desconhecido quando você viver e ser famoso após a morte"
+			},
+			{
+				"pergunta1": "ser gordo e cheirar bem o tempo todo",
+				"pergunta2": "estar em forma e cheirar a suor o tempo todo"
+			},
+			{
+				"pergunta1": "ser seguido por um palhaço imaginário",
+				"pergunta2": "um verdadeiro perseguidor vestido como um coelhinho da Páscoa"
+			},
+			{
+				"pergunta1": "ficar sozinho para sempre",
+				"pergunta2": "cercado de pessoas irritantes pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "estar no meio de uma centopéia humana com seu cachorro e seu irmão",
+				"pergunta2": "estar no meio de uma centopéia humana com seus pais"
+			},
+			{
+				"pergunta1": "ser infértil",
+				"pergunta2": "ter um filho que falece antes de você"
+			},
+			{
+				"pergunta1": "ficar nu na Antártica por quatro horas",
+				"pergunta2": "ficar nu em um traje de esqui no deserto por quatro horas"
+			},
+			{
+				"pergunta1": "renascer como uma enterobactéria",
+				"pergunta2": "não renascer"
+			},
+			{
+				"pergunta1": "ser responsável pela morte de uma pessoa",
+				"pergunta2": "pela morte de dois gatinhos"
+			},
+			{
+				"pergunta1": "ficar preso no trânsito por duas horas",
+				"pergunta2": "conseguir (ou dar) uma punheta por seis horas sem orgasmo"
+			},
+			{
+				"pergunta1": "ficar preso em uma ilha sozinho",
+				"pergunta2": "com uma pessoa que fala continuamente"
+			},
+			{
+				"pergunta1": "ser teletransportado para um lugar aleatório no mundo toda vez que soltar um peido",
+				"pergunta2": "viajar 10 anos atrás no tempo toda vez que espirrar"
+			},
+			{
+				"pergunta1": "ficar cansado para sempre, não importa o quanto você durma,",
+				"pergunta2": "ficar com fome para sempre, não importa o quanto você coma"
+			},
+			{
+				"pergunta1": "ser pouco atraente e ter um parceiro atraente",
+				"pergunta2": "ser atraente e ter um parceiro pouco atraente"
+			},
+			{
+				"pergunta1": "ser infértil",
+				"pergunta2": "apenas ser capaz de obter quádruplos"
+			},
+			{
+				"pergunta1": "se tornar imortal agora, mas toda a sua família morre instantaneamente,",
+				"pergunta2": "você perde braços, pernas, olhos e língua agora, mas consegue viver mais 10 anos"
+			},
+			{
+				"pergunta1": "arrotar confete",
+				"pergunta2": "purpurina de peido"
+			},
+			{
+				"pergunta1": "mudar de sexo toda vez que espirrar",
+				"pergunta2": "não ser capaz de distinguir um bebê de um bolinho"
+			},
+			{
+				"pergunta1": "cagar nas calças em público uma vez por ano pelo resto da vida",
+				"pergunta2": "cagar na privacidade todos os dias pelo resto da vida"
+			},
+			{
+				"pergunta1": "cortar sua mão direita",
+				"pergunta2": "cortar sua mão esquerda"
+			},
+			{
+				"pergunta1": "decepcionar todos os seus amigos",
+				"pergunta2": "familiares"
+			},
+			{
+				"pergunta1": "doar seu corpo para a ciência",
+				"pergunta2": "doar seus órgãos para pessoas que precisam"
+			},
+			{
+				"pergunta1": "tomar uma dose de um umbigo peludo",
+				"pergunta2": "dar um beijo de língua em uma pessoa sem dentes"
+			},
+			{
+				"pergunta1": "beber uma injeção de sangue menstrual de sua mãe",
+				"pergunta2": "uma injeção de esperma de seu pai"
+			},
+			{
+				"pergunta1": "beber uma injeção do sangue menstrual da sua mãe",
+				"pergunta2": "do esperma do seu pai"
+			},
+			{
+				"pergunta1": "beber urina",
+				"pergunta2": "suor"
+			},
+			{
+				"pergunta1": "comer uma tigela de vômito",
+				"pergunta2": "comer uma tigela de sangue menstrual"
+			},
+			{
+				"pergunta1": "comer um verme direto do chão",
+				"pergunta2": "pegar uma mosca do ar e comê-la viva"
+			},
+			{
+				"pergunta1": "comer todas as refeições onde a comida é fria",
+				"pergunta2": "comer todas as refeições com 5 colheres de sopa de sal derramadas sobre ele"
+			},
+			{
+				"pergunta1": "comer apenas animais mortos pelo resto de sua vida",
+				"pergunta2": "comer apenas sêmen pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "comer fora da sua avó",
+				"pergunta2": "comer fora o traseiro de um sem-teto"
+			},
+			{
+				"pergunta1": "comer merda uma vez",
+				"pergunta2": "ter diarreia explosiva pelo resto da vida"
+			},
+			{
+				"pergunta1": "comer comida muito salgada pelo resto de sua vida",
+				"pergunta2": "comida sem sal que, não importa quanto sal você coloque sobre ela, nunca ficará salgada"
+			},
+			{
+				"pergunta1": "peidar durante o sexo",
+				"pergunta2": "arrotar durante o beijo"
+			},
+			{
+				"pergunta1": "peidar toda vez que rir",
+				"pergunta2": "arrotar toda vez que chorar"
+			},
+			{
+				"pergunta1": "podre de rico, mas tem que ser assistente de Justin Bieber",
+				"pergunta2": "pobre, mas pode ser o assistente de qualquer um que você escolher"
+			},
+			{
+				"pergunta1": "encontrar uma cura para o câncer",
+				"pergunta2": "descobrir se Deus existe"
+			},
+			{
+				"pergunta1": "encontrar o amor verdadeiro",
+				"pergunta2": "uma mala com cinco milhões de dólares"
+			},
+			{
+				"pergunta1": "sangrar para sempre pelo nariz",
+				"pergunta2": "remover uma unha todas as manhãs (elas voltam a crescer quando você termina todas as 20)"
+			},
+			{
+				"pergunta1": "sangrar para sempre pelo nariz",
+				"pergunta2": "remover uma unha todas as manhãs (FYI: Eles voltam a crescer)."
+			},
+			{
+				"pergunta1": "morrer congelado",
+				"pergunta2": "queimado até a morte"
+			},
+			{
+				"pergunta1": "foder um 10/10 enquanto seus pais assistem",
+				"pergunta2": "foder um 1/10 em particular"
+			},
+			{
+				"pergunta1": "foder um porco ao vivo na televisão nacional",
+				"pergunta2": "ser responsável pela morte de alguém"
+			},
+			{
+				"pergunta1": "foder a metade superior de Emma Watson com a parte inferior de Hulk Hogan",
+				"pergunta2": "foder a metade superior de Hulk Hogan com a metade inferior de Emma Watson"
+			},
+			{
+				"pergunta1": "foder seu namorado com o corpo do seu pai",
+				"pergunta2": "foder seu pai com o corpo do seu namorado"
+			},
+			{
+				"pergunta1": "foder sua namorada (namorado) com o corpo de sua mãe (pai)",
+				"pergunta2": "foder sua mãe (pai) com o corpo de sua namorada (namorado)"
+			},
+			{
+				"pergunta1": "foder sua namorada com o corpo da sua mãe",
+				"pergunta2": "foder sua mãe com o corpo da sua namorada"
+			},
+			{
+				"pergunta1": "uma punheta boa de sua avó",
+				"pergunta2": "uma punheta ruim de sua avó"
+			},
+			{
+				"pergunta1": "ter uma ereção latejante toda vez que estiver perto de uma criança",
+				"pergunta2": "ter que gritar a palavra com N toda vez que ouvir a palavra \"Obama\""
+			},
+			{
+				"pergunta1": "ter uma ereção latejante toda vez que estiver perto de uma criança",
+				"pergunta2": "ter que gritar a palavra com N toda vez que ouvir a palavra Obama"
+			},
+			{
+				"pergunta1": "arrotos com cheiro de donuts",
+				"pergunta2": "peidos que produzem nuvens de arco-íris"
+			},
+			{
+				"pergunta1": "ter sua língua e todos os seus dedos cortados, um por um,",
+				"pergunta2": "ter seus órgãos genitais removidos"
+			},
+			{
+				"pergunta1": "desistir do queijo",
+				"pergunta2": "do sexo oral"
+			},
+			{
+				"pergunta1": "voltar para o seu ex",
+				"pergunta2": "ficar sozinho para sempre"
+			},
+			{
+				"pergunta1": "se enforcar",
+				"pergunta2": "atirar em si mesmo"
+			},
+			{
+				"pergunta1": "um umbigo de 10 cm (4 polegadas)",
+				"pergunta2": "dez mamilos"
+			},
+			{
+				"pergunta1": "ter um bebê",
+				"pergunta2": "ter 10 abortos espontâneos"
+			},
+			{
+				"pergunta1": "ter uma mãe lésbica",
+				"pergunta2": "um pai travestido"
+			},
+			{
+				"pergunta1": "ter um novo parceiro a cada semana",
+				"pergunta2": "um parceiro para o resto de sua vida"
+			},
+			{
+				"pergunta1": "ter um parceiro que goste de tocar seu cocô",
+				"pergunta2": "um parceiro que goste de beber sua urina"
+			},
+			{
+				"pergunta1": "ter um parceiro obcecado por você",
+				"pergunta2": "que está te traindo"
+			},
+			{
+				"pergunta1": "ter uma boca de merda",
+				"pergunta2": "sua mãe cagar na sua boca"
+			},
+			{
+				"pergunta1": "ter um ânus",
+				"pergunta2": "vagina como boca"
+			},
+			{
+				"pergunta1": "ter um membro extra",
+				"pergunta2": "um globo ocular extra"
+			},
+			{
+				"pergunta1": "ter uma coceira no corpo que você não pode alcançar pelo resto da sua vida,",
+				"pergunta2": "ter um orgasmo a cada 5 minutos pelo resto da sua vida"
+			},
+			{
+				"pergunta1": "ter um orgasmo toda vez que espirrar",
+				"pergunta2": "bocejar"
+			},
+			{
+				"pergunta1": "ter uma DST que mata todos com quem você dorme em 20 anos, mas você está seguro",
+				"pergunta2": "nunca mais fará sexo"
+			},
+			{
+				"pergunta1": "ter paus no lugar dos mamilos",
+				"pergunta2": "vaginas no lugar das axilas"
+			},
+			{
+				"pergunta1": "ter lábios secos e rachados para o resto de sua vida",
+				"pergunta2": "caspa que é intratável"
+			},
+			{
+				"pergunta1": "ficar com os olhos secos pelo resto da vida",
+				"pergunta2": "com o nariz escorrendo pelo resto da vida"
+			},
+			{
+				"pergunta1": "ficar com os olhos secos",
+				"pergunta2": "com o nariz escorrendo pelo resto da vida"
+			},
+			{
+				"pergunta1": "ter dinheiro suficiente para o resto de sua vida",
+				"pergunta2": "viver em um mundo de fantasia para o resto de sua vida"
+			},
+			{
+				"pergunta1": "ter soluços pelo resto da vida",
+				"pergunta2": "sentir que precisa espirrar (mas não consegue) pelo resto da vida"
+			},
+			{
+				"pergunta1": "ter HIV e viver por mais 20 anos",
+				"pergunta2": "ter câncer e viver por mais 10 anos"
+			},
+			{
+				"pergunta1": "ter facas como dedos",
+				"pergunta2": "pênis como dedos"
+			},
+			{
+				"pergunta1": "facas como dedos",
+				"pergunta2": "pênis como dedos"
+			},
+			{
+				"pergunta1": "ter pernas tão longas quanto seus dedos",
+				"pergunta2": "dedos tão longos quanto suas pernas"
+			},
+			{
+				"pergunta1": "ter dentes bonitos e mau hálito",
+				"pergunta2": "dentes feios e nenhum mau hálito"
+			},
+			{
+				"pergunta1": "não ter seios",
+				"pergunta2": "três seios"
+			},
+			{
+				"pergunta1": "não ter cotovelos",
+				"pergunta2": "joelhos"
+			},
+			{
+				"pergunta1": "não ter cotovelos",
+				"pergunta2": "joelhos"
+			},
+			{
+				"pergunta1": "não ter dedos",
+				"pergunta2": "olhos"
+			},
+			{
+				"pergunta1": "não ter órgãos genitais",
+				"pergunta2": "olhos"
+			},
+			{
+				"pergunta1": "não ter pênis",
+				"pergunta2": "ter cinco pênis"
+			},
+			{
+				"pergunta1": "não ter língua",
+				"pergunta2": "dentes"
+			},
+			{
+				"pergunta1": "fazer sexo em uma cama suja de hotel",
+				"pergunta2": "em um banheiro público fedorento"
+			},
+			{
+				"pergunta1": "fazer sexo em um lugar público e ter 200 estranhos vendo você",
+				"pergunta2": "fazer sexo em seu quarto na frente de seus pais"
+			},
+			{
+				"pergunta1": "fazer sexo em um lugar público e ter 200 estranhos vendo você",
+				"pergunta2": "fazer sexo em seu quarto na frente de seu irmão"
+			},
+			{
+				"pergunta1": "fazer sexo na cama de seus pais",
+				"pergunta2": "na cama de uma loja de colchões"
+			},
+			{
+				"pergunta1": "fazer sexo apenas três vezes por ano, onde você tem orgasmo garantido,",
+				"pergunta2": "fazer sexo com a frequência que quiser, mas nunca ter orgasmo novamente."
+			},
+			{
+				"pergunta1": "fazer sexo com um membro da família",
+				"pergunta2": "fazer sexo com um cadáver"
+			},
+			{
+				"pergunta1": "fazer sexo com um polvo",
+				"pergunta2": "fazer sexo com uma cobra"
+			},
+			{
+				"pergunta1": "fazer sexo com Megan Fox com um pênis",
+				"pergunta2": "ser Tom Hiddleston com uma vagina"
+			},
+			{
+				"pergunta1": "fazer sexo com Zac Efron",
+				"pergunta2": "se casar com Zac Efron"
+			},
+			{
+				"pergunta1": "ter papilas gustativas em seu cu",
+				"pergunta2": "cocô pela boca"
+			},
+			{
+				"pergunta1": "ter a capacidade de sempre saber o que vai acontecer nos próximos 10 minutos",
+				"pergunta2": "a capacidade de sempre saber o que vai acontecer no mundo em 100 anos"
+			},
+			{
+				"pergunta1": "ter a capacidade de voar em velocidade de caminhada",
+				"pergunta2": "correr a 160 km/h (99 mph)"
+			},
+			{
+				"pergunta1": "comer o mesmo prato em todas as refeições pelo resto da vida",
+				"pergunta2": "comer o que quiser, exceto que uma vez por ano você tem que comer um sanduíche de merda"
+			},
+			{
+				"pergunta1": "ver seus pais fazerem sexo todas as noites pelo resto de sua vida",
+				"pergunta2": "participar de uma vez para impedir isso"
+			},
+			{
+				"pergunta1": "ter pelos incontroláveis na orelha",
+				"pergunta2": "pelo nariz incontrolável"
+			},
+			{
+				"pergunta1": "ter pelos incontroláveis na orelha",
+				"pergunta2": "pelo nariz incontrolável"
+			},
+			{
+				"pergunta1": "ter gases incontroláveis no trabalho pelo resto de sua vida",
+				"pergunta2": "ter gases incontroláveis em todos os primeiros encontros pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "ter vaginas como ouvidos",
+				"pergunta2": "pênis como dedos"
+			},
+			{
+				"pergunta1": "que seu pai pise em você fodendo seu cachorro",
+				"pergunta2": "que seu cachorro pise em você fodendo seu pai"
+			},
+			{
+				"pergunta1": "que sua mãe trate de você enquanto você está perdendo a virgindade",
+				"pergunta2": "que alguém amoleça sua boca enquanto você faz sexo oral"
+			},
+			{
+				"pergunta1": "ter seus dentes trocados por púbis",
+				"pergunta2": "ter seus púbis trocados por dentes"
+			},
+			{
+				"pergunta1": "matar um bebê com as próprias mãos, mas depois todo mundo pensa que você tentou salvá-lo",
+				"pergunta2": "deixou aquele bebê viver, mas depois todos pensam que você tentou matá-lo"
+			},
+			{
+				"pergunta1": "matar um bebê com as próprias mãos, mas depois todo mundo pensa que você tentou salvá-lo",
+				"pergunta2": "deixou aquele bebê viver, mas depois todo mundo pensa que você tentou matá-lo"
+			},
+			{
+				"pergunta1": "matar um gatinho",
+				"pergunta2": "cachorrinho"
+			},
+			{
+				"pergunta1": "matar uma classe do jardim de infância inteira com um tijolo",
+				"pergunta2": "levar na bunda de um time inteiro da NFL"
+			},
+			{
+				"pergunta1": "se matar para salvar a humanidade",
+				"pergunta2": "matar todas as outras pessoas para se salvar"
+			},
+			{
+				"pergunta1": "beijar Boris Johnson",
+				"pergunta2": "Donald Trump"
+			},
+			{
+				"pergunta1": "lamber a camisinha de um estranho",
+				"pergunta2": "comer um punhado de vermes de um cadáver"
+			},
+			{
+				"pergunta1": "lamber a manteiga de amendoim do pé de um vagabundo",
+				"pergunta2": "perder 50% de seus ativos no mercado de ações"
+			},
+			{
+				"pergunta1": "viver para sempre",
+				"pergunta2": "morrer nos próximos cinco minutos"
+			},
+			{
+				"pergunta1": "perder todas as memórias que você fez até agora",
+				"pergunta2": "esquecer de hoje em diante a cada 24 horas o que aconteceu no dia anterior"
+			},
+			{
+				"pergunta1": "perder todas as fotos que já tirou",
+				"pergunta2": "perder todo o seu dinheiro"
+			},
+			{
+				"pergunta1": "perder a capacidade de falar",
+				"pergunta2": "ver"
+			},
+			{
+				"pergunta1": "mudar de gênero magicamente todos os anos",
+				"pergunta2": "ser forçado a mudar e começar de novo a cada ano"
+			},
+			{
+				"pergunta1": "gemer estranhamente",
+				"pergunta2": "fazer uma cara feia toda vez que vier"
+			},
+			{
+				"pergunta1": "nunca mais ter que fazer xixi",
+				"pergunta2": "fazer cocô novamente"
+			},
+			{
+				"pergunta1": "nunca mais se masturbar",
+				"pergunta2": "comer comida sólida novamente"
+			},
+			{
+				"pergunta1": "nunca mais falar",
+				"pergunta2": "dizer todos os seus pensamentos em voz alta para sempre"
+			},
+			{
+				"pergunta1": "não ter um pênis",
+				"pergunta2": "ter três pênis"
+			},
+			{
+				"pergunta1": "comer recheio pelo resto da vida",
+				"pergunta2": "beber molho pelo resto da vida"
+			},
+			{
+				"pergunta1": "apenas gritar",
+				"pergunta2": "apenas sussurrar pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "fazer xixi toda vez que se levantar",
+				"pergunta2": "fazer cocô toda vez que se sentar"
+			},
+			{
+				"pergunta1": "fazer xixi toda vez que se levantar",
+				"pergunta2": "fazer cocô toda vez que se sentar"
+			},
+			{
+				"pergunta1": "arrancar todas as unhas dos dedos",
+				"pergunta2": "arrancar todos os dentes da boca"
+			},
+			{
+				"pergunta1": "urinar nas calças em público uma vez por semana",
+				"pergunta2": "se cagar em casa todos os dias"
+			},
+			{
+				"pergunta1": "mijar-se toda vez que rir",
+				"pergunta2": "toda vez que alguém disser seu nome"
+			},
+			{
+				"pergunta1": "postar nus no Instagram",
+				"pergunta2": "perder todo o seu dinheiro"
+			},
+			{
+				"pergunta1": "publicar seu histórico de pesquisa",
+				"pergunta2": "o saldo de sua conta"
+			},
+			{
+				"pergunta1": "arrancar todas as unhas",
+				"pergunta2": "todos os dentes da boca"
+			},
+			{
+				"pergunta1": "remover e comer um de seus globos oculares",
+				"pergunta2": "remover e comer um de seus testículos"
+			},
+			{
+				"pergunta1": "remover a unha do polegar com um garfo",
+				"pergunta2": "colocar um palito sob a unha grande e chutar a parede"
+			},
+			{
+				"pergunta1": "salvar a vida de seu filho ainda não nascido",
+				"pergunta2": "salvar sua própria vida"
+			},
+			{
+				"pergunta1": "não ver mais cores",
+				"pergunta2": "ter um zumbido (tom no ouvido) para sempre"
+			},
+			{
+				"pergunta1": "cagar em tijolos",
+				"pergunta2": "vomitar lesmas"
+			},
+			{
+				"pergunta1": "mostrar o histórico do seu navegador para seus pais",
+				"pergunta2": "seu chefe"
+			},
+			{
+				"pergunta1": "dormir com Sarah Jessica Parker",
+				"pergunta2": "ter um cavalo"
+			},
+			{
+				"pergunta1": "dormir com alguém que sempre tem as mãos geladas",
+				"pergunta2": "sempre queimando as mãos quentes"
+			},
+			{
+				"pergunta1": "dormir com seu ex",
+				"pergunta2": "com uma celebridade que você odeia"
+			},
+			{
+				"pergunta1": "sentir o cheiro da cueca usada de um estranho",
+				"pergunta2": "da roupa íntima usada de sua mãe"
+			},
+			{
+				"pergunta1": "cheirar a merda e não saber",
+				"pergunta2": "estar constantemente cheirando cocô que ninguém mais consegue sentir"
+			},
+			{
+				"pergunta1": "cheirar a merda",
+				"pergunta2": "a urina"
+			},
+			{
+				"pergunta1": "cheirar a axilas fedorentas pelo resto da vida",
+				"pergunta2": "perder completamente o olfato"
+			},
+			{
+				"pergunta1": "cheirar sal",
+				"pergunta2": "vinagre"
+			},
+			{
+				"pergunta1": "se sujar e não poder se limpar",
+				"pergunta2": "trocar de roupa por uma semana"
+			},
+			{
+				"pergunta1": "que alguém costure suas mãos (não há como voltar ao normal)",
+				"pergunta2": "alguém costure suas pernas (não há como voltar ao normal)"
+			},
+			{
+				"pergunta1": "chupar o dedo do pé de um Hobo por 2 minutos",
+				"pergunta2": "ficar em uma gaiola com um leão faminto por 20 segundos"
+			},
+			{
+				"pergunta1": "chupar um tampão usado que encontrou na rua",
+				"pergunta2": "chupar uma camisinha usada que encontrou na rua"
+			},
+			{
+				"pergunta1": "engolir esperma com gosto de urina",
+				"pergunta2": "ser irritado com seu parceiro"
+			},
+			{
+				"pergunta1": "nadar 300 metros em uma merda",
+				"pergunta2": "nadar 300 metros em meio a cadáveres"
+			},
+			{
+				"pergunta1": "usar uma escova de dentes estrangeira para sempre",
+				"pergunta2": "usar a roupa íntima suja de um estranho para sempre"
+			},
+			{
+				"pergunta1": "andar a vida toda com um ranho visível no nariz",
+				"pergunta2": "com uma marca de nascença peluda entre os olhos"
+			},
+			{
+				"pergunta1": "saber a incômoda verdade do mundo",
+				"pergunta2": "viver uma mentira confortável"
+			},
+			{
+				"pergunta1": "saber quando você morre",
+				"pergunta2": "como você morre"
+			},
+			{
+				"pergunta1": "saber quando você morre",
+				"pergunta2": "quando a pessoa que você ama morre"
+			},
+			{
+				"pergunta1": "assistir a um vídeo de sexo de seus pais",
+				"pergunta2": "mostrar a seus pais um vídeo de sexo seu"
+			},
+			{
+				"pergunta1": "assistir seus pais fazendo sexo todos os dias pelo resto de sua vida",
+				"pergunta2": "participar e nunca mais ver isso"
+			},
+			{
+				"pergunta1": "usar roupas íntimas de estranhos",
+				"pergunta2": "roupas íntimas sujas"
+			}
+		]
+	},
+	{
+		"id": "hard",
+		"nsfw": true,
+		"questions": [
+			{
+				"pergunta1": "sempre ter um pouco de frio",
+				"pergunta2": "sempre um pouco de vontade de fazer xixi"
+			},
+			{
+				"pergunta1": "sempre ter todas as suas camisas um tamanho menor do que o tamanho",
+				"pergunta2": "sempre ter todas as suas camisas dois tamanhos maiores do que você"
+			},
+			{
+				"pergunta1": "discutir sobre política no Facebook",
+				"pergunta2": "realmente sair para votar"
+			},
+			{
+				"pergunta1": "ficar descalço pelo resto da vida",
+				"pergunta2": "sempre usar botas UGG"
+			},
+			{
+				"pergunta1": "ser abduzido por alienígenas",
+				"pergunta2": "possuído por um demônio"
+			},
+			{
+				"pergunta1": "ser capaz de mudar o futuro",
+				"pergunta2": "o passado apenas por imaginá-lo"
+			},
+			{
+				"pergunta1": "ser capaz de voar na velocidade de uma caminhada",
+				"pergunta2": "correr na velocidade dos carros"
+			},
+			{
+				"pergunta1": "ser capaz de ler a mente das pessoas",
+				"pergunta2": "manipular outras pessoas com seus pensamentos"
+			},
+			{
+				"pergunta1": "ser capaz de ler a mente de seu parceiro",
+				"pergunta2": "ter um parceiro que possa ler sua mente"
+			},
+			{
+				"pergunta1": "ser capaz de falar todas as línguas humanas",
+				"pergunta2": "falar com animais"
+			},
+			{
+				"pergunta1": "ser filho único e ser abusado",
+				"pergunta2": "morar com uma família de dez irmãos que o odiava"
+			},
+			{
+				"pergunta1": "ser anoréxico",
+				"pergunta2": "obeso"
+			},
+			{
+				"pergunta1": "ser como é agora",
+				"pergunta2": "ter $ 100 milhões, mas tem 5% de chance de morte instantânea todos os dias"
+			},
+			{
+				"pergunta1": "ser careca, mas em forma,",
+				"pergunta2": "estar acima do peso com muitos cabelos"
+			},
+			{
+				"pergunta1": "ser proibido de fazer pedidos de entrega novamente",
+				"pergunta2": "de usar o Uber (ou qualquer serviço semelhante) novamente"
+			},
+			{
+				"pergunta1": "ser cego",
+				"pergunta2": "ver espíritos onde quer que vá"
+			},
+			{
+				"pergunta1": "ficar completamente sóbrio por toda a vida",
+				"pergunta2": "aparecer para a formatura de seus filhos completamente perdido"
+			},
+			{
+				"pergunta1": "ser condenado por um crime que não cometeu",
+				"pergunta2": "matou e se safou"
+			},
+			{
+				"pergunta1": "estar coberto de pelos",
+				"pergunta2": "de escamas"
+			},
+			{
+				"pergunta1": "se afogar em uma banheira",
+				"pergunta2": "ficar preso em um prédio em chamas, sem ter como escapar"
+			},
+			{
+				"pergunta1": "ser comido vivo por um urso",
+				"pergunta2": "por um lobo"
+			},
+			{
+				"pergunta1": "ser extremamente inteligente",
+				"pergunta2": "adorado por todas as pessoas na Terra"
+			},
+			{
+				"pergunta1": "ser temido por todos",
+				"pergunta2": "amado por todos"
+			},
+			{
+				"pergunta1": "ser podre de rico, mas sofrer de depressão,",
+				"pergunta2": "ser pobre, mas feliz"
+			},
+			{
+				"pergunta1": "ser forçado a comer apenas alimentos picantes",
+				"pergunta2": "ser forçado a comer apenas alimentos incrivelmente insossos"
+			},
+			{
+				"pergunta1": "ser algemado ao seu pior inimigo pelo resto da vida",
+				"pergunta2": "separado de toda a sua família pelo resto da vida"
+			},
+			{
+				"pergunta1": "ser algemado ao seu pior inimigo para o resto da vida",
+				"pergunta2": "separado de toda a sua família"
+			},
+			{
+				"pergunta1": "ser assombrado por um fantasma",
+				"pergunta2": "torturado por um alienígena"
+			},
+			{
+				"pergunta1": "ser saudável, mas ter uma aparência horrível",
+				"pergunta2": "não ter saúde e ter uma ótima aparência"
+			},
+			{
+				"pergunta1": "ficar imune às ressacas para sempre",
+				"pergunta2": "nunca mais ter que ir ao dentista"
+			},
+			{
+				"pergunta1": "estar em um relacionamento com alguém que nunca briga",
+				"pergunta2": "estar em um relacionamento com alguém que nunca abraça"
+			},
+			{
+				"pergunta1": "ser incrivelmente feliz, mas para sempre sozinho",
+				"pergunta2": "infeliz, mas com o amor da sua vida"
+			},
+			{
+				"pergunta1": "ser famoso nos livros de história",
+				"pergunta2": "ser esquecido após sua morte"
+			},
+			{
+				"pergunta1": "ser casado com alguém que não o ama",
+				"pergunta2": "com alguém que você não ama"
+			},
+			{
+				"pergunta1": "ser mortal em um planeta imortal",
+				"pergunta2": "ser imortal em um planeta mortal"
+			},
+			{
+				"pergunta1": "estar no Titanic",
+				"pergunta2": "ser amigo de Hitler"
+			},
+			{
+				"pergunta1": "ficar permanentemente com sede",
+				"pergunta2": "com náuseas permanentes"
+			},
+			{
+				"pergunta1": "ter uma aparência simples, mas sempre a pessoa mais engraçada da sala",
+				"pergunta2": "supergostoso, mas sempre a pessoa mais chata da sala"
+			},
+			{
+				"pergunta1": "ser pobre, mas ajudar as pessoas,",
+				"pergunta2": "se tornar incrivelmente rico machucando as pessoas"
+			},
+			{
+				"pergunta1": "ser colocado em uma prisão federal de segurança máxima com o mais duro dos criminosos empedernidos por um ano",
+				"pergunta2": "em uma prisão relativamente tranquila onde tipos de wall street são mantidos por dez anos"
+			},
+			{
+				"pergunta1": "ser colocado em uma prisão de segurança máxima com criminosos que cometeram assassinato por um ano",
+				"pergunta2": "na prisão com pessoas que cometeram crimes menores por dez anos"
+			},
+			{
+				"pergunta1": "reencarnar como uma mosca",
+				"pergunta2": "simplesmente deixar de existir depois de morrer"
+			},
+			{
+				"pergunta1": "ser reencarnado como Hitler",
+				"pergunta2": "reencarnado como Stalin"
+			},
+			{
+				"pergunta1": "ficar doente pelo resto de sua vida",
+				"pergunta2": "matar 2 filhotes"
+			},
+			{
+				"pergunta1": "ficar doente pelo resto da vida",
+				"pergunta2": "matar um gatinho"
+			},
+			{
+				"pergunta1": "ser inteligente e azarado",
+				"pergunta2": "burro e realmente sortudo"
+			},
+			{
+				"pergunta1": "ser esfaqueado no estômago 10 vezes",
+				"pergunta2": "baleado em ambas as rótulas"
+			},
+			{
+				"pergunta1": "ficar preso na floresta com Slenderman",
+				"pergunta2": "ficar preso na floresta com Hannibal Lecter"
+			},
+			{
+				"pergunta1": "ficar preso em uma ilha com um Flat Earther",
+				"pergunta2": "um Scientologist"
+			},
+			{
+				"pergunta1": "ficar preso em uma ilha com um assassino",
+				"pergunta2": "no oceano com tubarões famintos"
+			},
+			{
+				"pergunta1": "ser alto e muito magro",
+				"pergunta2": "musculoso e muito baixo"
+			},
+			{
+				"pergunta1": "ser o motorista designado e ficar sóbrio por uma noite",
+				"pergunta2": "caminhar 15 quilômetros para casa com todo o seu grupo de amigos"
+			},
+			{
+				"pergunta1": "ser o bêbado que chora a noite inteira",
+				"pergunta2": "o bêbado que inicia discussões estúpidas com estranhos"
+			},
+			{
+				"pergunta1": "ser o famoso autor de Twilight",
+				"pergunta2": "o famoso escritor de todas as músicas do Nickelback"
+			},
+			{
+				"pergunta1": "ser a primeira pessoa a andar em Marte em uma viagem só de ida",
+				"pergunta2": "nunca viajar para o espaço"
+			},
+			{
+				"pergunta1": "ser o primeiro a morrer de seus amigos",
+				"pergunta2": "o último a morrer de seus amigos"
+			},
+			{
+				"pergunta1": "ser aquele que ordena o bombardeio nuclear de uma cidade",
+				"pergunta2": "ser aquele que executa o bombardeio nuclear de uma cidade"
+			},
+			{
+				"pergunta1": "ser a única pessoa nua em uma sala cheia de seus parentes vestidos",
+				"pergunta2": "a única pessoa vestida em uma sala cheia de seus parentes nus"
+			},
+			{
+				"pergunta1": "ser vítima de um serial killer",
+				"pergunta2": "se transformar em um serial killer"
+			},
+			{
+				"pergunta1": "fazer cócegas por 30 minutos",
+				"pergunta2": "bater por 5 minutos"
+			},
+			{
+				"pergunta1": "ficar preso com um leão domesticado por uma hora",
+				"pergunta2": "com 50 tarântulas por uma hora"
+			},
+			{
+				"pergunta1": "ser feio e rico",
+				"pergunta2": "atraente e pobre"
+			},
+			{
+				"pergunta1": "ser incapaz de dizer o que pensa",
+				"pergunta2": "sempre ter que dizer o que pensa"
+			},
+			{
+				"pergunta1": "não poder tomar banho por 2 semanas, mas ter roupas limpas diariamente",
+				"pergunta2": "poder tomar banho diariamente por 2 semanas, mas não consegue trocar de roupa"
+			},
+			{
+				"pergunta1": "não conseguir usar os mecanismos de pesquisa",
+				"pergunta2": "as redes sociais"
+			},
+			{
+				"pergunta1": "ser procurado por assassinato e fugir",
+				"pergunta2": "ser um sem-teto que só tem boxers"
+			},
+			{
+				"pergunta1": "ser procurado por assassinato e fugir",
+				"pergunta2": "ser um sem-teto que só usa boxers"
+			},
+			{
+				"pergunta1": "estar com alguém que mostra apenas metade do carinho que você precisa",
+				"pergunta2": "ficar sozinho"
+			},
+			{
+				"pergunta1": "acreditar em Deus",
+				"pergunta2": "renunciar a Deus e receber $ 1 bilhão"
+			},
+			{
+				"pergunta1": "sangrar pelos ouvidos",
+				"pergunta2": "pelos olhos"
+			},
+			{
+				"pergunta1": "cego com incrível habilidade musical",
+				"pergunta2": "surdo com incrível habilidade artística"
+			},
+			{
+				"pergunta1": "abater sua própria carne para o resto de sua vida",
+				"pergunta2": "nunca mais comer carne"
+			},
+			{
+				"pergunta1": "comprar uma rodada de drinks para todos dentro do seu bar favorito no dia mais movimentado",
+				"pergunta2": "ser expulso e banido do lugar para sempre"
+			},
+			{
+				"pergunta1": "mudar sua aparência",
+				"pergunta2": "sua personalidade"
+			},
+			{
+				"pergunta1": "mudar de religião",
+				"pergunta2": "de partido político"
+			},
+			{
+				"pergunta1": "decepar seu próprio braço",
+				"pergunta2": "ficar fisicamente paralisado"
+			},
+			{
+				"pergunta1": "cortar seu próprio braço com uma faca de cozinha",
+				"pergunta2": "ficar fisicamente paralisado"
+			},
+			{
+				"pergunta1": "ficar constantemente com os olhos secos",
+				"pergunta2": "com o nariz sempre escorrendo"
+			},
+			{
+				"pergunta1": "atravessar um rio cheio de piranhas",
+				"pergunta2": "um rio cheio de crocodilos"
+			},
+			{
+				"pergunta1": "chorar toda vez que fala",
+				"pergunta2": "peidar alto toda vez que você ri"
+			},
+			{
+				"pergunta1": "abraçar uma lesma gigante",
+				"pergunta2": "abraçar uma aranha gigante"
+			},
+			{
+				"pergunta1": "curar sua ressaca com um banho frio",
+				"pergunta2": "curar sua ressaca com uma corrida de um quilômetro"
+			},
+			{
+				"pergunta1": "cortar um de seus dedos",
+				"pergunta2": "pagar $ 50.000 de seu próprio dinheiro para a pessoa que você mais odeia ir de férias em um spa"
+			},
+			{
+				"pergunta1": "cortar seis dos seus próprios dedos e um pé",
+				"pergunta2": "trazer Hitler de volta à vida como um invencível zumbi robô assassino"
+			},
+			{
+				"pergunta1": "morrer de fome",
+				"pergunta2": "de comer demais"
+			},
+			{
+				"pergunta1": "mergulhar o pé em ácido",
+				"pergunta2": "colocar fogo no pé"
+			},
+			{
+				"pergunta1": "descobrir algo grande e divulgá-lo",
+				"pergunta2": "descobrir algo mal e evitá-lo"
+			},
+			{
+				"pergunta1": "beber em um funil",
+				"pergunta2": "fazer um barrilete"
+			},
+			{
+				"pergunta1": "jogar o sabão na prisão",
+				"pergunta2": "ser esfaqueado na prisão"
+			},
+			{
+				"pergunta1": "comer um rato morto",
+				"pergunta2": "comer 20 aranhas vivas"
+			},
+			{
+				"pergunta1": "comer um ovo com uma galinha meio formada dentro",
+				"pergunta2": "comer cinco baratas cozidas"
+			},
+			{
+				"pergunta1": "abraçar a morte",
+				"pergunta2": "se tornar um vegetal"
+			},
+			{
+				"pergunta1": "acabar com a fome no mundo",
+				"pergunta2": "obter cuidados de saúde gratuitos para todos os humanos na Terra"
+			},
+			{
+				"pergunta1": "que cada filme que você assiste substitua o papel principal por Nicolas Cage",
+				"pergunta2": "que cada música que você ouve seja interpretada por Nickelback"
+			},
+			{
+				"pergunta1": "que todos usem macacões prateados idênticos ou, sempre que duas pessoas se encontrarem e estiverem usando uma peça de roupa idêntica, eles devem lutar até a morte"
+			},
+			{
+				"pergunta1": "ter paralisia do sono todas as noites",
+				"pergunta2": "ver alucinações ocasionais durante o dia"
+			},
+			{
+				"pergunta1": "explicar para uma sala de alunos da primeira série como o sexo funciona em detalhes gráficos",
+				"pergunta2": "informar a uma sala de alunos da primeira série que seus animais de estimação favoritos morreram tragicamente"
+			},
+			{
+				"pergunta1": "cair para a morte",
+				"pergunta2": "ser enterrado vivo"
+			},
+			{
+				"pergunta1": "sentir que vai cair o tempo todo",
+				"pergunta2": "ter que tossir o tempo todo"
+			},
+			{
+				"pergunta1": "encontrar uma cabeça humana em sua cozinha",
+				"pergunta2": "encontrar uma mão humana em sua cozinha"
+			},
+			{
+				"pergunta1": "descobrir que é um vampiro",
+				"pergunta2": "descobrir que é um lobisomem"
+			},
+			{
+				"pergunta1": "encontrar o amor verdadeiro uma vez, perdê-lo e nunca mais encontrá-lo",
+				"pergunta2": "ter vários relacionamentos felizes, mas nunca encontrar o amor"
+			},
+			{
+				"pergunta1": "encontrar o amor verdadeiro",
+				"pergunta2": "curar o câncer"
+			},
+			{
+				"pergunta1": "encontrar sua alma gêmea",
+				"pergunta2": "ter o emprego dos sonhos"
+			},
+			{
+				"pergunta1": "esquecer quem você é",
+				"pergunta2": "quem você conhece"
+			},
+			{
+				"pergunta1": "foder o pai do seu melhor amigo",
+				"pergunta2": "o melhor amigo do seu pai"
+			},
+			{
+				"pergunta1": "ficar bêbado e revelar todos os seus segredos",
+				"pergunta2": "ficar bêbado e revelar todos os segredos do seu melhor amigo"
+			},
+			{
+				"pergunta1": "ter diarreia explosiva toda vez que encontrar seu chefe",
+				"pergunta2": "ter diarreia explosiva toda vez que conhecer os pais de seu parceiro"
+			},
+			{
+				"pergunta1": "levar um tiro no estômago",
+				"pergunta2": "engolir veneno de rato"
+			},
+			{
+				"pergunta1": "passar um dia com um ente querido que já passou",
+				"pergunta2": "explorar um dia no ano 3001"
+			},
+			{
+				"pergunta1": "ser excitado por sangue",
+				"pergunta2": "por insetos"
+			},
+			{
+				"pergunta1": "se perder depois de uma cerveja",
+				"pergunta2": "precisa de dez cervejas para sentir um zumbido"
+			},
+			{
+				"pergunta1": "desistir de assistir TV/filmes por um ano",
+				"pergunta2": "desistir de jogar jogos por um ano"
+			},
+			{
+				"pergunta1": "desistir do vinho para sempre",
+				"pergunta2": "da cerveja para sempre"
+			},
+			{
+				"pergunta1": "ficar careca",
+				"pergunta2": "ser amaldiçoado para sempre por ter cortes de cabelo horríveis"
+			},
+			{
+				"pergunta1": "sair e beber",
+				"pergunta2": "ficar em casa e beber"
+			},
+			{
+				"pergunta1": "passar por um coração partido 100 vezes e finalmente encontrar alguém que você realmente ama",
+				"pergunta2": "nunca ter um coração partido e estar com alguém que você pensa que ama"
+			},
+			{
+				"pergunta1": "ir para um tiroteio com uma faca",
+				"pergunta2": "ir para um combate sem armas"
+			},
+			{
+				"pergunta1": "ir para a cadeia por 4 anos por algo que não fez",
+				"pergunta2": "se safar com algo horrível que fez, mas sempre vive com medo de ser pego"
+			},
+			{
+				"pergunta1": "ter 100% dos criminosos do mundo presos",
+				"pergunta2": "matar 50% de todos os assassinos"
+			},
+			{
+				"pergunta1": "ter 5% de chance de sofrer uma lesão na coluna se você andar de bicicleta",
+				"pergunta2": "nunca andar de bicicleta"
+			},
+			{
+				"pergunta1": "ter uma visão embaçada o tempo todo",
+				"pergunta2": "ver tudo em preto e branco"
+			},
+			{
+				"pergunta1": "um bumerangue que encontre e mate qualquer pessoa de sua escolha, mas que só possa ser usado uma vez,",
+				"pergunta2": "um bumerangue que sempre retorne para você com um dólar"
+			},
+			{
+				"pergunta1": "um bumerangue que encontre e mate qualquer pessoa de sua escolha, em qualquer lugar do mundo, mas só possa ser usado uma vez,",
+				"pergunta2": "um bumerangue que sempre retorna para você com um dólar"
+			},
+			{
+				"pergunta1": "ter um filho extremamente inteligente, mas anti-social,",
+				"pergunta2": "um filho que não seja o mais inteligente, mas gentil"
+			},
+			{
+				"pergunta1": "ter um palhaço que só você pode ver que o segue por toda parte e fica parado em silêncio em um canto, observando você, sem fazer",
+				"pergunta2": "dizer nada,"
+			},
+			{
+				"pergunta1": "ter uma vida sexual satisfatória",
+				"pergunta2": "uma carreira de sucesso"
+			},
+			{
+				"pergunta1": "receber um salário alto em um trabalho que você odeia",
+				"pergunta2": "um salário baixo em um trabalho que você ama"
+			},
+			{
+				"pergunta1": "ter um emprego horrível, mas ser capaz de se aposentar confortavelmente em 10 anos",
+				"pergunta2": "ter o emprego dos seus sonhos, mas trabalhar até o dia de sua morte"
+			},
+			{
+				"pergunta1": "um papagaio que repete tudo o que você diz",
+				"pergunta2": "uma lhama que cospe em você sempre que você entra pela porta"
+			},
+			{
+				"pergunta1": "ter um parceiro obcecado por você",
+				"pergunta2": "que está te traindo"
+			},
+			{
+				"pergunta1": "ter um sabre de luz de verdade",
+				"pergunta2": "salvar uma criança africana da fome"
+			},
+			{
+				"pergunta1": "ter um sorriso reto e perfeito com dentes super amarelos",
+				"pergunta2": "dentes super tortos que são brancos perolados"
+			},
+			{
+				"pergunta1": "que todas as suas pesquisas do Google sejam transmitidas para todos no Facebook ou, em vez disso, todas as suas mensagens de texto sejam transmitidas para todos no Facebook"
+			},
+			{
+				"pergunta1": "que toda a água tenha gosto de vodka",
+				"pergunta2": "todos os alimentos com gosto de pés velhos"
+			},
+			{
+				"pergunta1": "fazer um aborto",
+				"pergunta2": "dar seu bebê para adoção"
+			},
+			{
+				"pergunta1": "ter tudo o que sempre quis, mas morrer em um ano",
+				"pergunta2": "viver sua vida como ela é agora"
+			},
+			{
+				"pergunta1": "ter olhos do tamanho de uma bola de beisebol",
+				"pergunta2": "olhos do tamanho de uma ervilha"
+			},
+			{
+				"pergunta1": "ter funções motoras altas, mas tem sentidos muito ruins",
+				"pergunta2": "tem sentidos excelentes, mas habilidades motoras de baixo funcionamento"
+			},
+			{
+				"pergunta1": "ter uma acne horrível que está apenas em áreas cobertas por roupas",
+				"pergunta2": "uma acne moderada que está apenas em seu rosto"
+			},
+			{
+				"pergunta1": "não ter família",
+				"pergunta2": "amigos"
+			},
+			{
+				"pergunta1": "não ter dedos",
+				"pergunta2": "cotovelos"
+			},
+			{
+				"pergunta1": "não ter ninguém para beber no seu aniversário",
+				"pergunta2": "não ter ninguém para beber na véspera de Ano Novo"
+			},
+			{
+				"pergunta1": "não ter polegares",
+				"pergunta2": "apenas ter polegares"
+			},
+			{
+				"pergunta1": "ter um mamilo",
+				"pergunta2": "dois umbigos"
+			},
+			{
+				"pergunta1": "ter um filho indesejado",
+				"pergunta2": "cinco filhos planejados"
+			},
+			{
+				"pergunta1": "ter mau hálito permanentemente",
+				"pergunta2": "que seu parceiro fique com mau hálito, mas apenas perto de você"
+			},
+			{
+				"pergunta1": "fazer sexo com sua mãe",
+				"pergunta2": "fazer sexo com sua mãe morta"
+			},
+			{
+				"pergunta1": "ter uma pele que muda de cor com base em suas emoções",
+				"pergunta2": "tatuagens aparecendo em todo o seu corpo retratando o que você fez ontem"
+			},
+			{
+				"pergunta1": "que alguém se ofereça para pagar sua bebida favorita",
+				"pergunta2": "gaste seu próprio dinheiro com sua bebida favorita"
+			},
+			{
+				"pergunta1": "ter a capacidade de voltar para um momento anterior em sua vida",
+				"pergunta2": "avançar para um momento posterior de sua vida"
+			},
+			{
+				"pergunta1": "ter a sensação constante de que insetos estão rastejando em sua pele",
+				"pergunta2": "que alguém está chamando seu nome a cada dois minutos"
+			},
+			{
+				"pergunta1": "ter o emprego dos seus sonhos, mas com pouco dinheiro,",
+				"pergunta2": "um emprego que você odeia, mas com muito dinheiro"
+			},
+			{
+				"pergunta1": "ter que se abster de álcool pelo resto de sua vida",
+				"pergunta2": "ter que se abster de cafeína pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "terminar cada frase com um calúnia racial",
+				"pergunta2": "lançar duas bombas F em cada frase"
+			},
+			{
+				"pergunta1": "lamber o rosto das pessoas sempre que elas vão apertar sua mão",
+				"pergunta2": "gritar 'Eu não lavei minhas mãos!' a todos os seus colegas de trabalho toda vez que você volta do banheiro"
+			},
+			{
+				"pergunta1": "ter que colocar a palavra 'úmido' em todas as conversas que você tem",
+				"pergunta2": "ter um pedaço de pimenta permanentemente preso em seus dentes da frente"
+			},
+			{
+				"pergunta1": "ter que usar a mesma roupa todos os dias pelo resto de sua existência",
+				"pergunta2": "ter cada peça de roupa que você possui com uma enorme mancha marrom"
+			},
+			{
+				"pergunta1": "ter sessões de terapia gratuitas ilimitadas para sempre",
+				"pergunta2": "ter uma conversa única de três horas com Michelle Obama"
+			},
+			{
+				"pergunta1": "que tudo o que está pensando apareça acima de sua cabeça para que todos vejam",
+				"pergunta2": "que absolutamente tudo o que você faz seja transmitido ao vivo para todos verem"
+			},
+			{
+				"pergunta1": "que tudo o que você pensa apareça acima de sua cabeça para que todos vejam",
+				"pergunta2": "que tudo o que você faz seja transmitido ao vivo para todos verem"
+			},
+			{
+				"pergunta1": "que seu nome seja conhecido para sempre por fazer algo terrível",
+				"pergunta2": "nunca ser reconhecido por realizar algo maravilhoso"
+			},
+			{
+				"pergunta1": "ouvir ruídos estranhos no meio da noite",
+				"pergunta2": "ver sombras estranhas em sua parede"
+			},
+			{
+				"pergunta1": "ouvir as vozes de pessoas mortas",
+				"pergunta2": "ver os fantasmas de pessoas mortas"
+			},
+			{
+				"pergunta1": "chutar a parede com um palito na unha",
+				"pergunta2": "pular em uma poça de suco de limão com cortes de papel por todo o corpo"
+			},
+			{
+				"pergunta1": "matar 3 crianças inocentes se isso acabar com todas as guerras na terra,",
+				"pergunta2": "continuar vivendo em um mundo com guerras em andamento"
+			},
+			{
+				"pergunta1": "Você preferiria matar 5 crianças inocentes se isso acabasse com todo o derramamento de sangue no Oriente Médio por 25 anos",
+				"pergunta2": "se houvesse guerras, terrorismo e combates no Oriente Médio"
+			},
+			{
+				"pergunta1": "matar um membro da família para conseguir 1 milhão de dólares",
+				"pergunta2": "se matar para acabar com todas as guerras para sempre"
+			},
+			{
+				"pergunta1": "matar um cachorrinho",
+				"pergunta2": "matar um gatinho"
+			},
+			{
+				"pergunta1": "matar todos os políticos de esquerda",
+				"pergunta2": "matar todos os políticos de direita"
+			},
+			{
+				"pergunta1": "matar uma pessoa inocente",
+				"pergunta2": "matar cinco pessoas que cometeram crimes menores"
+			},
+			{
+				"pergunta1": "matar alguém e ninguém saber",
+				"pergunta2": "não matar alguém, mas todos pensam que você matou"
+			},
+			{
+				"pergunta1": "matar o presidente",
+				"pergunta2": "o papa"
+			},
+			{
+				"pergunta1": "matar três gatos de rua aleatórios",
+				"pergunta2": "um dos seus"
+			},
+			{
+				"pergunta1": "matar seu melhor amigo para conseguir $ 1 milhão",
+				"pergunta2": "se matar para acabar com a fome no mundo"
+			},
+			{
+				"pergunta1": "se matar",
+				"pergunta2": "apertar um botão e ter 10.000 pessoas aleatórias morrendo"
+			},
+			{
+				"pergunta1": "se matar para salvar 2 pessoas",
+				"pergunta2": "matar 2 pessoas para se tornar imortal"
+			},
+			{
+				"pergunta1": "beijar Boris Johnson",
+				"pergunta2": "Donald Trump"
+			},
+			{
+				"pergunta1": "saber como vai morrer",
+				"pergunta2": "quando vai morrer"
+			},
+			{
+				"pergunta1": "saber a hora e o local exatos de sua própria morte",
+				"pergunta2": "saber a hora e o local exatos de todas as pessoas ao seu redor"
+			},
+			{
+				"pergunta1": "deixar quem você ama",
+				"pergunta2": "ser deixado por quem você ama"
+			},
+			{
+				"pergunta1": "saber quando você morre",
+				"pergunta2": "como você morre"
+			},
+			{
+				"pergunta1": "viver uma vida miserável, mas eterna,",
+				"pergunta2": "ir direto para o inferno amanhã"
+			},
+			{
+				"pergunta1": "viver uma vida miserável, mas eterna,",
+				"pergunta2": "ir direto para o inferno amanhã"
+			},
+			{
+				"pergunta1": "viver em um abrigo para sem-teto com acesso à Internet",
+				"pergunta2": "morar em uma casa incrível, isolada de qualquer contato externo"
+			},
+			{
+				"pergunta1": "viver em uma biblioteca onde os livros são sua única forma de entretenimento",
+				"pergunta2": "viver em uma cela de prisão onde você pode acessar qualquer canal da TV"
+			},
+			{
+				"pergunta1": "viver em uma utopia como uma pessoa normal",
+				"pergunta2": "em uma distopia, mas você é o governante supremo"
+			},
+			{
+				"pergunta1": "viver isolado",
+				"pergunta2": "enfrentar seu maior medo uma vez por mês"
+			},
+			{
+				"pergunta1": "viver em total solidão",
+				"pergunta2": "estar cercado por centenas de seus clones"
+			},
+			{
+				"pergunta1": "viver até os 100 anos presos no corpo de uma criança",
+				"pergunta2": "viver até os 50 como um ser humano normal em envelhecimento"
+			},
+			{
+				"pergunta1": "viver até os 20,0, mas parece que tem 200 o tempo todo, embora seja saudável",
+				"pergunta2": "pareça que tem 25 anos até morrer aos 65"
+			},
+			{
+				"pergunta1": "parecer uma criança, mas ter a mente de um adulto,",
+				"pergunta2": "parecer um adulto, mas ter a mente de uma criança"
+			},
+			{
+				"pergunta1": "perder todas as suas memórias desde o nascimento até agora",
+				"pergunta2": "perder sua capacidade de fazer novas memórias de longo prazo"
+			},
+			{
+				"pergunta1": "perder todo o seu dinheiro e objetos de valor",
+				"pergunta2": "todas as fotos que você já tirou"
+			},
+			{
+				"pergunta1": "perder todo o seu dinheiro",
+				"pergunta2": "todas as suas fotos"
+			},
+			{
+				"pergunta1": "perder um olho e uma mão",
+				"pergunta2": "perder uma perna e uma orelha"
+			},
+			{
+				"pergunta1": "perder sua genitália",
+				"pergunta2": "perder sua mão dominante"
+			},
+			{
+				"pergunta1": "perder sua mente",
+				"pergunta2": "perder todos os seus membros"
+			},
+			{
+				"pergunta1": "perder sua mão preferida",
+				"pergunta2": "perder seu pé preferido"
+			},
+			{
+				"pergunta1": "perder sua carteira em um clube",
+				"pergunta2": "perder seu telefone em um clube"
+			},
+			{
+				"pergunta1": "se masturbar na frente de seus pais do início ao fim",
+				"pergunta2": "assistir seus pais se masturbarem do início ao fim"
+			},
+			{
+				"pergunta1": "nunca mais jogar um jogo em seu computador",
+				"pergunta2": "nunca mais jogar um jogo de console"
+			},
+			{
+				"pergunta1": "nunca mais comer carne",
+				"pergunta2": "nunca mais comer vegetais"
+			},
+			{
+				"pergunta1": "nunca mais poder ouvir sua música favorita",
+				"pergunta2": "nunca mais poder assistir seu filme favorito"
+			},
+			{
+				"pergunta1": "nunca mais ser capaz de falar com ninguém",
+				"pergunta2": "nunca mais ser capaz de tocar em ninguém"
+			},
+			{
+				"pergunta1": "nunca mais fazer sexo",
+				"pergunta2": "nunca aprender nada de novo"
+			},
+			{
+				"pergunta1": "nunca mais ler outro livro",
+				"pergunta2": "nunca ouvir outra música"
+			},
+			{
+				"pergunta1": "nunca mais usar sites e aplicativos de mídia social",
+				"pergunta2": "nunca assistir a outro filme"
+			},
+			{
+				"pergunta1": "nunca mais lavar seus lençóis",
+				"pergunta2": "tomar banho apenas uma vez a cada duas semanas"
+			},
+			{
+				"pergunta1": "não ser capaz de sentar",
+				"pergunta2": "não ser capaz de ficar em pé"
+			},
+			{
+				"pergunta1": "não ser capaz de falar",
+				"pergunta2": "de andar"
+			},
+			{
+				"pergunta1": "apenas ser capaz de andar de quatro",
+				"pergunta2": "apenas pular em vez de andar"
+			},
+			{
+				"pergunta1": "cheirar permanentemente a gasolina",
+				"pergunta2": "cheirar permanentemente a esmalte"
+			},
+			{
+				"pergunta1": "cagar uma estrela ninja",
+				"pergunta2": "cagar 10.000 litros de maionese"
+			},
+			{
+				"pergunta1": "postar uma foto nada lisonjeira e bêbada em sua história do Instagram que sua paixão vê",
+				"pergunta2": "enviar uma mensagem direta a ela com algo embaraçoso"
+			},
+			{
+				"pergunta1": "reviver o mesmo dia por 365 dias",
+				"pergunta2": "perder um ano de sua vida"
+			},
+			{
+				"pergunta1": "correr para seu chefe enquanto está bêbado",
+				"pergunta2": "correr para seu chefe enquanto está chapado"
+			},
+			{
+				"pergunta1": "encontrar seu ex-namorado/ex-namorada no clube",
+				"pergunta2": "encontrar seus pais no clube"
+			},
+			{
+				"pergunta1": "sacrificar seu animal de estimação para que possa comer",
+				"pergunta2": "sacrificar partes de seu corpo para que você e seu animal de estimação possam comer"
+			},
+			{
+				"pergunta1": "sacrificar seu animal de estimação para ter algo para comer",
+				"pergunta2": "partes de seu corpo para que você e seu animal de estimação possam comer"
+			},
+			{
+				"pergunta1": "salvar 2 membros da família",
+				"pergunta2": "salvar 10.000 estranhos"
+			},
+			{
+				"pergunta1": "salvar 2 parentes",
+				"pergunta2": "salvar 100 estranhos"
+			},
+			{
+				"pergunta1": "ver embaçado o tempo todo",
+				"pergunta2": "ver tudo em preto e branco"
+			},
+			{
+				"pergunta1": "vender todos os seus bens",
+				"pergunta2": "um de seus órgãos"
+			},
+			{
+				"pergunta1": "vender todos os seus bens",
+				"pergunta2": "vender um de seus órgãos"
+			},
+			{
+				"pergunta1": "chegar ao trabalho um dia sem calças",
+				"pergunta2": "fazer xixi no meio de uma apresentação na frente de todos os seus colegas de trabalho"
+			},
+			{
+				"pergunta1": "delatar seu melhor amigo por um crime que cometeu",
+				"pergunta2": "ir para a prisão pelo crime que um estranho cometeu"
+			},
+			{
+				"pergunta1": "delatar seu melhor amigo por um crime que cometeram",
+				"pergunta2": "ir para a cadeia pelo crime que seu amigo cometeu"
+			},
+			{
+				"pergunta1": "passar um dia no deserto",
+				"pergunta2": "no Pólo Norte"
+			},
+			{
+				"pergunta1": "passar a noite em um hotel mal-assombrado",
+				"pergunta2": "em um asilo de loucos"
+			},
+			{
+				"pergunta1": "passar o resto de sua vida sempre com frio",
+				"pergunta2": "passar o resto de sua vida sempre exausto"
+			},
+			{
+				"pergunta1": "cuspir em um Mike Tyson zangado",
+				"pergunta2": "cuspir em um Bruce Lee zangado"
+			},
+			{
+				"pergunta1": "parar as mudanças climáticas",
+				"pergunta2": "acabar com todas as guerras na terra"
+			},
+			{
+				"pergunta1": "processar uma organização de caridade e ganhar",
+				"pergunta2": "processar uma organização corrupta e perder"
+			},
+			{
+				"pergunta1": "tomar banho frio todos os dias pelo resto de sua vida",
+				"pergunta2": "comer apenas comida fria pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "provar o mesmo sabor da comida pelo resto da sua vida",
+				"pergunta2": "não provar nada nunca mais"
+			},
+			{
+				"pergunta1": "provar o mesmo sabor da comida",
+				"pergunta2": "nunca mais provar nada"
+			},
+			{
+				"pergunta1": "que o mundo esteja cheio de ateus",
+				"pergunta2": "que o mundo esteja cheio de cristãos"
+			},
+			{
+				"pergunta1": "vomitar no meio da pista de dança",
+				"pergunta2": "dentro do seu Uber"
+			},
+			{
+				"pergunta1": "tropeçar na pista de dança na frente de todos",
+				"pergunta2": "rasgar o vestido que está usando na frente de todos"
+			},
+			{
+				"pergunta1": "usar uma cadeira de rodas para o resto de sua vida e ser capaz de ter filhos",
+				"pergunta2": "andar, mas não pode ter filhos"
+			},
+			{
+				"pergunta1": "visitar um bar que só serve tequila",
+				"pergunta2": "visitar um clube que só toca Black Eyed Peas"
+			},
+			{
+				"pergunta1": "acordar como uma nova pessoa aleatória a cada ano e ter controle total sobre ela durante todo o ano",
+				"pergunta2": "passar um dia dentro de um estranho uma vez por semana sem ter nenhum controle sobre ele"
+			},
+			{
+				"pergunta1": "acordar como uma nova pessoa aleatória a cada ano e ter total controle sobre ela",
+				"pergunta2": "passar um dia dentro de um estranho uma vez por semana sem ter nenhum controle sobre ele"
+			},
+			{
+				"pergunta1": "acordar de ressaca e descobrir que mandou uma mensagem de texto para seu ex",
+				"pergunta2": "acordar de ressaca e descobrir que gastou todo o seu salário no bar"
+			},
+			{
+				"pergunta1": "acordar com uma intravenosa em um hospital assustador",
+				"pergunta2": "acorrentado a um radiador em um quarto vazio"
+			},
+			{
+				"pergunta1": "assistir seu pai morrer lentamente",
+				"pergunta2": "assistir seu parceiro morrer lentamente"
+			},
+			{
+				"pergunta1": "ganhar 1 milhão de dólares",
+				"pergunta2": "encontrar o amor da sua vida"
+			}
+		]
+	},
+	{
+		"id": "party",
+		"nsfw": false,
+		"questions": [
+			{
+				"pergunta1": "que 5% da população tenha telepatia",
+				"pergunta2": "5% da população tenha telecinesia"
+			},
+			{
+				"pergunta1": "comer tudo o que sempre quis e ter um corpo incrível",
+				"pergunta2": "comprar tudo o que sempre quis e nunca ficar sem dinheiro"
+			},
+			{
+				"pergunta1": "adotar um cachorrinho",
+				"pergunta2": "um gatinho"
+			},
+			{
+				"pergunta1": "estar sempre 10 minutos atrasado",
+				"pergunta2": "20 minutos antes"
+			},
+			{
+				"pergunta1": "parecer incrivelmente atraente para o seu parceiro e extremamente pouco atraente para todos os outros",
+				"pergunta2": "parecer inacreditavelmente atraente para todos os outros, mas extremamente pouco atraente para o seu parceiro"
+			},
+			{
+				"pergunta1": "estar 100% confiante em quem você é",
+				"pergunta2": "estar 100% confiante de que está com a pessoa certa"
+			},
+			{
+				"pergunta1": "ser campeão de boliche",
+				"pergunta2": "campeão de curling"
+			},
+			{
+				"pergunta1": "ser membro da família Kardashian",
+				"pergunta2": "da família Obama"
+			},
+			{
+				"pergunta1": "ser um vampiro",
+				"pergunta2": "um mago"
+			},
+			{
+				"pergunta1": "saber quando seu outro significativo está mentindo",
+				"pergunta2": "ouvir todos os seus pensamentos"
+			},
+			{
+				"pergunta1": "poder comprar qualquer item abaixo de $ 300 gratuitamente, mas ter que pagar 50% a mais em itens acima de $ 300",
+				"pergunta2": "pagar o dobro em itens abaixo de $ 1000, mas obter um desconto de 50% em itens acima de $ 1000"
+			},
+			{
+				"pergunta1": "ser capaz de andar de monociclo em uma corda bamba",
+				"pergunta2": "completar um cubo de Rubik em 10 segundos"
+			},
+			{
+				"pergunta1": "ser capaz de ver 5 minutos no futuro",
+				"pergunta2": "ser capaz de ver 100 anos no futuro"
+			},
+			{
+				"pergunta1": "ser capaz de ver 10 minutos em seu próprio futuro",
+				"pergunta2": "ser capaz de ver 10 minutos no futuro de qualquer pessoa além de você mesmo"
+			},
+			{
+				"pergunta1": "ser capaz de falar com animais",
+				"pergunta2": "ler a mente de outras pessoas"
+			},
+			{
+				"pergunta1": "ser capaz de falar com animais terrestres",
+				"pergunta2": "com animais que voam"
+			},
+			{
+				"pergunta1": "ser capaz de se teletransportar para qualquer lugar",
+				"pergunta2": "ser capaz de ler mentes"
+			},
+			{
+				"pergunta1": "ser capaz de se teletransportar uma vez por dia, mas nada vem com você, incluindo roupas,",
+				"pergunta2": "ser capaz de voar, mas você precisa beber combustível de aviação antes de cada voo"
+			},
+			{
+				"pergunta1": "ser capaz de ficar invisível",
+				"pergunta2": "parar o tempo"
+			},
+			{
+				"pergunta1": "ficar sozinho pelo resto de sua vida",
+				"pergunta2": "estar sempre cercado de pessoas chatas"
+			},
+			{
+				"pergunta1": "ser um artista incrível, mas não ser capaz de ver nenhuma das obras de arte que você criou,",
+				"pergunta2": "ser um músico incrível, mas não ser capaz de ouvir nenhuma das músicas que você cria"
+			},
+			{
+				"pergunta1": "ser uma pessoa comum no presente",
+				"pergunta2": "ser um rei há 2500 anos"
+			},
+			{
+				"pergunta1": "ser um personagem sem importância no último filme que viu",
+				"pergunta2": "um personagem sem importância no último livro que leu"
+			},
+			{
+				"pergunta1": "ser proibido de fazer pedidos de entrega novamente",
+				"pergunta2": "de usar o Uber (ou qualquer serviço semelhante) novamente"
+			},
+			{
+				"pergunta1": "nascer de novo em uma vida totalmente diferente",
+				"pergunta2": "nascer de novo com todo o conhecimento que você tem agora"
+			},
+			{
+				"pergunta1": "ficar completamente invisível por um dia",
+				"pergunta2": "ser capaz de voar por um dia"
+			},
+			{
+				"pergunta1": "ser famoso quando estiver vivo e esquecido quando morrer",
+				"pergunta2": "desconhecido quando estiver vivo, mas famoso depois de morrer"
+			},
+			{
+				"pergunta1": "ser fantástico em andar a cavalo",
+				"pergunta2": "dirigir bicicletas sujas"
+			},
+			{
+				"pergunta1": "ser podre de rico e viver 400 anos atrás",
+				"pergunta2": "ser pobre, mas viver hoje"
+			},
+			{
+				"pergunta1": "ser podre de rico, mas sofrer de depressão,",
+				"pergunta2": "ser pobre, mas feliz"
+			},
+			{
+				"pergunta1": "ser fluente em todos os idiomas e nunca poder viajar",
+				"pergunta2": "ser capaz de viajar para qualquer lugar durante um ano, mas nunca ser capaz de aprender uma palavra em um idioma diferente"
+			},
+			{
+				"pergunta1": "receber uma dúzia de rosas e uma joia cara",
+				"pergunta2": "uma escapada de fim de semana para um lugar onde nunca esteve"
+			},
+			{
+				"pergunta1": "estar em um relacionamento com alguém que nunca briga",
+				"pergunta2": "estar em um relacionamento com alguém que nunca abraça"
+			},
+			{
+				"pergunta1": "ficar trancado em uma sala sempre às escuras por uma semana",
+				"pergunta2": "em uma sala constantemente iluminada por uma semana"
+			},
+			{
+				"pergunta1": "assistir apenas alguns filmes com uma pontuação de tomate podre de 95-100%",
+				"pergunta2": "apenas ser capaz de assistir à maioria dos filmes com uma pontuação de tomate podre de 94%"
+			},
+			{
+				"pergunta1": "ter tanto medo de altura a ponto de não poder ir para o segundo andar de um prédio",
+				"pergunta2": "tanto medo do sol que só pode sair de casa em dias de chuva"
+			},
+			{
+				"pergunta1": "ser o melhor absoluto em algo que ninguém leva a sério",
+				"pergunta2": "estar bem acima da média, mas nem de longe o melhor em algo bem respeitado"
+			},
+			{
+				"pergunta1": "ser o melhor do mundo em escalar árvores",
+				"pergunta2": "ser o melhor do mundo em pular corda"
+			},
+			{
+				"pergunta1": "ser a primeira pessoa a explorar um planeta diferente",
+				"pergunta2": "ser o inventor de uma droga que cura uma doença mortal"
+			},
+			{
+				"pergunta1": "ser o chefe de uma empresa de merda",
+				"pergunta2": "ser o pior funcionário da melhor empresa do mundo"
+			},
+			{
+				"pergunta1": "ser transportado permanentemente 500 anos no futuro",
+				"pergunta2": "ser transportado permanentemente 500 anos no passado"
+			},
+			{
+				"pergunta1": "não ter filhos",
+				"pergunta2": "apenas conceber quíntuplos"
+			},
+			{
+				"pergunta1": "ser incapaz de mover seu corpo toda vez que chove",
+				"pergunta2": "não ser capaz de parar de se mover enquanto o sol está alto"
+			},
+			{
+				"pergunta1": "estar com alguém que ocasionalmente conta grandes mentiras",
+				"pergunta2": "alguém que é brutalmente honesto o tempo todo"
+			},
+			{
+				"pergunta1": "piscar com o dobro da taxa normal",
+				"pergunta2": "não ser capaz de piscar por 5 minutos, mas depois fechar os olhos por 10 segundos a cada 5 minutos"
+			},
+			{
+				"pergunta1": "mudar sua aparência",
+				"pergunta2": "sua personalidade"
+			},
+			{
+				"pergunta1": "namorar a pessoa mais bonita do sexo oposto",
+				"pergunta2": "se tornar a pessoa mais bonita do seu sexo"
+			},
+			{
+				"pergunta1": "morrer se não der um tapa na bunda de uma nova pessoa a cada 12 horas",
+				"pergunta2": "morrer se não matar alguém todos os anos"
+			},
+			{
+				"pergunta1": "doar seu corpo para a ciência",
+				"pergunta2": "doar seus órgãos para pessoas que precisam deles"
+			},
+			{
+				"pergunta1": "comer uma caixa de macarrão espaguete seco",
+				"pergunta2": "uma xícara de arroz cru"
+			},
+			{
+				"pergunta1": "comer um sanduíche feito com 4 ingredientes da sua geladeira escolhidos ao acaso",
+				"pergunta2": "comer um sanduíche feito por um grupo de seus amigos com 4 ingredientes da sua geladeira"
+			},
+			{
+				"pergunta1": "comer arroz em todas as refeições",
+				"pergunta2": "comer pão em todas as refeições"
+			},
+			{
+				"pergunta1": "que toda camisa que você veste coça",
+				"pergunta2": "só pode usar papel higiênico de uma folha"
+			},
+			{
+				"pergunta1": "lutar contra 100 cavalos do tamanho de um pato",
+				"pergunta2": "lutar com um pato do tamanho do cavalo"
+			},
+			{
+				"pergunta1": "encontrar $ 5 no chão",
+				"pergunta2": "encontrar todas as suas meias perdidas"
+			},
+			{
+				"pergunta1": "encontrar o amor verdadeiro uma vez, perdê-lo e nunca mais encontrá-lo",
+				"pergunta2": "ter vários relacionamentos felizes, mas nunca encontrar o amor"
+			},
+			{
+				"pergunta1": "encontrar sua alma gêmea",
+				"pergunta2": "ter o emprego dos seus sonhos"
+			},
+			{
+				"pergunta1": "encontrar seu verdadeiro amor",
+				"pergunta2": "uma mala com $ 5 milhões dentro"
+			},
+			{
+				"pergunta1": "receber $ 10",
+				"pergunta2": "arriscar onde tem 90% de chance de receber $ 1 bilhão e 10% de chance de morte instantânea"
+			},
+			{
+				"pergunta1": "obter uma passagem aérea internacional gratuita de ida e volta todos os anos",
+				"pergunta2": "poder voar para voos domésticos a qualquer momento gratuitamente"
+			},
+			{
+				"pergunta1": "desistir de todas as bebidas, exceto água,",
+				"pergunta2": "desistir de comer qualquer coisa que tenha sido cozida no forno"
+			},
+			{
+				"pergunta1": "parar de tomar banho por um mês",
+				"pergunta2": "desistir da Internet por um mês"
+			},
+			{
+				"pergunta1": "ficar 30 dias sem seu telefone",
+				"pergunta2": "passar a vida inteira sem sobremesa"
+			},
+			{
+				"pergunta1": "voltar aos 5 anos com tudo o que sabe agora",
+				"pergunta2": "saber agora tudo o que o seu futuro vai aprender"
+			},
+			{
+				"pergunta1": "passar por um coração partido 100 vezes e finalmente encontrar alguém que você realmente ama",
+				"pergunta2": "nunca ter um coração partido e estar com alguém que você pensa que ama"
+			},
+			{
+				"pergunta1": "ter 18 irmãos e 12 filhos"
+			},
+			{
+				"pergunta1": "ter 20 filhos ao longo da vida",
+				"pergunta2": "nunca poderá ter"
+			},
+			{
+				"pergunta1": "ter 50 'bons' amigos",
+				"pergunta2": "3 melhores amigos super-próximos"
+			},
+			{
+				"pergunta1": "caminhar 5 minutos para o trabalho em uma tempestade todos os dias",
+				"pergunta2": "fazer um passeio de carro de 30 minutos no trânsito"
+			},
+			{
+				"pergunta1": "uma caixa de Legos sem fundo",
+				"pergunta2": "um tanque de gasolina sem fundo"
+			},
+			{
+				"pergunta1": "que o alarme do carro toque todas as noites fora de sua janela, mas durma até tarde,",
+				"pergunta2": "tenha um sono tranquilo todas as noites, mas tenha que acordar todas as manhãs às 3h"
+			},
+			{
+				"pergunta1": "ter um filho inteligente",
+				"pergunta2": "um filho gentil"
+			},
+			{
+				"pergunta1": "ter uma casa totalmente automatizada",
+				"pergunta2": "um carro que dirige sozinho"
+			},
+			{
+				"pergunta1": "ter uma criança bonita e bem comportada que permaneça na idade de sua escolha por toda a vida",
+				"pergunta2": "uma criança que se desenvolva de um bebê aos 18 anos em 2 anos e envelhece normalmente"
+			},
+			{
+				"pergunta1": "um tapete voador",
+				"pergunta2": "um carro que possa dirigir debaixo d'água"
+			},
+			{
+				"pergunta1": "ter uma voz dourada",
+				"pergunta2": "uma língua prateada"
+			},
+			{
+				"pergunta1": "ter uma memória de curto prazo horrível",
+				"pergunta2": "uma memória de longo prazo horrível"
+			},
+			{
+				"pergunta1": "ter uma cozinha permanentemente impecável e um quarto nojento",
+				"pergunta2": "uma cozinha permanentemente nojenta e um quarto impecável"
+			},
+			{
+				"pergunta1": "fazer um piquenique no parque",
+				"pergunta2": "na praia"
+			},
+			{
+				"pergunta1": "um botão de retrocesso",
+				"pergunta2": "um botão de pausa em sua vida"
+			},
+			{
+				"pergunta1": "ter um outro significativo que odeie seus pais",
+				"pergunta2": "um outro significativo que odeie seu cachorro"
+			},
+			{
+				"pergunta1": "ter um estalo que explode como um trovão",
+				"pergunta2": "uma piscadela que pisca como um raio"
+			},
+			{
+				"pergunta1": "fazer um passeio de carro de dez horas com alguém que você absolutamente não suporta",
+				"pergunta2": "fazer um passeio de carro de trinta horas com alguém que você absolutamente ama"
+			},
+			{
+				"pergunta1": "que todos os cães tentem atacá-lo quando o virem",
+				"pergunta2": "que todos os pássaros tentem atacá-lo quando o virem"
+			},
+			{
+				"pergunta1": "que todas as suas roupas se encaixem perfeitamente",
+				"pergunta2": "ter o travesseiro, cobertores e lençóis mais confortáveis que existem"
+			},
+			{
+				"pergunta1": "que todos os semáforos de que você se aproxima fiquem verdes",
+				"pergunta2": "nunca mais fique na fila"
+			},
+			{
+				"pergunta1": "ter um trabalho fácil trabalhando para outra pessoa",
+				"pergunta2": "para você mesmo, mas trabalhar muito duro"
+			},
+			{
+				"pergunta1": "ter um bilhete internacional ilimitado de primeira classe",
+				"pergunta2": "nunca ter que pagar por comida em restaurantes"
+			},
+			{
+				"pergunta1": "lábios rachados que nunca cicatrizam",
+				"pergunta2": "uma caspa terrível que não pode ser tratada"
+			},
+			{
+				"pergunta1": "que cada gato",
+				"pergunta2": "cachorro que se perde acabe em sua casa"
+			},
+			{
+				"pergunta1": "que todos riam de suas piadas, mas não ache as piadas de ninguém engraçadas",
+				"pergunta2": "que ninguém ria de suas piadas, mas você ainda acha as piadas de outras pessoas engraçadas"
+			},
+			{
+				"pergunta1": "que todos afirmem publicamente que o odeiam, mas secretamente o amem e admiram,",
+				"pergunta2": "que todos afirmem publicamente que o amam e admiram, mas secretamente o odeiam"
+			},
+			{
+				"pergunta1": "que tudo que está no seu telefone agora (histórico de navegação, fotos, etc.) seja público para qualquer pessoa que pesquisar seu nome no Google",
+				"pergunta2": "nunca mais usar o celular"
+			},
+			{
+				"pergunta1": "ter Wi-Fi gratuito aonde quer que vá",
+				"pergunta2": "beber um café gratuito e ilimitado em qualquer cafeteria"
+			},
+			{
+				"pergunta1": "ter mãos que continuem crescendo conforme você envelhece",
+				"pergunta2": "pés que continuam crescendo conforme você envelhece"
+			},
+			{
+				"pergunta1": "não ter sobrancelhas",
+				"pergunta2": "ter apenas uma sobrancelha"
+			},
+			{
+				"pergunta1": "ter um cartão real para sair da prisão",
+				"pergunta2": "uma chave que abre qualquer porta"
+			},
+			{
+				"pergunta1": "Você preferia que a polícia o caçasse por um assassinato que você não cometeu",
+				"pergunta2": "que um palhaço psicopata o caçasse"
+			},
+			{
+				"pergunta1": "comer exatamente a mesma coisa todos os dias, mas nunca ter que pagar por sua comida",
+				"pergunta2": "poder comer o que quiser, mas ter que pagar o dobro por tudo que você compra"
+			},
+			{
+				"pergunta1": "ter que abandonar permanentemente alimentos salgados",
+				"pergunta2": "ter que abandonar permanentemente doces"
+			},
+			{
+				"pergunta1": "ter que dizer todas as suas frases ao contrário",
+				"pergunta2": "ter que se comunicar por meio de charadas por uma semana"
+			},
+			{
+				"pergunta1": "Você preferia ter que se levantar no meio de cada cerimônia de casamento que você comparecer e gritar 'Deveria ter sido eu!'",
+				"pergunta2": "pegar o microfone durante o discurso de recepção de alguém e chorar sobre o quão sozinho você está"
+			},
+			{
+				"pergunta1": "ter sessões de terapia gratuitas ilimitadas para sempre",
+				"pergunta2": "uma sessão de vida de três horas com Oprah"
+			},
+			{
+				"pergunta1": "que os humanos vão para a Lua novamente",
+				"pergunta2": "os humanos vão para Marte"
+			},
+			{
+				"pergunta1": "incrivelmente feliz, mas para sempre sozinho",
+				"pergunta2": "infeliz, mas com o amor da sua vida"
+			},
+			{
+				"pergunta1": "que nunca pare de nevar",
+				"pergunta2": "nunca pare de chover"
+			},
+			{
+				"pergunta1": "saber como o mundo começou",
+				"pergunta2": "como o mundo vai acabar"
+			},
+			{
+				"pergunta1": "deixar quem você ama",
+				"pergunta2": "ser deixado por quem você ama"
+			},
+			{
+				"pergunta1": "viver no mesmo lugar durante toda a sua vida",
+				"pergunta2": "ter que se mudar para um destino desconhecido a cada dois anos pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "viver na casa branca",
+				"pergunta2": "no palácio de Buckingham"
+			},
+			{
+				"pergunta1": "viver no deserto longe da civilização",
+				"pergunta2": "viver nas ruas de uma cidade como um sem-teto"
+			},
+			{
+				"pergunta1": "viver a vida sem inibições",
+				"pergunta2": "viver a vida sem estresse"
+			},
+			{
+				"pergunta1": "viver sob um céu sem estrelas à noite",
+				"pergunta2": "viver sob um céu sem nuvens durante o dia"
+			},
+			{
+				"pergunta1": "viver sem Internet",
+				"pergunta2": "sem ar condicionado e aquecimento"
+			},
+			{
+				"pergunta1": "viver toda a sua vida em uma realidade virtual onde todos os seus desejos são realizados",
+				"pergunta2": "viver toda a sua vida no mundo real"
+			},
+			{
+				"pergunta1": "ter 90 anos começando agora, mas viver até os 90",
+				"pergunta2": "ter 21 anos começando agora, mas viver apenas mais 10 anos"
+			},
+			{
+				"pergunta1": "perder a capacidade de ler",
+				"pergunta2": "de falar"
+			},
+			{
+				"pergunta1": "perder seu melhor amigo",
+				"pergunta2": "todos os seus amigos, exceto seu melhor amigo"
+			},
+			{
+				"pergunta1": "ganhar o dobro do dinheiro que já ganha nos próximos dez anos",
+				"pergunta2": "ter todo o dinheiro que já gastou na vida de volta"
+			},
+			{
+				"pergunta1": "conhecer um de seus filhos do futuro como um adulto",
+				"pergunta2": "saber quantos filhos você vai ter e quando"
+			},
+			{
+				"pergunta1": "nunca ser capaz de usar uma tela sensível ao toque",
+				"pergunta2": "nunca ser capaz de usar um teclado e mouse"
+			},
+			{
+				"pergunta1": "nunca poder usar calças",
+				"pergunta2": "shorts"
+			},
+			{
+				"pergunta1": "nunca mais ficar preso no trânsito",
+				"pergunta2": "nunca mais pegar um resfriado"
+			},
+			{
+				"pergunta1": "nunca mais cortar o papel",
+				"pergunta2": "nunca mais ter algo preso no olho"
+			},
+			{
+				"pergunta1": "nunca ficar com raiva",
+				"pergunta2": "nunca ter inveja"
+			},
+			{
+				"pergunta1": "nunca mais ter um entupimento do vaso sanitário",
+				"pergunta2": "nunca mais perder a luz"
+			},
+			{
+				"pergunta1": "nunca mais ter outra queda embaraçosa em público",
+				"pergunta2": "nunca sentir a necessidade de liberar gás em público novamente"
+			},
+			{
+				"pergunta1": "nunca mais ter acesso à Internet",
+				"pergunta2": "nunca mais poder pegar um avião"
+			},
+			{
+				"pergunta1": "nunca mais ter que trabalhar",
+				"pergunta2": "nunca ter que dormir novamente sem se sentir cansado"
+			},
+			{
+				"pergunta1": "nunca ficar sem bateria para qualquer telefone e tablet que possui",
+				"pergunta2": "ter sempre Wi-Fi gratuito onde quer que vá"
+			},
+			{
+				"pergunta1": "não ser capaz de abrir nenhuma porta fechada (trancada",
+				"pergunta2": "destrancada)"
+			},
+			{
+				"pergunta1": "não receber dinheiro de uma fonte anônima",
+				"pergunta2": "receber US $ 10 milhões em crack na sua porta"
+			},
+			{
+				"pergunta1": "poder apenas enviar mensagens de texto em emojis pelo resto da sua vida",
+				"pergunta2": "ter a notificação de 'pouco espaço de armazenamento' aparecendo no seu telefone todos os dias pelo resto da sua existência"
+			},
+			{
+				"pergunta1": "poder assistir a apenas um programa repetidamente pelo resto da sua vida",
+				"pergunta2": "só ser capaz de assistir ao primeiro episódio de cada programa pelo resto da sua vida"
+			},
+			{
+				"pergunta1": "postar uma foto extremamente desagradável que receba centenas de curtidas",
+				"pergunta2": "postar uma foto super lisonjeira que só consegue um no total"
+			},
+			{
+				"pergunta1": "viajar aleatoriamente no tempo +/- 20 anos toda vez que solta um peido",
+				"pergunta2": "se teletransporta para um lugar diferente na terra (na terra, não na água) toda vez que espirra"
+			},
+			{
+				"pergunta1": "ver o que há por trás de cada porta fechada",
+				"pergunta2": "ser capaz de adivinhar a combinação de cada cofre na primeira tentativa"
+			},
+			{
+				"pergunta1": "bufar ofensivamente toda vez que ri",
+				"pergunta2": "ter uma voz que soe exatamente como Janice de Friends"
+			},
+			{
+				"pergunta1": "passar quatro horas do seu dia indo e voltando do trabalho em um carro super luxuoso",
+				"pergunta2": "gastar apenas uma hora do seu dia indo e voltando do trabalho, mas na viagem de ônibus mais cheirosa, quente e lotada que já existiu"
+			},
+			{
+				"pergunta1": "tirar selfies incríveis, mas todas as suas outras fotos são horríveis,",
+				"pergunta2": "tirar fotos de qualquer coisa além de você mesmo"
+			},
+			{
+				"pergunta1": "dizer a alguém que seu novo bebê é feio",
+				"pergunta2": "que seu novo cônjuge é feio"
+			},
+			{
+				"pergunta1": "Você preferia que houvesse uma guerra perpétua de balões de água acontecendo em sua cidade,",
+				"pergunta2": "uma guerra perpétua de comida acontecendo em sua cidade"
+			},
+			{
+				"pergunta1": "viajar no tempo para sua década favorita",
+				"pergunta2": "viajar para o futuro para ver como é"
+			},
+			{
+				"pergunta1": "tentar dar high-five cada pessoa que passa por você pelo resto da sua vida",
+				"pergunta2": "começar a cantar o 'YMCA' inteiro toda vez que você ficar ansioso"
+			},
+			{
+				"pergunta1": "dois anos com sua alma gêmea apenas para vê-la morrer, e você nunca mais amar",
+				"pergunta2": "passar a vida com alguém legal que você escolheu"
+			},
+			{
+				"pergunta1": "usar um cortador de grama push com uma barra muito alta",
+				"pergunta2": "usar um cortador de grama push com uma barra muito baixa"
+			},
+			{
+				"pergunta1": "acordar no meio de um deserto desconhecido",
+				"pergunta2": "em um barco a remo em um corpo de água desconhecido"
+			},
+			{
+				"pergunta1": "assistir 10 filmes de uma vez",
+				"pergunta2": "ler 10 livros de uma vez"
+			},
+			{
+				"pergunta1": "usar um vestido de noiva/smoking todos os dias",
+				"pergunta2": "um maiô todos os dias"
+			},
+			{
+				"pergunta1": "usar apenas uma cor todos os dias",
+				"pergunta2": "ter que usar sete cores todos os dias"
+			}
+		]
+	},
+	{
+		"id": "hot",
+		"nsfw": true,
+		"questions": [
+			{
+				"pergunta1": "estar sempre por cima",
+				"pergunta2": "por baixo"
+			},
+			{
+				"pergunta1": "ser um cam girl/boy",
+				"pergunta2": "publicar uma fita de sexo de você"
+			},
+			{
+				"pergunta1": "ser ruim no beijo",
+				"pergunta2": "no sexo oral"
+			},
+			{
+				"pergunta1": "ser pego traindo",
+				"pergunta2": "pegar seu parceiro traindo"
+			},
+			{
+				"pergunta1": "ser apalpado anal",
+				"pergunta2": "vaginalmente"
+			},
+			{
+				"pergunta1": "ser tocado sob a mesa de um restaurante",
+				"pergunta2": "sob a mesa da casa de seus pais"
+			},
+			{
+				"pergunta1": "ficar com tesão 24 horas por dia, 7 dias por semana",
+				"pergunta2": "apenas uma vez por ano"
+			},
+			{
+				"pergunta1": "ficar com tesão todos os dias pelo resto da sua vida",
+				"pergunta2": "ficar com tesão apenas uma vez por ano"
+			},
+			{
+				"pergunta1": "estar na parte inferior",
+				"pergunta2": "superior"
+			},
+			{
+				"pergunta1": "ficar satisfeito oralmente enquanto assiste seu filme favorito",
+				"pergunta2": "satisfazer outra pessoa oralmente"
+			},
+			{
+				"pergunta1": "ser o sugar daddy/sugar mommy",
+				"pergunta2": "ter um sugar daddy/sugar mommy"
+			},
+			{
+				"pergunta1": "ser surpreendido com um boquete de manhã",
+				"pergunta2": "à noite"
+			},
+			{
+				"pergunta1": "ser a colher grande",
+				"pergunta2": "a colher pequena"
+			},
+			{
+				"pergunta1": "ser o parceiro dominante",
+				"pergunta2": "submisso"
+			},
+			{
+				"pergunta1": "ser amarrado a uma cama e esquecido",
+				"pergunta2": "ter um brinquedo sexual perdido dentro de você"
+			},
+			{
+				"pergunta1": "estar com alguém que é infeliz na cama, mas te faz rir,",
+				"pergunta2": "com alguém que é ótimo na cama, mas incrivelmente chato"
+			},
+			{
+				"pergunta1": "pegar seus pais fazendo sexo",
+				"pergunta2": "ser pega fazendo sexo por seus pais"
+			},
+			{
+				"pergunta1": "trair seu parceiro",
+				"pergunta2": "sugerir fazer um trio"
+			},
+			{
+				"pergunta1": "sufocar alguém durante o sexo",
+				"pergunta2": "ser sufocado por outra pessoa durante o sexo"
+			},
+			{
+				"pergunta1": "abraçar",
+				"pergunta2": "beijar"
+			},
+			{
+				"pergunta1": "abraçar seu parceiro todos os dias",
+				"pergunta2": "tomar banho com ele todos os dias"
+			},
+			{
+				"pergunta1": "namorar alguém em BDSM intenso",
+				"pergunta2": "namorar alguém que gosta de sexo super suave e baunilha"
+			},
+			{
+				"pergunta1": "namorar alguém que beija mal",
+				"pergunta2": "de cama"
+			},
+			{
+				"pergunta1": "namorar alguém que gosta de BDSM",
+				"pergunta2": "sexo baunilha"
+			},
+			{
+				"pergunta1": "namorar alguém que precisa de cinco segundos para gozar",
+				"pergunta2": "alguém que leva cinco horas para gozar"
+			},
+			{
+				"pergunta1": "namorar alguém que se recusa a abraçar",
+				"pergunta2": "namorar alguém que se recusa a lhe dar sexo oral"
+			},
+			{
+				"pergunta1": "fazer isso com as luzes acesas",
+				"pergunta2": "apagadas"
+			},
+			{
+				"pergunta1": "fazer coisas românticas na cama",
+				"pergunta2": "experimentar coisas pervertidas"
+			},
+			{
+				"pergunta1": "fazer a caminhada da vergonha",
+				"pergunta2": "expulsar um estranho de sua casa pela manhã"
+			},
+			{
+				"pergunta1": "comer a bunda do seu parceiro",
+				"pergunta2": "ter sua bunda comida pelo seu parceiro"
+			},
+			{
+				"pergunta1": "terminar o primeiro encontro com um beijo apaixonado",
+				"pergunta2": "sexo"
+			},
+			{
+				"pergunta1": "peidar durante o sexo",
+				"pergunta2": "arrotar durante o beijo"
+			},
+			{
+				"pergunta1": "peidar enquanto é comido",
+				"pergunta2": "arrotar durante os beijos"
+			},
+			{
+				"pergunta1": "descobrir que a última pessoa com quem você fodeu foi seu primo perdido",
+				"pergunta2": "que a última pessoa com quem você fodeu foi um assassino em série"
+			},
+			{
+				"pergunta1": "descobrir que seu parceiro dormiu com seus pais",
+				"pergunta2": "que seu parceiro dormiu com seu melhor amigo"
+			},
+			{
+				"pergunta1": "renunciar à pornografia por um mês",
+				"pergunta2": "ao sexo por um mês"
+			},
+			{
+				"pergunta1": "fazer um boquete enquanto dirige",
+				"pergunta2": "fazer um boquete em um restaurante"
+			},
+			{
+				"pergunta1": "receber uma massagem erótica",
+				"pergunta2": "preparar um jantar com seu parceiro"
+			},
+			{
+				"pergunta1": "ser pego fazendo sexo",
+				"pergunta2": "beijando uma boneca sexual"
+			},
+			{
+				"pergunta1": "ser sufocado",
+				"pergunta2": "esbofeteado enquanto faz sexo"
+			},
+			{
+				"pergunta1": "ter esperma no cabelo",
+				"pergunta2": "nos olhos"
+			},
+			{
+				"pergunta1": "levar o punho fechado",
+				"pergunta2": "outra pessoa"
+			},
+			{
+				"pergunta1": "engravidar agora",
+				"pergunta2": "nunca engravidar"
+			},
+			{
+				"pergunta1": "ser espancado na bunda",
+				"pergunta2": "puxado pelo cabelo"
+			},
+			{
+				"pergunta1": "dar",
+				"pergunta2": "receber uma lap dance"
+			},
+			{
+				"pergunta1": "dar",
+				"pergunta2": "receber sexo oral"
+			},
+			{
+				"pergunta1": "dar a alguém um boquete profundo na garganta",
+				"pergunta2": "um punho anal"
+			},
+			{
+				"pergunta1": "dar um boquete na garganta de alguém",
+				"pergunta2": "fazer sexo anal"
+			},
+			{
+				"pergunta1": "desistir de fazer sexo",
+				"pergunta2": "se masturbar por um mês"
+			},
+			{
+				"pergunta1": "desistir de beijar",
+				"pergunta2": "sexo para sempre"
+			},
+			{
+				"pergunta1": "passar um mês sem beber",
+				"pergunta2": "passar um mês sem se masturbar"
+			},
+			{
+				"pergunta1": "colocar um dedo em sua nádega",
+				"pergunta2": "colocar o dedo na nádega de outra pessoa"
+			},
+			{
+				"pergunta1": "ter um chupão",
+				"pergunta2": "dar um chupão para alguém"
+			},
+			{
+				"pergunta1": "ter um parceiro que chega em 60 segundos",
+				"pergunta2": "um parceiro que chega em 3 horas"
+			},
+			{
+				"pergunta1": "ter um parceiro que não goste de sexo oral",
+				"pergunta2": "um parceiro obcecado por sexo anal"
+			},
+			{
+				"pergunta1": "ter um parceiro viciado em sexo",
+				"pergunta2": "um parceiro com baixo desejo sexual"
+			},
+			{
+				"pergunta1": "ter um pênis pequeno que pode ejacular",
+				"pergunta2": "um pênis grande que não pode ejacular"
+			},
+			{
+				"pergunta1": "ter um pênis grosso e curto",
+				"pergunta2": "um pênis fino e longo"
+			},
+			{
+				"pergunta1": "um trio",
+				"pergunta2": "um gang bang"
+			},
+			{
+				"pergunta1": "um ménage à trois com uma pessoa que conhece",
+				"pergunta2": "com um estranho"
+			},
+			{
+				"pergunta1": "um ménage à trois com pessoas que conhece",
+				"pergunta2": "com estranhos"
+			},
+			{
+				"pergunta1": "um ménage à trois com duas mulheres",
+				"pergunta2": "dois homens"
+			},
+			{
+				"pergunta1": "ter um sexo a três com seu ex",
+				"pergunta2": "com o ex do seu parceiro"
+			},
+			{
+				"pergunta1": "ter um cônjuge muito atraente que faça sexo com você apenas uma vez por mês",
+				"pergunta2": "um cônjuge feio que faça sexo com você todos os dias"
+			},
+			{
+				"pergunta1": "fazer sexo anal",
+				"pergunta2": "não fazer sexo anal"
+			},
+			{
+				"pergunta1": "sexo anal",
+				"pergunta2": "sexo oral"
+			},
+			{
+				"pergunta1": "ter preliminares ruins e bom sexo,",
+				"pergunta2": "boas preliminares e sexo ruim"
+			},
+			{
+				"pergunta1": "fazer sexo ruim pelo resto da vida",
+				"pergunta2": "nunca mais fazer sexo"
+			},
+			{
+				"pergunta1": "sexo bêbado",
+				"pergunta2": "sexo chapado"
+			},
+			{
+				"pergunta1": "ter preliminares extremamente boas, mas sexo ruim,",
+				"pergunta2": "preliminares ruins, mas sexo ótimo"
+			},
+			{
+				"pergunta1": "sexo pervertido",
+				"pergunta2": "sexo baunilha"
+			},
+			{
+				"pergunta1": "ter sexo medíocre regularmente pelo resto de sua vida",
+				"pergunta2": "ter um sexo incrivelmente bom apenas uma vez por ano"
+			},
+			{
+				"pergunta1": "ter um parceiro",
+				"pergunta2": "vários parceiros"
+			},
+			{
+				"pergunta1": "ter dezessete testículos",
+				"pergunta2": "um testículo do tamanho de um coco"
+			},
+			{
+				"pergunta1": "fazer sexo por trás",
+				"pergunta2": "pela frente"
+			},
+			{
+				"pergunta1": "fazer sexo por baixo",
+				"pergunta2": "por cima"
+			},
+			{
+				"pergunta1": "fazer sexo em uma cama suja de hotel",
+				"pergunta2": "em um banheiro público fedorento"
+			},
+			{
+				"pergunta1": "fazer sexo na frente de estranhos",
+				"pergunta2": "fazer sexo na frente deste grupo"
+			},
+			{
+				"pergunta1": "fazer sexo no banho",
+				"pergunta2": "no chuveiro"
+			},
+			{
+				"pergunta1": "fazer sexo no escuro para sempre",
+				"pergunta2": "em público para sempre"
+			},
+			{
+				"pergunta1": "fazer sexo de manhã",
+				"pergunta2": "à noite"
+			},
+			{
+				"pergunta1": "fazer sexo de manhã",
+				"pergunta2": "à noite"
+			},
+			{
+				"pergunta1": "fazer sexo na cama dos seus pais",
+				"pergunta2": "no seu quarto enquanto eles estão em casa"
+			},
+			{
+				"pergunta1": "fazer sexo no quarto de seus pais",
+				"pergunta2": "fazer sexo em seu antigo quarto enquanto seus pais estão em casa"
+			},
+			{
+				"pergunta1": "fazer sexo no carro de seus pais",
+				"pergunta2": "no banco de trás de um táxi"
+			},
+			{
+				"pergunta1": "ter estilo missionário sexual",
+				"pergunta2": "estilo cachorrinho"
+			},
+			{
+				"pergunta1": "fazer sexo no primeiro encontro",
+				"pergunta2": "adiar o sexo no início de um relacionamento e esperar um mês para fazer isso"
+			},
+			{
+				"pergunta1": "fazer sexo",
+				"pergunta2": "andar pelado em público"
+			},
+			{
+				"pergunta1": "fazer sexo dez vezes por dia pelo resto de sua vida",
+				"pergunta2": "não fazer sexo por um ano"
+			},
+			{
+				"pergunta1": "fazer sexo com os olhos vendados",
+				"pergunta2": "algemado"
+			},
+			{
+				"pergunta1": "fazer sexo com um mordedor",
+				"pergunta2": "um gritador"
+			},
+			{
+				"pergunta1": "fazer sexo com preservativo",
+				"pergunta2": "sexo sem preservativo"
+			},
+			{
+				"pergunta1": "fazer sexo com as luzes acesas",
+				"pergunta2": "apagadas"
+			},
+			{
+				"pergunta1": "fazer sexo com Megan Fox com um pênis",
+				"pergunta2": "Jason Momoa com uma vagina"
+			},
+			{
+				"pergunta1": "fazer sexo com meu melhor amigo",
+				"pergunta2": "com seu melhor amigo"
+			},
+			{
+				"pergunta1": "fazer sexo com",
+				"pergunta2": "sem camisinha"
+			},
+			{
+				"pergunta1": "fazer sexo com",
+				"pergunta2": "sem lubrificante"
+			},
+			{
+				"pergunta1": "fazer sexo com sapatos",
+				"pergunta2": "sexo com meias"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém que tem um corpo bonito, mas um rosto feio",
+				"pergunta2": "com alguém que tem um corpo feio, mas um rosto bonito"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém que é muito atraente, mas ruim de cama,",
+				"pergunta2": "com alguém feio, mas incrivelmente bom na cama"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém que nunca toma banho",
+				"pergunta2": "fazer sexo com alguém que nunca escova os dentes"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém que se recusa a tirar as meias",
+				"pergunta2": "com alguém que tem uma cara estranha de orgasmo"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém que fala o tempo todo",
+				"pergunta2": "com alguém que não faz barulho"
+			},
+			{
+				"pergunta1": "fazer sexo com alguém com sotaque alemão",
+				"pergunta2": "russo"
+			},
+			{
+				"pergunta1": "fazer sexo com a pessoa à sua esquerda",
+				"pergunta2": "fazer sexo com a pessoa à sua direita"
+			},
+			{
+				"pergunta1": "fazer sexo com seu melhor amigo",
+				"pergunta2": "fazer sexo com seu ex"
+			},
+			{
+				"pergunta1": "fazer sexo com seu melhor amigo",
+				"pergunta2": "com meu melhor amigo"
+			},
+			{
+				"pergunta1": "fazer sexo com a mãe",
+				"pergunta2": "o pai do seu melhor amigo"
+			},
+			{
+				"pergunta1": "fazer sexo com seu primo em segredo",
+				"pergunta2": "não fazer sexo com seu primo, mas todos pensariam que você fez"
+			},
+			{
+				"pergunta1": "ter sexo terno por uma hora",
+				"pergunta2": "sexo pesado por 10 minutos"
+			},
+			{
+				"pergunta1": "ter três seios",
+				"pergunta2": "um seio do tamanho de uma melancia"
+			},
+			{
+				"pergunta1": "que seu corpo seja encontrado em uma pilha de brinquedos sexuais",
+				"pergunta2": "de drogas"
+			},
+			{
+				"pergunta1": "ter sua área genital perfurada",
+				"pergunta2": "tatuada"
+			},
+			{
+				"pergunta1": "que seu parceiro ria",
+				"pergunta2": "chore incontrolavelmente sempre que o vir nua"
+			},
+			{
+				"pergunta1": "Você preferia que seu parceiro só pudesse usar as mãos durante as preliminares,",
+				"pergunta2": "que seu parceiro só pudesse usar a boca"
+			},
+			{
+				"pergunta1": "participar de um gangbang",
+				"pergunta2": "trio"
+			},
+			{
+				"pergunta1": "usar apenas as mãos para as preliminares",
+				"pergunta2": "apenas a boca"
+			},
+			{
+				"pergunta1": "deixar seu parceiro dominar você ao fazer sexo",
+				"pergunta2": "dominar seu parceiro ao fazer sexo"
+			},
+			{
+				"pergunta1": "deixar seu parceiro dormir com seu melhor amigo",
+				"pergunta2": "dormir com o melhor amigo de seu parceiro"
+			},
+			{
+				"pergunta1": "um pênis circuncidado",
+				"pergunta2": "incircunciso"
+			},
+			{
+				"pergunta1": "viver com um parceiro para o resto de sua vida",
+				"pergunta2": "com vários parceiros"
+			},
+			{
+				"pergunta1": "ficar com seu melhor amigo",
+				"pergunta2": "me ver beijando seu melhor amigo"
+			},
+			{
+				"pergunta1": "se masturbar o dia todo",
+				"pergunta2": "fazer sexo o dia todo"
+			},
+			{
+				"pergunta1": "se masturbar",
+				"pergunta2": "fazer sexo na frente do espelho"
+			},
+			{
+				"pergunta1": "se masturbar junto com seu parceiro",
+				"pergunta2": "sozinho"
+			},
+			{
+				"pergunta1": "se masturbar com um brinquedo sexual",
+				"pergunta2": "sem um brinquedo sexual"
+			},
+			{
+				"pergunta1": "se masturbar com",
+				"pergunta2": "sem pornografia"
+			},
+			{
+				"pergunta1": "gemer estranhamente",
+				"pergunta2": "fazer uma cara feia toda vez que vier"
+			},
+			{
+				"pergunta1": "nunca mais fazer sexo",
+				"pergunta2": "nunca mais usar a internet"
+			},
+			{
+				"pergunta1": "nunca mais ter um orgasmo",
+				"pergunta2": "saber que seu parceiro nunca teve um orgasmo com você"
+			},
+			{
+				"pergunta1": "nunca mais fazer sexo",
+				"pergunta2": "nunca mais se masturbar"
+			},
+			{
+				"pergunta1": "nunca mais fazer sexo",
+				"pergunta2": "ter que usar o Bing como uma máquina de busca pelo resto da sua vida"
+			},
+			{
+				"pergunta1": "nunca mais se masturbar",
+				"pergunta2": "nunca mais comer comida sólida"
+			},
+			{
+				"pergunta1": "nunca mais se masturbar",
+				"pergunta2": "nunca mais fazer sexo"
+			},
+			{
+				"pergunta1": "ter relações sexuais por apenas 6 horas",
+				"pergunta2": "nunca mais fazer sexo"
+			},
+			{
+				"pergunta1": "apenas poder fazer sexo enquanto assiste o filme de terror mais assustador",
+				"pergunta2": "apenas fazer sexo enquanto assiste Dora The Explorer"
+			},
+			{
+				"pergunta1": "ter apenas sexo menstrual pelo resto de sua vida",
+				"pergunta2": "sexo anal pelo resto de sua vida"
+			},
+			{
+				"pergunta1": "fazer sexo apenas no quarto",
+				"pergunta2": "apenas fora do quarto"
+			},
+			{
+				"pergunta1": "fazer sexo apenas na posição de missionário",
+				"pergunta2": "apenas na posição de cachorrinho"
+			},
+			{
+				"pergunta1": "ter um orgasmo toda vez que espirrar",
+				"pergunta2": "ter um orgasmo toda vez que bocejar"
+			},
+			{
+				"pergunta1": "pagar por sexo",
+				"pergunta2": "ser pago por sexo"
+			},
+			{
+				"pergunta1": "pagar por sexo",
+				"pergunta2": "ser pago por sexo"
+			},
+			{
+				"pergunta1": "Femdom",
+				"pergunta2": "Maledom"
+			},
+			{
+				"pergunta1": "lábios pequenos",
+				"pergunta2": "grandes"
+			},
+			{
+				"pergunta1": "publicar um vídeo de sexo em uma plataforma online onde seu rosto seja mostrado",
+				"pergunta2": "reproduzir um vídeo de sexo privado em uma festa onde seu rosto não seja mostrado"
+			},
+			{
+				"pergunta1": "ler um romance erótico",
+				"pergunta2": "assistir a um filme erótico"
+			},
+			{
+				"pergunta1": "ler um romance erótico",
+				"pergunta2": "assistir pornografia"
+			},
+			{
+				"pergunta1": "receber/dar um boquete",
+				"pergunta2": "uma punheta"
+			},
+			{
+				"pergunta1": "receber/fazer uma massagem na próstata",
+				"pergunta2": "ter sua nádega lambida"
+			},
+			{
+				"pergunta1": "receber um alerta toda vez que seus pais fizerem sexo",
+				"pergunta2": "ter seu escritório alertado toda vez que você fizer sexo"
+			},
+			{
+				"pergunta1": "satisfazer o seu par em um bar discretamente com as mãos",
+				"pergunta2": "oralmente em um estacionamento"
+			},
+			{
+				"pergunta1": "vender calcinhas sujas na internet",
+				"pergunta2": "trabalhar em uma linha direta de sexo"
+			},
+			{
+				"pergunta1": "enviar uma mensagem de texto obscena para seu chefe",
+				"pergunta2": "deixar uma mensagem de voz sexy para sua mãe"
+			},
+			{
+				"pergunta1": "fazer sexo por sext",
+				"pergunta2": "por telefone com seu parceiro"
+			},
+			{
+				"pergunta1": "cagar no seu parceiro",
+				"pergunta2": "vomitar no seu parceiro"
+			},
+			{
+				"pergunta1": "gritar \"Eu amo Jesus\" toda vez que você vem",
+				"pergunta2": "gritar \"Eu tenho uma DST\" toda vez que você vem"
+			},
+			{
+				"pergunta1": "dormir com um Sugar Daddy",
+				"pergunta2": "Sugar Mommy"
+			},
+			{
+				"pergunta1": "dormir com alguém 10 anos mais velho que você",
+				"pergunta2": "alguém 10 anos mais novo que você"
+			},
+			{
+				"pergunta1": "dormir com seu ex",
+				"pergunta2": "com uma celebridade que você odeia"
+			},
+			{
+				"pergunta1": "torcer o tornozelo durante o sexo",
+				"pergunta2": "quebrar o pênis do seu parceiro"
+			},
+			{
+				"pergunta1": "engolir",
+				"pergunta2": "cuspir"
+			},
+			{
+				"pergunta1": "engolir esperma com gosto de urina",
+				"pergunta2": "ser irritado com seu parceiro"
+			},
+			{
+				"pergunta1": "falar sujo durante o sexo",
+				"pergunta2": "não falar nada"
+			},
+			{
+				"pergunta1": "que o único filme pornô que você pode assistir seja no Vine, o que significa que dura apenas seis segundos",
+				"pergunta2": "só tem permissão para se masturbar com paródias pornô como Star Wars e Pokémon"
+			},
+			{
+				"pergunta1": "amarrar alguém",
+				"pergunta2": "ser amarrado por alguém durante o sexo"
+			},
+			{
+				"pergunta1": "tentar o fisting",
+				"pergunta2": "a dupla penetração"
+			},
+			{
+				"pergunta1": "tentar pegging",
+				"pergunta2": "fisting"
+			},
+			{
+				"pergunta1": "tentar uma dramatização sexual",
+				"pergunta2": "BDSM"
+			},
+			{
+				"pergunta1": "usar uma boneca sexual",
+				"pergunta2": "um Fleshlight"
+			},
+			{
+				"pergunta1": "usar um chicote durante o sexo",
+				"pergunta2": "fazer sexo em uma transmissão ao vivo"
+			},
+			{
+				"pergunta1": "usar um plug anal",
+				"pergunta2": "love eggs"
+			},
+			{
+				"pergunta1": "usar uma escova de dentes elétrica",
+				"pergunta2": "um chuveiro para se masturbar"
+			},
+			{
+				"pergunta1": "andar em público com sua lingerie",
+				"pergunta2": "andar em público com um vibrador de tiras"
+			},
+			{
+				"pergunta1": "andar por aí com uma ereção seis horas por dia",
+				"pergunta2": "nunca mais ter uma ereção"
+			},
+			{
+				"pergunta1": "assistir um homem",
+				"pergunta2": "uma mulher no pornô para ficar com tesão"
+			},
+			{
+				"pergunta1": "assistir a um filme pornô com seu parceiro",
+				"pergunta2": "reconstituir uma cena de um filme pornô com seu parceiro"
+			},
+			{
+				"pergunta1": "assistir alguém fazendo sexo",
+				"pergunta2": "ter alguém assistindo você fazer isso"
+			},
+			{
+				"pergunta1": "assistir seu parceiro fazendo sexo com outra pessoa",
+				"pergunta2": "você deixa seu parceiro assistir como você faz sexo com outra pessoa"
+			},
+			{
+				"pergunta1": "assistir seu parceiro se masturbando",
+				"pergunta2": "deixar seu parceiro assistir você se masturbar"
+			},
+			{
+				"pergunta1": "assistir seu parceiro se masturbando",
+				"pergunta2": "deixar seu parceiro assistir você se masturbando"
+			},
+			{
+				"pergunta1": "depilar o cabelo das costas",
+				"pergunta2": "do saco"
+			},
+			{
+				"pergunta1": "usar um cinto de castidade por um ano",
+				"pergunta2": "ser escrava sexual de alguém por um ano"
+			}
+		]
+	}
+]
