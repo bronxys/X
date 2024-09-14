@@ -11,9 +11,7 @@ module.exports = function (/* timeout */) {
 	if (isValue(timeout)) timeout = ensureTimeout(timeout);
 	return new Constructor(function (resolve) {
 		if (isValue(timeout)) {
-			setTimeout(function () {
-				resolve();
-			}, timeout);
+			setTimeout(function () { resolve(); }, timeout);
 		} else {
 			nextTick(resolve);
 		}

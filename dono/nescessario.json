@@ -11,7 +11,7 @@
   "visualizarmsg": true,
   "listanegraG": [],
   "msgantipv1": "Olá *#nome#*, o meu privado agora é bloqueado apenas para usuários Vip's!\nAdquira o acesso privado e Comandos exclusivos digitando o comando: lojavip",
-  "KEY_MERCADO_PAGO": "teste",
+  "KEY_MERCADO_PAGO": "APP_USR-5322742966821514-012516-f49e1fd57be6ec7e8ed3a4a257b13186-1655012238",
   "cmd_premium": [
     "bin",
     "bemeficios",
@@ -62,7 +62,7 @@
     "nome"
   ],
   "blockCmdG": [],
-  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�??? #tempocmd#",
+  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�???? #tempocmd#",
   "botoes_": false,
   "dono1": ".",
   "dono2": ".",
@@ -70,8 +70,8 @@
   "dono4": ".",
   "dono5": ".",
   "dono6": ".",
-  "botoff": false,
+  "botoff": true,
   "Odelete": true,
-  "fundo2": "https://telegra.ph/file/64985dde683748e73355b.jpg",
-  "fundo1": "https://telegra.ph/file/56cd3aeef0a9c77a19c74.jpg"
+  "fundo2": "https://telegra.ph/file/9fabdd2a3615fc075ccd8.jpg",
+  "fundo1": "https://telegra.ph/file/9fabdd2a3615fc075ccd8.jpg"
 }

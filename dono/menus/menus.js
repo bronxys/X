@@ -22,7 +22,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 exports.menu = menu;
 
-// NÃO APAGUE ${   } apenas se souber oquê está fazendo, caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
+// NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
 const infotransmitir = (prefix, pushname) => {
 return`

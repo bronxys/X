@@ -2,8 +2,7 @@
 
 var callable     = require("es5-ext/object/valid-callable")
   , validTimeout = require("./valid-timeout")
-
-  , apply = Function.prototype.apply;
+  , apply        = Function.prototype.apply;
 
 module.exports = function (fn, timeout) {
 	var isScheduled = false, context, args, run;
