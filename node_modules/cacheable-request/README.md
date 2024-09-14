@@ -1,4 +1,4 @@
-<h1 align="center"><br><img width="380" src="https://cacheable.org/assets/images/cacheable_white.svg" alt="cacheable logo"><br><br></h1>
+<h1 align="center"><br><img width="380" src="https://cacheable.org/assets/images/cacheable_symbol.svg" alt="cacheable logo"><br><br></h1>
 
 # cacheable-request
 

@@ -31,8 +31,7 @@ module.exports = function (/* timeout */) {
 					isSettled = true;
 					clearTimeout(timeoutId);
 					resolve(value);
-				},
-				function (reason) {
+				}, function (reason) {
 					isSettled = true;
 					clearTimeout(timeoutId);
 					reject(reason);

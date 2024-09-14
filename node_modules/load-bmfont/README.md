@@ -5,18 +5,17 @@
 Loads an [AngelCode BMFont](http://www.angelcode.com/products/bmfont/) file in browser (with XHR) and node (with fs and [phin](https://github.com/ethanent/phin)), returning a [JSON representation](json-spec.md).
 
 ```js
-var load = require('load-bmfont')
+var load = require("load-bmfont");
 
-load('fonts/Arial-32.fnt', function(err, font) {
-  if (err)
-    throw err
-  
+load("fonts/Arial-32.fnt", function (err, font) {
+  if (err) throw err;
+
   //The BMFont spec in JSON form
-  console.log(font.common.lineHeight)
-  console.log(font.info)
-  console.log(font.chars)
-  console.log(font.kernings)
-})
+  console.log(font.common.lineHeight);
+  console.log(font.info);
+  console.log(font.chars);
+  console.log(font.kernings);
+});
 ```
 
 Currently supported BMFont formats:
@@ -40,18 +39,21 @@ Loads a BMFont file with the `opt` settings and fires the callback with `(err, f
 
 - `uri` or `url` the path (in Node) or URI
 - `binary` boolean, whether the data should be read as binary, default false
-- (in node) options for `fs.readFile` or `phin`
+- (in node) options for `fs.readFile` or [phin](https://www.npmjs.com/package/phin)
 - (in browser) options for [xhr](https://github.com/Raynos/xhr)
 
 To support binary files in the browser and Node, you should use `binary: true`. Otherwise the XHR request might come in the form of a UTF8 string, which will not work with binary files. This also sets up the XHR object to override mime type in older browsers.
 
 ```js
-load({ 
-  uri: 'fonts/Arial.bin', 
-  binary: true
-}, function(err, font) {
-  console.log(font)
-})
+load(
+  {
+    uri: "fonts/Arial.bin",
+    binary: true,
+  },
+  function (err, font) {
+    console.log(font);
+  }
+);
 ```
 
 ## License

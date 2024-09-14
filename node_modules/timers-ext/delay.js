@@ -15,7 +15,5 @@ module.exports = function (fn/*, timeout*/) {
 		timeout = validTimeout(timeout);
 		delay = setTimeout;
 	}
-	return function () {
-		return delay(apply.bind(fn, this, arguments), timeout);
-	};
+	return function () { return delay(apply.bind(fn, this, arguments), timeout); };
 };

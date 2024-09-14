@@ -46,7 +46,11 @@ module.exports = function loadFont(opt, cb) {
   }
 
   if (url.parse(file).host) {
-    request(opt, handleData)
+    request(opt).then(function (res) {
+      handleData(null, res)
+    }).catch(function (err) {
+      handleData(err)
+    })
   } else {
     fs.readFile(file, opt, handleData)
   }
