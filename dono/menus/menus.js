@@ -1,18 +1,8 @@
-const menu = (
-  prefix,
-  NomeDoBot,
-  dayy,
-  sender,
-  isPremium,
-  H,
-  D,
-  tempo,
-  adivinha,
-  versão
-) => {
-  // NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
-
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+const menu = (prefix, NomeDoBot, dayy, sender, isPremium, H, D, tempo, adivinha, versão) => {
+  
+// NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.  
+  
+return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 ╭═══════════════════ ┐
 ┏│──BEM VINDO(A) AO MENU
 ┏│
@@ -35,7 +25,7 @@ exports.menu = menu;
 // NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
 const infotransmitir = (prefix, pushname) => {
-  return `
+return`
 Olá ${pushname}, irei explicar como funciona os seguintes comando:
 
 ${prefix}rgtm
@@ -60,8 +50,9 @@ ${prefix}fazertm e digita o que quer enviar para todos os grupos que foi registr
 
 exports.infotransmitir = infotransmitir;
 
+
 const anotacao = (prefix) => {
-  return `
+return `
 
 Olá. Se você está lendo isso, provavelmente está curioso sobre o comando anotação. 
 
@@ -96,12 +87,13 @@ Boa sorte.
 
 exports.anotacao = anotacao;
 
-// MENU DE ADMINISTRADORES
+// MENU DE ADMINISTRADORES 
 
-const adms = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
+const adms = (prefix, sender) => { 
+ 
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
 
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+	return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 ╭═══════════════════ ┐
 ╰╮  
 ╭┤    [🥷]𝗠𝗘𝗡𝗨 𝗗𝗘 𝗔𝗗𝗠
@@ -166,10 +158,11 @@ const adms = (prefix, sender) => {
 
 exports.adms = adms;
 
-// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
 
 const infoaluguel = (prefix, pushname) => {
-  return `
+return`
 Olá ${pushname} Irei explicar como utilizar o comando 
    
         MODO ALUGUEL
@@ -221,9 +214,10 @@ exports.infoaluguel = infoaluguel;
 // MENU DE DONO
 
 const menudono = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos, da pasta dono, só pode alterar ele tod0, menos as definições, só se quiser apagar a definição completa.
+	
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos, da pasta dono, só pode alterar ele tod0, menos as definições, só se quiser apagar a definição completa. 	
 
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 	
 ╭═══════════════════ ┐
 ╰╮  
@@ -336,15 +330,17 @@ const menudono = (prefix, sender) => {
 ┏│✞͜͡▹ ${prefix}limpar_mortos-cnt (limpar removidos)
 ╰══════════┘
 `;
+
 };
 
 exports.menudono = menudono;
 
-// MENU DE LOGOS
+// MENU DE LOGOS 
 
 const menulogos = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
-
+  
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.  
+  
   return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 
 ╭═══════════════════ ┐
@@ -468,9 +464,10 @@ exports.menulogos = menulogos;
 // MENU DE ALTERAR ÁUDIOS E VÍDEOS
 
 const alteradores = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return`
 ╭═══════════════════ ┐
 ╰╮   [🌆]𝗔𝗟𝗧𝗘𝗥𝗔𝗗𝗢𝗥𝗘𝗦
 ╭┤     𝗔𝗨𝗗𝗜𝗢 / 𝗩𝗜𝗗𝗘𝗢
@@ -513,9 +510,10 @@ exports.alteradores = alteradores;
 // MENU RPG DA SABCITY
 
 const rpgmenu = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 ╭╭═══════════════════ ┐
 ╰╮                       ᴿᴾᴳ
 ╭┤           [🌇]𝗕𝗢𝗧 𝗖𝗜𝗧𝗬
@@ -552,17 +550,18 @@ const rpgmenu = (prefix, sender) => {
 ┏│✞͜͡▹ ${prefix}Minerar
 ┏│✞͜͡▹ ${prefix}Retirar (Caso você seja preso pelo comando assaltar)
 ┃╰══ ✞
-╰═══════════════════ ✞`;
-};
+╰═══════════════════ ✞`
+}
 
 exports.rpgmenu = rpgmenu;
 
-// MENU PREMIUM
+// MENU PREMIUM 
 
-const menuprem = (prefix, sender, cmdsp) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
+const menuprem = (prefix, sender, cmdsp) => { 
 
-  return `
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 ╭═══════════════════ ┐
 ╰╮   
 ╭┤   [🎗]𝗠𝗘𝗡𝗨 𝗣𝗥𝗘𝗠𝗜𝗨𝗠
@@ -591,12 +590,13 @@ ${cmdsP.trim()}
 
 exports.menuprem = menuprem;
 
-// MENU DE BRINCADEIRAS..
+// MENU DE BRINCADEIRAS.. 
 
 const brincadeiras = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 
 ╭═══════════════════ ┐
 ╰╮   
@@ -663,9 +663,10 @@ exports.brincadeiras = brincadeiras;
 // MENU DE EFEITOS DE IMAGEM, MONTAGEM Tops Kkk
 
 const menuinfos = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮   
@@ -705,10 +706,13 @@ const menuinfos = (prefix, sender) => {
 
 exports.menuinfos = menuinfos;
 
-const efeitos = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+const efeitos = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 ╭═══════════════════ ┐
 ╰╮   
 ╭┤    [🪄]𝗠𝗘𝗡𝗨 𝗘𝗙𝗘𝗜𝗧𝗢𝗦
@@ -756,10 +760,12 @@ const efeitos = (prefix, sender) => {
 
 exports.efeitos = efeitos;
 
-const menuia = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const menuia = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -790,10 +796,12 @@ const menuia = (prefix, sender) => {
 
 exports.menuia = menuia;
 
-const menudownloads = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const menudownloads = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -825,7 +833,6 @@ const menudownloads = (prefix, sender) => {
 ┏│✞͜͡▹ ${prefix}Face_video (LINK)
 ┏│✞͜͡▹ ${prefix}Twitter_audio (LINK)
 ┏│✞͜͡▹ ${prefix}Twitter_video (LINK)
-┏│✞͜͡▹ ${prefix}spotifyplaylist (baixa playlist do spotify)
 ┏│✞͜͡▹ ${prefix}soundcloud (LINK)
 ┏│✞͜͡▹ ${prefix}shazam (MARQUE-AUDIO/VIDEO)
 ┏│✞͜͡▹ ${prefix}audiomeme (nome-meme)
@@ -849,10 +856,12 @@ const menudownloads = (prefix, sender) => {
 
 exports.menudownloads = menudownloads;
 
-const informacoes = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const informacoes = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -881,10 +890,13 @@ const informacoes = (prefix, sender) => {
 
 exports.informacoes = informacoes;
 
-const menujogos = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+
+const menujogos = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -918,10 +930,12 @@ const menujogos = (prefix, sender) => {
 
 exports.menujogos = menujogos;
 
-const menufigurinhas = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const menufigurinhas = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -979,10 +993,12 @@ const menufigurinhas = (prefix, sender) => {
 
 exports.menufigurinhas = menufigurinhas;
 
-const downloadjogos = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const downloadjogos = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -1031,10 +1047,13 @@ const downloadjogos = (prefix, sender) => {
 
 exports.downloadjogos = downloadjogos;
 
-const menunsfw = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+
+const menunsfw = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -1094,10 +1113,12 @@ const menunsfw = (prefix, sender) => {
 
 exports.menunsfw = menunsfw;
 
-const outroscmds = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const outroscmds = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -1133,10 +1154,12 @@ const outroscmds = (prefix, sender) => {
 
 exports.outroscmds = outroscmds;
 
-const puxadas = (prefix, sender) => {
-  // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.
 
-  return `
+const puxadas = (prefix, sender) => {
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
+
+return `
 
 ╭═══════════════════ ┐
 ╰╮  
@@ -1192,297 +1215,341 @@ const puxadas = (prefix, sender) => {
 
 exports.puxadas = puxadas;
 
+
+
 // EDITAR BOTÕES DO MENU PRINCIPAL\\
 
 // MUDE SOMENTE DENTRO DAS ` `
 
+
 // BOTÃO DA LISTA DE MENUS
-const botao_menu = (prefix, sender) => {
-  return `Menu De Lista`;
+const botao_menu = (prefix, sender) => {return `Menu De Lista`;
 };
+
 
 // BOTAO SUB MENU
-const sub_menu = (prefix, sender) => {
-  return `Click no botão abaixo para escolher.`;
+const sub_menu = (prefix, sender) => {return `Click no botão abaixo para escolher.`;
 };
 
-// BOTOES
 
-const comandos_de_membros = (prefix, sender) => {
-  return `👤 COMANDOS DE MEMBROS 👤`;
+
+
+// BOTOES 
+
+const comandos_de_membros = (prefix, sender) => {return `👤 COMANDOS DE MEMBROS 👤`;
 };
 
-const menu_dono = (prefix, sender) => {
-  return `🥷 MENU DONO 🥷`;
+const menu_dono = (prefix, sender) => {return `🥷 MENU DONO 🥷`;
 };
 
-const ativacoes_dono = (prefix, sender) => {
-  return `🥷 ATIVAÇÕES DE DONO 🥷`;
+const ativacoes_dono = (prefix, sender) => {return `🥷 ATIVAÇÕES DE DONO 🥷`;
 };
 
-const menu_adm = (prefix, sender) => {
-  return `😎 MENU ADM 😎`;
+const menu_adm = (prefix, sender) => {return `😎 MENU ADM 😎`;
 };
 
-const ativacoes_adm = (prefix, sender) => {
-  return `😎 ATIVAÇÕES DE ADM 😎`;
+const ativacoes_adm = (prefix, sender) => {return `😎 ATIVAÇÕES DE ADM 😎`;
 };
 
-const menu_premium = (prefix, sender) => {
-  return `🎗️ MENU VIP 🎗️`;
+const menu_premium = (prefix, sender) => {return `🎗️ MENU VIP 🎗️`;
 };
 
-const menu_efeitos = (prefix, sender) => {
-  return `🌀 MENU EFEITOS 🌀`;
+const menu_efeitos = (prefix, sender) => {return `🌀 MENU EFEITOS 🌀`;
 };
 
-const menu_logos = (prefix, sender) => {
-  return `🖼️ MENU LOGOS 🖼️`;
+const menu_logos = (prefix, sender) => {return `🖼️ MENU LOGOS 🖼️`;
 };
 
-const efeitos_audio_videos = (prefix, sender) => {
-  return `🎤 EFEITOS AUDIO/VIDEOS 🎤`;
+const efeitos_audio_videos = (prefix, sender) => {return `🎤 EFEITOS AUDIO/VIDEOS 🎤`;
 };
 
-const menu_brincadeiras = (prefix, sender) => {
-  return `🥳 MENU BRINCADEIRAS 🥳`;
+const menu_brincadeiras = (prefix, sender) => {return `🥳 MENU BRINCADEIRAS 🥳`;
 };
 
-const menu_fotoshop = (prefix, sender) => {
-  return `📸 MENU FOTOSHOP 📸`;
+const menu_fotoshop = (prefix, sender) => {return `📸 MENU FOTOSHOP 📸`;
 };
 
-const menu_rpg = (prefix, sender) => {
-  return `🌃 MENU RPG 🌃`;
+const menu_rpg = (prefix, sender) => {return `🌃 MENU RPG 🌃`;
 };
 
-const menu_infos = (prefix, sender) => {
-  return `🗨️ MENU INFOS 🗨️`;
+const menu_infos = (prefix, sender) => {return `🗨️ MENU INFOS 🗨️`;
 };
 
-const inteligencia_artificial = (prefix, sender) => {
-  return `🧠 INTELIGÊNCIA ARTIFICIAL 🧠`;
+const inteligencia_artificial = (prefix, sender) => {return `🧠 INTELIGÊNCIA ARTIFICIAL 🧠`;
 };
 
-const menu_downloads = (prefix, sender) => {
-  return `📥 MENU DOWNLOADS 📥`;
+const menu_downloads = (prefix, sender) => {return `📥 MENU DOWNLOADS 📥`;
 };
 
-const menu_informacoes = (prefix, sender) => {
-  return `📝 INFORMAÇÕES 📝`;
+const menu_informacoes = (prefix, sender) => {return `📝 INFORMAÇÕES 📝`;
 };
 
-const menu_jogos = (prefix, sender) => {
-  return `🎮 MENU JOGOS 🎮`;
+const menu_jogos = (prefix, sender) => {return `🎮 MENU JOGOS 🎮`;
 };
 
-const menu_figurinhas = (prefix, sender) => {
-  return `👻 MENU FIGURINHAS 👻`;
+const menu_figurinhas = (prefix, sender) => {return `👻 MENU FIGURINHAS 👻`;
 };
 
-const jogos_apks = (prefix, sender) => {
-  return `♨️ JOGOS APK'S ♨️`;
+const jogos_apks = (prefix, sender) => {return `♨️ JOGOS APK'S ♨️`;
 };
 
-const menu_nsfw = (prefix, sender) => {
-  return `🔞 MENU NSFW 🔞`;
+const menu_nsfw = (prefix, sender) => {return `🔞 MENU NSFW 🔞`;
 };
 
-const menu_puxadas = (prefix, sender) => {
-  return `🔎 MENU PUXADAS 🔍`;
+const menu_puxadas = (prefix, sender) => {return `🔎 MENU PUXADAS 🔍`;
 };
 
-const ping = (prefix, sender) => {
-  return `⚡ PING ⚡`;
+const ping = (prefix, sender) => {return `⚡ PING ⚡`;
 };
 
-const dono = (prefix, sender) => {
-  return `🥷 DONO 🥷`;
+const dono = (prefix, sender) => {return `🥷 DONO 🥷`;
 };
 
 // BOTÃO `CRIADOR` NÃO INCLUÍDO, PARA EVITAR KIB
 
-const avalie = (prefix, sender) => {
-  return `💫 AVALIE O QUÃO BOM 💫`;
+
+const avalie = (prefix, sender) => {return `💫 AVALIE O QUÃO BOM 💫`;
 };
 
 ///////  FIM DOS MENUS  \\\\\\\\\
 
+
+
+
+
+
 /////////  BOTÃO LOJA VIP   \\\\\\\\\\\
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 1
 
 //TEXTO
-const tituloproduto1 = (prefix, sender) => {
-  return `🌚 1 Dia = R$ 2,00 Reais`;
+const tituloproduto1 = (prefix, sender) => {return `🌚 1 Dia = R$ 2,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto1 = (prefix, sender) => {
-  return `
+const SubtituloProduto1 = (prefix, sender) => {return `
 > Tera 1 Dia de Premium/Vip`;
 };
 
+
 //PREÇO
-const PreçoProduto1 = (prefix, sender) => {
-  return `2`;
+const PreçoProduto1 = (prefix, sender) => {return `2`;
 };
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 2
 
 //TEXTO
-const tituloproduto2 = (prefix, sender) => {
-  return `🤡 5 Dias = R$ 4,00 Reais`;
+const tituloproduto2 = (prefix, sender) => {return `🤡 5 Dias = R$ 4,00 Reais`;
 };
 
 //SUBTITULO
-const SubtituloProduto2 = (prefix, sender) => {
-  return `
+const SubtituloProduto2 = (prefix, sender) => {return `
 > Tera 5 Dias de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto2 = (prefix, command, sender) => {
-  return `4`;
+const PreçoProduto2 = (prefix, command, sender) => {return `4`;
 };
 
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 3
 
 //TEXTO
-const tituloproduto3 = (prefix, sender) => {
-  return `🤓 7 Dias = R$ 6,00 Reais`;
+const tituloproduto3 = (prefix, sender) => {return `🤓 7 Dias = R$ 6,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto3 = (prefix, sender) => {
-  return `
+const SubtituloProduto3 = (prefix, sender) => {return `
 > Tera 7 Dias de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto3 = (prefix, sender) => {
-  return `6`;
+const PreçoProduto3 = (prefix, sender) => {return `6`;
 };
 
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 4
 
 //TEXTO
-const tituloproduto4 = (prefix, sender) => {
-  return `😏 14 Dias = R$ 10,00 Reais`;
+const tituloproduto4 = (prefix, sender) => {return `😏 14 Dias = R$ 10,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto4 = (prefix, sender) => {
-  return `
+const SubtituloProduto4 = (prefix, sender) => {return `
 > Tera 14 Dias de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto4 = (prefix, sender) => {
-  return `10`;
+const PreçoProduto4 = (prefix, sender) => {return `10`;
 };
 
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 5
 
 //TEXTO
-const tituloproduto5 = (prefix, sender) => {
-  return `😎 1 Mês = R$ 20,00 Reais`;
+const tituloproduto5 = (prefix, sender) => {return `😎 1 Mês = R$ 20,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto5 = (prefix, sender) => {
-  return `
+const SubtituloProduto5 = (prefix, sender) => {return `
 > Tera 1 Mês de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto5 = (prefix, sender) => {
-  return `20`;
+const PreçoProduto5 = (prefix, sender) => {return `20`;
 };
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 6
 
 //TEXTO
-const tituloproduto6 = (prefix, command, sender) => {
-  return `💅🏽 2 Meses = R$ 40,00 Reais`;
+const tituloproduto6 = (prefix, command, sender) => {return `💅🏽 2 Meses = R$ 40,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto6 = (prefix, sender) => {
-  return `
+const SubtituloProduto6 = (prefix, sender) => {return `
 > Tera 2 Mês de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto6 = (prefix, sender) => {
-  return `40`;
+const PreçoProduto6 = (prefix, sender) => {return `40`;
 };
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 7
 
 //TEXTO
-const tituloproduto7 = (prefix, sender) => {
-  return `😍 3 Meses = R$ 60,00 Reais`;
+const tituloproduto7 = (prefix, sender) => {return `😍 3 Meses = R$ 60,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto7 = (prefix, command, sender) => {
-  return `
+const SubtituloProduto7 = (prefix, command, sender) => {return `
 > Tera 3 Mês de Premium/Vip`;
 };
 
+
+
 //PREÇO
-const PreçoProduto7 = (prefix, sender) => {
-  return `60`;
+const PreçoProduto7 = (prefix, sender) => {return `60`;
 };
 
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //        PRODUTO VIP 8
 
 //TEXTO
-const tituloproduto8 = (prefix, sender) => {
-  return `🧙‍♂️ Permanente = R$ 120,00 Reais`;
+const tituloproduto8 = (prefix, sender) => {return `🧙‍♂️ Permanente = R$ 120,00 Reais`;
 };
 //SUBTITULO
-const SubtituloProduto8 = (prefix, sender) => {
-  return `
+const SubtituloProduto8 = (prefix, sender) => {return `
 > Tera Premium/Vip Permanente!`;
 };
 
+
 //PREÇO
-const PreçoProduto8 = (prefix, sender) => {
-  return `120`;
+const PreçoProduto8 = (prefix, sender) => {return `120`;
 };
 //╰╦══════════════════ ✞
 
+
+
 /////// FIM DA LOJA VIP \\\\\\\\
+
+
+
+
+
+
+
 
 ////// [ LOJA ALUGUEL ] \\\\\\\
 
-//     TABELA ALUGUEL
 
-const TabelaAluguel = (prefix, sender) => {
-  return `*_»⟩Tabela de preços para alugar o bot ⟨«_*
+//     TABELA ALUGUEL
+                    
+const TabelaAluguel = (prefix, sender) => {return `*_»⟩Tabela de preços para alugar o bot ⟨«_*
 
 1️⃣⧽ R$ 5.00 (15 dias)
 2️⃣⧽ R$ 10.00 (30 dias)
@@ -1492,171 +1559,214 @@ const TabelaAluguel = (prefix, sender) => {
 `;
 };
 
+
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 1
 
+
 // TITULO
-const TituloAluguel1 = (prefix, sender) => {
-  return `1️⃣⧽ R$ 5.00 Reais`;
+const TituloAluguel1 = (prefix, sender) => {return `1️⃣⧽ R$ 5.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel1 = (prefix, sender) => {
-  return `
+const SubtituloAluguel1 = (prefix, sender) => {return `
 > (+bônus R$ 0.50)`;
 };
 
 // PREÇO
-const preço1 = (prefix, sender) => {
-  return `5.5`;
+const preço1 = (prefix, sender) => {return `5.5`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
 //╰╦══════════════════ ✞
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 2
 
+
 // TITULO
-const TituloAluguel2 = (prefix, sender) => {
-  return `2️⃣⧽ R$ 10.00 Reais`;
+const TituloAluguel2 = (prefix, sender) => {return `2️⃣⧽ R$ 10.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel2 = (prefix, sender) => {
-  return `
+const SubtituloAluguel2 = (prefix, sender) => {return `
 > (+bônus R$ 1.00)`;
 };
 
 // PREÇO
-const preço2 = (prefix, sender) => {
-  return `11`;
+const preço2 = (prefix, sender) => {return `11`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
+
 //╰╦══════════════════ ✞
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 3
 
+
 // TITULO
-const TituloAluguel3 = (prefix, sender) => {
-  return `3️⃣⧽ R$ 20.00 Reais`;
+const TituloAluguel3 = (prefix, sender) => {return `3️⃣⧽ R$ 20.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel3 = (prefix, sender) => {
-  return `
+const SubtituloAluguel3 = (prefix, sender) => {return `
 > (+bônus R$ 2.00)`;
 };
 
 // PREÇO
-const preço3 = (prefix, sender) => {
-  return `22`;
+const preço3 = (prefix, sender) => {return `22`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
+
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 4
 
+
 // TITULO
-const TituloAluguel4 = (prefix, sender) => {
-  return `4️⃣⧽ R$ 30.00 Reais`;
+const TituloAluguel4 = (prefix, sender) => {return `4️⃣⧽ R$ 30.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel4 = (prefix, sender) => {
-  return `
+const SubtituloAluguel4 = (prefix, sender) => {return `
 > (+bônus R$ 3.00)`;
 };
 
 // PREÇO
-const preço4 = (prefix, sender) => {
-  return `33`;
+const preço4 = (prefix, sender) => {return `33`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
+
 //╰╦══════════════════ ✞
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 5
 
+
 // TITULO
-const TituloAluguel5 = (prefix, sender) => {
-  return `5️⃣⧽ R$ 40.00 Reais`;
+const TituloAluguel5 = (prefix, sender) => {return `5️⃣⧽ R$ 40.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel5 = (prefix, sender) => {
-  return `
+const SubtituloAluguel5 = (prefix, sender) => {return `
 > (+bônus R$ 4.00)`;
 };
 
 // PREÇO
-const preço5 = (prefix, sender) => {
-  return `44`;
+const preço5 = (prefix, sender) => {return `44`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
+
 //╰╦══════════════════ ✞
+
+
+
+
+
+
 
 //╭═══════════════════ ┐
 
 //      PRODUTO ALUGUEL 6
 
+
 // TITULO
-const TituloAluguel6 = (prefix, sender) => {
-  return `6️⃣⧽ R$ 50.00 Reais`;
+const TituloAluguel6 = (prefix, sender) => {return `6️⃣⧽ R$ 50.00 Reais`;
 };
 
 // SUBTITULO
-const SubtituloAluguel6 = (prefix, sender) => {
-  return `
+const SubtituloAluguel6 = (prefix, sender) => {return `
 > (+bônus R$ 5.00)`;
 };
 
 // PREÇO
-const preço6 = (prefix, sender) => {
-  return `55`;
+const preço6 = (prefix, sender) => {return `55`;
 };
 
-// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5
+// MINI EXPLICAÇÃO DOS VALORES, POE O VALOR DEPOIS UM PONTO E O VALOR DO BONUS EXEMPLO: 5.5  PREÇO SERA 5 REAIS E O BONUS 5 
 
 //CASO O VALOR SEJA MAIOR QUE 10 REAIS, EXEMPLO: VOCE QUER POR O VALOR DE 10 REAIS VOCE SOMA O VALOR + O BONUS IRIA FICAR 11 REAIS COM 1 REAL DE BONUS ESPERO QUE TENHA ENTENDIDO
 
+
 //╰╦══════════════════ ✞
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ⚠️NÃO MEXA AQUI EM BAIXO ⚠️*/
 
+
 exports.TabelaAluguel = TabelaAluguel;
 exports.TituloAluguel1 = TituloAluguel1;
-exports.SubtituloAluguel1 = SubtituloAluguel1;
+exports.SubtituloAluguel1  = SubtituloAluguel1;
 exports.TituloAluguel2 = TituloAluguel2;
-exports.SubtituloAluguel2 = SubtituloAluguel2;
+exports.SubtituloAluguel2  = SubtituloAluguel2;
 exports.TituloAluguel3 = TituloAluguel3;
-exports.SubtituloAluguel3 = SubtituloAluguel3;
+exports.SubtituloAluguel3  = SubtituloAluguel3;
 exports.TituloAluguel4 = TituloAluguel4;
 exports.SubtituloAluguel4 = SubtituloAluguel4;
 exports.TituloAluguel5 = TituloAluguel5;
