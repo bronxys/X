@@ -77,5 +77,34 @@
         "figus": 1
       }
     ]
+  },
+  {
+    "groupId": "120363297817789904@g.us",
+    "numbers": [
+      {
+        "id": "553298806867@s.whatsapp.net",
+        "nick": "X Bot",
+        "messages": 1,
+        "cmd_messages": 0,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "553299240466@s.whatsapp.net",
+        "nick": "X Bot",
+        "messages": 1,
+        "cmd_messages": 0,
+        "aparelho": "Android ツ",
+        "figus": 0
+      },
+      {
+        "id": "557598311753@s.whatsapp.net",
+        "nick": "Blackzin Do Luffy",
+        "messages": 2,
+        "cmd_messages": 0,
+        "aparelho": "Android ツ",
+        "figus": 0
+      }
+    ]
   }
 ]

@@ -62,7 +62,7 @@
     "nome"
   ],
   "blockCmdG": [],
-  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�???? #tempocmd#",
+  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�???? #tempocmd#",
   "botoes_": false,
   "dono1": ".",
   "dono2": ".",
@@ -70,7 +70,7 @@
   "dono4": ".",
   "dono5": ".",
   "dono6": ".",
-  "botoff": true,
+  "botoff": false,
   "Odelete": true,
   "fundo2": "https://telegra.ph/file/9fabdd2a3615fc075ccd8.jpg",
   "fundo1": "https://telegra.ph/file/9fabdd2a3615fc075ccd8.jpg"
