@@ -1,13 +1,13 @@
 {
-  "name": "X-bot",
-  "version": "3.8.0",
-  "description": "X-bot e um bot feito pelo @jefferson usando a base do aleatory",
+  "name": "x-bot",
+  "version": "4.2.0",
+  "description": "X-bot e um bot feito pelo jefferson_ddos usando a base do aleatory",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-      "@adiwajshing/baileys": "github:WhiskeySockets/baileys",
+    "@whiskeysockets/baileys": "github:whiskeysockets/baileys",
     "abab": "^2.0.6",
     "abort-controller": "^3.0.0",
     "acorn": "^8.11.2",
@@ -329,11 +329,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jeffersonddos/X-bot.git"
+    "url": "git+https://github.com/bronxys/X.git"
   },
   "keywords": [
     "BOT"
   ],
   "author": "@jefferson_ddos",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bronxys/X/issues"
+  }
 }
