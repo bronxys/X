@@ -26,7 +26,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.encodeBinaryNode = void 0;
 const constants = __importStar(require("./constants"));
 const jid_utils_1 = require("./jid-utils");
-const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0]) => {
+const encodeBinaryNode = (node, opts = constants, buffer = [0]) => {
+    const encoded = encodeBinaryNodeInner(node, opts, buffer);
+    return Buffer.from(encoded);
+};
+exports.encodeBinaryNode = encodeBinaryNode;
+const encodeBinaryNodeInner = ({ tag, attrs, content }, opts, buffer) => {
     const { TAGS, TOKEN_MAP } = opts;
     const pushByte = (value) => buffer.push(value & 0xff);
     const pushInt = (value, n, littleEndian = false) => {
@@ -35,7 +40,11 @@ const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0
             buffer.push((value >> (curShift * 8)) & 0xff);
         }
     };
-    const pushBytes = (bytes) => (bytes.forEach(b => buffer.push(b)));
+    const pushBytes = (bytes) => {
+        for (const b of bytes) {
+            buffer.push(b);
+        }
+    };
     const pushInt16 = (value) => {
         pushBytes([(value >> 8) & 0xff, value & 0xff]);
     };
@@ -137,8 +146,7 @@ const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0
         if (str.length > TAGS.PACKED_MAX) {
             return false;
         }
-        for (let i = 0; i < str.length; i++) {
-            const char = str[i];
+        for (const char of str) {
             const isInNibbleRange = char >= '0' && char <= '9';
             if (!isInNibbleRange && char !== '-' && char !== '.') {
                 return false;
@@ -150,8 +158,7 @@ const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0
         if (str.length > TAGS.PACKED_MAX) {
             return false;
         }
-        for (let i = 0; i < str.length; i++) {
-            const char = str[i];
+        for (const char of str) {
             const isInNibbleRange = char >= '0' && char <= '9';
             if (!isInNibbleRange && !(char >= 'A' && char <= 'F') && !(char >= 'a' && char <= 'f')) {
                 return false;
@@ -214,7 +221,7 @@ const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0
     else if (Array.isArray(content)) {
         writeListStart(content.length);
         for (const item of content) {
-            (0, exports.encodeBinaryNode)(item, opts, buffer);
+            encodeBinaryNodeInner(item, opts, buffer);
         }
     }
     else if (typeof content === 'undefined') {
@@ -223,6 +230,5 @@ const encodeBinaryNode = ({ tag, attrs, content }, opts = constants, buffer = [0
     else {
         throw new Error(`invalid children for header "${tag}": ${content} (${typeof content})`);
     }
-    return Buffer.from(buffer);
+    return buffer;
 };
-exports.encodeBinaryNode = encodeBinaryNode;
