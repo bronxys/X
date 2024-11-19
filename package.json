@@ -325,7 +325,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node iniciar.js",
-    "start": "sh start.sh"
+    "start": "ulimit -c 0 && sh start.sh"
   },
   "repository": {
     "type": "git",
