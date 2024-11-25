@@ -1,7 +1,7 @@
 # X-BOT
 
-O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md foi usado a base do aleatory-md na produção desse bot direitos josival && @jefferson_ddos
-<b>Caso esteja interessado nesse bot e queira a base descriptografada entre em contato comigo para podermos negociar [clique aqui](https://wa.me/553299240466) para me chamar no whatsapp.</b>
+O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md foi usado a base do aleatory-md na produção desse bot direitos josival && @paulo_cezar
+<b>Caso esteja interessado nesse bot e queira a base descriptografada entre em contato comigo para podermos negociar [clique aqui](https://wa.me/5541988581867) para me chamar no whatsapp.</b>
 
 ----
 
@@ -13,7 +13,7 @@ O x-bot consiste em um bot de whatsapp que utiliza a mais recente api baileys md
         <a href="https://github.com/Jeffersonddos"><img title="Author"    src="https://img.shields.io/badge/Author-Jeffersonddos-purple.svg?style=for-the-badge&logo=github"></a>
     </p>
     <p>
-        <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/Jeffersonddos?color=red&style=flat-square"></a>
+        <a href="https://github.com/Jeffersonddos/followers"><img title="Followers" src="https://img.shields.io/github/followers/PauloCezar?color=red&style=flat-square"></a>
      
 
 </h1>
@@ -33,14 +33,14 @@ Este bot esta protegido com a licença MIT ou seja, será permitido a distribui�
 ---
 
 # ❌ Aviso para os iniciantes ❌
-Por mais que a instalação seja bem simples de fazer.Este bot é feito para quem tem um conhecimento bem básico de javascript ou saiba o básico de terminal linux e <b> não irei prestar suporte caso o erro seja do usuário não souber instalar ou configurar o bot, pois os comandos são bem básicos e o conhecimento vem do usuário</b>. Mas, caso possua um bug que seja do bot mande o print no meu [whatsapp](https://wa.me/553299240466).
+Por mais que a instalação seja bem simples de fazer.Este bot é feito para quem tem um conhecimento bem básico de javascript ou saiba o básico de terminal linux e <b> não irei prestar suporte caso o erro seja do usuário não souber instalar ou configurar o bot, pois os comandos são bem básicos e o conhecimento vem do usuário</b>. Mas, caso possua um bug que seja do bot mande o print no meu [whatsapp](https://wa.me/5541988581867).
 
 ----
 
 # 👨‍💻 Código Editável e Base Descriptografada
 
 <b>Este bot não tem o index.js e outros arquivos principais editáveis, ou seja,só é possível editar os demais arquivos. 
-Caso tenha interesse em comprar alguma base para criar seu próprio bot  [clique aqui](https://wa.me/553299240466) para negociar comigo 😀 </b>
+Caso tenha interesse em comprar alguma base para criar seu próprio bot  [clique aqui](https://wa.me/5541988581867) para negociar comigo 😀 </b>
 
 ----
 
@@ -58,7 +58,7 @@ Caso tenha interesse em comprar alguma base para criar seu próprio bot  [clique
 # <img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" width="35px"> Tutorial no youtube
 
 
-<a href="https://youtube.com/@JEFFERSON_DDOS.">
+<a href="https://youtube.com/@PAULO_CEZAR.">
 <img src="https://i.ytimg.com/vi/HzzPeMohgOs/maxresdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDtz-iV48Mtjs3KlEPFtgl7owRefQ">
 </a>
 
@@ -116,7 +116,7 @@ Para resetar o qr code se quiser colocar em outro número, basta apenas remover 
 # 🥺 Donate
 Caso queira fazer uma doacao minha chave pix é essa:
 
-5532999240466
+5541988581867
 
 
 Obrigado por nos apoiar!
@@ -127,7 +127,7 @@ Obrigado por nos apoiar!
 
 [Whatsapp](https://api.whatsapp.com/send/?phone=%2B553299240466&text&app_absent=0)
 
-[Youtube](https://youtube.com/@JEFFERSON_DDOS.)
+[Youtube](https://youtube.com/@PAULO_CEZAR.)
 
 -----
 
