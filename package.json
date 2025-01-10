@@ -1,6 +1,6 @@
 {
   "name": "x-bot",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "X-bot e um bot feito pelo jefferson_ddos usando a base do aleatory",
   "main": "index.js",
   "directories": {
@@ -22,6 +22,7 @@
     "aspromise": "^0.1.0",
     "assert-plus": "^1.0.0",
     "async": "^3.2.4",
+    "acrcloud": "^1.4.0",
     "async.parallellimit": "^0.5.2",
     "async.util.eachoflimit": "^0.5.2",
     "async.util.isarray": "^0.5.2",

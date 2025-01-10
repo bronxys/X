@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# @jefferson_ddos ☕
+# Definição de cores
 VERDE='\033[0;32m'
 CIANO='\033[0;36m'
-VERMELHO='\033[0;31m'
-NC='\033[0m'
+VERMELHO='\033[0;31m' # Cor vermelha
+NC='\033[0m' # Sem cor
 
-
+# Limpa a tela com cor
 clear
 echo
-
+# Exibe o texto estilizado com cor
 echo "${CIANO}"
 figlet -f slant "CONEXAO"
 echo "${NC}"
 echo "${VERMELHO}X-BOT - ${VERDE}Auto reconexão ativada para prevenção de quedas.."
 echo
 echo
-
+# Menu de opções com cores
 echo "${CIANO}Escolha uma opção para iniciar:"
 echo
 echo "${VERDE}『 1 』- Iniciar com QR code"
