@@ -632,7 +632,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╰╦══════════════════ ✞┐
 │ Config: ${prefix}Configurar-bot
 ╞───────────────┘
-┏│✞͜͡▹ ${prefix}atualizar (atualiza o bot)
+┏│✞͜͡▹ ${prefix}atualizar (atualiza o x-bot free)
 ┏│✞͜͡▹ ${prefix}ativacoes_dono
 ┏│✞͜͡▹ ${prefix}lista_donos_gp
 ┏│✞͜͡▹ ${prefix}add_dono_gp
