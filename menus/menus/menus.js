@@ -16,8 +16,8 @@ return `
 ┏│Dia:  「 ${dayy} 」
 ┏│Hora:  「 ${H} ${tempo} 」
 ┏│Data:  「 ${D} 」
-┏│Insta Dono: bit.ly/insta_dono
-┏│Apis: https://jeff-apis.shop
+┏│Insta Criador: bit.ly/insta_dono
+┏│Apis: https://jeff-apis.tech
 ┏│⤿✧✧✧✧✧
 ╰══════════┐
 ${lermais}
@@ -45,6 +45,9 @@ ${lermais}
 ┃╰══ ✞
 ╰╦══════════════════ ✞
 ┏│✞͜͡▹ ${prefix}configurar-bot
+┏│✞͜͡▹ ${prefix}comprarbot
+┏│✞͜͡▹ ${prefix}criador
+┏│✞͜͡▹ ${prefix}dono
 ┏│✞͜͡▹ ${prefix}add_botgp
 ┏│✞͜͡▹ ${prefix}grupo_figurinhas
 ┏│✞͜͡▹ ${prefix}seguidores-insta
@@ -632,6 +635,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╰╦══════════════════ ✞┐
 │ Config: ${prefix}Configurar-bot
 ╞───────────────┘
+┏│✞͜͡▹ ${prefix}atualizar (atualiza o x-bot free)
 ┏│✞͜͡▹ ${prefix}ativacoes_dono
 ┏│✞͜͡▹ ${prefix}lista_donos_gp
 ┏│✞͜͡▹ ${prefix}add_dono_gp
@@ -642,6 +646,9 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│✞͜͡▹ ${prefix}listastickers
 ┏│✞͜͡▹ ${prefix}addsticker
 ┏│✞͜͡▹ ${prefix}delsticker
+┏│✞͜͡▹ ${prefix}addtexto
+┏│✞͜͡▹ ${prefix}deltexto
+┏│✞͜͡▹ ${prefix}listatextos
 ┏│✞͜͡▹ ${prefix}anotacao
 ┏│✞͜͡▹ ${prefix}enquete
 ┏│✞͜͡▹ ${prefix}modopuxadas
