@@ -56,9 +56,9 @@ function makeOrderedDictionary(idGetter) {
         },
         clear: () => {
             array.splice(0, array.length);
-            for (const key of Object.keys(dict)) {
+            Object.keys(dict).forEach(key => {
                 delete dict[key];
-            }
+            });
         },
         filter: (contain) => {
             let i = 0;

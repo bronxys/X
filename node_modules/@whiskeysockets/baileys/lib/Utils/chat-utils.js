@@ -305,7 +305,8 @@ const decodePatches = async (name, syncds, initial, getAppStateSyncKey, options,
         indexValueMap: { ...initial.indexValueMap }
     };
     const mutationMap = {};
-    for (const syncd of syncds) {
+    for (let i = 0; i < syncds.length; i++) {
+        const syncd = syncds[i];
         const { version, keyId, snapshotMac } = syncd;
         if (syncd.externalMutations) {
             logger === null || logger === void 0 ? void 0 : logger.trace({ name, version }, 'downloading external patch');
@@ -493,22 +494,6 @@ const chatModificationToAppPatch = (mod, jid) => {
             index: ['setting_pushName'],
             type: 'critical_block',
             apiVersion: 1,
-            operation: OP.SET,
-        };
-    }
-    else if ('addLabel' in mod) {
-        patch = {
-            syncAction: {
-                labelEditAction: {
-                    name: mod.addLabel.name,
-                    color: mod.addLabel.color,
-                    predefinedId: mod.addLabel.predefinedId,
-                    deleted: mod.addLabel.deleted
-                }
-            },
-            index: ['label_edit', mod.addLabel.id],
-            type: 'regular',
-            apiVersion: 3,
             operation: OP.SET,
         };
     }

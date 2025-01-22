@@ -4,17 +4,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useMultiFileAuthState = void 0;
-const async_lock_1 = __importDefault(require("async-lock"));
 const promises_1 = require("fs/promises");
 const path_1 = require("path");
 const WAProto_1 = require("../../WAProto");
 const auth_utils_1 = require("./auth-utils");
 const generics_1 = require("./generics");
-// We need to lock files due to the fact that we are using async functions to read and write files
-// https://github.com/WhiskeySockets/Baileys/issues/794
-// https://github.com/nodejs/node/issues/26338
-// Default pending is 1000, set it to infinity
-// https://github.com/rogierschouten/async-lock/issues/63
+const async_lock_1 = __importDefault(require("async-lock"));
 const fileLock = new async_lock_1.default({ maxPending: Infinity });
 /**
  * stores the full authentication state in a single folder.
@@ -24,7 +19,6 @@ const fileLock = new async_lock_1.default({ maxPending: Infinity });
  * Would recommend writing an auth state for use with a proper SQL or No-SQL DB
  * */
 const useMultiFileAuthState = async (folder) => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const writeData = (data, file) => {
         const filePath = (0, path_1.join)(folder, fixFileName(file));
         return fileLock.acquire(filePath, () => (0, promises_1.writeFile)((0, path_1.join)(filePath), JSON.stringify(data, generics_1.BufferJSON.replacer)));

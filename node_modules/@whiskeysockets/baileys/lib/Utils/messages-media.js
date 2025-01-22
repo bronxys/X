@@ -26,7 +26,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getStatusCodeForMediaRetry = exports.decryptMediaRetryData = exports.decodeMediaRetryNode = exports.encryptMediaRetryRequest = exports.getWAUploadToServer = exports.extensionForMediaMessage = exports.downloadEncryptedContent = exports.downloadContentFromMessage = exports.getUrlFromDirectPath = exports.encryptedStream = exports.getHttpStream = exports.generateThumbnail = exports.getStream = exports.toBuffer = exports.toReadable = exports.getAudioWaveform = exports.getAudioDuration = exports.mediaMessageSHA256B64 = exports.generateProfilePicture = exports.encodeBase64EncodedStringForUpload = exports.extractImageThumb = exports.getMediaKeys = exports.hkdfInfoKey = void 0;
+exports.getStatusCodeForMediaRetry = exports.decryptMediaRetryData = exports.decodeMediaRetryNode = exports.encryptMediaRetryRequest = exports.getWAUploadToServer = exports.extensionForMediaMessage = exports.downloadEncryptedContent = exports.downloadContentFromMessage = exports.getUrlFromDirectPath = exports.encryptedStream = exports.prepareStream = exports.getHttpStream = exports.generateThumbnail = exports.getStream = exports.toBuffer = exports.toReadable = exports.getAudioWaveform = exports.getAudioDuration = exports.mediaMessageSHA256B64 = exports.generateProfilePicture = exports.encodeBase64EncodedStringForUpload = exports.extractImageThumb = exports.getMediaKeys = exports.hkdfInfoKey = void 0;
 const boom_1 = require("@hapi/boom");
 const axios_1 = __importDefault(require("axios"));
 const child_process_1 = require("child_process");
@@ -45,11 +45,13 @@ const getTmpFilesDirectory = () => (0, os_1.tmpdir)();
 const getImageProcessingLibrary = async () => {
     const [_jimp, sharp] = await Promise.all([
         (async () => {
-            const jimp = await (Promise.resolve().then(() => __importStar(require('jimp'))).catch(() => { }));
+            const jimp = await (import('jimp')
+                .catch(() => { }));
             return jimp;
         })(),
         (async () => {
-            const sharp = await (Promise.resolve().then(() => __importStar(require('sharp'))).catch(() => { }));
+            const sharp = await (import('sharp')
+                .catch(() => { }));
             return sharp;
         })()
     ]);
@@ -190,7 +192,7 @@ const mediaMessageSHA256B64 = (message) => {
 };
 exports.mediaMessageSHA256B64 = mediaMessageSHA256B64;
 async function getAudioDuration(buffer) {
-    const musicMetadata = await Promise.resolve().then(() => __importStar(require('music-metadata')));
+    const musicMetadata = await import('music-metadata');
     let metadata;
     if (Buffer.isBuffer(buffer)) {
         metadata = await musicMetadata.parseBuffer(buffer, undefined, { duration: true });
@@ -215,7 +217,7 @@ exports.getAudioDuration = getAudioDuration;
  */
 async function getAudioWaveform(buffer, logger) {
     try {
-        const audioDecode = (buffer) => Promise.resolve().then(() => __importStar(require('audio-decode'))).then(({ default: audioDecode }) => audioDecode(buffer));
+        const audioDecode = (buffer) => import('audio-decode').then(({ default: audioDecode }) => audioDecode(buffer));
         let audioData;
         if (Buffer.isBuffer(buffer)) {
             audioData = buffer;
@@ -319,6 +321,50 @@ const getHttpStream = async (url, options = {}) => {
     return fetched.data;
 };
 exports.getHttpStream = getHttpStream;
+const prepareStream = async (media, mediaType, { logger, saveOriginalFileIfRequired, opts } = {}) => {
+    const { stream, type } = await (0, exports.getStream)(media, opts);
+    logger === null || logger === void 0 ? void 0 : logger.debug('fetched media stream');
+    let bodyPath;
+    let didSaveToTmpPath = false;
+    try {
+        const buffer = await (0, exports.toBuffer)(stream);
+        if (type === 'file') {
+            bodyPath = media.url;
+        }
+        else if (saveOriginalFileIfRequired) {
+            bodyPath = (0, path_1.join)(getTmpFilesDirectory(), mediaType + (0, generics_1.generateMessageID)());
+            (0, fs_1.writeFileSync)(bodyPath, buffer);
+            didSaveToTmpPath = true;
+        }
+        const fileLength = buffer.length;
+        const fileSha256 = Crypto.createHash('sha256').update(buffer).digest();
+        stream === null || stream === void 0 ? void 0 : stream.destroy();
+        logger === null || logger === void 0 ? void 0 : logger.debug('prepare stream data successfully');
+        return {
+            mediaKey: undefined,
+            encWriteStream: buffer,
+            fileLength,
+            fileSha256,
+            fileEncSha256: undefined,
+            bodyPath,
+            didSaveToTmpPath
+        };
+    }
+    catch (error) {
+        // destroy all streams with error
+        stream.destroy();
+        if (didSaveToTmpPath) {
+            try {
+                await fs_1.promises.unlink(bodyPath);
+            }
+            catch (err) {
+                logger === null || logger === void 0 ? void 0 : logger.error({ err }, 'failed to save to tmp path');
+            }
+        }
+        throw error;
+    }
+};
+exports.prepareStream = prepareStream;
 const encryptedStream = async (media, mediaType, { logger, saveOriginalFileIfRequired, opts } = {}) => {
     const { stream, type } = await (0, exports.getStream)(media, opts);
     logger === null || logger === void 0 ? void 0 : logger.debug('fetched media stream');
@@ -329,7 +375,7 @@ const encryptedStream = async (media, mediaType, { logger, saveOriginalFileIfReq
     let writeStream;
     let didSaveToTmpPath = false;
     if (type === 'file') {
-        bodyPath = media.url.toString();
+        bodyPath = media.url;
     }
     else if (saveOriginalFileIfRequired) {
         bodyPath = (0, path_1.join)(getTmpFilesDirectory(), mediaType + (0, generics_1.generateMessageID)());
@@ -352,8 +398,10 @@ const encryptedStream = async (media, mediaType, { logger, saveOriginalFileIfReq
                 });
             }
             sha256Plain = sha256Plain.update(data);
-            if (writeStream && !writeStream.write(data)) {
-                await (0, events_1.once)(writeStream, 'drain');
+            if (writeStream) {
+                if (!writeStream.write(data)) {
+                    await (0, events_1.once)(writeStream, 'drain');
+                }
             }
             onChunk(aes.update(data));
         }
@@ -522,21 +570,34 @@ function extensionForMediaMessage(message) {
 }
 exports.extensionForMediaMessage = extensionForMediaMessage;
 const getWAUploadToServer = ({ customUploadHosts, fetchAgent, logger, options }, refreshMediaConn) => {
-    return async (stream, { mediaType, fileEncSha256B64, timeoutMs }) => {
+    return async (stream, { mediaType, fileEncSha256B64, newsletter, timeoutMs }) => {
         var _a, _b;
         // send a query JSON to obtain the url & auth token to upload our media
         let uploadInfo = await refreshMediaConn(false);
         let urls;
         const hosts = [...customUploadHosts, ...uploadInfo.hosts];
+        const chunks = [];
+        if (!Buffer.isBuffer(stream)) {
+            for await (const chunk of stream) {
+                chunks.push(chunk);
+            }
+        }
+        const reqBody = Buffer.isBuffer(stream) ? stream : Buffer.concat(chunks);
         fileEncSha256B64 = (0, exports.encodeBase64EncodedStringForUpload)(fileEncSha256B64);
-        for (const { hostname } of hosts) {
+        let media = Defaults_1.MEDIA_PATH_MAP[mediaType];
+        if (newsletter) {
+            media = media === null || media === void 0 ? void 0 : media.replace('/mms/', '/newsletter/newsletter-');
+        }
+        for (const { hostname, maxContentLengthBytes } of hosts) {
             logger.debug(`uploading to "${hostname}"`);
             const auth = encodeURIComponent(uploadInfo.auth); // the auth token
-            const url = `https://${hostname}${Defaults_1.MEDIA_PATH_MAP[mediaType]}/${fileEncSha256B64}?auth=${auth}&token=${fileEncSha256B64}`;
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const url = `https://${hostname}${media}/${fileEncSha256B64}?auth=${auth}&token=${fileEncSha256B64}`;
             let result;
             try {
-                const body = await axios_1.default.post(url, stream, {
+                if (maxContentLengthBytes && reqBody.length > maxContentLengthBytes) {
+                    throw new boom_1.Boom(`Body too large for "${hostname}"`, { statusCode: 413 });
+                }
+                const body = await axios_1.default.post(url, reqBody, {
                     ...options,
                     headers: {
                         ...options.headers || {},
@@ -553,7 +614,8 @@ const getWAUploadToServer = ({ customUploadHosts, fetchAgent, logger, options },
                 if ((result === null || result === void 0 ? void 0 : result.url) || (result === null || result === void 0 ? void 0 : result.directPath)) {
                     urls = {
                         mediaUrl: result.url,
-                        directPath: result.direct_path
+                        directPath: result.direct_path,
+                        handle: result.handle
                     };
                     break;
                 }
@@ -665,3 +727,7 @@ const MEDIA_RETRY_STATUS_MAP = {
     [WAProto_1.proto.MediaRetryNotification.ResultType.NOT_FOUND]: 404,
     [WAProto_1.proto.MediaRetryNotification.ResultType.GENERAL_ERROR]: 418,
 };
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function __importStar(arg0) {
+    throw new Error('Function not implemented.');
+}
