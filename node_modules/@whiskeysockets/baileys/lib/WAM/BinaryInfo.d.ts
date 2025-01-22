@@ -6,10 +6,10 @@ export declare class BinaryInfo {
     events: {
         [x: string]: {
             props: {
-                [x: string]: import("./constants").Value;
+                [x: string]: any;
             };
             globals: {
-                [x: string]: import("./constants").Value;
+                [x: string]: any;
             };
         };
     }[];

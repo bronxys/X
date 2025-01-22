@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.encodeSignedDeviceIdentity = exports.configureSuccessfulPairing = exports.generateRegistrationNode = exports.generateLoginNode = void 0;
+exports.encodeSignedDeviceIdentity = exports.configureSuccessfulPairing = exports.generateRegistrationNode = exports.generateLoginNode = exports.generateMobileNode = void 0;
 const boom_1 = require("@hapi/boom");
 const crypto_1 = require("crypto");
 const WAProto_1 = require("../../WAProto");
@@ -10,19 +10,30 @@ const crypto_2 = require("./crypto");
 const generics_1 = require("./generics");
 const signal_1 = require("./signal");
 const getUserAgent = (config) => {
+    var _a, _b;
+    const osVersion = config.mobile ? '15.3.1' : '0.1';
+    const version = config.mobile ? [2, 24, 6] : config.version;
+    const device = config.mobile ? 'iPhone_7' : 'Desktop';
+    const manufacturer = config.mobile ? 'Apple' : '';
+    const platform = config.mobile ? WAProto_1.proto.ClientPayload.UserAgent.Platform.IOS : WAProto_1.proto.ClientPayload.UserAgent.Platform.WEB;
+    const phoneId = config.mobile ? { phoneId: config.auth.creds.phoneId } : {};
     return {
         appVersion: {
-            primary: config.version[0],
-            secondary: config.version[1],
-            tertiary: config.version[2],
+            primary: version[0],
+            secondary: version[1],
+            tertiary: version[2],
         },
-        platform: WAProto_1.proto.ClientPayload.UserAgent.Platform.WEB,
+        platform,
         releaseChannel: WAProto_1.proto.ClientPayload.UserAgent.ReleaseChannel.RELEASE,
-        osVersion: '0.1',
-        device: 'Desktop',
-        osBuildNumber: '0.1',
+        mcc: ((_a = config.auth.creds.registration) === null || _a === void 0 ? void 0 : _a.phoneNumberMobileCountryCode) || '000',
+        mnc: ((_b = config.auth.creds.registration) === null || _b === void 0 ? void 0 : _b.phoneNumberMobileNetworkCode) || '000',
+        osVersion: osVersion,
+        manufacturer,
+        device,
+        osBuildNumber: osVersion,
         localeLanguageIso6391: 'en',
-        localeCountryIso31661Alpha2: 'US'
+        localeCountryIso31661Alpha2: 'US',
+        ...phoneId
     };
 };
 const PLATFORM_MAP = {
@@ -42,9 +53,32 @@ const getClientPayload = (config) => {
         connectReason: WAProto_1.proto.ClientPayload.ConnectReason.USER_ACTIVATED,
         userAgent: getUserAgent(config),
     };
-    payload.webInfo = getWebInfo(config);
+    if (!config.mobile) {
+        payload.webInfo = getWebInfo(config);
+    }
     return payload;
 };
+const generateMobileNode = (config) => {
+    if (!config.auth.creds) {
+        throw new boom_1.Boom('No registration data found', { data: config });
+    }
+    const payload = {
+        ...getClientPayload(config),
+        sessionId: Math.floor(Math.random() * 999999999 + 1),
+        shortConnect: true,
+        connectAttemptCount: 0,
+        device: 0,
+        dnsSource: {
+            appCached: false,
+            dnsMethod: WAProto_1.proto.ClientPayload.DNSSource.DNSResolutionMethod.SYSTEM,
+        },
+        passive: false,
+        pushName: 'test',
+        username: Number(`${config.auth.creds.registration.phoneNumberCountryCode}${config.auth.creds.registration.phoneNumberNationalNumber}`),
+    };
+    return WAProto_1.proto.ClientPayload.fromObject(payload);
+};
+exports.generateMobileNode = generateMobileNode;
 const generateLoginNode = (userJid, config) => {
     const { user, device } = (0, WABinary_1.jidDecode)(userJid);
     const payload = {

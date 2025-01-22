@@ -20,14 +20,15 @@ const Client_1 = require("./Client");
 const makeSocket = (config) => {
     var _a, _b;
     const { waWebSocketUrl, connectTimeoutMs, logger, keepAliveIntervalMs, browser, auth: authState, printQRInTerminal, defaultQueryTimeoutMs, transactionOpts, qrTimeout, makeSignalRepository, } = config;
-    const url = typeof waWebSocketUrl === 'string' ? new url_1.URL(waWebSocketUrl) : waWebSocketUrl;
-    if (config.mobile || url.protocol === 'tcp:') {
-        throw new boom_1.Boom('Mobile API is not supported anymore', { statusCode: Types_1.DisconnectReason.loggedOut });
+    let url = typeof waWebSocketUrl === 'string' ? new url_1.URL(waWebSocketUrl) : waWebSocketUrl;
+    config.mobile = config.mobile || url.protocol === 'tcp:';
+    if (config.mobile && url.protocol !== 'tcp:') {
+        url = new url_1.URL(`tcp://${Defaults_1.MOBILE_ENDPOINT}:${Defaults_1.MOBILE_PORT}`);
     }
-    if (url.protocol === 'wss' && ((_a = authState === null || authState === void 0 ? void 0 : authState.creds) === null || _a === void 0 ? void 0 : _a.routingInfo)) {
+    if (!config.mobile && url.protocol === 'wss' && ((_a = authState === null || authState === void 0 ? void 0 : authState.creds) === null || _a === void 0 ? void 0 : _a.routingInfo)) {
         url.searchParams.append('ED', authState.creds.routingInfo.toString('base64url'));
     }
-    const ws = new Client_1.WebSocketClient(url, config);
+    const ws = config.socket ? config.socket : config.mobile ? new Client_1.MobileSocketClient(url, config) : new Client_1.WebSocketClient(url, config);
     ws.connect();
     const ev = (0, Utils_1.makeEventBuffer)(logger);
     /** ephemeral key pair used to encrypt/decrypt communication. Unique for each connection */
@@ -35,7 +36,8 @@ const makeSocket = (config) => {
     /** WA noise protocol wrapper */
     const noise = (0, Utils_1.makeNoiseHandler)({
         keyPair: ephemeralKeyPair,
-        NOISE_HEADER: Defaults_1.NOISE_WA_HEADER,
+        NOISE_HEADER: config.mobile ? Defaults_1.MOBILE_NOISE_HEADER : Defaults_1.NOISE_WA_HEADER,
+        mobile: config.mobile,
         logger,
         routingInfo: (_b = authState === null || authState === void 0 ? void 0 : authState.creds) === null || _b === void 0 ? void 0 : _b.routingInfo
     });
@@ -157,7 +159,10 @@ const makeSocket = (config) => {
         logger.trace({ handshake }, 'handshake recv from WA');
         const keyEnc = noise.processHandshake(handshake, creds.noiseKey);
         let node;
-        if (!creds.me) {
+        if (config.mobile) {
+            node = (0, Utils_1.generateMobileNode)(config);
+        }
+        else if (!creds.me) {
             node = (0, Utils_1.generateRegistrationNode)(creds, config);
             logger.info({ node }, 'not logged in, attempting registration...');
         }
@@ -227,11 +232,11 @@ const makeSocket = (config) => {
                 const l0 = frame.tag;
                 const l1 = frame.attrs || {};
                 const l2 = Array.isArray(frame.content) ? (_a = frame.content[0]) === null || _a === void 0 ? void 0 : _a.tag : '';
-                for (const key of Object.keys(l1)) {
+                Object.keys(l1).forEach(key => {
                     anyTriggered = ws.emit(`${Defaults_1.DEF_CALLBACK_PREFIX}${l0},${key}:${l1[key]},${l2}`, frame) || anyTriggered;
                     anyTriggered = ws.emit(`${Defaults_1.DEF_CALLBACK_PREFIX}${l0},${key}:${l1[key]}`, frame) || anyTriggered;
                     anyTriggered = ws.emit(`${Defaults_1.DEF_CALLBACK_PREFIX}${l0},${key}`, frame) || anyTriggered;
-                }
+                });
                 anyTriggered = ws.emit(`${Defaults_1.DEF_CALLBACK_PREFIX}${l0},,${l2}`, frame) || anyTriggered;
                 anyTriggered = ws.emit(`${Defaults_1.DEF_CALLBACK_PREFIX}${l0}`, frame) || anyTriggered;
                 if (!anyTriggered && logger.level === 'debug') {
@@ -506,12 +511,18 @@ const makeSocket = (config) => {
     });
     // login complete
     ws.on('CB:success', async (node) => {
-        await uploadPreKeysToServerIfRequired();
-        await sendPassiveIq('active');
-        logger.info('opened connection to WA');
-        clearTimeout(qrTimer); // will never happen in all likelyhood -- but just in case WA sends success on first try
-        ev.emit('creds.update', { me: { ...authState.creds.me, lid: node.attrs.lid } });
-        ev.emit('connection.update', { connection: 'open' });
+        try {
+            await uploadPreKeysToServerIfRequired();
+            await sendPassiveIq('active');
+            logger.info('opened connection to WA');
+            clearTimeout(qrTimer); // will never happen in all likelyhood -- but just in case WA sends success on first try
+            ev.emit('creds.update', { me: { ...authState.creds.me, lid: node.attrs.lid } });
+            ev.emit('connection.update', { connection: 'open' });
+        }
+        catch (err) {
+            logger.error({ err }, 'error opening connection');
+            end(err);
+        }
     });
     ws.on('CB:stream:error', (node) => {
         logger.error({ node }, 'stream errored out');
