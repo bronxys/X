@@ -1,5 +1,5 @@
 {
-  "crtt": "𝐉𝐎𝐆𝐎 𝐃𝐀 𝐕𝐄𝐋𝐇𝐀",
+  "crtt": "饾悏饾悗饾悊饾悗 饾悆饾悁 饾悤饾悇饾悑饾悋饾悁",
   "forwarding": false,
   "banChats": false,
   "menu_audio": false,
@@ -10,7 +10,7 @@
   "anticall": true,
   "visualizarmsg": true,
   "listanegraG": [],
-  "msgantipv1": "Olá *#nome#*, o meu privado agora é bloqueado apenas para usuários Vip's!\nAdquira o acesso privado e Comandos exclusivos digitando o comando: lojavip",
+  "msgantipv1": "Ol谩 *#nome#*, o meu privado agora 茅 bloqueado apenas para usu谩rios Vip's!\nAdquira o acesso privado e Comandos exclusivos digitando o comando: lojavip",
   "KEY_MERCADO_PAGO": "APP_USR-5322742966821514-012516-f49e1fd57be6ec7e8ed3a4a257b13186-1655012238",
   "SITE_JEFF_APIS": "https://jeff-apis.tech",
   "cmd_premium": [
@@ -68,8 +68,8 @@
     "foto-to"
   ],
   "blockCmdG": [],
-  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�????? #tempocmd#",
-  "botoes_": false,
+  "TEMPO_DE_CMD": "Aguarde #tempo# segundos at茅 executar outro comando, tempo a concluir:\n锟�????? #tempocmd#",
+  "botoes_": true,
   "dono1": ".",
   "dono2": ".",
   "dono3": ".",
