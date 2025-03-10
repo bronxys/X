@@ -418,7 +418,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│Hora:  「 ${H} ${tempo} 」
 ┏│Data:  「 ${D} 」
 ┏│Insta Dono: bit.ly/insta_dono
-┏│Apis: https://jeff-apis.shop
+┏│Apis: https://jeff-apis.tech
 ┏│⤿✧✧✧✧✧
 ╰═══════════════════ ┘`;
 };
