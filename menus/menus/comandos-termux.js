@@ -1,8 +1,5 @@
 const cmd_termux = (prefix) => {
-return `
-
-
-`
+return ``
 }
 
 exports.cmd_termux = cmd_termux
