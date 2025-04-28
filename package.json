@@ -1,5 +1,5 @@
 {
-  "name": "xbot",
+  "name": "x-bot",
   "version": "4.2.5",
   "description": "X-bot e um bot feito pelo jefferson_ddos usando a base do aleatory",
   "directories": {
@@ -26,9 +26,6 @@
     "asap": "^2.0.6",
     "asn1": "^0.2.6",
     "aspromise": "^0.1.0",
-    "better-sqlite3": "^11.9.1",
-    "assemblyai": "^2.0.2",
-    "assert": "^2.0.0",
     "assert-plus": "^1.0.0",
     "async": "^3.2.6",
     "async-lock": "^1.4.1",
@@ -450,6 +447,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bronxys/X/issues"
-  },
-  "homepage": "https://github.com/bronxys/X#readme"
+  }
 }
