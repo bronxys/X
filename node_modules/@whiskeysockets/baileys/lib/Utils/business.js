@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.uploadingNecessaryImages = exports.uploadingNecessaryImagesOfProduct = exports.parseProductNode = exports.toProductNode = exports.parseOrderDetailsNode = exports.parseCollectionsNode = exports.parseCatalogNode = void 0;
+exports.uploadingNecessaryImages = exports.parseProductNode = exports.toProductNode = exports.parseOrderDetailsNode = exports.parseCollectionsNode = exports.parseCatalogNode = void 0;
+exports.uploadingNecessaryImagesOfProduct = uploadingNecessaryImagesOfProduct;
 const boom_1 = require("@hapi/boom");
 const crypto_1 = require("crypto");
 const WABinary_1 = require("../WABinary");
@@ -188,7 +189,6 @@ async function uploadingNecessaryImagesOfProduct(product, waUploadToServer, time
     };
     return product;
 }
-exports.uploadingNecessaryImagesOfProduct = uploadingNecessaryImagesOfProduct;
 /**
  * Uploads images not already uploaded to WA's servers
  */

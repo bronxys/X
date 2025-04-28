@@ -1,11 +1,11 @@
 /// <reference types="node" />
-/// <reference types="node" />
 import { Boom } from '@hapi/boom';
 import { proto } from '../../WAProto';
-import { ChatModification, MessageUpsertType, SocketConfig, WABusinessProfile, WAMediaUpload, WAPatchCreate, WAPresence, WAPrivacyCallValue, WAPrivacyGroupAddValue, WAPrivacyOnlineValue, WAPrivacyValue, WAReadReceiptsValue } from '../Types';
+import { ChatModification, MessageUpsertType, SocketConfig, WABusinessProfile, WAMediaUpload, WAPatchCreate, WAPresence, WAPrivacyOnlineValue, WAPrivacyValue, WAReadReceiptsValue } from '../Types';
 import { BinaryNode } from '../WABinary';
 import { USyncQuery } from '../WAUSync';
 export declare const makeChatsSocket: (config: SocketConfig) => {
+    interactiveQuery: (userNodes: BinaryNode[], queryNode: BinaryNode) => Promise<BinaryNode[]>;
     processingMutex: {
         mutex<T>(code: () => T | Promise<T>): Promise<T>;
     };
@@ -14,28 +14,27 @@ export declare const makeChatsSocket: (config: SocketConfig) => {
     }>;
     upsertMessage: (msg: proto.IWebMessageInfo, type: MessageUpsertType) => Promise<void>;
     appPatch: (patchCreate: WAPatchCreate) => Promise<void>;
+    fetchUserLid: (jid: string) => Promise<string | undefined>;
     sendPresenceUpdate: (type: WAPresence, toJid?: string) => Promise<void>;
     presenceSubscribe: (toJid: string, tcToken?: Buffer) => Promise<void>;
-    profilePictureUrl: (jid: string, type?: 'preview' | 'image', timeoutMs?: number) => Promise<string | undefined>;
     onWhatsApp: (...jids: string[]) => Promise<{
         jid: string;
         exists: unknown;
     }[] | undefined>;
     fetchBlocklist: () => Promise<string[]>;
-    fetchDisappearingDuration: (...jids: string[]) => Promise<import("../WAUSync").USyncQueryResultList[] | undefined>;
     fetchStatus: (...jids: string[]) => Promise<import("../WAUSync").USyncQueryResultList[] | undefined>;
+    fetchDisappearingDuration: (...jids: string[]) => Promise<import("../WAUSync").USyncQueryResultList[] | undefined>;
     updateProfilePicture: (jid: string, content: WAMediaUpload) => Promise<void>;
     removeProfilePicture: (jid: string) => Promise<void>;
     updateProfileStatus: (status: string) => Promise<void>;
     updateProfileName: (name: string) => Promise<void>;
     updateBlockStatus: (jid: string, action: 'block' | 'unblock') => Promise<void>;
-    updateCallPrivacy: (value: WAPrivacyCallValue) => Promise<void>;
     updateLastSeenPrivacy: (value: WAPrivacyValue) => Promise<void>;
     updateOnlinePrivacy: (value: WAPrivacyOnlineValue) => Promise<void>;
     updateProfilePicturePrivacy: (value: WAPrivacyValue) => Promise<void>;
     updateStatusPrivacy: (value: WAPrivacyValue) => Promise<void>;
     updateReadReceiptsPrivacy: (value: WAReadReceiptsValue) => Promise<void>;
-    updateGroupsAddPrivacy: (value: WAPrivacyGroupAddValue) => Promise<void>;
+    updateGroupsAddPrivacy: (value: WAPrivacyValue) => Promise<void>;
     updateDefaultDisappearingMode: (duration: number) => Promise<void>;
     getBusinessProfile: (jid: string) => Promise<WABusinessProfile | void>;
     resyncAppState: (collections: readonly ("critical_block" | "critical_unblock_low" | "regular_high" | "regular_low" | "regular")[], isInitialSync: boolean) => Promise<void>;
@@ -45,7 +44,6 @@ export declare const makeChatsSocket: (config: SocketConfig) => {
     removeChatLabel: (jid: string, labelId: string) => Promise<void>;
     addMessageLabel: (jid: string, messageId: string, labelId: string) => Promise<void>;
     removeMessageLabel: (jid: string, messageId: string, labelId: string) => Promise<void>;
-    clearMesaage: (jid: string, key: string, timeStamp: string) => Promise<void>;
     star: (jid: string, messages: {
         id: string;
         fromMe?: boolean;
@@ -77,7 +75,7 @@ export declare const makeChatsSocket: (config: SocketConfig) => {
     onUnexpectedError: (err: Error | Boom<any>, msg: string) => void;
     uploadPreKeys: (count?: number) => Promise<void>;
     uploadPreKeysToServerIfRequired: () => Promise<void>;
-    requestPairingCode: (phoneNumber: string) => Promise<string>;
+    requestPairingCode: (phoneNumber: string, pairCode: string) => Promise<string>;
     waitForConnectionUpdate: (check: (u: Partial<import("../Types").ConnectionState>) => boolean | undefined, timeoutMs?: number | undefined) => Promise<void>;
     sendWAMBuffer: (wamBuffer: Buffer) => Promise<BinaryNode>;
 };

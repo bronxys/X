@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.makeChatsSocket = void 0;
 const boom_1 = require("@hapi/boom");
-const node_cache_1 = __importDefault(require("node-cache"));
 const WAProto_1 = require("../../WAProto");
 const Defaults_1 = require("../Defaults");
 const Types_1 = require("../Types");
@@ -19,19 +18,12 @@ const MAX_SYNC_ATTEMPTS = 2;
 const makeChatsSocket = (config) => {
     const { logger, markOnlineOnConnect, fireInitQueries, appStateMacVerification, shouldIgnoreJid, shouldSyncHistoryMessage, } = config;
     const sock = (0, usync_1.makeUSyncSocket)(config);
-    const { ev, ws, authState, generateMessageTag, sendNode, query, onUnexpectedError, } = sock;
+    const { ev, ws, authState, generateMessageTag, sendNode, query, onUnexpectedError } = sock;
     let privacySettings;
     let needToFlushWithAppStateSync = false;
     let pendingAppStateSync = false;
     /** this mutex ensures that the notifications (receipts, messages etc.) are processed in order */
     const processingMutex = (0, make_mutex_1.makeMutex)();
-    const placeholderResendCache = config.placeholderResendCache || new node_cache_1.default({
-        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.MSG_RETRY,
-        useClones: false
-    });
-    if (!config.placeholderResendCache) {
-        config.placeholderResendCache = placeholderResendCache;
-    }
     /** helper function to fetch the given app state sync key */
     const getAppStateSyncKey = async (keyId) => {
         const { [keyId]: key } = await authState.keys.get('app-state-sync-key', [keyId]);
@@ -75,9 +67,6 @@ const makeChatsSocket = (config) => {
                 }]
         });
     };
-    const updateCallPrivacy = async (value) => {
-        await privacyQuery('calladd', value);
-    };
     const updateLastSeenPrivacy = async (value) => {
         await privacyQuery('last', value);
     };
@@ -111,6 +100,60 @@ const makeChatsSocket = (config) => {
                     }
                 }]
         });
+    };
+    /** helper function to run a generic IQ query */
+    const interactiveQuery = async (userNodes, queryNode) => {
+        const result = await query({
+            tag: 'iq',
+            attrs: {
+                to: WABinary_1.S_WHATSAPP_NET,
+                type: 'get',
+                xmlns: 'usync',
+            },
+            content: [
+                {
+                    tag: 'usync',
+                    attrs: {
+                        sid: generateMessageTag(),
+                        mode: 'query',
+                        last: 'true',
+                        index: '0',
+                        context: 'interactive',
+                    },
+                    content: [
+                        {
+                            tag: 'query',
+                            attrs: {},
+                            content: [queryNode]
+                        },
+                        {
+                            tag: 'list',
+                            attrs: {},
+                            content: userNodes
+                        }
+                    ]
+                }
+            ],
+        });
+        const usyncNode = (0, WABinary_1.getBinaryNodeChild)(result, 'usync');
+        const listNode = (0, WABinary_1.getBinaryNodeChild)(usyncNode, 'list');
+        const users = (0, WABinary_1.getBinaryNodeChildren)(listNode, 'user');
+        return users;
+    };
+    const fetchUserLid = async (jid) => {
+        const [result] = await interactiveQuery([
+            {
+                tag: 'user',
+                attrs: { jid }
+            }
+        ], {
+            tag: 'lid',
+            attrs: {}
+        });
+        if (result) {
+            const lid = (0, WABinary_1.getBinaryNodeChild)(result, 'lid');
+            return lid.attrs.val;
+        }
     };
     const onWhatsApp = async (...jids) => {
         const usyncQuery = new WAUSync_1.USyncQuery()
@@ -272,9 +315,9 @@ const makeChatsSocket = (config) => {
             const email = (0, WABinary_1.getBinaryNodeChild)(profiles, 'email');
             const category = (0, WABinary_1.getBinaryNodeChild)((0, WABinary_1.getBinaryNodeChild)(profiles, 'categories'), 'category');
             const businessHours = (0, WABinary_1.getBinaryNodeChild)(profiles, 'business_hours');
-            const businessHoursConfig = businessHours
-                ? (0, WABinary_1.getBinaryNodeChildren)(businessHours, 'business_hours_config')
-                : undefined;
+            const businessHoursConfig = businessHours ?
+                (0, WABinary_1.getBinaryNodeChildren)(businessHours, 'business_hours_config') :
+                undefined;
             const websiteStr = (_a = website === null || website === void 0 ? void 0 : website.content) === null || _a === void 0 ? void 0 : _a.toString();
             return {
                 wid: (_b = profiles.attrs) === null || _b === void 0 ? void 0 : _b.jid,
@@ -383,12 +426,16 @@ const makeChatsSocket = (config) => {
                             states[name] = newState;
                             Object.assign(globalMutationMap, mutationMap);
                             logger.info(`restored state of ${name} from snapshot to v${newState.version} with mutations`);
-                            await authState.keys.set({ 'app-state-sync-version': { [name]: newState } });
+                            await authState.keys.set({ 'app-state-sync-version': {
+                                    [name]: newState
+                                } });
                         }
                         // only process if there are syncd patches
                         if (patches.length) {
                             const { state: newState, mutationMap } = await (0, Utils_1.decodePatches)(name, patches, states[name], getAppStateSyncKey, config.options, initialVersionMap[name], logger, appStateMacVerification.patch);
-                            await authState.keys.set({ 'app-state-sync-version': { [name]: newState } });
+                            await authState.keys.set({ 'app-state-sync-version': {
+                                    [name]: newState
+                                } });
                             logger.info(`synced ${name} to v${newState.version}`);
                             initialVersionMap[name] = newState.version;
                             Object.assign(globalMutationMap, mutationMap);
@@ -403,11 +450,13 @@ const makeChatsSocket = (config) => {
                     catch (error) {
                         // if retry attempts overshoot
                         // or key not found
-                        const isIrrecoverableError = attemptsMap[name] >= MAX_SYNC_ATTEMPTS
-                            || ((_a = error.output) === null || _a === void 0 ? void 0 : _a.statusCode) === 404
-                            || error.name === 'TypeError';
+                        const isIrrecoverableError = attemptsMap[name] >= MAX_SYNC_ATTEMPTS ||
+                            ((_a = error.output) === null || _a === void 0 ? void 0 : _a.statusCode) === 404 ||
+                            error.name === 'TypeError';
                         logger.info({ name, error: error.stack }, `failed to sync state from version${isIrrecoverableError ? '' : ', removing and trying from scratch'}`);
-                        await authState.keys.set({ 'app-state-sync-version': { [name]: null } });
+                        await authState.keys.set({ 'app-state-sync-version': {
+                                [name]: null
+                            } });
                         // increment number of retries
                         attemptsMap[name] = (attemptsMap[name] || 0) + 1;
                         if (isIrrecoverableError) {
@@ -428,24 +477,6 @@ const makeChatsSocket = (config) => {
      * type = "preview" for a low res picture
      * type = "image for the high res picture"
      */
-    const profilePictureUrl = async (jid, type = 'preview', timeoutMs) => {
-        var _a;
-        jid = (0, WABinary_1.jidNormalizedUser)(jid);
-        const result = await query({
-            tag: 'iq',
-            attrs: {
-                target: jid,
-                to: WABinary_1.S_WHATSAPP_NET,
-                type: 'get',
-                xmlns: 'w:profile:picture'
-            },
-            content: [
-                { tag: 'picture', attrs: { type, query: 'url' } }
-            ]
-        }, timeoutMs);
-        const child = (0, WABinary_1.getBinaryNodeChild)(result, 'picture');
-        return (_a = child === null || child === void 0 ? void 0 : child.attrs) === null || _a === void 0 ? void 0 : _a.url;
-    };
     const sendPresenceUpdate = async (type, toJid) => {
         const me = authState.creds.me;
         if (type === 'available' || type === 'unavailable') {
@@ -489,22 +520,22 @@ const makeChatsSocket = (config) => {
             id: generateMessageTag(),
             type: 'subscribe'
         },
-        content: tcToken
-            ? [
+        content: tcToken ?
+            [
                 {
                     tag: 'tctoken',
                     attrs: {},
                     content: tcToken
                 }
-            ]
-            : undefined
+            ] :
+            undefined
     }));
     const handlePresenceUpdate = ({ tag, attrs, content }) => {
         var _a;
         let presence;
         const jid = attrs.from;
         const participant = attrs.participant || attrs.from;
-        if (shouldIgnoreJid(jid) && jid != '@s.whatsapp.net') {
+        if (shouldIgnoreJid(jid) && jid !== '@s.whatsapp.net') {
             return;
         }
         if (tag === 'presence') {
@@ -528,7 +559,9 @@ const makeChatsSocket = (config) => {
             logger.error({ tag, attrs, content }, 'recv invalid presence node');
         }
         if (presence) {
-            ev.emit('presence.update', { id: jid, presences: { [participant]: presence } });
+            ev.emit('presence.update', { id: jid, presences: {
+                    [participant]: presence
+                } });
         }
     };
     const appPatch = async (patchCreate) => {
@@ -579,7 +612,9 @@ const makeChatsSocket = (config) => {
                     ]
                 };
                 await query(node);
-                await authState.keys.set({ 'app-state-sync-version': { [name]: state } });
+                await authState.keys.set({ 'app-state-sync-version': {
+                        [name]: state
+                    } });
             });
         });
         if (config.emitOwnEvents) {
@@ -592,7 +627,7 @@ const makeChatsSocket = (config) => {
     };
     /** sending non-abt props may fix QR scan fail if server expects */
     const fetchProps = async () => {
-        var _a, _b, _c;
+        var _a, _b;
         const resultNode = await query({
             tag: 'iq',
             attrs: {
@@ -601,19 +636,20 @@ const makeChatsSocket = (config) => {
                 type: 'get',
             },
             content: [
-                { tag: 'props', attrs: {
+                {
+                    tag: 'props',
+                    attrs: {
                         protocol: '2',
                         hash: ((_a = authState === null || authState === void 0 ? void 0 : authState.creds) === null || _a === void 0 ? void 0 : _a.lastPropHash) || ''
-                    } }
+                    }
+                }
             ]
         });
         const propsNode = (0, WABinary_1.getBinaryNodeChild)(resultNode, 'props');
         let props = {};
         if (propsNode) {
-            if ((_b = propsNode.attrs) === null || _b === void 0 ? void 0 : _b.hash) { // on some clients, the hash is returning as undefined
-                authState.creds.lastPropHash = (_c = propsNode === null || propsNode === void 0 ? void 0 : propsNode.attrs) === null || _c === void 0 ? void 0 : _c.hash;
-                ev.emit('creds.update', authState.creds);
-            }
+            authState.creds.lastPropHash = (_b = propsNode === null || propsNode === void 0 ? void 0 : propsNode.attrs) === null || _b === void 0 ? void 0 : _b.hash;
+            ev.emit('creds.update', authState.creds);
             props = (0, WABinary_1.reduceBinaryNodeToDictionary)(propsNode, 'prop');
         }
         logger.debug('fetched props');
@@ -623,7 +659,7 @@ const makeChatsSocket = (config) => {
      * modify a chat -- mark unread, read etc.
      * lastMessages must be sorted in reverse chronologically
      * requires the last messages till the last message received; required for archive & unread
-    */
+     */
     const chatModify = (mod, jid) => {
         const patch = (0, Utils_1.chatModificationToAppPatch)(mod, jid);
         return appPatch(patch);
@@ -682,18 +718,6 @@ const makeChatsSocket = (config) => {
         }, jid);
     };
     /**
-     * Removes Chats 
-     */
-     const clearMessage = (jid, key, timeStamp) => {
-         return chatModify({
-           delete: true,
-           lastMessages: [{
-                key: key,
-                messageTimestamp: timeStamp
-            }],
-        }, jid);
-     };
-    /**
      * queries need to be fired on connection open
      * help ensure parity with WA Web
      * */
@@ -719,25 +743,24 @@ const makeChatsSocket = (config) => {
             }
         }
         const historyMsg = (0, Utils_1.getHistoryMsg)(msg.message);
-        const shouldProcessHistoryMsg = historyMsg
-            ? (shouldSyncHistoryMessage(historyMsg)
-                && Defaults_1.PROCESSABLE_HISTORY_TYPES.includes(historyMsg.syncType))
-            : false;
+        const shouldProcessHistoryMsg = historyMsg ?
+            (shouldSyncHistoryMessage(historyMsg) &&
+                Defaults_1.PROCESSABLE_HISTORY_TYPES.includes(historyMsg.syncType)) :
+            false;
         if (historyMsg && !authState.creds.myAppStateKeyId) {
             logger.warn('skipping app state sync, as myAppStateKeyId is not set');
             pendingAppStateSync = true;
         }
         await Promise.all([
             (async () => {
-                if (historyMsg
-                    && authState.creds.myAppStateKeyId) {
+                if (historyMsg &&
+                    authState.creds.myAppStateKeyId) {
                     pendingAppStateSync = false;
                     await doAppStateSync();
                 }
             })(),
             (0, process_message_1.default)(msg, {
                 shouldProcessHistoryMsg,
-                placeholderResendCache,
                 ev,
                 creds: authState.creds,
                 keyStore: authState.keys,
@@ -746,8 +769,8 @@ const makeChatsSocket = (config) => {
                 getMessage: config.getMessage,
             })
         ]);
-        if (((_c = (_b = msg.message) === null || _b === void 0 ? void 0 : _b.protocolMessage) === null || _c === void 0 ? void 0 : _c.appStateSyncKeyShare)
-            && pendingAppStateSync) {
+        if (((_c = (_b = msg.message) === null || _b === void 0 ? void 0 : _b.protocolMessage) === null || _c === void 0 ? void 0 : _c.appStateSyncKeyShare) &&
+            pendingAppStateSync) {
             await doAppStateSync();
             pendingAppStateSync = false;
         }
@@ -810,24 +833,23 @@ const makeChatsSocket = (config) => {
     });
     return {
         ...sock,
-        star, 
+        interactiveQuery,
         processingMutex,
         fetchPrivacySettings,
         upsertMessage,
         appPatch,
+        fetchUserLid,
         sendPresenceUpdate,
         presenceSubscribe,
-        profilePictureUrl,
         onWhatsApp,
         fetchBlocklist,
-        fetchDisappearingDuration,
         fetchStatus,
+        fetchDisappearingDuration,
         updateProfilePicture,
         removeProfilePicture,
         updateProfileStatus,
         updateProfileName,
         updateBlockStatus,
-        updateCallPrivacy,
         updateLastSeenPrivacy,
         updateOnlinePrivacy,
         updateProfilePicturePrivacy,
@@ -843,7 +865,7 @@ const makeChatsSocket = (config) => {
         removeChatLabel,
         addMessageLabel,
         removeMessageLabel,
-        clearMessage
+        star
     };
 };
 exports.makeChatsSocket = makeChatsSocket;

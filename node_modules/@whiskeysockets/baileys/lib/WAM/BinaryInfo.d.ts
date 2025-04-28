@@ -1,18 +1,8 @@
-/// <reference types="node" />
-/// <reference types="node" />
+import { EventInputType } from './constants';
 export declare class BinaryInfo {
     protocolVersion: number;
     sequence: number;
-    events: {
-        [x: string]: {
-            props: {
-                [x: string]: any;
-            };
-            globals: {
-                [x: string]: any;
-            };
-        };
-    }[];
+    events: EventInputType[];
     buffer: Buffer[];
     constructor(options?: Partial<BinaryInfo>);
 }
