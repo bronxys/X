@@ -19,38 +19,41 @@ const messages_send_1 = require("./messages-send");
 const makeMessagesRecvSocket = (config) => {
     const { logger, retryRequestDelayMs, maxMsgRetryCount, getMessage, shouldIgnoreJid } = config;
     const sock = (0, messages_send_1.makeMessagesSocket)(config);
-    const { ev, authState, ws, processingMutex, signalRepository, query, upsertMessage, resyncAppState, onUnexpectedError, assertSessions, sendNode, relayMessage, sendReceipt, uploadPreKeys, createParticipantNodes, getUSyncDevices, sendPeerDataOperationMessage, } = sock;
+    const { ev, authState, ws, processingMutex, signalRepository, query, upsertMessage, resyncAppState, onUnexpectedError, assertSessions, sendNode, relayMessage, sendReceipt, uploadPreKeys, getUSyncDevices, sendPeerDataOperationMessage, createParticipantNodes } = sock;
     /** this mutex ensures that each retryRequest will wait for the previous one to finish */
     const retryMutex = (0, make_mutex_1.makeMutex)();
     const msgRetryCache = config.msgRetryCounterCache || new node_cache_1.default({
-        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.MSG_RETRY,
+        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.MSG_RETRY, // 1 hour
         useClones: false
     });
     const callOfferCache = config.callOfferCache || new node_cache_1.default({
-        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.CALL_OFFER,
+        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.CALL_OFFER, // 5 mins
         useClones: false
     });
     const placeholderResendCache = config.placeholderResendCache || new node_cache_1.default({
-        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.MSG_RETRY,
+        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.MSG_RETRY, // 1 hour
         useClones: false
     });
     let sendActiveReceipts = false;
-    const sendMessageAck = async ({ tag, attrs, content }) => {
+    const sendMessageAck = async ({ tag, attrs, content }, errorCode) => {
         const stanza = {
             tag: 'ack',
             attrs: {
                 id: attrs.id,
                 to: attrs.from,
-                class: tag,
+                class: tag
             }
         };
+        if (!!errorCode) {
+            stanza.attrs.error = errorCode.toString();
+        }
         if (!!attrs.participant) {
             stanza.attrs.participant = attrs.participant;
         }
         if (!!attrs.recipient) {
             stanza.attrs.recipient = attrs.recipient;
         }
-        if (!!attrs.type && (tag !== 'message' || (0, WABinary_1.getBinaryNodeChild)({ tag, attrs, content }, 'unavailable'))) {
+        if (!!attrs.type && (tag !== 'message' || (0, WABinary_1.getBinaryNodeChild)({ tag, attrs, content }, 'unavailable') || errorCode !== 0)) {
             stanza.attrs.type = attrs.type;
         }
         if (tag === 'message' && (0, WABinary_1.getBinaryNodeChild)({ tag, attrs, content }, 'unavailable')) {
@@ -67,14 +70,8 @@ const makeMessagesRecvSocket = (config) => {
         if (isVideo) {
             offerContent.push({
                 tag: 'video',
-                attrs: {
-                    orientation: '0',
-                    'screen_width': '1920',
-                    'screen_height': '1080',
-                    'device_orientation': '0',
-                    enc: 'vp8',
-                    dec: 'vp8',
-                }
+                attrs: { enc: 'vp8', dec: 'vp8', orientation: '0', 'screen_width': '1920', 'screen_height': '1080', 'device_orientation': '0' },
+                content: undefined
             });
         }
         offerContent.push({ tag: 'net', attrs: { medium: '3' }, content: undefined });
@@ -85,9 +82,9 @@ const makeMessagesRecvSocket = (config) => {
         await assertSessions(devices, true);
         const { nodes: destinations, shouldIncludeDeviceIdentity } = await createParticipantNodes(devices, {
             call: {
-                callKey: encKey
+                callKey: new Uint8Array(encKey)
             }
-        });
+        }, { count: '0' });
         offerContent.push({ tag: 'destination', attrs: {}, content: destinations });
         if (shouldIncludeDeviceIdentity) {
             offerContent.push({
@@ -99,6 +96,7 @@ const makeMessagesRecvSocket = (config) => {
         const stanza = ({
             tag: 'call',
             attrs: {
+                id: (0, Utils_1.generateMessageIDV2)(),
                 to: toJid,
             },
             content: [{
@@ -112,9 +110,8 @@ const makeMessagesRecvSocket = (config) => {
         });
         await query(stanza);
         return {
-            callId,
-            toJid,
-            isVideo,
+            id: callId,
+            to: toJid
         };
     };
     const rejectCall = async (callId, callFrom) => {
@@ -328,57 +325,10 @@ const makeMessagesRecvSocket = (config) => {
                 msg.messageStubType = Types_1.WAMessageStubType.GROUP_MEMBERSHIP_JOIN_APPROVAL_REQUEST_NON_ADMIN_ADD;
                 msg.messageStubParameters = [participantJid, isDenied ? 'revoked' : 'rejected'];
                 break;
-                break;
-            default:
-            // console.log("BAILEYS-DEBUG:", JSON.stringify({ ...child, content: Buffer.isBuffer(child.content) ? child.content.toString() : child.content, participant }, null, 2))
-        }
-    };
-    const handleNewsletterNotification = (id, node) => {
-        const messages = (0, WABinary_1.getBinaryNodeChild)(node, 'messages');
-        const message = (0, WABinary_1.getBinaryNodeChild)(messages, 'message');
-        const server_id = message.attrs.server_id;
-        const reactionsList = (0, WABinary_1.getBinaryNodeChild)(message, 'reactions');
-        const viewsList = (0, WABinary_1.getBinaryNodeChildren)(message, 'views_count');
-        if (reactionsList) {
-            const reactions = (0, WABinary_1.getBinaryNodeChildren)(reactionsList, 'reaction');
-            if (reactions.length === 0) {
-                ev.emit('newsletter.reaction', { id, server_id, reaction: { removed: true } });
-            }
-            reactions.forEach(item => {
-                var _a, _b;
-                ev.emit('newsletter.reaction', { id, server_id, reaction: { code: (_a = item.attrs) === null || _a === void 0 ? void 0 : _a.code, count: +((_b = item.attrs) === null || _b === void 0 ? void 0 : _b.count) } });
-            });
-        }
-        if (viewsList.length) {
-            viewsList.forEach(item => {
-                ev.emit('newsletter.view', { id, server_id, count: +item.attrs.count });
-            });
-        }
-    };
-    const handleMexNewsletterNotification = (id, node) => {
-        var _a;
-        const operation = node === null || node === void 0 ? void 0 : node.attrs.op_name;
-        const content = JSON.parse((_a = node === null || node === void 0 ? void 0 : node.content) === null || _a === void 0 ? void 0 : _a.toString());
-        let contentPath;
-        if (operation === Types_1.MexOperations.PROMOTE || operation === Types_1.MexOperations.DEMOTE) {
-            let action;
-            if (operation === Types_1.MexOperations.PROMOTE) {
-                action = 'promote';
-                contentPath = content.data[Types_1.XWAPaths.PROMOTE];
-            }
-            if (operation === Types_1.MexOperations.DEMOTE) {
-                action = 'demote';
-                contentPath = content.data[Types_1.XWAPaths.DEMOTE];
-            }
-            ev.emit('newsletter-participants.update', { id, author: contentPath.actor.pn, user: contentPath.user.pn, new_role: contentPath.user_new_role, action });
-        }
-        if (operation === Types_1.MexOperations.UPDATE) {
-            contentPath = content.data[Types_1.XWAPaths.METADATA_UPDATE];
-            ev.emit('newsletter-settings.update', { id, update: contentPath.thread_metadata.settings });
         }
     };
     const processNotification = async (node) => {
-        var _a, _b;
+        var _a, _b, _c;
         const result = {};
         const [child] = (0, WABinary_1.getAllBinaryNodeChildren)(node);
         const nodeType = node.attrs.type;
@@ -396,12 +346,6 @@ const makeMessagesRecvSocket = (config) => {
                     ]);
                     logger.debug({ jid }, 'got privacy token update');
                 }
-                break;
-            case 'newsletter':
-                handleNewsletterNotification(node.attrs.from, child);
-                break;
-            case 'mex':
-                handleMexNewsletterNotification(node.attrs.from, child);
                 break;
             case 'w:gp2':
                 handleGroupNotification(node.attrs.participant, child, result);
@@ -431,7 +375,7 @@ const makeMessagesRecvSocket = (config) => {
                 const setPicture = (0, WABinary_1.getBinaryNodeChild)(node, 'set');
                 const delPicture = (0, WABinary_1.getBinaryNodeChild)(node, 'delete');
                 ev.emit('contacts.update', [{
-                        id: from || ((_b = (_a = (setPicture || delPicture)) === null || _a === void 0 ? void 0 : _a.attrs) === null || _b === void 0 ? void 0 : _b.hash) || '',
+                        id: (0, WABinary_1.jidNormalizedUser)((_a = node === null || node === void 0 ? void 0 : node.attrs) === null || _a === void 0 ? void 0 : _a.from) || ((_c = (_b = (setPicture || delPicture)) === null || _b === void 0 ? void 0 : _b.attrs) === null || _c === void 0 ? void 0 : _c.hash) || '',
                         imgUrl: setPicture ? 'changed' : 'removed'
                     }]);
                 if ((0, WABinary_1.isJidGroup)(from)) {
@@ -571,8 +515,7 @@ const makeMessagesRecvSocket = (config) => {
             await authState.keys.set({ 'sender-key-memory': { [remoteJid]: null } });
         }
         logger.debug({ participant, sendToAll }, 'forced new session for retry recp');
-        for (let i = 0; i < msgs.length; i++) {
-            const msg = msgs[i];
+        for (const [i, msg] of msgs.entries()) {
             if (msg) {
                 updateSendMessageAgainCount(ids[i], participant);
                 const msgRelayOpts = { messageId: ids[i] };
@@ -732,17 +675,19 @@ const makeMessagesRecvSocket = (config) => {
         if (response && ((_a = msg === null || msg === void 0 ? void 0 : msg.messageStubParameters) === null || _a === void 0 ? void 0 : _a[0]) === Utils_1.NO_MESSAGE_FOUND_ERROR_TEXT) {
             msg.messageStubParameters = [Utils_1.NO_MESSAGE_FOUND_ERROR_TEXT, response];
         }
-        if (((_c = (_b = msg.message) === null || _b === void 0 ? void 0 : _b.protocolMessage) === null || _c === void 0 ? void 0 : _c.type) === WAProto_1.proto.Message.ProtocolMessage.Type.SHARE_PHONE_NUMBER) {
-            if (node.attrs.sender_pn) {
-                ev.emit('chats.phoneNumberShare', { lid: node.attrs.from, jid: node.attrs.sender_pn });
-            }
+        if (((_c = (_b = msg.message) === null || _b === void 0 ? void 0 : _b.protocolMessage) === null || _c === void 0 ? void 0 : _c.type) === WAProto_1.proto.Message.ProtocolMessage.Type.SHARE_PHONE_NUMBER && node.attrs.sender_pn) {
+            ev.emit('chats.phoneNumberShare', { lid: node.attrs.from, jid: node.attrs.sender_pn });
         }
         try {
             await Promise.all([
                 processingMutex.mutex(async () => {
+                    var _a;
                     await decrypt();
                     // message failed to decrypt
                     if (msg.messageStubType === WAProto_1.proto.WebMessageInfo.StubType.CIPHERTEXT) {
+                        if (((_a = msg === null || msg === void 0 ? void 0 : msg.messageStubParameters) === null || _a === void 0 ? void 0 : _a[0]) === Utils_1.MISSING_KEYS_ERROR_TEXT) {
+                            return sendMessageAck(node, Utils_1.NACK_REASONS.ParsingError);
+                        }
                         retryMutex.mutex(async () => {
                             if (ws.isOpen) {
                                 if ((0, WABinary_1.getBinaryNodeChild)(node, 'unavailable')) {
@@ -785,12 +730,13 @@ const makeMessagesRecvSocket = (config) => {
                         }
                     }
                     (0, Utils_2.cleanMessage)(msg, authState.creds.me.id);
+                    await sendMessageAck(node);
                     await upsertMessage(msg, node.attrs.offline ? 'append' : 'notify');
                 })
             ]);
         }
-        finally {
-            await sendMessageAck(node);
+        catch (error) {
+            logger.error({ error, node }, 'error in handling message');
         }
     };
     const fetchMessageHistory = async (count, oldestMsgKey, oldestMsgTimestamp) => {
@@ -875,20 +821,20 @@ const makeMessagesRecvSocket = (config) => {
         await sendMessageAck(node);
     };
     const handleBadAck = async ({ attrs }) => {
-        const key = { remoteJid: attrs.from, fromMe: true, id: attrs.id, server_id: attrs === null || attrs === void 0 ? void 0 : attrs.server_id };
-        // current hypothesis is that if pash is sent in the ack
-        // it means -- the message hasn't reached all devices yet
-        // we'll retry sending the message here
-        if (attrs.phash) {
-            logger.info({ attrs }, 'received phash in ack, resending message...');
-            const msg = await getMessage(key);
-            if (msg) {
-                await relayMessage(key.remoteJid, msg, { messageId: key.id, useUserDevicesCache: false });
-            }
-            else {
-                logger.warn({ attrs }, 'could not send message again, as it was not found');
-            }
-        }
+        const key = { remoteJid: attrs.from, fromMe: true, id: attrs.id };
+        // WARNING: REFRAIN FROM ENABLING THIS FOR NOW. IT WILL CAUSE A LOOP
+        // // current hypothesis is that if pash is sent in the ack
+        // // it means -- the message hasn't reached all devices yet
+        // // we'll retry sending the message here
+        // if(attrs.phash) {
+        // 	logger.info({ attrs }, 'received phash in ack, resending message...')
+        // 	const msg = await getMessage(key)
+        // 	if(msg) {
+        // 		await relayMessage(key.remoteJid!, msg, { messageId: key.id!, useUserDevicesCache: false })
+        // 	} else {
+        // 		logger.warn({ attrs }, 'could not send message again, as it was not found')
+        // 	}
+        // }
         // error in acknowledgement,
         // device could not display the message
         if (attrs.error) {
@@ -913,22 +859,63 @@ const makeMessagesRecvSocket = (config) => {
         await execTask();
         ev.flush();
         function execTask() {
-            return exec(node)
+            return exec(node, false)
                 .catch(err => onUnexpectedError(err, identifier));
+        }
+    };
+    const makeOfflineNodeProcessor = () => {
+        const nodeProcessorMap = new Map([
+            ['message', handleMessage],
+            ['call', handleCall],
+            ['receipt', handleReceipt],
+            ['notification', handleNotification]
+        ]);
+        const nodes = [];
+        let isProcessing = false;
+        const enqueue = (type, node) => {
+            nodes.push({ type, node });
+            if (isProcessing) {
+                return;
+            }
+            isProcessing = true;
+            const promise = async () => {
+                while (nodes.length && ws.isOpen) {
+                    const { type, node } = nodes.shift();
+                    const nodeProcessor = nodeProcessorMap.get(type);
+                    if (!nodeProcessor) {
+                        onUnexpectedError(new Error(`unknown offline node type: ${type}`), 'processing offline node');
+                        continue;
+                    }
+                    await nodeProcessor(node);
+                }
+                isProcessing = false;
+            };
+            promise().catch(error => onUnexpectedError(error, 'processing offline nodes'));
+        };
+        return { enqueue };
+    };
+    const offlineNodeProcessor = makeOfflineNodeProcessor();
+    const processNode = (type, node, identifier, exec) => {
+        const isOffline = !!node.attrs.offline;
+        if (isOffline) {
+            offlineNodeProcessor.enqueue(type, node);
+        }
+        else {
+            processNodeWithBuffer(node, identifier, exec);
         }
     };
     // recv a message
     ws.on('CB:message', (node) => {
-        processNodeWithBuffer(node, 'processing message', handleMessage);
+        processNode('message', node, 'processing message', handleMessage);
     });
     ws.on('CB:call', async (node) => {
-        processNodeWithBuffer(node, 'handling call', handleCall);
+        processNode('call', node, 'handling call', handleCall);
     });
     ws.on('CB:receipt', node => {
-        processNodeWithBuffer(node, 'handling receipt', handleReceipt);
+        processNode('receipt', node, 'handling receipt', handleReceipt);
     });
     ws.on('CB:notification', async (node) => {
-        processNodeWithBuffer(node, 'handling notification', handleNotification);
+        processNode('notification', node, 'handling notification', handleNotification);
     });
     ws.on('CB:ack,class:message', (node) => {
         handleBadAck(node)
@@ -970,8 +957,8 @@ const makeMessagesRecvSocket = (config) => {
         ...sock,
         sendMessageAck,
         sendRetryRequest,
-        rejectCall,
         offerCall,
+        rejectCall,
         fetchMessageHistory,
         requestPlaceholderResend,
     };

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.decryptPollVote = exports.getChatId = exports.shouldIncrementChatUnread = exports.isRealMessage = exports.cleanMessage = void 0;
+exports.getChatId = exports.shouldIncrementChatUnread = exports.isRealMessage = exports.cleanMessage = void 0;
+exports.decryptPollVote = decryptPollVote;
 const WAProto_1 = require("../../WAProto");
 const Types_1 = require("../Types");
 const messages_1 = require("../Utils/messages");
@@ -101,9 +102,8 @@ function decryptPollVote({ encPayload, encIv }, { pollCreatorJid, pollMsgId, pol
         return Buffer.from(txt);
     }
 }
-exports.decryptPollVote = decryptPollVote;
-const processMessage = async (message, { shouldProcessHistoryMsg, placeholderResendCache, ev, creds, keyStore, logger, options, getMessage }) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
+const processMessage = async (message, { shouldProcessHistoryMsg, ev, creds, keyStore, logger, options, getMessage }) => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
     const meId = creds.me.id;
     const { accountSettings } = creds;
     const chat = { id: (0, WABinary_1.jidNormalizedUser)((0, exports.getChatId)(message.key)) };
@@ -137,22 +137,14 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
                     isLatest,
                 }, 'got history notification');
                 if (process) {
-                    if (histNotification.syncType !== WAProto_1.proto.HistorySync.HistorySyncType.ON_DEMAND) {
-                        ev.emit('creds.update', {
-                            processedHistoryMessages: [
-                                ...(creds.processedHistoryMessages || []),
-                                { key: message.key, messageTimestamp: message.messageTimestamp }
-                            ]
-                        });
-                    }
-                    const data = await (0, history_1.downloadAndProcessHistorySyncNotification)(histNotification, options);
-                    ev.emit('messaging-history.set', {
-                        ...data,
-                        isLatest: histNotification.syncType !== WAProto_1.proto.HistorySync.HistorySyncType.ON_DEMAND
-                            ? isLatest
-                            : undefined,
-                        peerDataRequestSessionId: histNotification.peerDataRequestSessionId
+                    ev.emit('creds.update', {
+                        processedHistoryMessages: [
+                            ...(creds.processedHistoryMessages || []),
+                            { key: message.key, messageTimestamp: message.messageTimestamp }
+                        ]
                     });
+                    const data = await (0, history_1.downloadAndProcessHistorySyncNotification)(histNotification, options);
+                    ev.emit('messaging-history.set', { ...data, isLatest });
                 }
                 break;
             case WAProto_1.proto.Message.ProtocolMessage.Type.APP_STATE_SYNC_KEY_SHARE:
@@ -195,21 +187,14 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
             case WAProto_1.proto.Message.ProtocolMessage.Type.PEER_DATA_OPERATION_REQUEST_RESPONSE_MESSAGE:
                 const response = protocolMsg.peerDataOperationRequestResponseMessage;
                 if (response) {
-                    placeholderResendCache === null || placeholderResendCache === void 0 ? void 0 : placeholderResendCache.del(response.stanzaId);
-                    // TODO: IMPLEMENT HISTORY SYNC ETC (sticker uploads etc.).
                     const { peerDataOperationResult } = response;
                     for (const result of peerDataOperationResult) {
                         const { placeholderMessageResendResponse: retryResponse } = result;
                         if (retryResponse) {
                             const webMessageInfo = WAProto_1.proto.WebMessageInfo.decode(retryResponse.webMessageInfoBytes);
-                            // wait till another upsert event is available, don't want it to be part of the PDO response message
-                            setTimeout(() => {
-                                ev.emit('messages.upsert', {
-                                    messages: [webMessageInfo],
-                                    type: 'notify',
-                                    requestId: response.stanzaId
-                                });
-                            }, 500);
+                            ev.emit('messages.update', [
+                                { key: webMessageInfo.key, update: { message: webMessageInfo.message } }
+                            ]);
                         }
                     }
                 }
@@ -223,11 +208,11 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
         };
         ev.emit('messages.reaction', [{
                 reaction,
-                key: (_d = content.reactionMessage) === null || _d === void 0 ? void 0 : _d.key,
+                key: content.reactionMessage.key,
             }]);
     }
     else if (message.messageStubType) {
-        const jid = (_e = message.key) === null || _e === void 0 ? void 0 : _e.remoteJid;
+        const jid = message.key.remoteJid;
         //let actor = whatsappID (message.participant)
         let participants;
         const emitParticipantsUpdate = (action) => (ev.emit('group-participants.update', { id: jid, author: message.participant, participants, action }));
@@ -235,15 +220,8 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
             var _a;
             ev.emit('groups.update', [{ id: jid, ...update, author: (_a = message.participant) !== null && _a !== void 0 ? _a : undefined }]);
         };
-        const emitGroupRequestJoin = (participant, action, method) => {
-            ev.emit('group.join-request', { id: jid, author: message.participant, participant, action, method: method });
-        };
         const participantsIncludesMe = () => participants.find(jid => (0, WABinary_1.areJidsSameUser)(meId, jid));
         switch (message.messageStubType) {
-            case Types_1.WAMessageStubType.GROUP_PARTICIPANT_CHANGE_NUMBER:
-                participants = message.messageStubParameters || [];
-                emitParticipantsUpdate('modify');
-                break;
             case Types_1.WAMessageStubType.GROUP_PARTICIPANT_LEAVE:
             case Types_1.WAMessageStubType.GROUP_PARTICIPANT_REMOVE:
                 participants = message.messageStubParameters || [];
@@ -271,40 +249,29 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
                 emitParticipantsUpdate('promote');
                 break;
             case Types_1.WAMessageStubType.GROUP_CHANGE_ANNOUNCE:
-                const announceValue = (_f = message.messageStubParameters) === null || _f === void 0 ? void 0 : _f[0];
+                const announceValue = (_d = message.messageStubParameters) === null || _d === void 0 ? void 0 : _d[0];
                 emitGroupUpdate({ announce: announceValue === 'true' || announceValue === 'on' });
                 break;
             case Types_1.WAMessageStubType.GROUP_CHANGE_RESTRICT:
-                const restrictValue = (_g = message.messageStubParameters) === null || _g === void 0 ? void 0 : _g[0];
+                const restrictValue = (_e = message.messageStubParameters) === null || _e === void 0 ? void 0 : _e[0];
                 emitGroupUpdate({ restrict: restrictValue === 'true' || restrictValue === 'on' });
                 break;
             case Types_1.WAMessageStubType.GROUP_CHANGE_SUBJECT:
-                const name = (_h = message.messageStubParameters) === null || _h === void 0 ? void 0 : _h[0];
+                const name = (_f = message.messageStubParameters) === null || _f === void 0 ? void 0 : _f[0];
                 chat.name = name;
                 emitGroupUpdate({ subject: name });
                 break;
-            case Types_1.WAMessageStubType.GROUP_CHANGE_DESCRIPTION:
-                const description = (_j = message.messageStubParameters) === null || _j === void 0 ? void 0 : _j[0];
-                chat.description = description;
-                emitGroupUpdate({ desc: description });
-                break;
             case Types_1.WAMessageStubType.GROUP_CHANGE_INVITE_LINK:
-                const code = (_k = message.messageStubParameters) === null || _k === void 0 ? void 0 : _k[0];
+                const code = (_g = message.messageStubParameters) === null || _g === void 0 ? void 0 : _g[0];
                 emitGroupUpdate({ inviteCode: code });
                 break;
             case Types_1.WAMessageStubType.GROUP_MEMBER_ADD_MODE:
-                const memberAddValue = (_l = message.messageStubParameters) === null || _l === void 0 ? void 0 : _l[0];
+                const memberAddValue = (_h = message.messageStubParameters) === null || _h === void 0 ? void 0 : _h[0];
                 emitGroupUpdate({ memberAddMode: memberAddValue === 'all_member_add' });
                 break;
             case Types_1.WAMessageStubType.GROUP_MEMBERSHIP_JOIN_APPROVAL_MODE:
-                const approvalMode = (_m = message.messageStubParameters) === null || _m === void 0 ? void 0 : _m[0];
+                const approvalMode = (_j = message.messageStubParameters) === null || _j === void 0 ? void 0 : _j[0];
                 emitGroupUpdate({ joinApprovalMode: approvalMode === 'on' });
-                break;
-            case Types_1.WAMessageStubType.GROUP_MEMBERSHIP_JOIN_APPROVAL_REQUEST_NON_ADMIN_ADD:
-                const participant = (_o = message.messageStubParameters) === null || _o === void 0 ? void 0 : _o[0];
-                const action = (_p = message.messageStubParameters) === null || _p === void 0 ? void 0 : _p[1];
-                const method = (_q = message.messageStubParameters) === null || _q === void 0 ? void 0 : _q[2];
-                emitGroupRequestJoin(participant, action, method);
                 break;
         }
     }
@@ -316,7 +283,7 @@ const processMessage = async (message, { shouldProcessHistoryMsg, placeholderRes
             const meIdNormalised = (0, WABinary_1.jidNormalizedUser)(meId);
             const pollCreatorJid = (0, generics_1.getKeyAuthor)(creationMsgKey, meIdNormalised);
             const voterJid = (0, generics_1.getKeyAuthor)(message.key, meIdNormalised);
-            const pollEncKey = (_r = pollMsg.messageContextInfo) === null || _r === void 0 ? void 0 : _r.messageSecret;
+            const pollEncKey = (_k = pollMsg.messageContextInfo) === null || _k === void 0 ? void 0 : _k.messageSecret;
             try {
                 const voteMsg = decryptPollVote(content.pollUpdateMessage.vote, {
                     pollEncKey,

@@ -1,8 +1,17 @@
 {
   "prefix": "!",
-  "NomeDoBot": "𝙓-𝘽𝙊𝙏 4.2.1",
+  "NomeDoBot": "𝙓-𝘽𝙊𝙏",
   "autofigu": false,
   "NickDono": "@𝗝𝗲𝗳𝗳𝗲𝗿𝘀𝗼𝗻_𝗱𝗱𝗼𝘀",
   "numerodono": "553299240466",
-  "// COLE EXATAMENTE DA FÓRMA QUE COPIAR, O NÚMERO SEU PRINCIPAL, SAIBA QUE O NÚMERO DO BOT É UMA COISA, SEU PRINCIPAL É OUTRA, VOCÊ PODE CONFIGURAR TUDO ISSO, ATRAVÉS DO NÚMERO DO BOT, MAS TEM QUE SER NO WHATSAPP DO BOT EXATO, DIGITA O COMANDO !configurar-bot": "BOA SORTE KKK"
+  "MAXIMO_COMANDOS": 3,
+  "// maximo de comandos pra ativar o sistema de anti spam de comandos": "",
+  "TEMPO_ENTRE_CMD": 5,
+  "// padrão: 5 segundos": "",
+  "TEMPO_BAN": 30,
+  "// TEMPO DE BAN PRO USUÁRIO PADRÃO: 30 SEGUNDOS": "",
+  "TEMPO_BAN_INSISTENCIA": 30,
+  " // +30 segundos adicionais pro usuário, por comando durante bloqueio": "",
+  "TENTATIVAS_MAXIMAS": 10,
+  "// 10 tentativas do usuário = ban permanente de usar cmds do bot": ""
 }

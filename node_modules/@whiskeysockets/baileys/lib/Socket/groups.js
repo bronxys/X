@@ -67,6 +67,7 @@ const makeGroupsSocket = (config) => {
     });
     return {
         ...sock,
+        groupQuery,
         groupMetadata,
         groupCreate: async (subject, participants) => {
             const key = (0, Utils_1.generateMessageID)();
@@ -188,22 +189,11 @@ const makeGroupsSocket = (config) => {
             return result === null || result === void 0 ? void 0 : result.attrs.jid;
         },
         /**
-         * revoke a v4 invite for someone
-         * @param groupJid group jid
-         * @param invitedJid jid of person you invited
-         * @returns true if successful
-         */
-        groupRevokeInviteV4: async (groupJid, invitedJid) => {
-            const result = await groupQuery(groupJid, 'set', [{ tag: 'revoke', attrs: {}, content: [{ tag: 'participant', attrs: { jid: invitedJid } }] }]);
-            return !!result;
-        },
-        /**
          * accept a GroupInviteMessage
          * @param key the key of the invite message, or optionally only provide the jid of the person who sent the invite
          * @param inviteMessage the message to accept
          */
         groupAcceptInviteV4: ev.createBufferedFunction(async (key, inviteMessage) => {
-            var _a;
             key = typeof key === 'string' ? { remoteJid: key } : key;
             const results = await groupQuery(inviteMessage.groupJid, 'set', [{
                     tag: 'accept',
@@ -235,7 +225,7 @@ const makeGroupsSocket = (config) => {
             await upsertMessage({
                 key: {
                     remoteJid: inviteMessage.groupJid,
-                    id: (0, Utils_1.generateMessageIDV2)((_a = sock.user) === null || _a === void 0 ? void 0 : _a.id),
+                    id: (0, Utils_1.generateMessageID)(),
                     fromMe: false,
                     participant: key.remoteJid,
                 },
@@ -307,7 +297,7 @@ const extractGroupMetadata = (result) => {
                 admin: (attrs.type || null),
             };
         }),
-        ephemeralDuration: eph ? +eph : undefined
+        ephemeralDuration: eph ? +eph : 0
     };
     return metadata;
 };

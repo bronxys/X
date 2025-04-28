@@ -1,6 +1,5 @@
 /// <reference types="node" />
 /// <reference types="node" />
-/// <reference types="node" />
 import { Logger } from 'pino';
 import { type Transform } from 'stream';
 import { proto } from '../../WAProto';

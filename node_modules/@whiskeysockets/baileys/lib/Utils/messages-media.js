@@ -15,20 +15,31 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 }) : function(o, v) {
     o["default"] = v;
 });
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getStatusCodeForMediaRetry = exports.decryptMediaRetryData = exports.decodeMediaRetryNode = exports.encryptMediaRetryRequest = exports.getWAUploadToServer = exports.extensionForMediaMessage = exports.downloadEncryptedContent = exports.downloadContentFromMessage = exports.getUrlFromDirectPath = exports.encryptedStream = exports.prepareStream = exports.getHttpStream = exports.generateThumbnail = exports.getStream = exports.toBuffer = exports.toReadable = exports.getAudioWaveform = exports.getAudioDuration = exports.mediaMessageSHA256B64 = exports.generateProfilePicture = exports.encodeBase64EncodedStringForUpload = exports.extractImageThumb = exports.getMediaKeys = exports.hkdfInfoKey = void 0;
+exports.getStatusCodeForMediaRetry = exports.decryptMediaRetryData = exports.decodeMediaRetryNode = exports.encryptMediaRetryRequest = exports.getWAUploadToServer = exports.downloadEncryptedContent = exports.downloadContentFromMessage = exports.getUrlFromDirectPath = exports.encryptedStream = exports.prepareStream = exports.getHttpStream = exports.getStream = exports.toBuffer = exports.toReadable = exports.mediaMessageSHA256B64 = exports.generateProfilePicture = exports.encodeBase64EncodedStringForUpload = exports.extractImageThumb = exports.hkdfInfoKey = void 0;
+exports.getMediaKeys = getMediaKeys;
+exports.getAudioDuration = getAudioDuration;
+exports.getAudioWaveform = getAudioWaveform;
+exports.generateThumbnail = generateThumbnail;
+exports.extensionForMediaMessage = extensionForMediaMessage;
 const boom_1 = require("@hapi/boom");
-const axios_1 = __importDefault(require("axios"));
 const child_process_1 = require("child_process");
 const Crypto = __importStar(require("crypto"));
 const events_1 = require("events");
@@ -85,7 +96,6 @@ function getMediaKeys(buffer, mediaType) {
         macKey: expandedMediaKey.slice(48, 80),
     };
 }
-exports.getMediaKeys = getMediaKeys;
 /** Extracts video thumb using FFMPEG */
 const extractVideoThumb = async (path, destPath, time, size) => new Promise((resolve, reject) => {
     const cmd = `ffmpeg -ss ${time} -i ${path} -y -vf scale=${size.width}:-1 -vframes 1 -f image2 ${destPath}`;
@@ -146,42 +156,23 @@ const encodeBase64EncodedStringForUpload = (b64) => (encodeURIComponent(b64
     .replace(/\=+$/, '')));
 exports.encodeBase64EncodedStringForUpload = encodeBase64EncodedStringForUpload;
 const generateProfilePicture = async (mediaUpload) => {
-    var _a, _b;
-    let bufferOrFilePath;
-    if (Buffer.isBuffer(mediaUpload)) {
-        bufferOrFilePath = mediaUpload;
-    }
-    else if ('url' in mediaUpload) {
-        bufferOrFilePath = mediaUpload.url.toString();
-    }
-    else {
-        bufferOrFilePath = await (0, exports.toBuffer)(mediaUpload.stream);
-    }
-    const lib = await getImageProcessingLibrary();
+    const bufferOrFilePath = Buffer.isBuffer(mediaUpload)
+        ? mediaUpload
+        : typeof mediaUpload === 'object' && 'url' in mediaUpload
+            ? mediaUpload.url.toString()
+            : await (0, exports.toBuffer)(mediaUpload.stream);
     let img;
-    if ('sharp' in lib && typeof ((_a = lib.sharp) === null || _a === void 0 ? void 0 : _a.default) === 'function') {
-        img = lib.sharp.default(bufferOrFilePath)
-            .resize(640, 640)
-            .jpeg({
-            quality: 50,
-        })
-            .toBuffer();
-    }
-    else if ('jimp' in lib && typeof ((_b = lib.jimp) === null || _b === void 0 ? void 0 : _b.read) === 'function') {
-        const { read, MIME_JPEG, RESIZE_BILINEAR } = lib.jimp;
-        const jimp = await read(bufferOrFilePath);
-        const min = Math.min(jimp.getWidth(), jimp.getHeight());
-        const cropped = jimp.crop(0, 0, min, min);
-        img = cropped
-            .quality(50)
-            .resize(640, 640, RESIZE_BILINEAR)
-            .getBufferAsync(MIME_JPEG);
-    }
-    else {
-        throw new boom_1.Boom('No image processing library available');
-    }
+    const { read, MIME_JPEG, AUTO } = require('jimp');
+    const jimp = await read(bufferOrFilePath);
+    const min = jimp.getWidth();
+    const max = jimp.getHeight();
+    const cropped = jimp.crop(0, 0, min, max);
+    img = cropped
+        .quality(100)
+        .scaleToFit(720, 720, AUTO)
+        .getBufferAsync(MIME_JPEG);
     return {
-        img: await img,
+        img: await img
     };
 };
 exports.generateProfilePicture = generateProfilePicture;
@@ -211,7 +202,6 @@ async function getAudioDuration(buffer) {
     }
     return metadata.format.duration;
 }
-exports.getAudioDuration = getAudioDuration;
 /**
   referenced from and modifying https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareAudioWaveform.ts
  */
@@ -253,7 +243,6 @@ async function getAudioWaveform(buffer, logger) {
         logger === null || logger === void 0 ? void 0 : logger.debug('Failed to generate waveform: ' + e);
     }
 }
-exports.getAudioWaveform = getAudioWaveform;
 const toReadable = (buffer) => {
     const readable = new stream_1.Readable({ read: () => { } });
     readable.push(buffer);
@@ -315,9 +304,9 @@ async function generateThumbnail(file, mediaType, options) {
         originalImageDimensions
     };
 }
-exports.generateThumbnail = generateThumbnail;
 const getHttpStream = async (url, options = {}) => {
-    const fetched = await axios_1.default.get(url.toString(), { ...options, responseType: 'stream' });
+    const { default: axios } = await import('axios');
+    const fetched = await axios.get(url.toString(), { ...options, responseType: 'stream' });
     return fetched.data;
 };
 exports.getHttpStream = getHttpStream;
@@ -568,10 +557,10 @@ function extensionForMediaMessage(message) {
     }
     return extension;
 }
-exports.extensionForMediaMessage = extensionForMediaMessage;
 const getWAUploadToServer = ({ customUploadHosts, fetchAgent, logger, options }, refreshMediaConn) => {
     return async (stream, { mediaType, fileEncSha256B64, newsletter, timeoutMs }) => {
         var _a, _b;
+        const { default: axios } = await import('axios');
         // send a query JSON to obtain the url & auth token to upload our media
         let uploadInfo = await refreshMediaConn(false);
         let urls;
@@ -597,7 +586,7 @@ const getWAUploadToServer = ({ customUploadHosts, fetchAgent, logger, options },
                 if (maxContentLengthBytes && reqBody.length > maxContentLengthBytes) {
                     throw new boom_1.Boom(`Body too large for "${hostname}"`, { statusCode: 413 });
                 }
-                const body = await axios_1.default.post(url, reqBody, {
+                const body = await axios.post(url, reqBody, {
                     ...options,
                     headers: {
                         ...options.headers || {},
@@ -625,7 +614,7 @@ const getWAUploadToServer = ({ customUploadHosts, fetchAgent, logger, options },
                 }
             }
             catch (error) {
-                if (axios_1.default.isAxiosError(error)) {
+                if (axios.isAxiosError(error)) {
                     result = (_a = error.response) === null || _a === void 0 ? void 0 : _a.data;
                 }
                 const isLast = hostname === ((_b = hosts[uploadInfo.hosts.length - 1]) === null || _b === void 0 ? void 0 : _b.hostname);

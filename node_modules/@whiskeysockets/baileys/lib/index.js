@@ -17,9 +17,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.proto = exports.makeWASocket = void 0;
-const WAProto_1 = require("../WAProto");
-Object.defineProperty(exports, "proto", { enumerable: true, get: function () { return WAProto_1.proto; } });
+exports.makeWASocket = void 0;
 const Socket_1 = __importDefault(require("./Socket"));
 exports.makeWASocket = Socket_1.default;
 __exportStar(require("../WAProto"), exports);

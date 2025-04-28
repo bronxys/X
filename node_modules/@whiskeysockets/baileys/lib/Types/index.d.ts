@@ -1,16 +1,15 @@
 export * from './Auth';
 export * from './GroupMetadata';
-export * from './Newsletter';
 export * from './Chat';
 export * from './Contact';
 export * from './State';
 export * from './Message';
+export * from './Newsletter';
 export * from './Socket';
 export * from './Events';
 export * from './Product';
 export * from './Call';
 export * from './Signal';
-export * from './USync';
 import { AuthenticationState } from './Auth';
 import { SocketConfig } from './Socket';
 export type UserFacingSocketConfig = Partial<SocketConfig> & {
@@ -19,15 +18,11 @@ export type UserFacingSocketConfig = Partial<SocketConfig> & {
 export type BrowsersMap = {
     ubuntu(browser: string): [string, string, string];
     macOS(browser: string): [string, string, string];
-    windows(browser: string): [string, string, string];
-    linux(browser: string): [string, string, string];
-    android(browser: string): [string, string, string];
-    iOS(browser: string): [string, string, string];
     baileys(browser: string): [string, string, string];
-    kaiOS(browser: string): [string, string, string];
-    chromeOS(browser: string): [string, string, string];
+    windows(browser: string): [string, string, string];
+    iOS(browser: string): [string, string, string];
+    linux(browser: string): [string, string, string];
     appropriate(browser: string): [string, string, string];
-    custom(platform: string, browser: string, version: string): [string, string, string];
 };
 export declare enum DisconnectReason {
     connectionClosed = 428,
