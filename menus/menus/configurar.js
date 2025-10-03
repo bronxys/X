@@ -12,11 +12,15 @@ Você pode usar letras modificadas também. 🙂
 --- Apelido do Dono do Bot ---
 ${prefix}nick-dono <Seu apelido>
 
---- Configurar o número do dono ---
-${prefix}numero-dono <Seu número>
-O número deve ser digitado junto, sem o símbolo de + ou -, e sem o 9 da operadora. Deve ser idêntico ao seu número do WhatsApp.
+--- Configurar o dono do bot ---
+${prefix}virardono
+
+Então, você entra no whatsapp do seu bot após conectar ele no número, e vai no seu privado (no caso da pessoa que vc quer que ela se torna dono do bot, no caso o seu)
+e digite o comando
+${prefix}virardono
+pronto. apenas isso, também pode marcar o @ da pessoa no grupo ou a mensagem no grupo pra ela se tornar dono do bot, indico vc ir no seu PV pelo whatsapp do bot, bem fácil.
     
-Lembre-se, você deve utilizar o próprio WhatsApp e número do bot para configurar o número de dono, porque só ele é dono dele mesmo enquanto não for configurado.
+Lembre-se, você deve utilizar o próprio WhatsApp e número do bot para configurar o  dono do bot, porque só ele é dono dele mesmo enquanto não for configurado.
 
 --- prefix Do Bot ---
 ${prefix}prefix-bot &

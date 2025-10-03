@@ -1,5 +1,12 @@
 {
-  "pika": "./audios/pika.mp3",
-  "corno": "./DADOS/audios/corno.mp3",
-  "pix": "./DADOS/audios/pix.mp3"
+  "amigo": "./DADOS/audios/amigo.ogg",
+  "moreno": "./DADOS/audios/moreno.ogg",
+  "gf": "./DADOS/audios/gf.ogg",
+  "neymar": "./DADOS/audios/neymar.ogg",
+  "hate": "./DADOS/audios/hate.ogg",
+  "pika": "./DADOS/audios/pika.ogg",
+  "bom dia": "./DADOS/audios/bom dia.ogg",
+  "pix": "./DADOS/audios/pix.ogg",
+  "mulher": "./DADOS/audios/mulher.ogg",
+  "corno": "./DADOS/audios/corno.ogg"
 }

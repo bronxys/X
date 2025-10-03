@@ -68,7 +68,7 @@
     "foto-to"
   ],
   "blockCmdG": [],
-  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�????? #tempocmd#",
+  "TEMPO_DE_CMD": "Aguarde #tempo# segundos até executar outro comando, tempo a concluir:\n�?????? #tempocmd#",
   "botoes_": true,
   "dono1": ".",
   "dono2": ".",

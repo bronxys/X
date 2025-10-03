@@ -1,5 +1,5 @@
 
-const menu = (prefix, NomeDoBot, dayy, jefftopcases, sender, isPremium, H, D, lermais, tempo, adivinha) => {
+const menu = (prefix, NomeDoBot, dayy, jefftopcases, sender, isPremium, H, D, lermais, tempo, adivinha, botoes_, SITE_JEFF_APIS, isXbotOfc, versão) => {
   
 // NÃO APAGUE ESSE ${NickDono} nem 
 //${numerodn} nem ${NomeDoBot} nem ${prefix} só se quiser apagar completo, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
@@ -10,6 +10,8 @@ return `
 ┏│──BEM VINDO(A) AO MENU
 ┏│
 ┏│Bot: ${NomeDoBot}
+┏│Versão: ${versão}
+┏│Tipo: 「 ${isXbotOfc ? `𝙎𝙐𝘽 ${NomeDoBot}` : `${NomeDoBot} 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇`} 」
 ┏│Usuário: 「 @${sender.split("@")[0]} 」
 ┏│Usuario VIP?:「 ${isPremium ? "✅" : "❌"} 」
 ┏│Dispositivo: 「 ${adivinha} 」
@@ -17,11 +19,11 @@ return `
 ┏│Hora:  「 ${H} ${tempo} 」
 ┏│Data:  「 ${D} 」
 ┏│Insta Dono: bit.ly/insta_dono
-┏│Apis: https://jeff-apis.tech
+┏│Apis: ${SITE_JEFF_APIS}
 ┏│Canal Updates: bit.ly/X-bot_Updates
 ┏│⤿✧✧✧✧✧
 ╰══════════┐
-${lermais}
+${lermais()}
 ╭═══════════════════ ┐
 ╰╮
 ╭┤           [📜]𝗠𝗘𝗡𝗨𝗦
@@ -78,7 +80,7 @@ ${lermais}
 ┃╰══ ✞
 ╰╦══════════════════ ✞
 ┏│✞͜͡▹ ${prefix}configurar-bot
-┗▶ Configurações iniciais do bot.
+┗▶ Configurações iniciais do bot, dono, nome e etc.
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}add_botgp
@@ -486,6 +488,10 @@ ${jefftopcases()}
 ┏│
 ┏│✞͜͡▹ ${prefix}stalkttk (Digite o nome Do tiktok)
 ┗▶ Realiza o stalk de uma conta no TikTok.
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}stalkff (Digite o *ID* de algum usuário do free fire)
+┗▶ Realiza o stalk de uma conta do Free Fire
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}print (url)
@@ -1026,7 +1032,7 @@ exports.menu = menu;
 
 
 // ABAIXO E O MENU DA LISTA DE MENUS (BOTAO)
-const menubotao = (prefix, NomeDoBot, dayy, jefftopcases, isPremium, H, D, tempo, adivinha, versão, botoes_, SITE_JEFF_APIS, sender) => {
+const menubotao = (prefix, NomeDoBot, dayy, jefftopcases, isPremium, H, D, tempo, adivinha, versão, botoes_, SITE_JEFF_APIS, isXbotOfc, sender) => {
   
 // NÃO APAGUE ${   } apenas se souber oquê está fazendo caso ao contrário se não souber mexer, ira dar erros não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos.  
   
@@ -1036,6 +1042,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│
 ┏│Bot: ${NomeDoBot}
 ┏│Versão: ${versão}
+┏│Tipo: 「 ${isXbotOfc ? `𝙎𝙐𝘽 ${NomeDoBot}` : `${NomeDoBot} 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇`} 」
 ┏│Usuário: 「 @${sender.split("@")[0]} 」
 ┏│Usuario VIP?:「 ${isPremium ? "✅" : "❌"} 」
 ┏│Dispositivo: 「 ${adivinha} 」
@@ -1274,6 +1281,9 @@ const adms = (prefix, sender) => {
 ┏│
 ┏│✞͜͡▹ ${prefix}Tabelagp
 ┗▶ Exibe uma tabela personalizada do grupo.
+╰╮
+┏│✞͜͡▹ ${prefix}Resetaativo
+┗▶ Reseta a contagem de mensagens e parentes do grupo.
 ╭┤
 ┃╰══ ✞
 ╰╦══════════════════ ✞
@@ -1795,6 +1805,11 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│
 ┏│✞͜͡▹ ${prefix}limpar_mortos-cnt
 ┗▶ Limpa contatos removidos.
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}resetaativog
+┗▶ Reseta a contagem de mensagens e patentes de todos os grupos.
+╰╮
 ┏│
 ╰══════════┘
 `;
@@ -3675,7 +3690,7 @@ return `
 ╰╦══════════════════ ✞
 ┏│
 ┏│✞͜͡▹ ${prefix}Gtts (LINGUAGEM + TEXTO)
-┗▶ Converte o texto informado para áudio na linguagem selecionada.
+┗▶ Converte o texto informado para áudio na linguagem selecionada. ex ${prefix}gtts pt ola jeff
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}reversetxt (texto)
@@ -4028,7 +4043,7 @@ const avalie = (prefix, sender) => {return `💫 AVALIE O QUÃO BOM 💫`;
 // MENU ATIVAÇÕES DONO
 
 
-const ativacoesdono = (prefix, isAnticall, isAntilinkgp, isVisualizar, isConsole, isAntiPv, isAntiPv2, isAntiPv3, isAudioMenu, isVerificado, isBotoff, isPuxadas, ismodoaluga, ismodoaluga2,  grupo, botoes_, isAntirequestPaymentMessage, sender) => {
+const ativacoesdono = (prefix, isAnticall, isAntilinkgp, isVisualizar, isConsole, isAntiPv, isAntiPv2, isAntiPv3, isAudioMenu, isVerificado, isBotoff, isPuxadas, ismodoaluga, ismodoaluga2,  grupo, botoes_, isAntirequestPaymentMessage, cafe, sender) => {
 
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
 
@@ -4054,6 +4069,7 @@ return `
 ┏│✞͜͡▹ [${!ismodoaluga ? `❌`: `✅`}] ${prefix}modoaluguel 1/0
 ┏│✞͜͡▹ [${!ismodoaluga2 ? `❌`: `✅`}] ${prefix}modoaluguel2 1/0
 ┏│✞͜͡▹ [${!grupo.protecaoAtivada ? `❌`: `✅`}] ${prefix}alterar_protecao 1/0
+┏│✞͜͡▹ [${!cafe.status ? `❌`: `✅`}] ${prefix}modoaluguelG 1/0
 
 ┗━━━━━━━━━━┛
 `;
@@ -4067,7 +4083,7 @@ exports.ativacoesdono = ativacoesdono;
 // ATIVACOES ADM SEM BOTAO
 
 
-const ativacoesadm = (prefix, isAntiLinkHard, isAntiNotas, isAntiFlood, isAntifake, isAnticatalogo, Antiloc, isx9, isX9VisuUnica, isModobn, isAntilinkgp, isWelkom, isWelkom2, isAntiVid, isAntiImg, isAntiAudio, isAntiCtt, isAntiSticker, isAutofigu, isSimi, isSimi2, isAutorepo, isAutoText, isAutobaixar, Antidoc, isAntiPorn, isPalavrao, isNsfw, isBotCity, isAdmSemprefixo, isAntirequestPaymentMessage, isx9entradamembro, isAntidelete, isAntistatus, isAnticanal, sender) => {
+const ativacoesadm = (prefix, isAntiLinkHard, isAntiNotas, isAntiFlood, isAntifake, isAnticatalogo, Antiloc, isx9, isX9VisuUnica, isModobn, isAntilinkgp, isWelkom, isWelkom2, isAntiVid, isAntiImg, isAntiAudio, isAntiCtt, isAntiSticker, isAutofigu, isSimi, isSimi2, isAutorepo, isAutoText, isAutobaixar, Antidoc, isAntiPorn, isAntiGore, isPalavrao, isNsfw, isBotCity, isAdmSemprefixo, isAntirequestPaymentMessage, isx9entradamembro, isAntidelete, isAntistatus, isAnticanal, sender) => {
 
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
 
@@ -4104,7 +4120,8 @@ return `
 ┏│✞͜͡▹ [${!isAutoText ? `❌`: `✅`}] ${prefix}autotext 1/0
 ┏│✞͜͡▹ [${!isAutobaixar ? `❌`: `✅`}] ${prefix}autobaixar 1/0
 ┏│✞͜͡▹ [${!Antidoc ? `❌`: `✅`}] ${prefix}antidoc 1/0
-┏│✞͜͡▹ [${!isAntiPorn ? `❌`: `✅`}] ${prefix}antiporno 1/0
+┏│✞͜͡▹ [${!isAntiPorn ? `❌`: `✅`}] ${prefix}antigore 1/0
+┏│✞͜͡▹ [${!isAntiGore ? `❌`: `✅`}] ${prefix}antiporno 1/0
 ┏│✞͜͡▹ [${!isPalavrao ? `❌`: `✅`}] ${prefix}antipalavrao 1/0
 ┏│✞͜͡▹ [${!isNsfw ? `❌`: `✅`}] ${prefix}modonsfw 1/0
 ┏│✞͜͡▹ [${!isBotCity ? `❌`: `✅`}] ${prefix}modorpg 1/0

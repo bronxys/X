@@ -8,5 +8,15 @@
     "ban_cafe": 0,
     "tentativas": 0,
     "ultima_msg": "!botões"
+  },
+  "129901621432407@lid": {
+    "comandos": [
+      1759480184751
+    ],
+    "isCapa": false,
+    "isBanPerma": false,
+    "ban_cafe": 0,
+    "tentativas": 0,
+    "ultima_msg": "!get"
   }
 }
