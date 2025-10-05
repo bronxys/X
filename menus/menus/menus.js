@@ -80,7 +80,7 @@ ${lermais()}
 ┃╰══ ✞
 ╰╦══════════════════ ✞
 ┏│✞͜͡▹ ${prefix}configurar-bot
-┗▶ Configurações iniciais do bot, dono, nome e etc.
+┗▶ Configurações iniciais do bot.
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}add_botgp

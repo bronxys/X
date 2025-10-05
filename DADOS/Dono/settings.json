@@ -1,17 +1,18 @@
 {
   "prefix": "!",
-  "NomeDoBot": "𝙓-𝘽𝙊𝙏",
+  "NomeDoBot": "X-BOT",
   "autofigu": false,
-  "NickDono": "@𝗝𝗲𝗳𝗳𝗲𝗿𝘀𝗼𝗻_𝗱𝗱𝗼𝘀",
+  "NickDono": "@饾棟饾棽饾棾饾棾饾棽饾椏饾榾饾椉饾椈_饾棻饾棻饾椉饾榾",
   "numerodono": "553299240466",
+  "LidDono": "129901621432407",
   "MAXIMO_COMANDOS": 3,
   "// maximo de comandos pra ativar o sistema de anti spam de comandos": "",
   "TEMPO_ENTRE_CMD": 5,
-  "// padrão: 5 segundos": "",
+  "// padr茫o: 5 segundos": "",
   "TEMPO_BAN": 30,
-  "// TEMPO DE BAN PRO USUÁRIO PADRÃO: 30 SEGUNDOS": "",
+  "// TEMPO DE BAN PRO USU脕RIO PADR脙O: 30 SEGUNDOS": "",
   "TEMPO_BAN_INSISTENCIA": 30,
-  " // +30 segundos adicionais pro usuário, por comando durante bloqueio": "",
+  " // +30 segundos adicionais pro usu谩rio, por comando durante bloqueio": "",
   "TENTATIVAS_MAXIMAS": 10,
-  "// 10 tentativas do usuário = ban permanente de usar cmds do bot": ""
+  "// 10 tentativas do usu谩rio = ban permanente de usar cmds do bot": ""
 }

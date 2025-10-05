@@ -11,12 +11,12 @@
   },
   "129901621432407@lid": {
     "comandos": [
-      1759480184751
+      1759692644300
     ],
     "isCapa": false,
     "isBanPerma": false,
     "ban_cafe": 0,
     "tentativas": 0,
-    "ultima_msg": "!get"
+    "ultima_msg": "!menu"
   }
 }

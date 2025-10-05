@@ -853,5 +853,31 @@
         "figus": 0
       }
     ]
+  },
+  {
+    "groupId": "120363146549824930@g.us",
+    "numbers": [
+      {
+        "id": "94820513128700@lid",
+        "nick": "JÚLIO C Pedroso",
+        "messages": 1,
+        "cmd_messages": 0,
+        "aparelho": "Android ツ",
+        "figus": 0
+      }
+    ]
+  },
+  {
+    "groupId": "120363421606675828@g.us",
+    "numbers": [
+      {
+        "id": "129901621432407@lid",
+        "nick": "ı.am     @Jéfferson_ddos",
+        "messages": 1,
+        "cmd_messages": 1,
+        "aparelho": "Android ツ",
+        "figus": 0
+      }
+    ]
   }
 ]
