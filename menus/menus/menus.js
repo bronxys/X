@@ -11,7 +11,6 @@ return `
 ┏│
 ┏│Bot: ${NomeDoBot}
 ┏│Versão: ${versão}
-┏│Tipo: 「 ${isXbotOfc ? `𝙎𝙐𝘽 ${NomeDoBot}` : `${NomeDoBot} 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇`} 」
 ┏│Usuário: 「 @${sender.split("@")[0]} 」
 ┏│Usuario VIP?:「 ${isPremium ? "✅" : "❌"} 」
 ┏│Dispositivo: 「 ${adivinha} 」
