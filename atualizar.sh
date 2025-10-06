@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # script de atualizar o X-bot sem apagar os dados do Dono. escrito por @jefferson_ddos
-
+#
 # Corzinhas kk
 GREEN="\e[32m"
 RED="\e[31m"
