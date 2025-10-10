@@ -11,6 +11,7 @@ return `
 ┏│
 ┏│Bot: ${NomeDoBot}
 ┏│Versão: ${versão}
+┏│Tipo: 「 ${isXbotOfc ? `𝙎𝙐𝘽 ${NomeDoBot}` : `${NomeDoBot} 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇`} 」
 ┏│Usuário: 「 @${sender.split("@")[0]} 」
 ┏│Usuario VIP?:「 ${isPremium ? "✅" : "❌"} 」
 ┏│Dispositivo: 「 ${adivinha} 」
@@ -1564,6 +1565,18 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┏│
 ┏│✞͜͡▹ ${prefix}nuke
 ┗▶ Remove todos do grupo (cuidado)
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}desbanwa
+┗▶ desbloqueia usuario no whatsapp do bot
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}block
+┗▶ bloqueia usuario no whatsapp do bot
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}desban
+┗▶ desbloqueia usuairo banido permanente do sistema de AntiSpam 
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}menu-bot
