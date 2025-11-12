@@ -1,0 +1,21 @@
+{
+  "name": "plugin",
+  "version": "",
+  "description": "botão",
+  "homepage": "",
+  "keywords": [
+    "Baileys",
+    "WhatsApp"
+  ],
+  "license": "ISC",
+  "author": "jeff",
+  "type": "commonjs",
+  "main": "export.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
