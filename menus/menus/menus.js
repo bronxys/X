@@ -3803,10 +3803,10 @@ return `
 exports.outroscmds = outroscmds;
 
 
-const puxadas = (prefix, sender) => {
+const puxadas = async (prefix, getStatus, sender) => {
 
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json e de outros arquivos. 
-
+//[${await getStatus('nome')}]
 return `
 
 ╭═══════════════════ ┐
@@ -3887,16 +3887,16 @@ return `
 ┗▶ Consulta de veículo pela placa (2).
 ╰╮
 ┏│
-┏│✞͜͡▹ ${prefix}site  
-┗▶ Consulta informações de um site.
-╰╮
-┏│
 ┏│✞͜͡▹ ${prefix}ip  
 ┗▶ Consulta dados de um IP.
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}cep  
 ┗▶ Consulta informações de um CEP.
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}cnh  
+┗▶ Consulta informações de uma CNH
 ╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}cep2
@@ -3923,36 +3923,59 @@ return `
 ┗▶ Segunda opção de consulta RG.
 ╰╮
 ┏│
-┏│✞͜͡▹ ${prefix}senha  
-┗▶ Consulta senhas vazadas (se disponível).
-╰╮
-┏│
 ┏│✞͜͡▹ ${prefix}chassi
 ┗▶ Consulta veículo pelo chassi.
 ╰╮
-╰╮
 ┏│
 ┏│✞͜͡▹ ${prefix}pix
-┗▶ Consulta pela chave PIX.
+┗▶ Consulta pela chave PIX..
 ╰╮
 ┏│
-┏│✞͜͡▹ ${prefix}cns2  
-┗▶ Consulta dados pelo CNS.
+┏│✞͜͡▹ ${prefix}processos
+┗▶ Consulta processos de um CPF
 ╰╮
 ┏│
-┏│✞͜͡▹ ${prefix}correios
-┗▶ Rastreia encomenda pelos Correios.
+┏│✞͜͡▹ ${prefix}processos_jusbr
+┗▶ Consulta procesos de um CPF
 ╰╮
 ┏│
-┏│✞͜͡▹ ${prefix}dominio
-┗▶ Consulta informações de domínio.
+┏│✞͜͡▹ ${prefix}processo_numero
+┗▶ Consulta Processo pelo número do processo
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}processos_cnpj
+┗▶ Consulta Processo de um CNPJ
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}processos_nome
+┗▶ Consulta processos pelo nome do advogado
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}foto-rj
+┗▶ Consulta foto de um CPF do RJ
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}foto-sp
+┗▶ Consulta foto de um CPF DE SP
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}foto-ce
+┗▶ Consulta foto de um CPF do CEARÁ
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}foto-ma
+┗▶ Consulta foto de um CPF do Maranhão
+╰╮
+┏│
+┏│✞͜͡▹ ${prefix}foto-ro
+┗▶ Consulta foto de um CPF do Rondônia
+╰╮
 ┏│
 ┗━━━━━━━━━━┛
 `;
 };
 
 exports.puxadas = puxadas;
-
 
 
 // EDITAR BOTÕES DO MENU PRINCIPAL\\
