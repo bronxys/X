@@ -1,6 +1,6 @@
 {
   "name": "xbot",
-  "version": "4.3.1",
+  "version": "4.3.2",
   "description": "X-bot é um bot feito pelo jefferson_ddos usando a base do aleatory",
   "directories": {
     "lib": "lib"

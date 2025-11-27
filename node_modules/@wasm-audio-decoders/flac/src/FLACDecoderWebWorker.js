@@ -20,7 +20,7 @@ export default class FLACDecoderWebWorker extends FLACDecoder {
   }
 
   async free() {
-    super.free();
+    await this._decoder.free();
   }
 
   terminate() {

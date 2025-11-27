@@ -24,7 +24,7 @@ class SessionBuilder {
                 throw new errors.UntrustedIdentityKeyError(this.addr.id, device.identityKey);
             }
             curve.verifySignature(device.identityKey, device.signedPreKey.publicKey,
-                                  device.signedPreKey.signature);
+                                  device.signedPreKey.signature, true);
             const baseKey = curve.generateKeyPair();
             const devicePreKey = device.preKey && device.preKey.publicKey;
             const session = await this.initSession(true, baseKey, undefined, device.identityKey,
@@ -43,7 +43,7 @@ class SessionBuilder {
             } else {
                 const openSession = record.getOpenSession();
                 if (openSession) {
-                    console.warn("Closing stale open session for new outgoing prekey bundle");
+                    // console.warn("Closing stale open session for new outgoing prekey bundle"); temporary fix
                     record.closeSession(openSession);
                 }
             }

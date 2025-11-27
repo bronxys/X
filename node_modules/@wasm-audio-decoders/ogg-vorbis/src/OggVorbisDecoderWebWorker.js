@@ -27,11 +27,11 @@ export default class OggVorbisDecoderWebWorker extends OggVorbisDecoder {
   constructor() {
     super();
 
-    super[setDecoderClass](DecoderWorker);
+    this._ready = super[setDecoderClass](DecoderWorker);
   }
 
   async free() {
-    super.free();
+    await this._decoder.free();
   }
 
   terminate() {
