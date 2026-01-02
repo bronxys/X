@@ -109,20 +109,17 @@ AVISO: AO ESCANEAR O QRCODE OU CODE, O WHATSAPP IRÁ CARREGAR AS MENSAGENS JA EX
 Para resetar o qr code se quiser colocar em outro número, basta apenas remover a pasta XBOT-QR fica em `DADOS/XBOT-QR` 
 
 
-```
-
 ----
 
 # 🥺 Donate
 Caso queira fazer uma doação para apoiar esse projeto, minha chave pix é essa:
 
+```
 32999240466
-
-
+```
 Obrigado por nos apoiar!
 
 -----
-```
 # 🤝 Contato
 
 [Whatsapp](https://api.whatsapp.com/send/?phone=%2B553299240466&text&app_absent=0)
@@ -132,8 +129,4 @@ Obrigado por nos apoiar!
 -----
 
 ## <img src="https://media.tenor.com/images/3c73ab1a2d871e65d0435c28f72f2944/tenor.gif" width="35px"> Contribuição
-
-
-
-[ WhiskeySockets](https://github.com/WhiskeySockets/baileys)
 
