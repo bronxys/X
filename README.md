@@ -90,17 +90,17 @@ cd x-bot
 sh start.sh
 
 
-(iniciar o bot manualmente)
-sh start.sh
-
-(reiniciar o bot automaticamente em caso de crash)
+ ⚠️( indicado!)
+ 
+(iniciar o X-Bot com proteção contra quedas e reconectar o bot automaticamente em caso de crash)
 sh start.sh
 
 (ou)
+
 pm2 node iniciar.js
 
 ```
-AVISO: AO ESCANEAR O QRCODE OU CODE O WHATSAPP IRÁ CARREGAR AS MENSAGENS JA EXISTENTES DO WHATSAPP AGUARDE CASO ELE NÃO RESPONDA IMEDIATO, OU REINICIA O BOT
+AVISO: AO ESCANEAR O QRCODE OU CODE, O WHATSAPP IRÁ CARREGAR AS MENSAGENS JA EXISTENTES DO WHATSAPP AGUARDE CASO ELE NÃO RESPONDA IMEDIATO, OU REINICIA O BOT
 
 ----
 
@@ -114,15 +114,15 @@ Para resetar o qr code se quiser colocar em outro número, basta apenas remover 
 ----
 
 # 🥺 Donate
-Caso queira fazer uma doacao minha chave pix é essa:
+Caso queira fazer uma doação para apoiar esse projeto, minha chave pix é essa:
 
-5532999240466
+32999240466
 
 
 Obrigado por nos apoiar!
 
 -----
-
+```
 # 🤝 Contato
 
 [Whatsapp](https://api.whatsapp.com/send/?phone=%2B553299240466&text&app_absent=0)
