@@ -127,6 +127,3 @@ Obrigado por nos apoiar!
 [Youtube](https://youtube.com/@JEFFERSON_DDOS.)
 
 -----
-
-## <img src="https://media.tenor.com/images/3c73ab1a2d871e65d0435c28f72f2944/tenor.gif" width="35px"> Contribuição
-
